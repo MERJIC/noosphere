@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（193 个）
+### 哲学（194 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -102,6 +102,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
+- [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
 - [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
@@ -870,7 +871,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按结构模式
 
-### 悖论（33 个）
+### 悖论（34 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
@@ -885,6 +886,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [亨佩尔的乌鸦悖论（Hempel's Ravens Paradox）](%E4%BA%A8%E4%BD%A9%E5%B0%94%E7%9A%84%E4%B9%8C%E9%B8%A6%E6%82%96%E8%AE%BA.md)
 - [僵尸论证（Zombie Argument）](%E5%83%B5%E5%B0%B8%E8%AE%BA%E8%AF%81.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
+- [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
 - [权力悖论（Power Paradox）](%E6%9D%83%E5%8A%9B%E6%82%96%E8%AE%BA.md)
@@ -1794,7 +1796,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（117 个）
+### 关系（118 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1842,6 +1844,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [临界质量（Critical Mass / Tipping Point）](%E4%B8%B4%E7%95%8C%E8%B4%A8%E9%87%8F.md)
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
 - [秘密的社会学（Sociology of Secrets）](%E7%A7%98%E5%AF%86%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6.md)
+- [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [模因（Meme / Cultural Replicator）](%E6%A8%A1%E5%9B%A0.md)
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
 - [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
@@ -2566,7 +2569,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（181 个）
+### 决策（182 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2658,6 +2661,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
 - [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
+- [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
