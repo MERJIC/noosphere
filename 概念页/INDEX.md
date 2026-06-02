@@ -385,7 +385,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（83 个）
+### 经济学（82 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -407,7 +407,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [范围不敏感（Scope Insensitivity）](%E8%8C%83%E5%9B%B4%E4%B8%8D%E6%95%8F%E6%84%9F.md)
 - [格雷欣法则（Gresham's Law）](%E6%A0%BC%E9%9B%B7%E6%AC%A3%E6%B3%95%E5%88%99.md)
 - [公地悲剧（Tragedy of the Commons）](%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
-- [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [规范性解离（Normative Dissociation）](%E8%A7%84%E8%8C%83%E6%80%A7%E8%A7%A3%E7%A6%BB.md)
 - [规划谬误（Planning Fallacy）](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md)
 - [互补资产（Complementary Assets）](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md)
@@ -583,7 +582,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 管理学（75 个）
+### 管理学（74 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -601,7 +600,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [服务型领导（Servant Leadership）](%E6%9C%8D%E5%8A%A1%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
 - [哥利亚效应（Goliath Effect）](%E5%93%A5%E5%88%A9%E4%BA%9A%E6%95%88%E5%BA%94.md)
 - [工作特征模型（Job Characteristics Model）](%E5%B7%A5%E4%BD%9C%E7%89%B9%E5%BE%81%E6%A8%A1%E5%9E%8B.md)
-- [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [规模化陷阱（Scaling Trap）](%E8%A7%84%E6%A8%A1%E5%8C%96%E9%99%B7%E9%98%B1.md)
 - [核心刚性（Core Rigidities）](%E6%A0%B8%E5%BF%83%E5%88%9A%E6%80%A7.md)
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
@@ -1372,7 +1370,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 错位（98 个）
+### 错位（97 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
@@ -1391,7 +1389,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [讽喻（Allegory）](%E8%AE%BD%E5%96%BB.md)
 - [副文本（Paratext）](%E5%89%AF%E6%96%87%E6%9C%AC.md)
 - [副现象论（Epiphenomenalism）](%E5%89%AF%E7%8E%B0%E8%B1%A1%E8%AE%BA.md)
-- [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [规范性解离（Normative Dissociation）](%E8%A7%84%E8%8C%83%E6%80%A7%E8%A7%A3%E7%A6%BB.md)
 - [含混的政治（Politics of Ambiguity）](%E5%90%AB%E6%B7%B7%E7%9A%84%E6%94%BF%E6%B2%BB.md)
 - [互文阅读（Intertextual Reading）](%E4%BA%92%E6%96%87%E9%98%85%E8%AF%BB.md)
@@ -2441,7 +2438,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（151 个）
+### 组织（150 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2476,7 +2473,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [工作特征模型（Job Characteristics Model）](%E5%B7%A5%E4%BD%9C%E7%89%B9%E5%BE%81%E6%A8%A1%E5%9E%8B.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
 - [共同信息效应（Shared Information Bias）](%E5%85%B1%E5%90%8C%E4%BF%A1%E6%81%AF%E6%95%88%E5%BA%94.md)
-- [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [寡头铁律（Iron Law of Oligarchy）](%E5%AF%A1%E5%A4%B4%E9%93%81%E5%BE%8B.md)
 - [观察者效应（Observer Effect / Hawthorne Effect）](%E8%A7%82%E5%AF%9F%E8%80%85%E6%95%88%E5%BA%94.md)
 - [规范性解离（Normative Dissociation）](%E8%A7%84%E8%8C%83%E6%80%A7%E8%A7%A3%E7%A6%BB.md)
@@ -2889,3 +2885,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
+
+---
+
+## ⚠️ 待整理（2 个）
+
+> 以下概念页未通过质检，未进入主分类。修正后保存即自动归类。
+
+- [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md) — 学者「坎贝尔」首次出现缺英文名标注，应为「约瑟夫·坎贝尔（Joseph Campbell）」
+- [坎贝尔定律（Campbell's Law）](%E5%9D%8E%E8%B4%9D%E5%B0%94%E5%AE%9A%E5%BE%8B.md) — 学者「坎贝尔」首次出现缺英文名标注，应为「约瑟夫·坎贝尔（Joseph Campbell）」
