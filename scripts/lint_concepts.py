@@ -425,7 +425,21 @@ def check_file(filepath: str, scholar_dict: dict, fix: bool = False) -> List[dic
         body_clean = re.sub(r"\[\[.*?\]\]", "", body)
 
         has_full = bool(re.search(re.escape(full_name), body_clean))
-        has_short = (short_name != full_name) and bool(re.search(re.escape(short_name), body_clean))
+        # 短名匹配时，排除已是其他已标注更大学者名子串的情况（如同姓不同人）
+        _short_match = re.search(re.escape(short_name), body_clean)
+        has_short = (short_name != full_name) and bool(_short_match)
+        if has_short:
+            # 检查该短名是否仅为某个已有正确标注的更大学者名的子串
+            for _other_key, _other_info in scholar_dict.items():
+                if _other_key == key:
+                    continue
+                _other_full = _other_info["full"]
+                _other_en = _other_info["en"]
+                if short_name in _other_full and len(_other_full) > len(short_name):
+                    _other_correct = re.escape(_other_full) + r"（" + re.escape(_other_en) + r"）"
+                    if re.search(_other_correct, content):
+                        has_short = False
+                        break
 
         if not has_full and not has_short:
             continue
