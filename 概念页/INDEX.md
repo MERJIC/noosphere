@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（201 个）
+### 哲学（202 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -104,6 +104,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
+- [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
@@ -215,7 +216,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（167 个）
+### 心理学（169 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -294,6 +295,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [恐怖谷（Uncanny Valley）](%E6%81%90%E6%80%96%E8%B0%B7.md)
 - [恐惧管理理论（Terror Management Theory）](%E6%81%90%E6%83%A7%E7%AE%A1%E7%90%86%E7%90%86%E8%AE%BA.md)
 - [恐惧习得（Fear Conditioning / Vicarious Fear Learning）](%E6%81%90%E6%83%A7%E4%B9%A0%E5%BE%97.md)
+- [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [框架效应（Framing Effect）](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [离奇感（L'Étrange / The Strange）](%E7%A6%BB%E5%A5%87%E6%84%9F.md)
@@ -366,6 +368,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [仪式性支持行为（Ritual Support Behavior）](%E4%BB%AA%E5%BC%8F%E6%80%A7%E6%94%AF%E6%8C%81%E8%A1%8C%E4%B8%BA.md)
 - [有毒的积极性（Toxic Positivity）](%E6%9C%89%E6%AF%92%E7%9A%84%E7%A7%AF%E6%9E%81%E6%80%A7.md)
 - [诱饵效应（Decoy Effect）](%E8%AF%B1%E9%A5%B5%E6%95%88%E5%BA%94.md)
+- [语义饱和（Semantic Satiation）](%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C.md)
 - [预测编码（Predictive Coding）](%E9%A2%84%E6%B5%8B%E7%BC%96%E7%A0%81.md)
 - [元认知（Metacognition）](%E5%85%83%E8%AE%A4%E7%9F%A5.md)
 - [原型批评（Archetypal Criticism）](%E5%8E%9F%E5%9E%8B%E6%89%B9%E8%AF%84.md)
@@ -539,7 +542,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织沉默（Organizational Silence）](%E7%BB%84%E7%BB%87%E6%B2%89%E9%BB%98.md)
 
-### 传播学（42 个）
+### 传播学（43 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
@@ -557,6 +560,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [寄生社交关系（Parasocial Relationship）](%E5%AF%84%E7%94%9F%E7%A4%BE%E4%BA%A4%E5%85%B3%E7%B3%BB.md)
 - [景观社会（Society of the Spectacle）](%E6%99%AF%E8%A7%82%E7%A4%BE%E4%BC%9A.md)
 - [坎普（Camp）](%E5%9D%8E%E6%99%AE.md)
+- [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
 - [迷因（Meme）](%E8%BF%B7%E5%9B%A0.md)
 - [内容策展（Content Curation）](%E5%86%85%E5%AE%B9%E7%AD%96%E5%B1%95.md)
@@ -662,7 +666,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 生物学（29 个）
+### 生物学（30 个）
 
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [不利条件原理（Handicap Principle）](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md)
@@ -678,6 +682,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [恐怖谷（Uncanny Valley）](%E6%81%90%E6%80%96%E8%B0%B7.md)
 - [恐惧习得（Fear Conditioning / Vicarious Fear Learning）](%E6%81%90%E6%83%A7%E4%B9%A0%E5%BE%97.md)
 - [迷因（Meme）](%E8%BF%B7%E5%9B%A0.md)
+- [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [模因（Meme / Cultural Replicator）](%E6%A8%A1%E5%9B%A0.md)
 - [拟态（Mimicry）](%E6%8B%9F%E6%80%81.md)
 - [耦合振荡（Coupled Oscillation）](%E8%80%A6%E5%90%88%E6%8C%AF%E8%8D%A1.md)
@@ -884,7 +889,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按结构模式
 
-### 悖论（35 个）
+### 悖论（36 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
@@ -899,6 +904,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [亨佩尔的乌鸦悖论（Hempel's Ravens Paradox）](%E4%BA%A8%E4%BD%A9%E5%B0%94%E7%9A%84%E4%B9%8C%E9%B8%A6%E6%82%96%E8%AE%BA.md)
 - [僵尸论证（Zombie Argument）](%E5%83%B5%E5%B0%B8%E8%AE%BA%E8%AF%81.md)
 - [晶体-影像（image-cristal）](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
+- [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
@@ -922,7 +928,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 盲区（99 个）
+### 盲区（100 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1013,6 +1019,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [英雄式领导神话（Heroic Leadership Myth）](%E8%8B%B1%E9%9B%84%E5%BC%8F%E9%A2%86%E5%AF%BC%E7%A5%9E%E8%AF%9D.md)
 - [有趣性（The Interesting）](%E6%9C%89%E8%B6%A3%E6%80%A7.md)
 - [有限理性（Bounded Rationality）](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md)
+- [语义饱和（Semantic Satiation）](%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C.md)
 - [语义外在主义（Semantic Externalism）](%E8%AF%AD%E4%B9%89%E5%A4%96%E5%9C%A8%E4%B8%BB%E4%B9%89.md)
 - [预先承诺（Precommitment）](%E9%A2%84%E5%85%88%E6%89%BF%E8%AF%BA.md)
 - [元认知（Metacognition）](%E5%85%83%E8%AE%A4%E7%9F%A5.md)
@@ -1087,7 +1094,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [子目标冲突（Subgoal Conflict）](%E5%AD%90%E7%9B%AE%E6%A0%87%E5%86%B2%E7%AA%81.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 渐变（53 个）
+### 渐变（54 个）
 
 - [崇高（The Sublime）](%E5%B4%87%E9%AB%98.md)
 - [创新扩散（Diffusion of Innovations）](%E5%88%9B%E6%96%B0%E6%89%A9%E6%95%A3.md)
@@ -1109,6 +1116,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [经验主义（Empiricism）](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
 - [决策疲劳（Decision Fatigue）](%E5%86%B3%E7%AD%96%E7%96%B2%E5%8A%B3.md)
 - [坎普（Camp）](%E5%9D%8E%E6%99%AE.md)
+- [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
 - [庖丁解牛（Cook Ding Cutting Up an Ox）](%E5%BA%96%E4%B8%81%E8%A7%A3%E7%89%9B.md)
@@ -1143,7 +1151,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 
-### 反转（110 个）
+### 反转（111 个）
 
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -1200,6 +1208,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [狂欢化（Carnivalesque）](%E7%8B%82%E6%AC%A2%E5%8C%96.md)
 - [理性成瘾理论（Rational Addiction Theory）](%E7%90%86%E6%80%A7%E6%88%90%E7%98%BE%E7%90%86%E8%AE%BA.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
+- [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [陌生化（Ostranenie）](%E9%99%8C%E7%94%9F%E5%8C%96.md)
 - [目标设定理论（Goal-Setting Theory）](%E7%9B%AE%E6%A0%87%E8%AE%BE%E5%AE%9A%E7%90%86%E8%AE%BA.md)
 - [逆反心理（Psychological Reactance）](%E9%80%86%E5%8F%8D%E5%BF%83%E7%90%86.md)
@@ -1560,7 +1569,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（255 个）
+### 自我（256 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1794,6 +1803,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
 - [有毒的积极性（Toxic Positivity）](%E6%9C%89%E6%AF%92%E7%9A%84%E7%A7%AF%E6%9E%81%E6%80%A7.md)
 - [语言拐杖（Language on Holiday）](%E8%AF%AD%E8%A8%80%E6%8B%90%E6%9D%96.md)
+- [语义饱和（Semantic Satiation）](%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C.md)
 - [语义外在主义（Semantic Externalism）](%E8%AF%AD%E4%B9%89%E5%A4%96%E5%9C%A8%E4%B8%BB%E4%B9%89.md)
 - [预测编码（Predictive Coding）](%E9%A2%84%E6%B5%8B%E7%BC%96%E7%A0%81.md)
 - [预先承诺（Precommitment）](%E9%A2%84%E5%85%88%E6%89%BF%E8%AF%BA.md)
@@ -1940,7 +1950,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（140 个）
+### 制度（141 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2002,6 +2012,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
 - [秘密的社会学（Sociology of Secrets）](%E7%A7%98%E5%AF%86%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6.md)
+- [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)
 - [命名权（Power of Naming）](%E5%91%BD%E5%90%8D%E6%9D%83.md)
 - [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
@@ -2083,7 +2094,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 
-### 创作（195 个）
+### 创作（196 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -2263,6 +2274,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [幽灵文本（Spectral Text / Palimpsest）](%E5%B9%BD%E7%81%B5%E6%96%87%E6%9C%AC.md)
 - [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
 - [有趣性（The Interesting）](%E6%9C%89%E8%B6%A3%E6%80%A7.md)
+- [语义饱和（Semantic Satiation）](%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C.md)
 - [语义外在主义（Semantic Externalism）](%E8%AF%AD%E4%B9%89%E5%A4%96%E5%9C%A8%E4%B8%BB%E4%B9%89.md)
 - [阈限性（Liminality）](%E9%98%88%E9%99%90%E6%80%A7.md)
 - [阈限叙事（Liminal Narrative）](%E9%98%88%E9%99%90%E5%8F%99%E4%BA%8B.md)
@@ -2281,7 +2293,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 自媒体（71 个）
+### 自媒体（73 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -2311,10 +2323,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [坎普（Camp）](%E5%9D%8E%E6%99%AE.md)
 - [刻奇（Kitsch）](%E5%88%BB%E5%A5%87.md)
 - [恐怖谷（Uncanny Valley）](%E6%81%90%E6%80%96%E8%B0%B7.md)
+- [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
 - [粒度轴（Granularity Axis）](%E7%B2%92%E5%BA%A6%E8%BD%B4.md)
 - [临界质量（Critical Mass / Tipping Point）](%E4%B8%B4%E7%95%8C%E8%B4%A8%E9%87%8F.md)
 - [迷因（Meme）](%E8%BF%B7%E5%9B%A0.md)
+- [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [内容策展（Content Curation）](%E5%86%85%E5%AE%B9%E7%AD%96%E5%B1%95.md)
 - [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
 - [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
@@ -2599,7 +2613,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（184 个）
+### 决策（186 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2680,6 +2694,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [坎蒂隆效应（Cantillon Effect）](%E5%9D%8E%E8%92%82%E9%9A%86%E6%95%88%E5%BA%94.md)
 - [可逆性错觉（Illusion of Reversibility）](%E5%8F%AF%E9%80%86%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
+- [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [框架效应（Framing Effect）](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [累积优势（Cumulative Advantage）](%E7%B4%AF%E7%A7%AF%E4%BC%98%E5%8A%BF.md)
@@ -2691,6 +2706,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
+- [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
 - [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)

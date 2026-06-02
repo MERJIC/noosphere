@@ -1,1186 +1,1482 @@
 {
-  "维特根斯坦": {
+  "路德维希·维特根斯坦": {
     "full": "路德维希·维特根斯坦",
-    "en": "Ludwig Wittgenstein"
+    "en": "Ludwig Wittgenstein",
+    "short": "维特根斯坦"
   },
-  "海德格尔": {
+  "马丁·海德格尔": {
     "full": "马丁·海德格尔",
-    "en": "Martin Heidegger"
+    "en": "Martin Heidegger",
+    "short": "海德格尔"
   },
-  "胡塞尔": {
+  "埃德蒙·胡塞尔": {
     "full": "埃德蒙·胡塞尔",
-    "en": "Edmund Husserl"
+    "en": "Edmund Husserl",
+    "short": "胡塞尔"
   },
-  "康德": {
+  "伊曼努尔·康德": {
     "full": "伊曼努尔·康德",
-    "en": "Immanuel Kant"
+    "en": "Immanuel Kant",
+    "short": "康德"
   },
-  "黑格尔": {
+  "格奥尔格·威廉·弗里德里希·黑格尔": {
     "full": "格奥尔格·威廉·弗里德里希·黑格尔",
-    "en": "G.W.F. Hegel"
+    "en": "G.W.F. Hegel",
+    "short": "黑格尔"
   },
-  "休谟": {
+  "大卫·休谟": {
     "full": "大卫·休谟",
-    "en": "David Hume"
+    "en": "David Hume",
+    "short": "休谟"
   },
-  "叔本华": {
+  "亚瑟·叔本华": {
     "full": "亚瑟·叔本华",
-    "en": "Arthur Schopenhauer"
+    "en": "Arthur Schopenhauer",
+    "short": "叔本华"
   },
-  "尼采": {
+  "弗里德里希·尼采": {
     "full": "弗里德里希·尼采",
-    "en": "Friedrich Nietzsche"
+    "en": "Friedrich Nietzsche",
+    "short": "尼采"
   },
   "柏拉图": {
     "full": "柏拉图",
-    "en": "Plato"
+    "en": "Plato",
+    "short": "柏拉图"
   },
   "亚里士多德": {
     "full": "亚里士多德",
-    "en": "Aristotle"
+    "en": "Aristotle",
+    "short": "亚里士多德"
   },
-  "笛卡尔": {
+  "勒内·笛卡尔": {
     "full": "勒内·笛卡尔",
-    "en": "René Descartes"
+    "en": "René Descartes",
+    "short": "笛卡尔"
   },
-  "莱布尼茨": {
+  "戈特弗里德·威廉·莱布尼茨": {
     "full": "戈特弗里德·威廉·莱布尼茨",
-    "en": "Gottfried Wilhelm Leibniz"
+    "en": "Gottfried Wilhelm Leibniz",
+    "short": "莱布尼茨"
   },
-  "洛克": {
+  "约翰·洛克": {
     "full": "约翰·洛克",
-    "en": "John Locke"
+    "en": "John Locke",
+    "short": "洛克"
   },
-  "卢梭": {
+  "让-雅克·卢梭": {
     "full": "让-雅克·卢梭",
-    "en": "Jean-Jacques Rousseau"
+    "en": "Jean-Jacques Rousseau",
+    "short": "卢梭"
   },
-  "马克思": {
+  "卡尔·马克思": {
     "full": "卡尔·马克思",
-    "en": "Karl Marx"
+    "en": "Karl Marx",
+    "short": "马克思"
   },
-  "阿伦特": {
+  "汉娜·阿伦特": {
     "full": "汉娜·阿伦特",
-    "en": "Hannah Arendt"
+    "en": "Hannah Arendt",
+    "short": "阿伦特"
   },
-  "霍布斯": {
+  "托马斯·霍布斯": {
     "full": "托马斯·霍布斯",
-    "en": "Thomas Hobbes"
+    "en": "Thomas Hobbes",
+    "short": "霍布斯"
   },
-  "罗尔斯": {
+  "约翰·罗尔斯": {
     "full": "约翰·罗尔斯",
-    "en": "John Rawls"
+    "en": "John Rawls",
+    "short": "罗尔斯"
   },
-  "诺齐克": {
+  "罗伯特·诺齐克": {
     "full": "罗伯特·诺齐克",
-    "en": "Robert Nozick"
+    "en": "Robert Nozick",
+    "short": "诺齐克"
   },
-  "麦金太尔": {
+  "阿拉斯代尔·麦金太尔": {
     "full": "阿拉斯代尔·麦金太尔",
-    "en": "Alasdair MacIntyre"
+    "en": "Alasdair MacIntyre",
+    "short": "麦金太尔"
   },
-  "哈贝马斯": {
+  "尤尔根·哈贝马斯": {
     "full": "尤尔根·哈贝马斯",
-    "en": "Jürgen Habermas"
+    "en": "Jürgen Habermas",
+    "short": "哈贝马斯"
   },
-  "福柯": {
+  "米歇尔·福柯": {
     "full": "米歇尔·福柯",
-    "en": "Michel Foucault"
+    "en": "Michel Foucault",
+    "short": "福柯"
   },
-  "德里达": {
+  "雅克·德里达": {
     "full": "雅克·德里达",
-    "en": "Jacques Derrida"
+    "en": "Jacques Derrida",
+    "short": "德里达"
   },
-  "德勒兹": {
+  "吉尔·德勒兹": {
     "full": "吉尔·德勒兹",
-    "en": "Gilles Deleuze"
+    "en": "Gilles Deleuze",
+    "short": "德勒兹"
   },
-  "本雅明": {
+  "瓦尔特·本雅明": {
     "full": "瓦尔特·本雅明",
-    "en": "Walter Benjamin"
+    "en": "Walter Benjamin",
+    "short": "本雅明"
   },
-  "阿多诺": {
+  "特奥多尔·阿多诺": {
     "full": "特奥多尔·阿多诺",
-    "en": "Theodor Adorno"
+    "en": "Theodor Adorno",
+    "short": "阿多诺"
   },
-  "马尔库塞": {
+  "赫伯特·马尔库塞": {
     "full": "赫伯特·马尔库塞",
-    "en": "Herbert Marcuse"
+    "en": "Herbert Marcuse",
+    "short": "马尔库塞"
   },
-  "鲍德里亚": {
+  "让·鲍德里亚": {
     "full": "让·鲍德里亚",
-    "en": "Jean Baudrillard"
+    "en": "Jean Baudrillard",
+    "short": "鲍德里亚"
   },
-  "罗素": {
+  "伯特兰·罗素": {
     "full": "伯特兰·罗素",
-    "en": "Bertrand Russell"
+    "en": "Bertrand Russell",
+    "short": "罗素"
   },
-  "弗雷格": {
+  "戈特洛布·弗雷格": {
     "full": "戈特洛布·弗雷格",
-    "en": "Gottlob Frege"
+    "en": "Gottlob Frege",
+    "short": "弗雷格"
   },
-  "摩尔": {
+  "乔治·爱德华·摩尔": {
     "full": "乔治·爱德华·摩尔",
-    "en": "G.E. Moore"
+    "en": "G.E. Moore",
+    "short": "摩尔"
   },
-  "奥斯汀": {
+  "约翰·奥斯汀": {
     "full": "约翰·奥斯汀",
-    "en": "J.L. Austin"
+    "en": "J.L. Austin",
+    "short": "奥斯汀"
   },
-  "塞尔": {
+  "约翰·塞尔": {
     "full": "约翰·塞尔",
-    "en": "John Searle"
+    "en": "John Searle",
+    "short": "塞尔"
   },
-  "克里普克": {
+  "索尔·克里普克": {
     "full": "索尔·克里普克",
-    "en": "Saul Kripke"
+    "en": "Saul Kripke",
+    "short": "克里普克"
   },
-  "普特南": {
+  "希拉里·普特南": {
     "full": "希拉里·普特南",
-    "en": "Hilary Putnam"
+    "en": "Hilary Putnam",
+    "short": "普特南"
   },
-  "戴维森": {
+  "唐纳德·戴维森": {
     "full": "唐纳德·戴维森",
-    "en": "Donald Davidson"
+    "en": "Donald Davidson",
+    "short": "戴维森"
   },
-  "丹内特": {
+  "丹尼尔·丹内特": {
     "full": "丹尼尔·丹内特",
-    "en": "Daniel Dennett"
+    "en": "Daniel Dennett",
+    "short": "丹内特"
   },
-  "奎因": {
+  "W.V.O. 奎因": {
     "full": "W.V.O. 奎因",
-    "en": "W.V.O. Quine"
+    "en": "W.V.O. Quine",
+    "short": "奎因"
   },
-  "蒯因": {
+  "W.V.O. 奎因_蒯因": {
     "full": "W.V.O. 奎因",
-    "en": "W.V.O. Quine"
+    "en": "W.V.O. Quine",
+    "short": "蒯因"
   },
-  "波普尔": {
+  "卡尔·波普尔": {
     "full": "卡尔·波普尔",
-    "en": "Karl Popper"
+    "en": "Karl Popper",
+    "short": "波普尔"
   },
-  "库恩": {
+  "托马斯·库恩": {
     "full": "托马斯·库恩",
-    "en": "Thomas Kuhn"
+    "en": "Thomas Kuhn",
+    "short": "库恩"
   },
-  "拉卡托斯": {
+  "伊姆雷·拉卡托斯": {
     "full": "伊姆雷·拉卡托斯",
-    "en": "Imre Lakatos"
+    "en": "Imre Lakatos",
+    "short": "拉卡托斯"
   },
-  "费耶阿本德": {
+  "保罗·费耶阿本德": {
     "full": "保罗·费耶阿本德",
-    "en": "Paul Feyerabend"
+    "en": "Paul Feyerabend",
+    "short": "费耶阿本德"
   },
-  "波兰尼": {
+  "迈克尔·波兰尼": {
     "full": "迈克尔·波兰尼",
-    "en": "Michael Polanyi"
+    "en": "Michael Polanyi",
+    "short": "波兰尼"
   },
-  "波兰尼_Karl": {
+  "卡尔·波兰尼": {
     "full": "卡尔·波兰尼",
-    "en": "Karl Polanyi"
+    "en": "Karl Polanyi",
+    "short": "波兰尼_Karl"
   },
-  "赖尔": {
+  "吉尔伯特·赖尔": {
     "full": "吉尔伯特·赖尔",
-    "en": "Gilbert Ryle"
+    "en": "Gilbert Ryle",
+    "short": "赖尔"
   },
-  "弗洛伊德": {
+  "西格蒙德·弗洛伊德": {
     "full": "西格蒙德·弗洛伊德",
-    "en": "Sigmund Freud"
+    "en": "Sigmund Freud",
+    "short": "弗洛伊德"
   },
-  "荣格": {
+  "卡尔·荣格": {
     "full": "卡尔·荣格",
-    "en": "Carl Jung"
+    "en": "Carl Jung",
+    "short": "荣格"
   },
-  "阿德勒": {
+  "阿尔弗雷德·阿德勒": {
     "full": "阿尔弗雷德·阿德勒",
-    "en": "Alfred Adler"
+    "en": "Alfred Adler",
+    "short": "阿德勒"
   },
-  "皮亚杰": {
+  "让·皮亚杰": {
     "full": "让·皮亚杰",
-    "en": "Jean Piaget"
+    "en": "Jean Piaget",
+    "short": "皮亚杰"
   },
-  "维果茨基": {
+  "列夫·维果茨基": {
     "full": "列夫·维果茨基",
-    "en": "Lev Vygotsky"
+    "en": "Lev Vygotsky",
+    "short": "维果茨基"
   },
-  "詹姆斯": {
+  "威廉·詹姆斯": {
     "full": "威廉·詹姆斯",
-    "en": "William James"
+    "en": "William James",
+    "short": "詹姆斯"
   },
-  "杜威": {
+  "约翰·杜威": {
     "full": "约翰·杜威",
-    "en": "John Dewey"
+    "en": "John Dewey",
+    "short": "杜威"
   },
-  "斯金纳": {
+  "伯勒斯·斯金纳": {
     "full": "伯勒斯·斯金纳",
-    "en": "B.F. Skinner"
+    "en": "B.F. Skinner",
+    "short": "斯金纳"
   },
-  "班杜拉": {
+  "阿尔伯特·班杜拉": {
     "full": "阿尔伯特·班杜拉",
-    "en": "Albert Bandura"
+    "en": "Albert Bandura",
+    "short": "班杜拉"
   },
-  "马斯洛": {
+  "亚伯拉罕·马斯洛": {
     "full": "亚伯拉罕·马斯洛",
-    "en": "Abraham Maslow"
+    "en": "Abraham Maslow",
+    "short": "马斯洛"
   },
-  "罗杰斯": {
+  "卡尔·罗杰斯": {
     "full": "卡尔·罗杰斯",
-    "en": "Carl Rogers"
+    "en": "Carl Rogers",
+    "short": "罗杰斯"
   },
-  "塞利格曼": {
+  "马丁·塞利格曼": {
     "full": "马丁·塞利格曼",
-    "en": "Martin Seligman"
+    "en": "Martin Seligman",
+    "short": "塞利格曼"
   },
-  "卡尼曼": {
+  "丹尼尔·卡尼曼": {
     "full": "丹尼尔·卡尼曼",
-    "en": "Daniel Kahneman"
+    "en": "Daniel Kahneman",
+    "short": "卡尼曼"
   },
-  "特沃斯基": {
+  "阿莫斯·特沃斯基": {
     "full": "阿莫斯·特沃斯基",
-    "en": "Amos Tversky"
+    "en": "Amos Tversky",
+    "short": "特沃斯基"
   },
-  "阿吉里斯": {
+  "克里斯·阿吉里斯": {
     "full": "克里斯·阿吉里斯",
-    "en": "Chris Argyris"
+    "en": "Chris Argyris",
+    "short": "阿吉里斯"
   },
-  "戈夫曼": {
+  "欧文·戈夫曼": {
     "full": "欧文·戈夫曼",
-    "en": "Erving Goffman"
+    "en": "Erving Goffman",
+    "short": "戈夫曼"
   },
-  "契克森米哈赖": {
+  "米哈里·契克森米哈赖": {
     "full": "米哈里·契克森米哈赖",
-    "en": "Mihaly Csikszentmihalyi"
+    "en": "Mihaly Csikszentmihalyi",
+    "short": "契克森米哈赖"
   },
-  "韦伯": {
+  "马克斯·韦伯": {
     "full": "马克斯·韦伯",
-    "en": "Max Weber"
+    "en": "Max Weber",
+    "short": "韦伯"
   },
-  "涂尔干": {
+  "埃米尔·涂尔干": {
     "full": "埃米尔·涂尔干",
-    "en": "Émile Durkheim"
+    "en": "Émile Durkheim",
+    "short": "涂尔干"
   },
-  "齐美尔": {
+  "格奥尔格·齐美尔": {
     "full": "格奥尔格·齐美尔",
-    "en": "Georg Simmel"
+    "en": "Georg Simmel",
+    "short": "齐美尔"
   },
-  "默顿": {
+  "罗伯特·默顿": {
     "full": "罗伯特·默顿",
-    "en": "Robert Merton"
+    "en": "Robert Merton",
+    "short": "默顿"
   },
-  "帕森斯": {
+  "塔尔科特·帕森斯": {
     "full": "塔尔科特·帕森斯",
-    "en": "Talcott Parsons"
+    "en": "Talcott Parsons",
+    "short": "帕森斯"
   },
-  "布迪厄": {
+  "皮埃尔·布迪厄": {
     "full": "皮埃尔·布迪厄",
-    "en": "Pierre Bourdieu"
+    "en": "Pierre Bourdieu",
+    "short": "布迪厄"
   },
-  "米德": {
+  "乔治·赫伯特·米德": {
     "full": "乔治·赫伯特·米德",
-    "en": "George Herbert Mead"
+    "en": "George Herbert Mead",
+    "short": "米德"
   },
-  "贝克尔": {
+  "加里·贝克尔": {
     "full": "加里·贝克尔",
-    "en": "Gary Becker"
+    "en": "Gary Becker",
+    "short": "贝克尔"
   },
-  "森": {
+  "阿马蒂亚·森": {
     "full": "阿马蒂亚·森",
-    "en": "Amartya Sen"
+    "en": "Amartya Sen",
+    "short": "森"
   },
   "亚当·斯密": {
     "full": "亚当·斯密",
-    "en": "Adam Smith"
+    "en": "Adam Smith",
+    "short": "亚当·斯密"
   },
-  "凯恩斯": {
+  "约翰·梅纳德·凯恩斯": {
     "full": "约翰·梅纳德·凯恩斯",
-    "en": "John Maynard Keynes"
+    "en": "John Maynard Keynes",
+    "short": "凯恩斯"
   },
-  "科斯": {
+  "罗纳德·科斯": {
     "full": "罗纳德·科斯",
-    "en": "Ronald Coase"
+    "en": "Ronald Coase",
+    "short": "科斯"
   },
-  "诺斯": {
+  "道格拉斯·诺斯": {
     "full": "道格拉斯·诺斯",
-    "en": "Douglass North"
+    "en": "Douglass North",
+    "short": "诺斯"
   },
-  "威廉姆森": {
+  "奥利弗·威廉姆森": {
     "full": "奥利弗·威廉姆森",
-    "en": "Oliver Williamson"
+    "en": "Oliver Williamson",
+    "short": "威廉姆森"
   },
-  "西蒙": {
+  "赫伯特·西蒙": {
     "full": "赫伯特·西蒙",
-    "en": "Herbert Simon"
+    "en": "Herbert Simon",
+    "short": "西蒙"
   },
-  "德鲁克": {
+  "彼得·德鲁克": {
     "full": "彼得·德鲁克",
-    "en": "Peter Drucker"
+    "en": "Peter Drucker",
+    "short": "德鲁克"
   },
-  "明茨伯格": {
+  "亨利·明茨伯格": {
     "full": "亨利·明茨伯格",
-    "en": "Henry Mintzberg"
+    "en": "Henry Mintzberg",
+    "short": "明茨伯格"
   },
-  "波特": {
+  "迈克尔·波特": {
     "full": "迈克尔·波特",
-    "en": "Michael Porter"
+    "en": "Michael Porter",
+    "short": "波特"
   },
-  "坎宁安": {
+  "沃德·坎宁安": {
     "full": "沃德·坎宁安",
-    "en": "Ward Cunningham"
+    "en": "Ward Cunningham",
+    "short": "坎宁安"
   },
-  "达尔文": {
+  "查尔斯·达尔文": {
     "full": "查尔斯·达尔文",
-    "en": "Charles Darwin"
+    "en": "Charles Darwin",
+    "short": "达尔文"
   },
-  "道金斯": {
+  "理查德·道金斯": {
     "full": "理查德·道金斯",
-    "en": "Richard Dawkins"
+    "en": "Richard Dawkins",
+    "short": "道金斯"
   },
-  "威尔逊": {
+  "爱德华·威尔逊": {
     "full": "爱德华·威尔逊",
-    "en": "E.O. Wilson"
+    "en": "E.O. Wilson",
+    "short": "威尔逊"
   },
-  "古尔德": {
+  "斯蒂芬·杰伊·古尔德": {
     "full": "斯蒂芬·杰伊·古尔德",
-    "en": "Stephen Jay Gould"
+    "en": "Stephen Jay Gould",
+    "short": "古尔德"
   },
-  "廷伯根": {
+  "尼古拉斯·廷伯根": {
     "full": "尼古拉斯·廷伯根",
-    "en": "Nikolaas Tinbergen"
+    "en": "Nikolaas Tinbergen",
+    "short": "廷伯根"
   },
-  "洛伦兹": {
+  "康拉德·洛伦兹": {
     "full": "康拉德·洛伦兹",
-    "en": "Konrad Lorenz"
+    "en": "Konrad Lorenz",
+    "short": "洛伦兹"
   },
-  "麦克卢汉": {
+  "马歇尔·麦克卢汉": {
     "full": "马歇尔·麦克卢汉",
-    "en": "Marshall McLuhan"
+    "en": "Marshall McLuhan",
+    "short": "麦克卢汉"
   },
-  "拉扎斯菲尔德": {
+  "保罗·拉扎斯菲尔德": {
     "full": "保罗·拉扎斯菲尔德",
-    "en": "Paul Lazarsfeld"
+    "en": "Paul Lazarsfeld",
+    "short": "拉扎斯菲尔德"
   },
-  "李普曼": {
+  "沃尔特·李普曼": {
     "full": "沃尔特·李普曼",
-    "en": "Walter Lippmann"
+    "en": "Walter Lippmann",
+    "short": "李普曼"
   },
-  "勒温": {
+  "库尔特·勒温": {
     "full": "库尔特·勒温",
-    "en": "Kurt Lewin"
+    "en": "Kurt Lewin",
+    "short": "勒温"
   },
-  "怀特": {
+  "大卫·曼宁·怀特": {
     "full": "大卫·曼宁·怀特",
-    "en": "David Manning White"
+    "en": "David Manning White",
+    "short": "怀特"
   },
-  "莱考夫": {
+  "乔治·莱考夫": {
     "full": "乔治·莱考夫",
-    "en": "George Lakoff"
+    "en": "George Lakoff",
+    "short": "莱考夫"
   },
-  "桑斯坦": {
+  "卡斯·桑斯坦": {
     "full": "卡斯·桑斯坦",
-    "en": "Cass Sunstein"
+    "en": "Cass Sunstein",
+    "short": "桑斯坦"
   },
-  "塞勒": {
+  "理查德·塞勒": {
     "full": "理查德·塞勒",
-    "en": "Richard Thaler"
+    "en": "Richard Thaler",
+    "short": "塞勒"
   },
-  "塔勒布": {
+  "纳西姆·塔勒布": {
     "full": "纳西姆·塔勒布",
-    "en": "Nassim Taleb"
+    "en": "Nassim Taleb",
+    "short": "塔勒布"
   },
-  "加万德": {
+  "阿图尔·加万德": {
     "full": "阿图尔·加万德",
-    "en": "Atul Gawande"
+    "en": "Atul Gawande",
+    "short": "加万德"
   },
-  "埃科": {
+  "翁贝托·埃科": {
     "full": "翁贝托·埃科",
-    "en": "Umberto Eco"
+    "en": "Umberto Eco",
+    "short": "埃科"
   },
-  "萨义德": {
+  "爱德华·萨义德": {
     "full": "爱德华·萨义德",
-    "en": "Edward Said"
+    "en": "Edward Said",
+    "short": "萨义德"
   },
-  "查尔莫斯": {
+  "大卫·查尔莫斯": {
     "full": "大卫·查尔莫斯",
-    "en": "David Chalmers"
+    "en": "David Chalmers",
+    "short": "查尔莫斯"
   },
-  "克拉克": {
+  "安迪·克拉克": {
     "full": "安迪·克拉克",
-    "en": "Andy Clark"
+    "en": "Andy Clark",
+    "short": "克拉克"
   },
   "庄子": {
     "full": "庄子",
-    "en": "Zhuangzi"
+    "en": "Zhuangzi",
+    "short": "庄子"
   },
   "老子": {
     "full": "老子",
-    "en": "Laozi"
+    "en": "Laozi",
+    "short": "老子"
   },
   "孔子": {
     "full": "孔子",
-    "en": "Confucius"
+    "en": "Confucius",
+    "short": "孔子"
   },
   "孟子": {
     "full": "孟子",
-    "en": "Mencius"
+    "en": "Mencius",
+    "short": "孟子"
   },
   "墨子": {
     "full": "墨子",
-    "en": "Mozi"
+    "en": "Mozi",
+    "short": "墨子"
   },
   "荀子": {
     "full": "荀子",
-    "en": "Xunzi"
+    "en": "Xunzi",
+    "short": "荀子"
   },
   "韩非子": {
     "full": "韩非子",
-    "en": "Han Feizi"
+    "en": "Han Feizi",
+    "short": "韩非子"
   },
   "孙子": {
     "full": "孙子",
-    "en": "Sunzi"
+    "en": "Sunzi",
+    "short": "孙子"
   },
   "朱熹": {
     "full": "朱熹",
-    "en": "Zhu Xi"
+    "en": "Zhu Xi",
+    "short": "朱熹"
   },
   "王阳明": {
     "full": "王阳明",
-    "en": "Wang Yangming"
+    "en": "Wang Yangming",
+    "short": "王阳明"
   },
   "慧能": {
     "full": "慧能",
-    "en": "Huineng"
+    "en": "Huineng",
+    "short": "慧能"
   },
   "费孝通": {
     "full": "费孝通",
-    "en": "Fei Xiaotong"
+    "en": "Fei Xiaotong",
+    "short": "费孝通"
   },
-  "克鲁格兰斯基": {
+  "阿列克·克鲁格兰斯基": {
     "full": "阿列克·克鲁格兰斯基",
-    "en": "Arie Kruglanski"
+    "en": "Arie Kruglanski",
+    "short": "克鲁格兰斯基"
   },
-  "克莱因": {
+  "加里·克莱因": {
     "full": "加里·克莱因",
-    "en": "Gary Klein"
+    "en": "Gary Klein",
+    "short": "克莱因"
   },
   "梅兰妮·克莱因": {
     "full": "梅兰妮·克莱因",
-    "en": "Melanie Klein"
+    "en": "Melanie Klein",
+    "short": "梅兰妮·克莱因"
   },
-  "安斯康姆": {
+  "伊丽莎白·安斯康姆": {
     "full": "伊丽莎白·安斯康姆",
-    "en": "G.E.M. Anscombe"
+    "en": "G.E.M. Anscombe",
+    "short": "安斯康姆"
   },
-  "格洛弗": {
+  "乔纳森·格洛弗": {
     "full": "乔纳森·格洛弗",
-    "en": "Jonathan Glover"
+    "en": "Jonathan Glover",
+    "short": "格洛弗"
   },
-  "奥斯特罗姆": {
+  "埃莉诺·奥斯特罗姆": {
     "full": "埃莉诺·奥斯特罗姆",
-    "en": "Elinor Ostrom"
+    "en": "Elinor Ostrom",
+    "short": "奥斯特罗姆"
   },
-  "密尔": {
+  "约翰·斯图尔特·密尔": {
     "full": "约翰·斯图尔特·密尔",
-    "en": "John Stuart Mill"
+    "en": "John Stuart Mill",
+    "short": "密尔"
   },
-  "威廉斯": {
+  "伯纳德·威廉斯": {
     "full": "伯纳德·威廉斯",
-    "en": "Bernard Williams"
+    "en": "Bernard Williams",
+    "short": "威廉斯"
   },
-  "培根": {
+  "弗朗西斯·培根": {
     "full": "弗朗西斯·培根",
-    "en": "Francis Bacon"
+    "en": "Francis Bacon",
+    "short": "培根"
   },
-  "邓宁": {
+  "大卫·邓宁": {
     "full": "大卫·邓宁",
-    "en": "David Dunning"
+    "en": "David Dunning",
+    "short": "邓宁"
   },
-  "克鲁格": {
+  "贾斯汀·克鲁格": {
     "full": "贾斯汀·克鲁格",
-    "en": "Justin Kruger"
+    "en": "Justin Kruger",
+    "short": "克鲁格"
   },
-  "康托": {
+  "南希·康托": {
     "full": "南希·康托",
-    "en": "Nancy Cantor"
+    "en": "Nancy Cantor",
+    "short": "康托"
   },
-  "克朗斯": {
+  "宝琳·克朗斯": {
     "full": "宝琳·克朗斯",
-    "en": "Pauline Clance"
+    "en": "Pauline Clance",
+    "short": "克朗斯"
   },
-  "艾姆斯": {
+  "苏珊·艾姆斯": {
     "full": "苏珊·艾姆斯",
-    "en": "Suzanne Imes"
+    "en": "Suzanne Imes",
+    "short": "艾姆斯"
   },
-  "努斯鲍姆": {
+  "玛莎·努斯鲍姆": {
     "full": "玛莎·努斯鲍姆",
-    "en": "Martha Nussbaum"
+    "en": "Martha Nussbaum",
+    "short": "努斯鲍姆"
   },
-  "列维纳斯": {
+  "伊曼努尔·列维纳斯": {
     "full": "伊曼努尔·列维纳斯",
-    "en": "Emmanuel Levinas"
+    "en": "Emmanuel Levinas",
+    "short": "列维纳斯"
   },
-  "伽达默尔": {
+  "汉斯-格奥尔格·伽达默尔": {
     "full": "汉斯-格奥尔格·伽达默尔",
-    "en": "Hans-Georg Gadamer"
+    "en": "Hans-Georg Gadamer",
+    "short": "伽达默尔"
   },
-  "利科": {
+  "保罗·利科": {
     "full": "保罗·利科",
-    "en": "Paul Ricœur"
+    "en": "Paul Ricœur",
+    "short": "利科"
   },
-  "拉康": {
+  "雅克·拉康": {
     "full": "雅克·拉康",
-    "en": "Jacques Lacan"
+    "en": "Jacques Lacan",
+    "short": "拉康"
   },
-  "韦伊": {
+  "西蒙娜·韦伊": {
     "full": "西蒙娜·韦伊",
-    "en": "Simone Weil"
+    "en": "Simone Weil",
+    "short": "韦伊"
   },
-  "陀思妥耶夫斯基": {
+  "费奥多尔·陀思妥耶夫斯基": {
     "full": "费奥多尔·陀思妥耶夫斯基",
-    "en": "Fyodor Dostoevsky"
+    "en": "Fyodor Dostoevsky",
+    "short": "陀思妥耶夫斯基"
   },
-  "克里斯蒂娃": {
+  "朱莉娅·克里斯蒂娃": {
     "full": "朱莉娅·克里斯蒂娃",
-    "en": "Julia Kristeva"
+    "en": "Julia Kristeva",
+    "short": "克里斯蒂娃"
   },
-  "法农": {
+  "弗朗茨·法农": {
     "full": "弗朗茨·法农",
-    "en": "Frantz Fanon"
+    "en": "Frantz Fanon",
+    "short": "法农"
   },
-  "葛兰西": {
+  "安东尼奥·葛兰西": {
     "full": "安东尼奥·葛兰西",
-    "en": "Antonio Gramsci"
+    "en": "Antonio Gramsci",
+    "short": "葛兰西"
   },
-  "弗里克": {
+  "米兰达·弗里克": {
     "full": "米兰达·弗里克",
-    "en": "Miranda Fricker"
+    "en": "Miranda Fricker",
+    "short": "弗里克"
   },
-  "席勒": {
+  "弗里德里希·席勒": {
     "full": "弗里德里希·席勒",
-    "en": "Friedrich Schiller"
+    "en": "Friedrich Schiller",
+    "short": "席勒"
   },
-  "丹托": {
+  "阿瑟·丹托": {
     "full": "阿瑟·丹托",
-    "en": "Arthur Danto"
+    "en": "Arthur Danto",
+    "short": "丹托"
   },
-  "卡德": {
+  "斯图尔特·卡德": {
     "full": "斯图尔特·卡德",
-    "en": "Stuart Card"
+    "en": "Stuart Card",
+    "short": "卡德"
   },
-  "皮罗利": {
+  "彼得·皮罗利": {
     "full": "彼得·皮罗利",
-    "en": "Peter Pirolli"
+    "en": "Peter Pirolli",
+    "short": "皮罗利"
   },
-  "沃尔曼": {
+  "理查德·索尔·沃尔曼": {
     "full": "理查德·索尔·沃尔曼",
-    "en": "Richard Saul Wurman"
+    "en": "Richard Saul Wurman",
+    "short": "沃尔曼"
   },
-  "莫维尔": {
+  "彼得·莫维尔": {
     "full": "彼得·莫维尔",
-    "en": "Peter Morville"
+    "en": "Peter Morville",
+    "short": "莫维尔"
   },
-  "邓克尔": {
+  "卡尔·邓克尔": {
     "full": "卡尔·邓克尔",
-    "en": "Karl Duncker"
+    "en": "Karl Duncker",
+    "short": "邓克尔"
   },
-  "艾宾浩斯": {
+  "赫尔曼·艾宾浩斯": {
     "full": "赫尔曼·艾宾浩斯",
-    "en": "Hermann Ebbinghaus"
+    "en": "Hermann Ebbinghaus",
+    "short": "艾宾浩斯"
   },
-  "艾利克森": {
+  "安德斯·艾利克森": {
     "full": "安德斯·艾利克森",
-    "en": "Anders Ericsson"
+    "en": "Anders Ericsson",
+    "short": "艾利克森"
   },
-  "桑代克": {
+  "爱德华·桑代克": {
     "full": "爱德华·桑代克",
-    "en": "Edward Thorndike"
+    "en": "Edward Thorndike",
+    "short": "桑代克"
   },
-  "柯林斯": {
+  "兰德尔·柯林斯": {
     "full": "兰德尔·柯林斯",
-    "en": "Randall Collins"
+    "en": "Randall Collins",
+    "short": "柯林斯"
   },
-  "温格": {
+  "埃蒂安·温格": {
     "full": "埃蒂安·温格",
-    "en": "Etienne Wenger"
+    "en": "Etienne Wenger",
+    "short": "温格"
   },
-  "艾德蒙森": {
+  "艾米·埃德蒙森": {
     "full": "艾米·埃德蒙森",
-    "en": "Amy Edmondson"
+    "en": "Amy Edmondson",
+    "short": "艾德蒙森"
   },
-  "格林里夫": {
+  "罗伯特·格林里夫": {
     "full": "罗伯特·格林里夫",
-    "en": "Robert Greenleaf"
+    "en": "Robert Greenleaf",
+    "short": "格林里夫"
   },
-  "路桑斯": {
+  "弗雷德·路桑斯": {
     "full": "弗雷德·路桑斯",
-    "en": "Fred Luthans"
+    "en": "Fred Luthans",
+    "short": "路桑斯"
   },
-  "沃恩": {
+  "黛安·沃恩": {
     "full": "黛安·沃恩",
-    "en": "Diane Vaughan"
+    "en": "Diane Vaughan",
+    "short": "沃恩"
   },
-  "尼斯贝特": {
+  "理查德·尼斯贝特": {
     "full": "理查德·尼斯贝特",
-    "en": "Richard Nisbett"
+    "en": "Richard Nisbett",
+    "short": "尼斯贝特"
   },
-  "索尔尼特": {
+  "丽贝卡·索尔尼特": {
     "full": "丽贝卡·索尔尼特",
-    "en": "Rebecca Solnit"
+    "en": "Rebecca Solnit",
+    "short": "索尔尼特"
   },
   "森政弘": {
     "full": "森政弘",
-    "en": "Masahiro Mori"
+    "en": "Masahiro Mori",
+    "short": "森政弘"
   },
-  "格林菲尔德": {
+  "苏珊·格林菲尔德": {
     "full": "苏珊·格林菲尔德",
-    "en": "Susan Greenfield"
+    "en": "Susan Greenfield",
+    "short": "格林菲尔德"
   },
-  "辛格": {
+  "彼得·辛格": {
     "full": "彼得·辛格",
-    "en": "Peter Singer"
+    "en": "Peter Singer",
+    "short": "辛格"
   },
-  "波兹曼": {
+  "尼尔·波兹曼": {
     "full": "尼尔·波兹曼",
-    "en": "Neil Postman"
+    "en": "Neil Postman",
+    "short": "波兹曼"
   },
-  "吉布森": {
+  "詹姆斯·吉布森": {
     "full": "詹姆斯·吉布森",
-    "en": "James Gibson"
+    "en": "James Gibson",
+    "short": "吉布森"
   },
   "司马贺": {
     "full": "司马贺",
-    "en": "Herbert Simon"
+    "en": "Herbert Simon",
+    "short": "司马贺"
   },
   "安妮·墨菲·保罗": {
     "full": "安妮·墨菲·保罗",
-    "en": "Annie Murphy Paul"
+    "en": "Annie Murphy Paul",
+    "short": "安妮·墨菲·保罗"
   },
-  "伯利": {
+  "阿道夫·伯利": {
     "full": "阿道夫·伯利",
-    "en": "Adolf Berle"
+    "en": "Adolf Berle",
+    "short": "伯利"
   },
-  "克鲁泡特金": {
+  "彼得·克鲁泡特金": {
     "full": "彼得·克鲁泡特金",
-    "en": "Peter Kropotkin"
+    "en": "Peter Kropotkin",
+    "short": "克鲁泡特金"
   },
-  "阿奎那": {
+  "托马斯·阿奎那": {
     "full": "托马斯·阿奎那",
-    "en": "Thomas Aquinas"
+    "en": "Thomas Aquinas",
+    "short": "阿奎那"
   },
-  "费恩曼": {
+  "理查德·费恩曼": {
     "full": "理查德·费恩曼",
-    "en": "Richard Feynman"
+    "en": "Richard Feynman",
+    "short": "费恩曼"
   },
-  "海特": {
+  "乔纳森·海特": {
     "full": "乔纳森·海特",
-    "en": "Jonathan Haidt"
+    "en": "Jonathan Haidt",
+    "short": "海特"
   },
-  "蒙田": {
+  "米歇尔·德·蒙田": {
     "full": "米歇尔·德·蒙田",
-    "en": "Michel de Montaigne"
+    "en": "Michel de Montaigne",
+    "short": "蒙田"
   },
   "本居宣长": {
     "full": "本居宣长",
-    "en": "Motoori Norinaga"
+    "en": "Motoori Norinaga",
+    "short": "本居宣长"
   },
-  "桑塔格": {
+  "苏珊·桑塔格": {
     "full": "苏珊·桑塔格",
-    "en": "Susan Sontag"
+    "en": "Susan Sontag",
+    "short": "桑塔格"
   },
   "王羲之": {
     "full": "王羲之",
-    "en": "Wang Xizhi"
+    "en": "Wang Xizhi",
+    "short": "王羲之"
   },
-  "史密森": {
+  "罗伯特·史密森": {
     "full": "罗伯特·史密森",
-    "en": "Robert Smithson"
+    "en": "Robert Smithson",
+    "short": "史密森"
   },
-  "福多": {
+  "杰里·福多": {
     "full": "杰里·福多",
-    "en": "Jerry Fodor"
+    "en": "Jerry Fodor",
+    "short": "福多"
   },
-  "图灵": {
+  "艾伦·图灵": {
     "full": "艾伦·图灵",
-    "en": "Alan Turing"
+    "en": "Alan Turing",
+    "short": "图灵"
   },
-  "温弗瑞": {
+  "奥普拉·温弗瑞": {
     "full": "奥普拉·温弗瑞",
-    "en": "Oprah Winfrey"
+    "en": "Oprah Winfrey",
+    "short": "温弗瑞"
   },
   "李安": {
     "full": "李安",
-    "en": "Ang Lee"
+    "en": "Ang Lee",
+    "short": "李安"
   },
   "黄仁勋": {
     "full": "黄仁勋",
-    "en": "Jensen Huang"
+    "en": "Jensen Huang",
+    "short": "黄仁勋"
   },
-  "斯坦利": {
+  "杰森·斯坦利": {
     "full": "杰森·斯坦利",
-    "en": "Jason Stanley"
+    "en": "Jason Stanley",
+    "short": "斯坦利"
   },
-  "佩雷尔": {
+  "埃丝特·佩雷尔": {
     "full": "埃丝特·佩雷尔",
-    "en": "Esther Perel"
+    "en": "Esther Perel",
+    "short": "佩雷尔"
   },
-  "巴菲特": {
+  "沃伦·巴菲特": {
     "full": "沃伦·巴菲特",
-    "en": "Warren Buffett"
+    "en": "Warren Buffett",
+    "short": "巴菲特"
   },
-  "乔布斯": {
+  "史蒂夫·乔布斯": {
     "full": "史蒂夫·乔布斯",
-    "en": "Steve Jobs"
+    "en": "Steve Jobs",
+    "short": "乔布斯"
   },
   "孙正义": {
     "full": "孙正义",
-    "en": "Masayoshi Son"
+    "en": "Masayoshi Son",
+    "short": "孙正义"
   },
   "稻盛和夫": {
     "full": "稻盛和夫",
-    "en": "Kazuo Inamora"
+    "en": "Kazuo Inamora",
+    "short": "稻盛和夫"
   },
-  "昆达": {
+  "齐瓦·昆达": {
     "full": "齐瓦·昆达",
-    "en": "Ziva Kunda"
+    "en": "Ziva Kunda",
+    "short": "昆达"
   },
-  "贝姆": {
+  "达里尔·贝姆": {
     "full": "达里尔·贝姆",
-    "en": "Daryl Bem"
+    "en": "Daryl Bem",
+    "short": "贝姆"
   },
-  "柏格森": {
+  "昂利·柏格森": {
     "full": "昂利·柏格森",
-    "en": "Henri Bergson"
+    "en": "Henri Bergson",
+    "short": "柏格森"
   },
-  "纳伊": {
+  "西安·纳伊": {
     "full": "西安·纳伊",
-    "en": "Sianne Ngai"
+    "en": "Sianne Ngai",
+    "short": "纳伊"
   },
-  "科恩": {
+  "斯坦利·科恩": {
     "full": "斯坦利·科恩",
-    "en": "Stanley Cohen"
+    "en": "Stanley Cohen",
+    "short": "科恩"
   },
-  "扎哈维": {
+  "阿莫茨·扎哈维": {
     "full": "阿莫茨·扎哈维",
-    "en": "Amotz Zahavi"
+    "en": "Amotz Zahavi",
+    "short": "扎哈维"
   },
-  "沃尔德": {
+  "亚伯拉罕·沃尔德": {
     "full": "亚伯拉罕·沃尔德",
-    "en": "Abraham Wald"
+    "en": "Abraham Wald",
+    "short": "沃尔德"
   },
-  "罗尔": {
+  "理查德·罗尔": {
     "full": "理查德·罗尔",
-    "en": "Richard Roll"
+    "en": "Richard Roll",
+    "short": "罗尔"
   },
-  "李嘉图": {
+  "大卫·李嘉图": {
     "full": "大卫·李嘉图",
-    "en": "David Ricardo"
+    "en": "David Ricardo",
+    "short": "李嘉图"
   },
-  "帕累托": {
+  "维尔弗雷多·帕累托": {
     "full": "维尔弗雷多·帕累托",
-    "en": "Vilfredo Pareto"
+    "en": "Vilfredo Pareto",
+    "short": "帕累托"
   },
-  "韦克": {
+  "卡尔·韦克": {
     "full": "卡尔·韦克",
-    "en": "Karl Weick"
+    "en": "Karl Weick",
+    "short": "韦克"
   },
-  "凯根": {
+  "杰罗姆·凯根": {
     "full": "杰罗姆·凯根",
-    "en": "Jerome Kagan"
+    "en": "Jerome Kagan",
+    "short": "凯根"
   },
-  "普罗克特": {
+  "罗伯特·普罗克特": {
     "full": "罗伯特·普罗克特",
-    "en": "Robert Proctor"
+    "en": "Robert Proctor",
+    "short": "普罗克特"
   },
-  "阿甘本": {
+  "乔尔乔·阿甘本": {
     "full": "乔尔乔·阿甘本",
-    "en": "Giorgio Agamben"
+    "en": "Giorgio Agamben",
+    "short": "阿甘本"
   },
-  "巴特勒": {
+  "朱迪斯·巴特勒": {
     "full": "朱迪斯·巴特勒",
-    "en": "Judith Butler"
+    "en": "Judith Butler",
+    "short": "巴特勒"
   },
-  "帕菲特": {
+  "德里克·帕菲特": {
     "full": "德里克·帕菲特",
-    "en": "Derek Parfit"
+    "en": "Derek Parfit",
+    "short": "帕菲特"
   },
-  "利奥塔": {
+  "让-弗朗索瓦·利奥塔": {
     "full": "让-弗朗索瓦·利奥塔",
-    "en": "Jean-François Lyotard"
+    "en": "Jean-François Lyotard",
+    "short": "利奥塔"
   },
-  "哈拉维": {
+  "唐娜·哈拉维": {
     "full": "唐娜·哈拉维",
-    "en": "Donna Haraway"
+    "en": "Donna Haraway",
+    "short": "哈拉维"
   },
-  "德波": {
+  "居伊·德波": {
     "full": "居伊·德波",
-    "en": "Guy Debord"
+    "en": "Guy Debord",
+    "short": "德波"
   },
-  "施密特": {
+  "卡尔·施密特": {
     "full": "卡尔·施密特",
-    "en": "Carl Schmitt"
+    "en": "Carl Schmitt",
+    "short": "施密特"
   },
-  "卢曼": {
+  "尼克拉斯·卢曼": {
     "full": "尼克拉斯·卢曼",
-    "en": "Niklas Luhmann"
+    "en": "Niklas Luhmann",
+    "short": "卢曼"
   },
   "韩炳哲": {
     "full": "韩炳哲",
-    "en": "Byung-Chul Han"
+    "en": "Byung-Chul Han",
+    "short": "韩炳哲"
   },
-  "熊彼特": {
+  "约瑟夫·熊彼特": {
     "full": "约瑟夫·熊彼特",
-    "en": "Joseph Schumpeter"
+    "en": "Joseph Schumpeter",
+    "short": "熊彼特"
   },
-  "巴克": {
+  "罗杰·巴克": {
     "full": "罗杰·巴克",
-    "en": "Roger Barker"
+    "en": "Roger Barker",
+    "short": "巴克"
   },
-  "马奇": {
+  "詹姆斯·马奇": {
     "full": "詹姆斯·马奇",
-    "en": "James March"
+    "en": "James March",
+    "short": "马奇"
   },
-  "西特金": {
+  "西姆·西特金": {
     "full": "西姆·西特金",
-    "en": "Sim Sitkin"
+    "en": "Sim Sitkin",
+    "short": "西特金"
   },
-  "Grassé": {
+  "皮埃尔-保罗·格拉塞": {
     "full": "皮埃尔-保罗·格拉塞",
-    "en": "Pierre-Paul Grassé"
+    "en": "Pierre-Paul Grassé",
+    "short": "Grassé"
   },
-  "Hayek": {
+  "弗里德里希·哈耶克": {
     "full": "弗里德里希·哈耶克",
-    "en": "Friedrich Hayek"
+    "en": "Friedrich Hayek",
+    "short": "Hayek"
   },
-  "Nonaka": {
+  "野中郁次郎": {
     "full": "野中郁次郎",
-    "en": "Ikujiro Nonaka"
+    "en": "Ikujiro Nonaka",
+    "short": "Nonaka"
   },
-  "Takeuchi": {
+  "竹内弘高": {
     "full": "竹内弘高",
-    "en": "Hirotaka Takeuchi"
+    "en": "Hirotaka Takeuchi",
+    "short": "Takeuchi"
   },
-  "Lave": {
+  "珍妮·拉夫": {
     "full": "珍妮·拉夫",
-    "en": "Jean Lave"
+    "en": "Jean Lave",
+    "short": "Lave"
   },
-  "Wenger": {
+  "埃蒂安·温格_Wenger": {
     "full": "埃蒂安·温格",
-    "en": "Etienne Wenger"
+    "en": "Etienne Wenger",
+    "short": "Wenger"
   },
-  "Henderson": {
+  "布鲁斯·亨德森": {
     "full": "布鲁斯·亨德森",
-    "en": "Bruce Henderson"
+    "en": "Bruce Henderson",
+    "short": "Henderson"
   },
-  "Christensen": {
+  "克莱顿·克里斯坦森": {
     "full": "克莱顿·克里斯坦森",
-    "en": "Clayton Christensen"
+    "en": "Clayton Christensen",
+    "short": "Christensen"
   },
-  "Teece": {
+  "大卫·蒂斯": {
     "full": "大卫·蒂斯",
-    "en": "David Teece"
+    "en": "David Teece",
+    "short": "Teece"
   },
-  "Myers": {
+  "斯图尔特·迈尔斯": {
     "full": "斯图尔特·迈尔斯",
-    "en": "Stewart Myers"
+    "en": "Stewart Myers",
+    "short": "Myers"
   },
-  "Musk": {
+  "伊隆·马斯克": {
     "full": "伊隆·马斯克",
-    "en": "Elon Musk"
+    "en": "Elon Musk",
+    "short": "Musk"
   },
-  "Handy": {
+  "查尔斯·汉迪": {
     "full": "查尔斯·汉迪",
-    "en": "Charles Handy"
+    "en": "Charles Handy",
+    "short": "Handy"
   },
-  "Dorsey": {
+  "帕特·多尔西": {
     "full": "帕特·多尔西",
-    "en": "Pat Dorsey"
+    "en": "Pat Dorsey",
+    "short": "Dorsey"
   },
   "吉姆·柯林斯": {
     "full": "吉姆·柯林斯",
-    "en": "Jim Collins"
+    "en": "Jim Collins",
+    "short": "吉姆·柯林斯"
   },
-  "Sarasvathy": {
+  "萨拉·萨拉斯瓦西": {
     "full": "萨拉·萨拉斯瓦西",
-    "en": "Saras Sarasvathy"
+    "en": "Saras Sarasvathy",
+    "short": "Sarasvathy"
   },
-  "Johnson_Clay": {
+  "克莱·约翰逊": {
     "full": "克莱·约翰逊",
-    "en": "Clay Johnson"
+    "en": "Clay Johnson",
+    "short": "Johnson_Clay"
   },
-  "Johnson_Gerry": {
+  "杰里·约翰逊": {
     "full": "杰里·约翰逊",
-    "en": "Gerry Johnson"
+    "en": "Gerry Johnson",
+    "short": "Johnson_Gerry"
   },
-  "Myers_David": {
+  "大卫·迈尔斯": {
     "full": "大卫·迈尔斯",
-    "en": "David Myers"
+    "en": "David Myers",
+    "short": "Myers_David"
   },
-  "Johnson": {
+  "马克·约翰逊": {
     "full": "马克·约翰逊",
-    "en": "Mark Johnson"
+    "en": "Mark Johnson",
+    "short": "Johnson"
   },
-  "Dweck": {
+  "卡罗尔·德韦克": {
     "full": "卡罗尔·德韦克",
-    "en": "Carol Dweck"
+    "en": "Carol Dweck",
+    "short": "Dweck"
   },
-  "McAdams": {
+  "丹·麦克亚当斯": {
     "full": "丹·麦克亚当斯",
-    "en": "Dan McAdams"
+    "en": "Dan McAdams",
+    "short": "McAdams"
   },
-  "Shapiro": {
+  "卡尔·夏皮罗": {
     "full": "卡尔·夏皮罗",
-    "en": "Carl Shapiro"
+    "en": "Carl Shapiro",
+    "short": "Shapiro"
   },
-  "Varian": {
+  "哈尔·瓦里安": {
     "full": "哈尔·瓦里安",
-    "en": "Hal Varian"
+    "en": "Hal Varian",
+    "short": "Varian"
   },
-  "Tirole": {
+  "让·梯若尔": {
     "full": "让·梯若尔",
-    "en": "Jean Tirole"
+    "en": "Jean Tirole",
+    "short": "Tirole"
   },
-  "Rochet": {
+  "马克·罗切特": {
     "full": "马克·罗切特",
-    "en": "Marc Rochet"
+    "en": "Marc Rochet",
+    "short": "Rochet"
   },
-  "McAfee": {
+  "安德鲁·麦卡菲": {
     "full": "安德鲁·麦卡菲",
-    "en": "Andrew McAfee"
+    "en": "Andrew McAfee",
+    "short": "McAfee"
   },
-  "Brynjolfsson": {
+  "埃里克·布林约尔松": {
     "full": "埃里克·布林约尔松",
-    "en": "Erik Brynjolfsson"
+    "en": "Erik Brynjolfsson",
+    "short": "Brynjolfsson"
   },
-  "Gawer": {
+  "安·加库马": {
     "full": "安·加库马",
-    "en": "Annabelle Gawer"
+    "en": "Annabelle Gawer",
+    "short": "Gawer"
   },
-  "Cusumano": {
+  "迈克尔·库斯马诺": {
     "full": "迈克尔·库斯马诺",
-    "en": "Michael Cusumano"
+    "en": "Michael Cusumano",
+    "short": "Cusumano"
   },
-  "Brandenberger": {
+  "亚当·布兰登伯格": {
     "full": "亚当·布兰登伯格",
-    "en": "Adam Brandenburger"
+    "en": "Adam Brandenburger",
+    "short": "Brandenberger"
   },
-  "Nalebuff": {
+  "巴里·纳尔巴夫": {
     "full": "巴里·纳尔巴夫",
-    "en": "Barry Nalebuff"
+    "en": "Barry Nalebuff",
+    "short": "Nalebuff"
   },
-  "乌达尔": {
+  "让-皮埃尔·乌达尔": {
     "full": "让-皮埃尔·乌达尔",
-    "en": "Jean-Pierre Oudart"
+    "en": "Jean-Pierre Oudart",
+    "short": "乌达尔"
   },
-  "达扬": {
+  "丹尼尔·达扬": {
     "full": "丹尼尔·达扬",
-    "en": "Daniel Dayan"
+    "en": "Daniel Dayan",
+    "short": "达扬"
   },
-  "西尔弗曼": {
+  "凯尔·西尔弗曼": {
     "full": "凯尔·西尔弗曼",
-    "en": "Kaja Silverman"
+    "en": "Kaja Silverman",
+    "short": "西尔弗曼"
   },
-  "穆尔维": {
+  "劳拉·穆尔维": {
     "full": "劳拉·穆尔维",
-    "en": "Laura Mulvey"
+    "en": "Laura Mulvey",
+    "short": "穆尔维"
   },
-  "谢弗": {
+  "默里·谢弗": {
     "full": "默里·谢弗",
-    "en": "R. Murray Schafer"
+    "en": "R. Murray Schafer",
+    "short": "谢弗"
   },
-  "希翁": {
+  "米歇尔·希翁": {
     "full": "米歇尔·希翁",
-    "en": "Michel Chion"
+    "en": "Michel Chion",
+    "short": "希翁"
   },
-  "热奈特": {
+  "热拉尔·热奈特": {
     "full": "热拉尔·热奈特",
-    "en": "Gérard Genette"
+    "en": "Gérard Genette",
+    "short": "热奈特"
   },
-  "博德威尔": {
+  "大卫·博德威尔": {
     "full": "大卫·博德威尔",
-    "en": "David Bordwell"
+    "en": "David Bordwell",
+    "short": "博德威尔"
   },
-  "巴赞": {
+  "安德烈·巴赞": {
     "full": "安德烈·巴赞",
-    "en": "André Bazin"
+    "en": "André Bazin",
+    "short": "巴赞"
   },
-  "爱森斯坦": {
+  "谢尔盖·爱森斯坦": {
     "full": "谢尔盖·爱森斯坦",
-    "en": "Sergei Eisenstein"
+    "en": "Sergei Eisenstein",
+    "short": "爱森斯坦"
   },
-  "布斯": {
+  "韦恩·布斯": {
     "full": "韦恩·布斯",
-    "en": "Wayne Booth"
+    "en": "Wayne Booth",
+    "short": "布斯"
   },
-  "布鲁克斯": {
+  "彼得·布鲁克斯": {
     "full": "彼得·布鲁克斯",
-    "en": "Peter Brooks"
+    "en": "Peter Brooks",
+    "short": "布鲁克斯"
   },
-  "麦克亚当斯": {
+  "丹·麦克亚当斯_麦克亚当斯": {
     "full": "丹·麦克亚当斯",
-    "en": "Dan McAdams"
+    "en": "Dan McAdams",
+    "short": "麦克亚当斯"
   },
-  "麦克": {
+  "阿丽恩·麦克": {
     "full": "阿丽恩·麦克",
-    "en": "Arien Mack"
+    "en": "Arien Mack",
+    "short": "麦克"
   },
-  "罗克": {
+  "欧文·罗克": {
     "full": "欧文·罗克",
-    "en": "Irvin Rock"
+    "en": "Irvin Rock",
+    "short": "罗克"
   },
-  "西蒙斯": {
+  "丹尼尔·西蒙斯": {
     "full": "丹尼尔·西蒙斯",
-    "en": "Daniel Simons"
+    "en": "Daniel Simons",
+    "short": "西蒙斯"
   },
-  "查布里斯": {
+  "克里斯托弗·查布里斯": {
     "full": "克里斯托弗·查布里斯",
-    "en": "Christopher Chabris"
+    "en": "Christopher Chabris",
+    "short": "查布里斯"
   },
-  "弗里斯顿": {
+  "卡尔·弗里斯顿": {
     "full": "卡尔·弗里斯顿",
-    "en": "Karl Friston"
+    "en": "Karl Friston",
+    "short": "弗里斯顿"
   },
-  "查尔默斯": {
+  "大卫·查尔默斯": {
     "full": "大卫·查尔默斯",
-    "en": "David Chalmers"
+    "en": "David Chalmers",
+    "short": "查尔默斯"
   },
-  "巴奇": {
+  "约翰·巴奇": {
     "full": "约翰·巴奇",
-    "en": "John Bargh"
+    "en": "John Bargh",
+    "short": "巴奇"
   },
-  "巴尔斯": {
+  "伯纳德·巴尔斯": {
     "full": "伯纳德·巴尔斯",
-    "en": "Bernard Baars"
+    "en": "Bernard Baars",
+    "short": "巴尔斯"
   },
-  "芬奇": {
+  "鲁思·芬奇": {
     "full": "鲁思·芬奇",
-    "en": "Ruth Finnegan"
+    "en": "Ruth Finnegan",
+    "short": "芬奇"
   },
-  "拉马钱德兰": {
+  "维莱亚努尔·拉马钱德兰": {
     "full": "维莱亚努尔·拉马钱德兰",
-    "en": "Vilayanur Ramachandran"
+    "en": "Vilayanur Ramachandran",
+    "short": "拉马钱德兰"
   },
-  "鲁宾": {
+  "埃德加·鲁宾": {
     "full": "埃德加·鲁宾",
-    "en": "Edgar Rubin"
+    "en": "Edgar Rubin",
+    "short": "鲁宾"
   },
-  "特吕弗": {
+  "弗朗索瓦·特吕弗": {
     "full": "弗朗索瓦·特吕弗",
-    "en": "François Truffaut"
+    "en": "François Truffaut",
+    "short": "特吕弗"
   },
-  "阿斯特吕克": {
+  "亚历山大·阿斯特吕克": {
     "full": "亚历山大·阿斯特吕克",
-    "en": "Alexandre Astruc"
+    "en": "Alexandre Astruc",
+    "short": "阿斯特吕克"
   },
-  "维尔托夫": {
+  "吉加·维尔托夫": {
     "full": "吉加·维尔托夫",
-    "en": "Dziga Vertov"
+    "en": "Dziga Vertov",
+    "short": "维尔托夫"
   },
-  "萨利斯": {
+  "保罗·萨利斯": {
     "full": "保罗·萨利斯",
-    "en": "Paul Sarris"
+    "en": "Paul Sarris",
+    "short": "萨利斯"
   },
-  "威尔斯": {
+  "奥逊·威尔斯": {
     "full": "奥逊·威尔斯",
-    "en": "Orson Welles"
+    "en": "Orson Welles",
+    "short": "威尔斯"
   },
-  "托兰德": {
+  "格里高利·托兰德": {
     "full": "格里高利·托兰德",
-    "en": "Gregg Toland"
+    "en": "Gregg Toland",
+    "short": "托兰德"
   },
-  "契诃夫": {
+  "安东·契诃夫": {
     "full": "安东·契诃夫",
-    "en": "Anton Chekhov"
+    "en": "Anton Chekhov",
+    "short": "契诃夫"
   },
-  "希区柯克": {
+  "阿尔弗雷德·希区柯克": {
     "full": "阿尔弗雷德·希区柯克",
-    "en": "Alfred Hitchcock"
+    "en": "Alfred Hitchcock",
+    "short": "希区柯克"
   },
-  "海明威": {
+  "欧内斯特·海明威": {
     "full": "欧内斯特·海明威",
-    "en": "Ernest Hemingway"
+    "en": "Ernest Hemingway",
+    "short": "海明威"
   },
-  "塔夫特": {
+  "爱德华·塔夫特": {
     "full": "爱德华·塔夫特",
-    "en": "Edward Tufte"
+    "en": "Edward Tufte",
+    "short": "塔夫特"
   },
-  "戈德罗": {
+  "安德烈·戈德罗": {
     "full": "安德烈·戈德罗",
-    "en": "André Gaudreault"
+    "en": "André Gaudreault",
+    "short": "戈德罗"
   },
-  "若斯特": {
+  "弗朗索瓦·若斯特": {
     "full": "弗朗索瓦·若斯特",
-    "en": "François Jost"
+    "en": "François Jost",
+    "short": "若斯特"
   },
-  "安东尼奥尼": {
+  "米开朗基罗·安东尼奥尼": {
     "full": "米开朗基罗·安东尼奥尼",
-    "en": "Michelangelo Antonioni"
+    "en": "Michelangelo Antonioni",
+    "short": "安东尼奥尼"
   },
-  "戈达尔": {
+  "让-吕克·戈达尔": {
     "full": "让-吕克·戈达尔",
-    "en": "Jean-Luc Godard"
+    "en": "Jean-Luc Godard",
+    "short": "戈达尔"
   },
-  "坎贝尔": {
+  "约瑟夫·坎贝尔": {
     "full": "约瑟夫·坎贝尔",
-    "en": "Joseph Campbell"
+    "en": "Joseph Campbell",
+    "short": "坎贝尔"
   },
   "唐纳德·坎贝尔": {
     "full": "唐纳德·坎贝尔",
-    "en": "Donald Campbell"
+    "en": "Donald Campbell",
+    "short": "唐纳德·坎贝尔"
   },
-  "沃格勒": {
+  "克里斯托弗·沃格勒": {
     "full": "克里斯托弗·沃格勒",
-    "en": "Christopher Vogler"
+    "en": "Christopher Vogler",
+    "short": "沃格勒"
   },
-  "布列松": {
+  "罗伯特·布列松": {
     "full": "罗伯特·布列松",
-    "en": "Robert Bresson"
+    "en": "Robert Bresson",
+    "short": "布列松"
   },
-  "格里菲斯": {
+  "大卫·格里菲斯": {
     "full": "大卫·格里菲斯",
-    "en": "D.W. Griffith"
+    "en": "D.W. Griffith",
+    "short": "格里菲斯"
   },
-  "匹克特": {
+  "路易吉·匹克特": {
     "full": "路易吉·匹克特",
-    "en": "Luigi Pirandello"
+    "en": "Luigi Pirandello",
+    "short": "匹克特"
   },
-  "马尔克斯": {
+  "加夫列尔·加西亚·马尔克斯": {
     "full": "加夫列尔·加西亚·马尔克斯",
-    "en": "Gabriel García Márquez"
+    "en": "Gabriel García Márquez",
+    "short": "马尔克斯"
   },
-  "卡夫卡": {
+  "弗朗茨·卡夫卡": {
     "full": "弗朗茨·卡夫卡",
-    "en": "Franz Kafka"
+    "en": "Franz Kafka",
+    "short": "卡夫卡"
   },
-  "德尔·托罗": {
+  "吉尔莫·德尔·托罗": {
     "full": "吉尔莫·德尔·托罗",
-    "en": "Guillermo del Toro"
+    "en": "Guillermo del Toro",
+    "short": "德尔·托罗"
   },
-  "冯内古特": {
+  "库尔特·冯内古特": {
     "full": "库尔特·冯内古特",
-    "en": "Kurt Vonnegut"
+    "en": "Kurt Vonnegut",
+    "short": "冯内古特"
   },
-  "麦茨": {
+  "克里斯蒂安·麦茨": {
     "full": "克里斯蒂安·麦茨",
-    "en": "Christian Metz"
+    "en": "Christian Metz",
+    "short": "麦茨"
   },
   "雷德利·斯科特": {
     "full": "雷德利·斯科特",
-    "en": "Ridley Scott"
+    "en": "Ridley Scott",
+    "short": "雷德利·斯科特"
   },
   "伍迪·艾伦": {
     "full": "伍迪·艾伦",
-    "en": "Woody Allen"
+    "en": "Woody Allen",
+    "short": "伍迪·艾伦"
   },
-  "麦基": {
+  "罗伯特·麦基": {
     "full": "罗伯特·麦基",
-    "en": "Robert McKee"
+    "en": "Robert McKee",
+    "short": "麦基"
   },
   "莫里哀": {
     "full": "莫里哀",
-    "en": "Molière"
+    "en": "Molière",
+    "short": "莫里哀"
   },
-  "拉辛": {
+  "让·拉辛": {
     "full": "让·拉辛",
-    "en": "Jean Racine"
+    "en": "Jean Racine",
+    "short": "拉辛"
   }
 }

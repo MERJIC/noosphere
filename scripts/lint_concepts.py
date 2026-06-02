@@ -413,31 +413,30 @@ def check_file(filepath: str, scholar_dict: dict, fix: bool = False) -> List[dic
     # 此规则主要靠 F06 的 FORBIDDEN_SECTIONS 覆盖
 
     # ── 9. 学者名标注合规 ───────────────────────────────────
-    # 检查 scholar-dict.json 中的学者是否在正文中首次出现时缺少英文括注
+    # 检查 scholar-dict.json 中的学者是否在正文中首次出现时缺少英文括号注
     # 正确格式：全名（English Name），如 吉尔·德勒兹（Gilles Deleuze）
-    # 覆盖两种情况：(a) 全名裸出现 (b) 短名（dict key）裸出现
+    # 字典 key 为全名，info["short"] 为搜索用短名/姓氏
+    # 覆盖两种情况：(a) 全名裸出现 (b) 短名裸出现
     for key, info in scholar_dict.items():
         full_name = info["full"]
         en_name = info["en"]
-        short_name = key  # dict key，如 "爱森斯坦"、"柏格森"
+        short_name = info.get("short", key)  # 搜索用短名，优先取 short 字段
 
         # 排除 wikilinks 和 frontmatter 中的出现
         body_clean = re.sub(r"\[\[.*?\]\]", "", body)
 
         has_full = bool(re.search(re.escape(full_name), body_clean))
-        # 短名匹配时，排除已是其他已标注更大学者名子串的情况（如同姓不同人）
-        _short_match = re.search(re.escape(short_name), body_clean)
-        has_short = (short_name != full_name) and bool(_short_match)
+        has_short = (short_name != full_name) and bool(re.search(re.escape(short_name), body_clean))
+        # 短名消歧：如果短名只是另一个已正确标注学者全名的子串，跳过
         if has_short:
-            # 检查该短名是否仅为某个已有正确标注的更大学者名的子串
-            for _other_key, _other_info in scholar_dict.items():
-                if _other_key == key:
+            for _okey, _oinfo in scholar_dict.items():
+                if _okey == key:
                     continue
-                _other_full = _other_info["full"]
-                _other_en = _other_info["en"]
-                if short_name in _other_full and len(_other_full) > len(short_name):
-                    _other_correct = re.escape(_other_full) + r"（" + re.escape(_other_en) + r"）"
-                    if re.search(_other_correct, content):
+                _ofull = _oinfo["full"]
+                _oen = _oinfo["en"]
+                if short_name in _ofull and len(_ofull) > len(short_name):
+                    _ocorrect = re.escape(_ofull) + r"（" + re.escape(_oen) + r"）"
+                    if re.search(_ocorrect, content):
                         has_short = False
                         break
 
