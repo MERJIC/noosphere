@@ -21,30 +21,35 @@ description: "将某个学科领域中晦涩的学术理论/原理，通过寓�
 
 在内部确定原理名称，**暂不向用户透露**。
 
-确定后，通过 `concept_lite.json` 查重（禁止读取 INDEX.md 或旧格式 concept_index.json）：
-
-索引固定路径：`/Users/myke/Documents/MERJIC/概念库/memory/concept_lite.json`。找不到说明路径写错了，检查后重试。
+确定后，用查重脚本检测是否已存在：
 
 ```bash
-python3 -c "
-import json
-with open('/Users/myke/Documents/MERJIC/概念库/memory/concept_lite.json') as f:
-    idx = json.load(f)
-name = '中文名'
-en = 'English Name'
-hit = name in idx.get('names', [])
-if not hit and en:
-    hit = en.lower() in idx.get('name_en_index', {})
-if not hit:
-    aliases = idx.get('name_aliases', {})
-    for alias, canonical in aliases.items():
-        if name in alias or en.lower() in alias.lower():
-            hit = True; break
-print('重复' if hit else '可用')
-"
+python3 scripts/check_duplicate.py "中文名" "English Name"
 ```
 
-中文名或英文原名任一命中即视为重复，换一个概念重查。
+脚本路径：`/Users/myke/Documents/MERJIC/概念库/scripts/check_duplicate.py`。找不到说明路径写错了，检查后重试。
+
+**匹配策略（7 层，按优先级）：**
+1. 中文名精确匹配
+2. 英文名精确匹配
+3. 别名正/反查
+4. 中文名子串双向包含（≥2 字）
+5. 英文名关键词重叠（≥2 词）
+6. 编辑距离（短名称 ≤6 字时启用）
+7. 跨名映射表（同一概念的多种叫法，如「阿格里帕三难」=「明希豪森三重困境」）
+
+输出三种结果：
+- **可用** — 无任何命中，可以建页
+- **⚠ 弱命中** — 子串/关键词重叠，需人工判断是否为同一概念
+- **❌ 重复** — 精确/别名/跨名映射命中，确认重复
+
+批量查多个候选：
+```bash
+python3 scripts/check_duplicate.py --batch        # 交互式逐个输入
+python3 scripts/check_duplicate.py -f candidates.txt  # 从文件读取
+```
+
+❌ 重复 或 ⚠ 弱命中且确认为同一概念时，换一个重查。
 
 ### Step 2 — 构建故事
 

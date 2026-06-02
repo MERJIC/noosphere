@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（198 个）
+### 哲学（199 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -203,6 +203,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [战略无知（Strategic Ignorance）](%E6%88%98%E7%95%A5%E6%97%A0%E7%9F%A5.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
 - [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [知彼知己（Zhi Bi Zhi Ji / Know the Other, Know Yourself）](%E7%9F%A5%E5%BD%BC%E7%9F%A5%E5%B7%B1.md)
 - [执两用中（Zhi Liang Yong Zhong / Holding Both Ends, Using the Middle）](%E6%89%A7%E4%B8%A4%E7%94%A8%E4%B8%AD.md)
 - [致虚极守静笃（Zhi Xu Ji Shou Jing Du / Attain the Utmost Void, Guard the Firmest Stillness）](%E8%87%B4%E8%99%9A%E6%9E%81%E5%AE%88%E9%9D%99%E7%AC%83.md)
@@ -1018,7 +1019,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力残留（Attention Residue）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%AE%8B%E7%95%99.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 冲突（59 个）
+### 冲突（60 个）
 
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
@@ -1076,6 +1077,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信号成本理论（Costly Signaling Theory）](%E4%BF%A1%E5%8F%B7%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA.md)
 - [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
 - [语言游戏（Language Game）](%E8%AF%AD%E8%A8%80%E6%B8%B8%E6%88%8F.md)
+- [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [执两用中（Zhi Liang Yong Zhong / Holding Both Ends, Using the Middle）](%E6%89%A7%E4%B8%A4%E7%94%A8%E4%B8%AD.md)
 - [子目标冲突（Subgoal Conflict）](%E5%AD%90%E7%9B%AE%E6%A0%87%E5%86%B2%E7%AA%81.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
@@ -1807,7 +1809,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（118 个）
+### 关系（119 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1920,6 +1922,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [晕轮效应（Halo Effect）](%E6%99%95%E8%BD%AE%E6%95%88%E5%BA%94.md)
 - [责任扩散（Diffusion of Responsibility）](%E8%B4%A3%E4%BB%BB%E6%89%A9%E6%95%A3.md)
 - [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [智识谦逊（Intellectual Humility）](%E6%99%BA%E8%AF%86%E8%B0%A6%E9%80%8A.md)
 - [重复博弈（Repeated Game）](%E9%87%8D%E5%A4%8D%E5%8D%9A%E5%BC%88.md)
@@ -2584,7 +2587,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（183 个）
+### 决策（184 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2756,6 +2759,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [灾难正常化（Normalization of Deviance）](%E7%81%BE%E9%9A%BE%E6%AD%A3%E5%B8%B8%E5%8C%96.md)
 - [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
 - [证实偏差（Confirmation Bias）](%E8%AF%81%E5%AE%9E%E5%81%8F%E5%B7%AE.md)
+- [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [知彼知己（Zhi Bi Zhi Ji / Know the Other, Know Yourself）](%E7%9F%A5%E5%BD%BC%E7%9F%A5%E5%B7%B1.md)
 - [知识半衰期（Knowledge Half-life）](%E7%9F%A5%E8%AF%86%E5%8D%8A%E8%A1%B0%E6%9C%9F.md)
 - [知识问题（Knowledge Problem）](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md)
