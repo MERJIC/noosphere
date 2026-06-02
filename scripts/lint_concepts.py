@@ -413,27 +413,48 @@ def check_file(filepath: str, scholar_dict: dict, fix: bool = False) -> List[dic
     # 此规则主要靠 F06 的 FORBIDDEN_SECTIONS 覆盖
 
     # ── 9. 学者名标注合规 ───────────────────────────────────
-    # 检查 scholar-dict.json 中的学者是否在正文中出现时缺少英文括注
-    # （这个检查由 Noosphere 插件处理，这里做轻量级扫描）
-    # 简化：检查正文中是否包含学者全名但没有英文括注的首次出现
+    # 检查 scholar-dict.json 中的学者是否在正文中首次出现时缺少英文括注
+    # 正确格式：全名（English Name），如 吉尔·德勒兹（Gilles Deleuze）
+    # 覆盖两种情况：(a) 全名裸出现 (b) 短名（dict key）裸出现
     for key, info in scholar_dict.items():
         full_name = info["full"]
         en_name = info["en"]
-        # 在正文中搜索全名出现
-        # 排除 frontmatter 和 wikilinks 中的出现
+        short_name = key  # dict key，如 "爱森斯坦"、"柏格森"
+
+        # 排除 wikilinks 和 frontmatter 中的出现
         body_clean = re.sub(r"\[\[.*?\]\]", "", body)
-        if re.search(re.escape(full_name), body_clean):
-            # 检查同一行是否有英文括注
-            # 正确格式：全名（English Name）
-            correct_pattern = re.escape(full_name) + r"（" + re.escape(en_name) + r"）"
-            # 也检查 markdown 表格中的分列格式（圆桌嘉宾表）
-            # 简化：只报 if 全名出现但整个文件没有 全名（英文名 的格式
-            if not re.search(correct_pattern, content) and not re.search(
-                re.escape(en_name), body_clean
-            ):
-                # 只在学者第一次出现时检查——如果有圆桌表格包含该英文名则算通过
-                # 这个规则比较复杂，简化为：只报 warning 级别
-                pass  # 让 Noosphere 插件处理精确检查
+
+        has_full = bool(re.search(re.escape(full_name), body_clean))
+        has_short = (short_name != full_name) and bool(re.search(re.escape(short_name), body_clean))
+
+        if not has_full and not has_short:
+            continue
+
+        # 已有正确格式的 全名（En Name）→ 跳过
+        correct_pattern = re.escape(full_name) + r"（" + re.escape(en_name) + r"）"
+        if re.search(correct_pattern, content):
+            continue
+        # 英文名已以其他形式出现在正文中（如表格列）→ 跳过
+        if re.search(re.escape(en_name), body_clean):
+            continue
+
+        # 全名裸出现 → 补英文名
+        if has_full:
+            issues.append({
+                "rule": "F09", "concept": concept_name,
+                "msg": f"学者「{full_name}」缺英文名标注（应为{full_name}（{en_name}））",
+                "fixable": True, "auto_fix": "fix_scholar_name_full",
+                "detail": {"full": full_name, "en": en_name},
+            })
+        # 短名裸出现且短名≠全名 → 替换为全名（En Name）
+        # 过滤过短的短名（≤1 字）避免大量误报
+        elif has_short and len(short_name) > 1:
+            issues.append({
+                "rule": "F09", "concept": concept_name,
+                "msg": f"学者「{short_name}」使用了短名缺标注（应为{full_name}（{en_name}））",
+                "fixable": True, "auto_fix": "fix_scholar_name_short",
+                "detail": {"short": short_name, "full": full_name, "en": en_name},
+            })
 
     # ── 10. 圆桌嘉宾行格式 ──────────────────────────────────
     if "圆桌沉淀" in sections:
@@ -743,6 +764,44 @@ def fix_issue(content: str, issue: dict) -> str:
                 count=1,
                 flags=re.MULTILINE,
             )
+        return content
+
+    if fix_type == "fix_scholar_name":
+        detail = issue.get("detail", {})
+        full_name = detail["full"]
+        en_name = detail["en"]
+        # 在正文（非 frontmatter）中，将首次出现的裸全名替换为 全名（En Name）
+        fm_end = content.find("---", content.find("---") + 3) + 3
+        if fm_end < 10:
+            return content
+        fm = content[:fm_end]
+        body = content[fm_end:]
+        # 替换首次出现的全名（不在 wikilink 内）
+        replacement = f"{full_name}（{en_name}）"
+        new_body = re.sub(
+            re.escape(full_name), replacement, body, count=1
+        )
+        if new_body != body:
+            return fm + new_body
+        return content
+
+    if fix_type == "fix_scholar_name_short":
+        detail = issue.get("detail", {})
+        short_name = detail["short"]
+        full_name = detail["full"]
+        en_name = detail["en"]
+        # 将正文中首次出现的短名替换为 全名（En Name）
+        fm_end = content.find("---", content.find("---") + 3) + 3
+        if fm_end < 10:
+            return content
+        fm = content[:fm_end]
+        body = content[fm_end:]
+        replacement = f"{full_name}（{en_name}）"
+        new_body = re.sub(
+            re.escape(short_name), replacement, body, count=1
+        )
+        if new_body != body:
+            return fm + new_body
         return content
 
     return content
