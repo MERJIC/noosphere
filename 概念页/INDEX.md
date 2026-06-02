@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（200 个）
+### 哲学（201 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -45,6 +45,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [第一人称权威（First-Person Authority）](%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E6%9D%83%E5%A8%81.md)
 - [第一性原理（First Principles Thinking）](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
 - [独断的睡眠（Dogmatic Slumber）](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
+- [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [对位法（Counterpoint）](%E5%AF%B9%E4%BD%8D%E6%B3%95.md)
 - [二阶控制论（Second-Order Cybernetics）](%E4%BA%8C%E9%98%B6%E6%8E%A7%E5%88%B6%E8%AE%BA.md)
 - [二阶欲望（Second-Order Desire）](%E4%BA%8C%E9%98%B6%E6%AC%B2%E6%9C%9B.md)
@@ -214,7 +215,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（166 个）
+### 心理学（167 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -240,6 +241,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德直觉（Moral Intuition）](%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89.md)
 - [邓巴数（Dunbar's Number）](%E9%82%93%E5%B7%B4%E6%95%B0.md)
 - [动机性推理（Motivated Reasoning）](%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86.md)
+- [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [多巴胺经济（Dopamine Economy）](%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%8F%E6%B5%8E.md)
 - [多数无知（Pluralistic Ignorance）](%E5%A4%9A%E6%95%B0%E6%97%A0%E7%9F%A5.md)
 - [多元无知（Pluralistic Ignorance）](%E5%A4%9A%E5%85%83%E6%97%A0%E7%9F%A5.md)
@@ -1140,7 +1142,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 
-### 反转（108 个）
+### 反转（109 个）
 
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -1161,6 +1163,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德许可效应（Moral Licensing Effect）](%E9%81%93%E5%BE%B7%E8%AE%B8%E5%8F%AF%E6%95%88%E5%BA%94.md)
 - [等终局性（Equifinality）](%E7%AD%89%E7%BB%88%E5%B1%80%E6%80%A7.md)
 - [第四面墙（Fourth Wall）](%E7%AC%AC%E5%9B%9B%E9%9D%A2%E5%A2%99.md)
+- [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [凡勃仑效应（Veblen Effect）](%E5%87%A1%E5%8B%83%E4%BB%91%E6%95%88%E5%BA%94.md)
 - [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
 - [反者道之动（Reversal is the Movement of the Dao）](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
@@ -1555,7 +1558,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（254 个）
+### 自我（255 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1602,6 +1605,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [第一人称权威（First-Person Authority）](%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E6%9D%83%E5%A8%81.md)
 - [动机性推理（Motivated Reasoning）](%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86.md)
 - [独断的睡眠（Dogmatic Slumber）](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
+- [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [二阶控制论（Second-Order Cybernetics）](%E4%BA%8C%E9%98%B6%E6%8E%A7%E5%88%B6%E8%AE%BA.md)
 - [二阶欲望（Second-Order Desire）](%E4%BA%8C%E9%98%B6%E6%AC%B2%E6%9C%9B.md)
 - [二手经验（Second-Hand Experience）](%E4%BA%8C%E6%89%8B%E7%BB%8F%E9%AA%8C.md)
