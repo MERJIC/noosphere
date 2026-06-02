@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（194 个）
+### 哲学（196 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -89,6 +89,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [经权（Jing Quan / Principle and Expediency）](%E7%BB%8F%E6%9D%83.md)
 - [经验主义（Empiricism）](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
 - [惊异（Wonder / Thaumazein）](%E6%83%8A%E5%BC%82.md)
+- [晶体-影像（image-cristal）](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
 - [景观社会（Society of the Spectacle）](%E6%99%AF%E8%A7%82%E7%A4%BE%E4%BC%9A.md)
 - [镜面认同（Mirror Stage Recognition / Lacanian Mirror in Film）](%E9%95%9C%E9%9D%A2%E8%AE%A4%E5%90%8C.md)
 - [镜像阶段（Mirror Stage）](%E9%95%9C%E5%83%8F%E9%98%B6%E6%AE%B5.md)
@@ -195,6 +196,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [预先承诺（Precommitment）](%E9%A2%84%E5%85%88%E6%89%BF%E8%AF%BA.md)
 - [元操作（Meta-operation）](%E5%85%83%E6%93%8D%E4%BD%9C.md)
 - [元叙事（Metanarrative）](%E5%85%83%E5%8F%99%E4%BA%8B.md)
+- [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
 - [早熟抽象（Premature Abstraction）](%E6%97%A9%E7%86%9F%E6%8A%BD%E8%B1%A1.md)
 - [战略无知（Strategic Ignorance）](%E6%88%98%E7%95%A5%E6%97%A0%E7%9F%A5.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
@@ -748,7 +750,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 
-### 艺术（118 个）
+### 艺术（120 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不可靠放映（Unreliable Projection / Unreliable Cinema）](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%94%BE%E6%98%A0.md)
@@ -790,6 +792,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [技艺（Technē / Craft）](%E6%8A%80%E8%89%BA.md)
 - [间离效果（Verfremdungseffekt）](%E9%97%B4%E7%A6%BB%E6%95%88%E6%9E%9C.md)
 - [经典化机制（Canon Formation）](%E7%BB%8F%E5%85%B8%E5%8C%96%E6%9C%BA%E5%88%B6.md)
+- [晶体-影像（image-cristal）](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
 - [景深构图（Deep Focus Composition）](%E6%99%AF%E6%B7%B1%E6%9E%84%E5%9B%BE.md)
 - [镜面认同（Mirror Stage Recognition / Lacanian Mirror in Film）](%E9%95%9C%E9%9D%A2%E8%AE%A4%E5%90%8C.md)
 - [开放结局叙事（Narrative Aperture）](%E5%BC%80%E6%94%BE%E7%BB%93%E5%B1%80%E5%8F%99%E4%BA%8B.md)
@@ -864,6 +867,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [元小说（Metafiction）](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
 - [元叙事（Metanarrative）](%E5%85%83%E5%8F%99%E4%BA%8B.md)
 - [原型批评（Archetypal Criticism）](%E5%8E%9F%E5%9E%8B%E6%89%B9%E8%AF%84.md)
+- [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
 - [展示而非讲述（Show, Don't Tell）](%E5%B1%95%E7%A4%BA%E8%80%8C%E9%9D%9E%E8%AE%B2%E8%BF%B0.md)
 - [主观镜头（Subjective Camera / POV Shot）](%E4%B8%BB%E8%A7%82%E9%95%9C%E5%A4%B4.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
@@ -871,7 +875,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按结构模式
 
-### 悖论（34 个）
+### 悖论（35 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
@@ -885,6 +889,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [含混（Ambiguity）](%E5%90%AB%E6%B7%B7.md)
 - [亨佩尔的乌鸦悖论（Hempel's Ravens Paradox）](%E4%BA%A8%E4%BD%A9%E5%B0%94%E7%9A%84%E4%B9%8C%E9%B8%A6%E6%82%96%E8%AE%BA.md)
 - [僵尸论证（Zombie Argument）](%E5%83%B5%E5%B0%B8%E8%AE%BA%E8%AF%81.md)
+- [晶体-影像（image-cristal）](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
@@ -1237,7 +1242,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我妨碍（Self-Handicapping）](%E8%87%AA%E6%88%91%E5%A6%A8%E7%A2%8D.md)
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 
-### 循环（114 个）
+### 循环（115 个）
 
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
@@ -1338,6 +1343,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [优先连接（Preferential Attachment）](%E4%BC%98%E5%85%88%E8%BF%9E%E6%8E%A5.md)
 - [预测编码（Predictive Coding）](%E9%A2%84%E6%B5%8B%E7%BC%96%E7%A0%81.md)
 - [原型批评（Archetypal Criticism）](%E5%8E%9F%E5%9E%8B%E6%89%B9%E8%AF%84.md)
+- [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
 - [证实偏差（Confirmation Bias）](%E8%AF%81%E5%AE%9E%E5%81%8F%E5%B7%AE.md)
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识转化（SECI Model）](%E7%9F%A5%E8%AF%86%E8%BD%AC%E5%8C%96.md)
@@ -2059,7 +2065,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 
-### 创作（191 个）
+### 创作（193 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -2132,6 +2138,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [间离效果（Verfremdungseffekt）](%E9%97%B4%E7%A6%BB%E6%95%88%E6%9E%9C.md)
 - [贱斥（Abjection）](%E8%B4%B1%E6%96%A5.md)
 - [惊异（Wonder / Thaumazein）](%E6%83%8A%E5%BC%82.md)
+- [晶体-影像（image-cristal）](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
 - [景深构图（Deep Focus Composition）](%E6%99%AF%E6%B7%B1%E6%9E%84%E5%9B%BE.md)
 - [镜面认同（Mirror Stage Recognition / Lacanian Mirror in Film）](%E9%95%9C%E9%9D%A2%E8%AE%A4%E5%90%8C.md)
 - [镜像阶段（Mirror Stage）](%E9%95%9C%E5%83%8F%E9%98%B6%E6%AE%B5.md)
@@ -2242,6 +2249,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [元小说（Metafiction）](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
 - [元叙事（Metanarrative）](%E5%85%83%E5%8F%99%E4%BA%8B.md)
 - [原型批评（Archetypal Criticism）](%E5%8E%9F%E5%9E%8B%E6%89%B9%E8%AF%84.md)
+- [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
 - [早熟抽象（Premature Abstraction）](%E6%97%A9%E7%86%9F%E6%8A%BD%E8%B1%A1.md)
 - [展示而非讲述（Show, Don't Tell）](%E5%B1%95%E7%A4%BA%E8%80%8C%E9%9D%9E%E8%AE%B2%E8%BF%B0.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
@@ -2861,3 +2869,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
+
+---
+
+## ⚠️ 待整理（1 个）
+
+> 以下概念页未通过质检，未进入主分类。修正后保存即自动归类。
+
+- [时间-影像（l'image-temps）](%E6%97%B6%E9%97%B4-%E5%BD%B1%E5%83%8F.md) — 学者「安东尼奥尼」首次出现缺英文名标注，应为「米开朗基罗·安东尼奥尼（Michelangelo Antonioni）」
