@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（197 个）
+### 哲学（198 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -102,6 +102,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
+- [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
@@ -915,7 +916,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 盲区（98 个）
+### 盲区（99 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -967,6 +968,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [刻板印象威胁（Stereotype Threat）](%E5%88%BB%E6%9D%BF%E5%8D%B0%E8%B1%A1%E5%A8%81%E8%83%81.md)
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
+- [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [麦高芬（MacGuffin）](%E9%BA%A6%E9%AB%98%E8%8A%AC.md)
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
 - [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
@@ -2339,7 +2341,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（85 个）
+### 商业（86 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -2386,6 +2388,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [科斯定理（Coase Theorem）](%E7%A7%91%E6%96%AF%E5%AE%9A%E7%90%86.md)
 - [库拉圈（Kula Ring）](%E5%BA%93%E6%8B%89%E5%9C%88.md)
 - [夸富宴（Potlatch）](%E5%A4%B8%E5%AF%8C%E5%AE%B4.md)
+- [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [马太效应（Matthew Effect）](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
@@ -2581,7 +2584,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（182 个）
+### 决策（183 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2671,6 +2674,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [粒度轴（Granularity Axis）](%E7%B2%92%E5%BA%A6%E8%BD%B4.md)
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
+- [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
 - [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
