@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（199 个）
+### 哲学（200 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -191,6 +191,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [因果过度确定（Causal Overdetermination）](%E5%9B%A0%E6%9E%9C%E8%BF%87%E5%BA%A6%E7%A1%AE%E5%AE%9A.md)
 - [隐含作者（Implied Author）](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md)
 - [隐性知识（Tacit Knowledge）](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md)
+- [影像本体论（Ontologie de l'image）](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
 - [涌现（Emergence）](%E6%B6%8C%E7%8E%B0.md)
 - [语言拐杖（Language on Holiday）](%E8%AF%AD%E8%A8%80%E6%8B%90%E6%9D%96.md)
 - [语言游戏（Language Game）](%E8%AF%AD%E8%A8%80%E6%B8%B8%E6%88%8F.md)
@@ -753,7 +754,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 
-### 艺术（121 个）
+### 艺术（122 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不可靠放映（Unreliable Projection / Unreliable Cinema）](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%94%BE%E6%98%A0.md)
@@ -863,6 +864,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
 - [隐含作者（Implied Author）](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md)
 - [英雄之旅（Hero's Journey）](%E8%8B%B1%E9%9B%84%E4%B9%8B%E6%97%85.md)
+- [影像本体论（Ontologie de l'image）](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
 - [优美（The Beautiful）](%E4%BC%98%E7%BE%8E.md)
 - [幽灵文本（Spectral Text / Palimpsest）](%E5%B9%BD%E7%81%B5%E6%96%87%E6%9C%AC.md)
 - [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
@@ -1367,7 +1369,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 错位（97 个）
+### 错位（98 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
@@ -1453,6 +1455,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [因果关系（Causality）](%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB.md)
 - [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
 - [印象管理（Impression Management）](%E5%8D%B0%E8%B1%A1%E7%AE%A1%E7%90%86.md)
+- [影像本体论（Ontologie de l'image）](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
 - [幽灵文本（Spectral Text / Palimpsest）](%E5%B9%BD%E7%81%B5%E6%96%87%E6%9C%AC.md)
 - [有毒的积极性（Toxic Positivity）](%E6%9C%89%E6%AF%92%E7%9A%84%E7%A7%AF%E6%9E%81%E6%80%A7.md)
 - [语言拐杖（Language on Holiday）](%E8%AF%AD%E8%A8%80%E6%8B%90%E6%9D%96.md)
@@ -2073,7 +2076,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 
-### 创作（194 个）
+### 创作（195 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -2248,6 +2251,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
 - [隐含作者（Implied Author）](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md)
 - [英雄之旅（Hero's Journey）](%E8%8B%B1%E9%9B%84%E4%B9%8B%E6%97%85.md)
+- [影像本体论（Ontologie de l'image）](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
 - [优美（The Beautiful）](%E4%BC%98%E7%BE%8E.md)
 - [幽灵文本（Spectral Text / Palimpsest）](%E5%B9%BD%E7%81%B5%E6%96%87%E6%9C%AC.md)
 - [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
@@ -2881,11 +2885,3 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
-
----
-
-## ⚠️ 待整理（1 个）
-
-> 以下概念页未通过质检，未进入主分类。修正后保存即自动归类。
-
-- [影像本体论（Ontologie de l'image）](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md) — 学者「尼采」首次出现缺英文名标注，应为「弗里德里希·尼采（Friedrich Nietzsche）」
