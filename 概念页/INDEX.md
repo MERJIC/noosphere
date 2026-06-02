@@ -2873,3 +2873,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
+
+---
+
+## ⚠️ 待整理（1 个）
+
+> 以下概念页未通过质检，未进入主分类。修正后保存即自动归类。
+
+- [影像本体论（Ontologie de l'image）](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md) — 学者「尼采」首次出现缺英文名标注，应为「弗里德里希·尼采（Friedrich Nietzsche）」
