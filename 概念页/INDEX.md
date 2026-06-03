@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（204 个）
+### 哲学（205 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -126,6 +126,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [认知封闭性（Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E5%B0%81%E9%97%AD%E6%80%A7.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
 - [认知权威（Epistemic Authority）](%E8%AE%A4%E7%9F%A5%E6%9D%83%E5%A8%81.md)
+- [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
 - [认知勇气（Intellectual Courage）](%E8%AE%A4%E7%9F%A5%E5%8B%87%E6%B0%94.md)
 - [容忍的悖论（Paradox of Tolerance）](%E5%AE%B9%E5%BF%8D%E7%9A%84%E6%82%96%E8%AE%BA.md)
 - [弱意志（Akrasia）](%E5%BC%B1%E6%84%8F%E5%BF%97.md)
@@ -218,7 +219,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（170 个）
+### 心理学（171 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -330,6 +331,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
 - [认知负荷（Cognitive Load Theory）](%E8%AE%A4%E7%9F%A5%E8%B4%9F%E8%8D%B7.md)
 - [认知吝啬鬼（Cognitive Miser）](%E8%AE%A4%E7%9F%A5%E5%90%9D%E5%95%AC%E9%AC%BC.md)
+- [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
 - [认知失调（Cognitive Dissonance）](%E8%AE%A4%E7%9F%A5%E5%A4%B1%E8%B0%83.md)
 - [认知需求（Need for Cognition）](%E8%AE%A4%E7%9F%A5%E9%9C%80%E6%B1%82.md)
 - [少数派影响（Minority Influence）](%E5%B0%91%E6%95%B0%E6%B4%BE%E5%BD%B1%E5%93%8D.md)
@@ -932,7 +934,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 盲区（101 个）
+### 盲区（102 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1000,6 +1002,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [认知吝啬鬼（Cognitive Miser）](%E8%AE%A4%E7%9F%A5%E5%90%9D%E5%95%AC%E9%AC%BC.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
 - [认知权威（Epistemic Authority）](%E8%AE%A4%E7%9F%A5%E6%9D%83%E5%A8%81.md)
+- [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
 - [社会参照（Social Referencing）](%E7%A4%BE%E4%BC%9A%E5%8F%82%E7%85%A7.md)
 - [社会图式（Social Schema）](%E7%A4%BE%E4%BC%9A%E5%9B%BE%E5%BC%8F.md)
 - [声音景观（Soundscape）](%E5%A3%B0%E9%9F%B3%E6%99%AF%E8%A7%82.md)
@@ -1576,7 +1579,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（258 个）
+### 自我（259 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1726,6 +1729,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [认知封闭性（Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E5%B0%81%E9%97%AD%E6%80%A7.md)
 - [认知负荷（Cognitive Load Theory）](%E8%AE%A4%E7%9F%A5%E8%B4%9F%E8%8D%B7.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
+- [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
 - [认知失调（Cognitive Dissonance）](%E8%AE%A4%E7%9F%A5%E5%A4%B1%E8%B0%83.md)
 - [认知卸载（Cognitive Offloading）](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md)
 - [认知需求（Need for Cognition）](%E8%AE%A4%E7%9F%A5%E9%9C%80%E6%B1%82.md)
@@ -2626,7 +2630,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（186 个）
+### 决策（187 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2738,6 +2742,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [群体智能（Swarm Intelligence）](%E7%BE%A4%E4%BD%93%E6%99%BA%E8%83%BD.md)
 - [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
 - [认知吝啬鬼（Cognitive Miser）](%E8%AE%A4%E7%9F%A5%E5%90%9D%E5%95%AC%E9%AC%BC.md)
+- [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
 - [认知失调（Cognitive Dissonance）](%E8%AE%A4%E7%9F%A5%E5%A4%B1%E8%B0%83.md)
 - [认知需求（Need for Cognition）](%E8%AE%A4%E7%9F%A5%E9%9C%80%E6%B1%82.md)
 - [慎战（Shen Zhan / Cautious Engagement）](%E6%85%8E%E6%88%98.md)
