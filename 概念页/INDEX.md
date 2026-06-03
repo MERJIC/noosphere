@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（205 个）
+### 哲学（206 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -111,6 +111,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
 - [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
+- [默认可信（Default Entitlement to Testimony）](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
 - [能力进路（Capability Approach）](%E8%83%BD%E5%8A%9B%E8%BF%9B%E8%B7%AF.md)
 - [能指与所指（Signifier and Signified）](%E8%83%BD%E6%8C%87%E4%B8%8E%E6%89%80%E6%8C%87.md)
 - [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
@@ -1039,7 +1040,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力残留（Attention Residue）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%AE%8B%E7%95%99.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 冲突（60 个）
+### 冲突（61 个）
 
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
@@ -1069,6 +1070,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
 - [蒙太奇（Montage）](%E8%92%99%E5%A4%AA%E5%A5%87.md)
 - [魔鬼代言人（Devil's Advocate）](%E9%AD%94%E9%AC%BC%E4%BB%A3%E8%A8%80%E4%BA%BA.md)
+- [默认可信（Default Entitlement to Testimony）](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
 - [拼贴（Collage）](%E6%8B%BC%E8%B4%B4.md)
 - [平行剪辑（Parallel Editing）](%E5%B9%B3%E8%A1%8C%E5%89%AA%E8%BE%91.md)
 - [全局工作空间（Global Workspace）](%E5%85%A8%E5%B1%80%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%97%B4.md)
@@ -1841,7 +1843,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（119 个）
+### 关系（120 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1892,6 +1894,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [模因（Meme / Cultural Replicator）](%E6%A8%A1%E5%9B%A0.md)
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
+- [默认可信（Default Entitlement to Testimony）](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
 - [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
 - [拟态（Mimicry）](%E6%8B%9F%E6%80%81.md)
 - [逆火效应（Backfire Effect）](%E9%80%86%E7%81%AB%E6%95%88%E5%BA%94.md)
@@ -2630,7 +2633,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（187 个）
+### 决策（188 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2730,6 +2733,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
 - [魔鬼代言人（Devil's Advocate）](%E9%AD%94%E9%AC%BC%E4%BB%A3%E8%A8%80%E4%BA%BA.md)
+- [默认可信（Default Entitlement to Testimony）](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
 - [帕累托最优（Pareto Optimality）](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
 - [旁观者效应（Bystander Effect）](%E6%97%81%E8%A7%82%E8%80%85%E6%95%88%E5%BA%94.md)
 - [抛入性（Geworfenheit）](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
