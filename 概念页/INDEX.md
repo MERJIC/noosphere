@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（206 个）
+### 哲学（207 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -76,6 +76,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [合理化（Rationalization）](%E5%90%88%E7%90%86%E5%8C%96.md)
 - [痕迹（Trace / Spur）](%E7%97%95%E8%BF%B9.md)
 - [亨佩尔的乌鸦悖论（Hempel's Ravens Paradox）](%E4%BA%A8%E4%BD%A9%E5%B0%94%E7%9A%84%E4%B9%8C%E9%B8%A6%E6%82%96%E8%AE%BA.md)
+- [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
 - [互文阅读（Intertextual Reading）](%E4%BA%92%E6%96%87%E9%98%85%E8%AF%BB.md)
 - [话语权力（Power/Knowledge, Foucault）](%E8%AF%9D%E8%AF%AD%E6%9D%83%E5%8A%9B.md)
 - [机巧（Cleverness / Ingenuity）](%E6%9C%BA%E5%B7%A7.md)
@@ -1394,7 +1395,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 错位（98 个）
+### 错位（99 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
@@ -1416,6 +1417,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [规范性解离（Normative Dissociation）](%E8%A7%84%E8%8C%83%E6%80%A7%E8%A7%A3%E7%A6%BB.md)
 - [含混的政治（Politics of Ambiguity）](%E5%90%AB%E6%B7%B7%E7%9A%84%E6%94%BF%E6%B2%BB.md)
+- [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
 - [互文阅读（Intertextual Reading）](%E4%BA%92%E6%96%87%E9%98%85%E8%AF%BB.md)
 - [画外音（Voice-over）](%E7%94%BB%E5%A4%96%E9%9F%B3.md)
 - [机巧（Cleverness / Ingenuity）](%E6%9C%BA%E5%B7%A7.md)
@@ -2478,7 +2480,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（152 个）
+### 组织（153 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2525,6 +2527,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [核心刚性（Core Rigidities）](%E6%A0%B8%E5%BF%83%E5%88%9A%E6%80%A7.md)
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
 - [红皇后假说（Red Queen Hypothesis）](%E7%BA%A2%E7%9A%87%E5%90%8E%E5%81%87%E8%AF%B4.md)
+- [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
 - [绩效幂律（Performance Power Law）](%E7%BB%A9%E6%95%88%E5%B9%82%E5%BE%8B.md)
 - [即兴能力（Organizational Improvisation）](%E5%8D%B3%E5%85%B4%E8%83%BD%E5%8A%9B.md)
 - [集体欢腾（Collective Effervescence）](%E9%9B%86%E4%BD%93%E6%AC%A2%E8%85%BE.md)
@@ -2633,7 +2636,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（188 个）
+### 决策（189 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2691,6 +2694,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [合理化（Rationalization）](%E5%90%88%E7%90%86%E5%8C%96.md)
 - [核心刚性（Core Rigidities）](%E6%A0%B8%E5%BF%83%E5%88%9A%E6%80%A7.md)
 - [亨佩尔的乌鸦悖论（Hempel's Ravens Paradox）](%E4%BA%A8%E4%BD%A9%E5%B0%94%E7%9A%84%E4%B9%8C%E9%B8%A6%E6%82%96%E8%AE%BA.md)
+- [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
 - [互补资产（Complementary Assets）](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md)
 - [互动可见性偏差（Interaction Visibility Bias）](%E4%BA%92%E5%8A%A8%E5%8F%AF%E8%A7%81%E6%80%A7%E5%81%8F%E5%B7%AE.md)
 - [话语权力（Power/Knowledge, Foucault）](%E8%AF%9D%E8%AF%AD%E6%9D%83%E5%8A%9B.md)
