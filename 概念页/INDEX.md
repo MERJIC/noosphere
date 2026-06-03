@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（210 个）
+### 哲学（211 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -27,6 +27,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
 - [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [彩票悖论（Lottery paradox）](%E5%BD%A9%E7%A5%A8%E6%82%96%E8%AE%BA.md)
 - [超当值（Supererogation）](%E8%B6%85%E5%BD%93%E5%80%BC.md)
 - [沉默的极性翻转（Polarity Inversion of Silence）](%E6%B2%89%E9%BB%98%E7%9A%84%E6%9E%81%E6%80%A7%E7%BF%BB%E8%BD%AC.md)
 - [成心（Chengxin / Preformed Mind）](%E6%88%90%E5%BF%83.md)
@@ -398,7 +399,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（83 个）
+### 经济学（84 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -483,6 +484,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自发秩序（Spontaneous Order）](%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F.md)
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
+- [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
 ### 社会学（65 个）
 
@@ -900,11 +902,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按结构模式
 
-### 悖论（37 个）
+### 悖论（38 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
 - [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [彩票悖论（Lottery paradox）](%E5%BD%A9%E7%A5%A8%E6%82%96%E8%AE%BA.md)
 - [传记悖论（Biographical Paradox）](%E4%BC%A0%E8%AE%B0%E6%82%96%E8%AE%BA.md)
 - [毒素难题（Kavka's toxin puzzle）](%E6%AF%92%E7%B4%A0%E9%9A%BE%E9%A2%98.md)
 - [二阶控制论（Second-Order Cybernetics）](%E4%BA%8C%E9%98%B6%E6%8E%A7%E5%88%B6%E8%AE%BA.md)
@@ -1045,7 +1048,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力残留（Attention Residue）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%AE%8B%E7%95%99.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 冲突（61 个）
+### 冲突（62 个）
 
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
@@ -1107,6 +1110,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [执两用中（Zhi Liang Yong Zhong / Holding Both Ends, Using the Middle）](%E6%89%A7%E4%B8%A4%E7%94%A8%E4%B8%AD.md)
 - [子目标冲突（Subgoal Conflict）](%E5%AD%90%E7%9B%AE%E6%A0%87%E5%86%B2%E7%AA%81.md)
+- [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
 ### 渐变（55 个）
@@ -1974,7 +1978,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（142 个）
+### 制度（143 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2118,6 +2122,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
+- [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
 ### 创作（198 个）
 
@@ -2397,7 +2402,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（87 个）
+### 商业（88 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -2485,6 +2490,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [资产专用性（Asset Specificity）](%E8%B5%84%E4%BA%A7%E4%B8%93%E7%94%A8%E6%80%A7.md)
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
+- [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
 ### 组织（153 个）
@@ -2643,7 +2649,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（191 个）
+### 决策（192 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2655,6 +2661,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [不可通约性（Incommensurability）](%E4%B8%8D%E5%8F%AF%E9%80%9A%E7%BA%A6%E6%80%A7.md)
 - [不利条件原理（Handicap Principle）](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md)
 - [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [彩票悖论（Lottery paradox）](%E5%BD%A9%E7%A5%A8%E6%82%96%E8%AE%BA.md)
 - [参照点效应（Reference Point Effect）](%E5%8F%82%E7%85%A7%E7%82%B9%E6%95%88%E5%BA%94.md)
 - [超稳定性（Ultrastability）](%E8%B6%85%E7%A8%B3%E5%AE%9A%E6%80%A7.md)
 - [沉没成本谬误（Sunk Cost Fallacy）](%E6%B2%89%E6%B2%A1%E6%88%90%E6%9C%AC%E8%B0%AC%E8%AF%AF.md)
