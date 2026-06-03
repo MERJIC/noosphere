@@ -77,7 +77,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .card-tag {
   font-family: var(--mono);
@@ -111,18 +111,19 @@ body {
   line-height: 1.3;
 }
 .t-body {
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 300;
-  line-height: 1.7;
+  line-height: 1.72;
   color: var(--text-secondary);
 }
+.t-body + .t-body { margin-top: 10px; }
 .dark .t-body { color: rgba(255,255,255,0.82); }
 .accent .t-body { color: rgba(255,255,255,0.9); }
 
 .t-body-sm {
-  font-size: 12.5px;
+  font-size: 12px;
   font-weight: 300;
-  line-height: 1.65;
+  line-height: 1.68;
   color: var(--text-secondary);
 }
 .dark .t-body-sm { color: rgba(255,255,255,0.75); }
@@ -132,7 +133,7 @@ body {
   width: 36px;
   height: 2px;
   background: var(--accent);
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .dark .hr-accent { background: rgba(255,255,255,0.7); }
 .accent .hr-accent { background: rgba(255,255,255,0.7); }
@@ -159,9 +160,9 @@ body {
 
 .speaker-label {
   display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  margin-bottom: 10px;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 8px;
 }
 .speaker-dot {
   width: 5px; height: 5px; border-radius: 50%;
@@ -198,7 +199,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 .point-list li {
   display: flex;
@@ -345,11 +346,9 @@ body {
     <div class="t-xl" style="margin-bottom:14px;">这件事为什么值得聊？</div>
     <div class="hr-accent"></div>
     <p class="t-body">
-      你大概有过这种经历——看完一部电影、一首诗、一个展览，诚实地说了句「我没看懂」，然后得到的回应是：<br><br>
-      <span style="color:var(--accent);font-weight:400;">「是你没打开」「需要一定修养」「本来就不是给所有人看的」</span><br><br>
-      你的困惑被转化成了你自己的缺陷。<br><br>
-      但另一种可能也成立：也许作品本身就在利用这种结构——它不承诺任何东西，所以永远不会让你失望；你的「看不懂」不是它的失败，而是它设计的一部分。<br><br>
-      这场讨论要解决的不是「什么是好电影」。<span style="font-weight:400;color:var(--text-primary);">是当一部作品用「晦涩」来保护自己时，我们怎么分辨它是真的有东西要说，还是在躲避审视。</span>
+      看完一部电影或展览，诚实地说了句「我没看懂」，得到的回应往往是：<span style="color:var(--accent);font-weight:400;">「是你没打开」「需要修养」「不是给你看的」</span>。<br><br>
+      你的困惑被转化成了你的缺陷。但另一种可能也成立：作品本身就在利用这种结构——不承诺任何东西就不会让你失望，「看不懂」不是它的失败，而是设计的一部分。<br><br>
+      这场讨论要解决的：<span style="font-weight:400;color:var(--text-primary);">当作品用「晦涩」保护自己时，怎么分辨它真的有话要说，还是在躲避审视。</span>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -426,8 +425,8 @@ body {
         <div class="speaker-role">批评家</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:14px;">
-      「看不懂」这个词本身就是陷阱。三种看不懂里，叙事断裂最不致命。《镜子》叙事全碎了，但它对你的时间感知做了精确的事。走出影院时对时间的感受和进去之前不一样。<span style="color:var(--accent)">不是所有创作都是先有想法再表达，大量创作是做了一件事然后看看它是什么。</span>
+    <p class="t-body" style="margin-bottom:12px;">
+      「看不懂」这个词本身就是陷阱。《镜子》叙事全碎了，但它对你的时间感知做了精确的事。<span style="color:var(--accent)">不是所有创作都是先有想法再表达，大量是做了一件事然后看看它是什么。</span>
     </p>
 
     <div class="dialogue-divider"></div>
@@ -440,7 +439,7 @@ body {
       </div>
     </div>
     <p class="t-body">
-      说得漂亮。但<span style="color:var(--text-primary);font-weight:400;">谁在「看不懂」中获益？</span>独立影展上放映没人看得懂的片子，观众离场时的困惑成了社交货币。「我没看懂」变成身份标识。达利的画也晦涩，贝克特的戏也晦涩——但他们背后有真实的挣扎。<span style="color:var(--accent);font-weight:400;">今天大量「散文式」作品感觉不到挣扎，只感觉到熟练的晦涩。</span>
+      说得漂亮。但<span style="color:var(--text-primary);font-weight:400;">谁在「看不懂」中获益？</span>独立影展上没人看得懂的片子，观众的困惑成了社交货币。<span style="color:var(--accent);font-weight:400;">达利和贝克特的晦涩背后有真实挣扎；今天大量「散文式」作品只有熟练的晦涩——像撒胡椒面一样精确控制在「有点不懂又不至于完全看不下去」的区间。</span>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -463,8 +462,8 @@ body {
         <div class="speaker-role">符号学家</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      可读文本像一把锁——作者放了钥匙。可写文本是一个作坊——读者自己组装意义。区分工具：<span style="color:#f7dc6f;font-weight:400;">回看率。</span>可写文本让你想回去再看。烂文本指望你忘掉。
+    <p class="t-body" style="margin-bottom:10px;">
+      可读文本像锁——作者放钥匙。可写文本是作坊——读者自己组装。<span style="color:#f7dc6f;font-weight:400;">回看率：</span>可写文本让你想再看，烂文本指望你忘掉。
     </p>
 
     <div class="speaker-label">
@@ -474,8 +473,8 @@ body {
         <div class="speaker-role">导演</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      创作者能不能逐镜头解释每个决定？能→可能是美学选择。不能→可能是混乱。
+    <p class="t-body" style="margin-bottom:10px;">
+      创作者能不能逐镜头解释？能→美学选择。不能→混乱。
     </p>
 
     <div class="speaker-label">
@@ -485,8 +484,8 @@ body {
         <div class="speaker-role">导演</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      《郊游》里李康生念广告海报念了很久。<span style="color:#58d68d;">长度就是孤独，不是通过长度表达孤独。</span>我不设门槛，也不为你削平石头。
+    <p class="t-body" style="margin-bottom:10px;">
+      <span style="color:#58d68d;">长度就是孤独，不是通过长度表达孤独。</span>我不设门槛，也不削平石头。
     </p>
 
     <div class="speaker-label">
@@ -497,7 +496,7 @@ body {
       </div>
     </div>
     <p class="t-body">
-      「朦胧」是别人给我们扣的罪名。权力在命名，<span style="color:#bb8fce;">但身体不会骗人——被触动过了就是被触动过了。</span>
+      「朦胧」是别人扣的罪名。<span style="color:#bb8fce;">权力在命名，但身体不会骗人。</span>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -518,29 +517,29 @@ body {
     <p class="t-body" style="margin-bottom:14px;">
       但真正的分歧在<strong style="font-weight:500;">判别机制</strong>上：
     </p>
-    <ul class="point-list" style="margin-bottom:14px;">
+    <ul class="point-list" style="margin-bottom:12px;gap:8px;">
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:13px;line-height:1.6;color:rgba(255,255,255,0.92);">
+        <span style="font-size:12.5px;line-height:1.55;color:rgba(255,255,255,0.92);">
           桑塔格+蔡明亮 → 取消判别，拿错尺子
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:13px;line-height:1.6;color:rgba(255,255,255,0.92);">
+        <span style="font-size:12.5px;line-height:1.55;color:rgba(255,255,255,0.92);">
           特吕弗+巴特 → 方法论判据（回看率、自洽性）
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:13px;line-height:1.6;color:rgba(255,255,255,0.92);">
+        <span style="font-size:12.5px;line-height:1.55;color:rgba(255,255,255,0.92);">
           北岛 → 物理性验证（身体是否被触动）
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:13px;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="color:#ffcccc;">阿多诺独自站在另一边：</strong>所有判据都可能被模拟
+        <span style="font-size:12.5px;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="color:#ffcccc;">阿多诺：</strong>所有判据都可能被模拟
         </span>
       </li>
     </ul>
@@ -569,9 +568,9 @@ body {
         <div class="speaker-role">把怀疑推到极致</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:14px;">
-      巴特的回看率测的是文本开放性吗？不。策展人放进去影评人出于职业义务去二刷三刷——这是<span style="color:var(--text-primary);font-weight:400;">专业义务驱动的强制阅读</span>，不是文本召唤回归。<br><br>
-      真正的分法只有一个：<span style="color:var(--accent);font-weight:400;">这部作品是否让你不舒服到想逃？</span>真艺术的不适感是暴力的。《感官世界》让审查制度疯了。伪晦涩的不适感是温和的、「嗯挺有意思」。
+    <p class="t-body" style="margin-bottom:12px;">
+      回看率测的是文本开放性吗？策展人放进去影评人出于职业义务二刷三刷——这是<span style="color:var(--text-primary);font-weight:400;">强制阅读</span>，不是文本召唤回归。<br><br>
+      真正的分法：<span style="color:var(--accent);font-weight:400;">不适感到底是暴力还是温和？</span>《感官世界》让审查制度疯了。伪晦涩的不适感是「嗯挺有意思」。
     </p>
 
     <div class="dialogue-divider"></div>
@@ -584,8 +583,8 @@ body {
       </div>
     </div>
     <p class="t-body">
-      预设艺术必须是对抗行为——必须是拳头不能是抚摸——这太窄了。维米尔的画不舒服到想逃吗？不。但它对观看方式做了极其精确的事。<br><br>
-      修正判据：不是不适感的强度，而是<span style="color:var(--accent);font-weight:400;">注意力的性质</span>。伪晦涩争夺认知注意力（我该懂却不懂=焦虑），真晦涩接管感知注意力（不需要懂，我在这里=开放）。
+      预设艺术必须是对抗行为太窄了。维米尔的画不舒服到想逃吗？不，但它对观看方式做了极其精确的事。<br><br>
+      修正：<span style="color:var(--accent);font-weight:400;">注意力的性质。</span>伪晦涩让你焦虑地试图解码（认知），真晦涩让你停止解码直接感受（感知）。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -608,8 +607,8 @@ body {
         <div class="speaker-role">承认扛不住</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      我的「回看率」扛不住蔡明亮说的「每次相遇都不一样」。二十岁读《失茫然》天书，三十岁被击穿，四十岁又觉得某些段落做作。同一作品三个时间点三种判决——<span style="color:#f7dc6f;">判据测量的是关系属性，不是作品属性。</span>
+    <p class="t-body" style="margin-bottom:10px;">
+      二十岁读某书是天书，三十岁被击穿，四十岁又觉得做作。<span style="color:#f7dc6f;">判据测量的不是作品属性，是关系属性。</span>
     </p>
 
     <div class="speaker-label">
@@ -619,8 +618,8 @@ body {
         <div class="speaker-role">补最后一刀</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      拍完《爱情万岁》我自己也不知道算什么。后来得金狮奖，评审团说的理由和拍摄时的理由完全不一样。<span style="color:#58d68d;">作品一旦离开创作者的手，真实性就不由创作者保证了。</span>反过来，乱拍也可能碰巧落在对的位置上。比学院派愿意承认的更常见。
+    <p class="t-body" style="margin-bottom:10px;">
+      拍完《爱情万岁》自己也不知道算什么。后来得金狮奖，评审团理由和拍摄时完全不同。<span style="color:#58d68d;">作品离手后真实性不由创作者保证。</span>
     </p>
 
     <div class="speaker-label">
@@ -631,7 +630,7 @@ body {
       </div>
     </div>
     <p class="t-body">
-      如果每次都不一样，那我们就永远不能说「这是烂作品」。这个权利很重要。加一道底线：<span style="color:#bb8fce;font-weight:400;">作品自身必须有足够密度支撑不透明性。</span>看不见结构的时候，摸一摸布面是不是紧的。
+      但如果每次都不一样就永远不能说「这是烂作品」——这个权利很重要。底线：<span style="color:#bb8fce;font-weight:400;">作品必须有足够密度支撑不透明性。</span>抽掉一个镜头塌不塌？
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -646,18 +645,18 @@ body {
     </div>
     <div class="t-xl" style="margin-bottom:14px;">每个人都贡献了判据，同时也在拆别人的判据</div>
     <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:14px;">
-      第二轮暴露了一个结构性困境：
+    <p class="t-body" style="margin-bottom:12px;">
+      第二轮暴露的结构性困境：
     </p>
-    <p class="t-body" style="margin-bottom:14px;padding-left:14px;border-left:2px solid var(--accent);">
-      蔡明亮说判别责任不在任何单一端点，而在每一次具体相遇中。如果是这样，「寻找可操作的界线」这个目标本身就有问题。
+    <p class="t-body" style="margin-bottom:12px;padding-left:12px;border-left:2px solid var(--accent);">
+      蔡明亮说判别在每次具体相遇中——那「寻找可操作的界线」这个目标本身就有问题。
     </p>
-    <p class="t-body" style="margin-bottom:14px;">
-      但北岛立刻堵住：如果每次相遇等价，就失去了说「这是烂作品」的权利。必须有一条底线。
+    <p class="t-body" style="margin-bottom:12px;">
+      北岛堵住：如果每次相遇等价，就永远不能说「这是烂作品」。必须有一条底线。
     </p>
     <p class="t-body">
-      <span style="color:var(--accent);font-weight:400;">夹在中间的问题是：界线不在作品内部（形式判据可模拟），不在创作者端（自证可合理化），也不在观众端（体验合法）。</span><br><br>
-      那这条界线到底在哪里？还是说——承认没有稳定界线就是唯一诚实的结论？
+      <span style="color:var(--accent);font-weight:400;">界线不在作品内部（形式判据可模拟），不在创作者端（自证可合理化），也不在观众端（体验合法）。</span><br>
+      那它在哪里？还是说——承认没有稳定界线就是唯一诚实的结论？
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -680,8 +679,8 @@ body {
         <div class="speaker-role">从姿态切入</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      停止问真假，改问：<span style="color:#f7dc6f;font-weight:400;">这部作品有没有在试图欺骗你？</span>失败和欺骗不同。关键在姿态——是在开门，还是在锁门？
+    <p class="t-body" style="margin-bottom:10px;">
+      停止问真假，改问<span style="color:#f7dc6f;font-weight:400;">姿态：在开门还是在锁门？</span>失败和欺骗不同。
     </p>
 
     <div class="speaker-label">
@@ -691,8 +690,8 @@ body {
         <div class="speaker-role">最朴素的标尺</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      <span style="color:#bb8fce;font-weight:400;">时间。</span>不是观众的回看时间是作品的存活时间。五年后还有人讨论吗？伪晦涩的生命周期和宣传周期完全重合——影展结束那天就死了。真晦涩从那天起才开始活。时间是不可伪造的。
+    <p class="t-body" style="margin-bottom:10px;">
+      <span style="color:#bb8fce;font-weight:400;">时间。</span>五年后还有人讨论？伪晦涩影展结束那天就死了，真晦涩从那天起才活。时间不可伪造。
     </p>
 
     <div class="speaker-label">
@@ -703,7 +702,7 @@ body {
       </div>
     </div>
     <p class="t-body">
-      时间判据要求真晦涩在创作者活着时大概率被误判。那活着的时候怎么办？<span style="color:#e74c5e;font-weight:400;">看它的敌人是谁。</span>真晦涩一定会激怒某个权力位置的人。伪晦涩的典型遭遇是温和困惑然后遗忘。太安全了不值得生气。
+      活着的时候怎么办？<span style="color:#e74c5e;font-weight:400;">看它的敌人是谁。</span>真晦涩会激怒某个权力位置。伪晦涩的遭遇是温和困惑然后遗忘——太安全不值得生气。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -726,8 +725,8 @@ body {
         <div class="speaker-role">最终立场</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      经过三轮，最诚实的回答：<span style="color:var(--accent);font-weight:400;">「艺术特征」和「逃避评判」不是互斥的。同一部作品可以同时是两者。</span>散文之所以空恰恰因为它可以同时容纳真诚表达和策略性逃避。不要二选一，全部列出来不加总判决。
+    <p class="t-body" style="margin-bottom:10px;">
+      最诚实的回答：<span style="color:var(--accent);font-weight:400;">「艺术特征」和「逃避评判」不是互斥的。</span>同一部作品可以同时是两者。不要二选一。
     </p>
 
     <div class="speaker-label">
@@ -737,8 +736,8 @@ body {
         <div class="speaker-role">最简单的测试</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:12px;">
-      真晦涩不怕简化。「就是一个男人在街上走得很慢」——没抓住全部但不歪曲。伪晦涩极度害怕简化，<span style="color:#27ae60;font-weight:400;">大白话说出来就塌了</span>，靠阐释层撑着。
+    <p class="t-body" style="margin-bottom:10px;">
+      真晦涩不怕简化。伪晦涩<span style="color:#27ae60;font-weight:400;">大白话说出来就塌了</span>，靠阐释层撑着。
     </p>
 
     <div class="speaker-label">
@@ -749,7 +748,8 @@ body {
       </div>
     </div>
     <p class="t-body">
-      不负责的样子看起来都一样——用艺术自由回避质疑、用多元解读放弃判断、用「我不懂」免除思考、用小众抬高价格。<span style="color:var(--accent);font-weight:400;">负责的样子不管哪种形态都有一个共同特征：它愿意暴露自己。</span>所有判据汇成一条——<strong style="color:var(--text-primary);">它敢不敢赤裸？</strong>
+      不负责的样子都一样——用自由回避质疑、用多元放弃判断、用「我不懂」免除思考。<br><br>
+      <span style="color:var(--accent);font-weight:400;">负责的共同特征：它愿意暴露自己。</span>所有判据汇成一条——<strong style="color:var(--text-primary);">它敢不敢赤裸？</strong>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -767,44 +767,44 @@ body {
     <ul class="point-list">
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">回看率</strong> — 看完后想不想再看？可写文本召唤回归，烂文本指望你忘掉
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">回看率</strong> — 看完想再看？可写文本召唤回归，烂文本指望你忘掉
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">注意力模式</strong> — 你在焦虑地试图理解，还是已经打开了感知？
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">注意力模式</strong> — 焦虑解码 vs 打开感知，你在哪种状态？
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">不适感质地</strong> — 暴力到想逃（好信号），还是温和地困惑（警惕）
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">不适感质地</strong> — 想逃（好）还是「嗯挺有意思」（警惕）
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">审美阈值偏移</strong> — 看完之后再看别的东西，感觉变了没？
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">审美阈值偏移</strong> — 再看别的作品时感觉变了没？
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">内部张力</strong> — 随便抽掉一个镜头，作品塌不塌？
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">内部张力</strong> — 抽掉任意一个镜头，塌不塌？
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">怕不怕简化</strong> — 能不能用一句话说不丢人？
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">怕不怕简化</strong> — 一句话说不丢人吗？
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12.5px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">姿态检测</strong> — 面对质疑，它在开门还是在锁门？
+        <span style="font-size:12px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">姿态检测</strong> — 面对质疑，开门还是锁门？
         </span>
       </li>
     </ul>
@@ -855,17 +855,16 @@ body {
     </div>
     <div class="t-xl" style="margin-bottom:14px;">不是二选一，是全选</div>
     <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:14px;">
-      整场讨论最大的陷阱，是让读者以为最终要在「真晦涩」和「伪晦涩」之间选边站。
+    <p class="t-body" style="margin-bottom:12px;">
+      最大陷阱：让你以为要在「真晦涩」和「伪晦涩」之间选边站。
     </p>
-    <p class="t-body" style="margin-bottom:14px;">
-      桑塔格最后的修正最重要：<br>
-      同一个创作者可以真诚追求美学效果（真的在尝试），同时作品客观上起到了评判免疫作用（确实屏蔽了批评）。不需要主观「故意」才会同时成立。<br><br>
+    <p class="t-body" style="margin-bottom:12px;">
+      桑塔格的修正：同一部作品可以真诚追求美学效果（真的在尝试），同时客观上起到评判免疫作用（确实屏蔽了批评）。不需要主观「故意」。<br><br>
       <span style="color:var(--accent);font-weight:400;">结构会替你完成你没想过的事。</span>
     </p>
     <p class="t-body">
-      所以正确的做法不是判决真假，而是描述这部作品同时在做哪几件事——哪些是自觉的美学选择，哪些是无意的免疫效应，哪些是被市场逻辑裹挟的商品化变形。<br><br>
-      <strong style="color:var(--text-primary);">逐项摊开来看。不加总判决。</strong>
+      正确做法不是判真假，是描述它同时在做的几件事——自觉的美学选择、无意的免疫效应、被市场裹挟的变形。<br><br>
+      <strong style="color:var(--text-primary);">逐项摊开。不加总判决。</strong>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -880,17 +879,17 @@ body {
     </div>
     <div class="t-xl" style="margin-bottom:14px;">讨论没有结束的地方</div>
     <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:16px;">
-      <span style="color:var(--accent);font-weight:400;">① 「赤裸」会不会成为新的表演？</span><br>
-      当「极简」「直接」「不做解释」成为被认可的标签时，假装赤裸是不是比假装复杂更容易？这套诊断工具本身会不会也被模拟？
+    <p class="t-body" style="margin-bottom:14px;">
+      <span style="color:var(--accent);font-weight:400;">① 「赤裸」会不会成为新表演？</span><br>
+      当「极简」「不做解释」被认可为标签，假装赤裸是不是比假装复杂更容易？诊断工具本身会不会也被模拟？
     </p>
-    <p class="t-body" style="margin-bottom:16px;">
+    <p class="t-body" style="margin-bottom:14px;">
       <span style="color:var(--accent);font-weight:400;">② AI 创作把讨论推向哪里？</span><br>
-      如果没有一个「创作者」可以接受逐镜头质询，所有 creator-side 的判据（自洽性、解释深度）全部失效。我们还剩下什么？
+      没有创作者可质询，所有 creator-side 判据全部失效。我们还剩什么？
     </p>
     <p class="t-body">
       <span style="color:var(--accent);font-weight:400;">③ 跨文化的「看不懂」一样吗？</span><br>
-      同一部电影在不同文化语境下被读出完全不同的「看不懂」——这是不是完全不同性质的现象？诊断工具需要本地化吗？
+      同一部片在不同文化语境下读出不同的「看不懂」——这是不同性质的现象？工具需要本地化吗？
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
