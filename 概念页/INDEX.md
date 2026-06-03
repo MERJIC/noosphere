@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（208 个）
+### 哲学（210 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -32,6 +32,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [成心（Chengxin / Preformed Mind）](%E6%88%90%E5%BF%83.md)
 - [传记悖论（Biographical Paradox）](%E4%BC%A0%E8%AE%B0%E6%82%96%E8%AE%BA.md)
 - [存在先于本质（L'existence précède l'essence）](%E5%AD%98%E5%9C%A8%E5%85%88%E4%BA%8E%E6%9C%AC%E8%B4%A8.md)
+- [错置具体性（Misplaced Concreteness）](%E9%94%99%E7%BD%AE%E5%85%B7%E4%BD%93%E6%80%A7.md)
 - [大巧若拙（Supreme Skill Appears Clumsy）](%E5%A4%A7%E5%B7%A7%E8%8B%A5%E6%8B%99.md)
 - [大象无形（Formless Grandeur）](%E5%A4%A7%E8%B1%A1%E6%97%A0%E5%BD%A2.md)
 - [代际创伤（Intergenerational Trauma）](%E4%BB%A3%E9%99%85%E5%88%9B%E4%BC%A4.md)
@@ -104,6 +105,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [空能指（Empty Signifier）](%E7%A9%BA%E8%83%BD%E6%8C%87.md)
 - [恐怖的美学（Aesthetics of Horror）](%E6%81%90%E6%80%96%E7%9A%84%E7%BE%8E%E5%AD%A6.md)
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
+- [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
@@ -1397,7 +1399,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 错位（99 个）
+### 错位（101 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
@@ -1405,6 +1407,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [禀赋效应（Endowment Effect）](%E7%A6%80%E8%B5%8B%E6%95%88%E5%BA%94.md)
 - [参照点效应（Reference Point Effect）](%E5%8F%82%E7%85%A7%E7%82%B9%E6%95%88%E5%BA%94.md)
 - [超常刺激（Supernormal Stimulus）](%E8%B6%85%E5%B8%B8%E5%88%BA%E6%BF%80.md)
+- [错置具体性（Misplaced Concreteness）](%E9%94%99%E7%BD%AE%E5%85%B7%E4%BD%93%E6%80%A7.md)
 - [代理问题（Agency Problem）](%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98.md)
 - [帝国建造（Empire Building）](%E5%B8%9D%E5%9B%BD%E5%BB%BA%E9%80%A0.md)
 - [动态能力（Dynamic Capabilities）](%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B.md)
@@ -1431,6 +1434,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [坎蒂隆效应（Cantillon Effect）](%E5%9D%8E%E8%92%82%E9%9A%86%E6%95%88%E5%BA%94.md)
 - [框架效应（Framing Effect）](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
+- [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [粒度轴（Granularity Axis）](%E7%B2%92%E5%BA%A6%E8%BD%B4.md)
 - [领导者-成员交换理论（LMX，Leader-Member Exchange）](%E9%A2%86%E5%AF%BC%E8%80%85-%E6%88%90%E5%91%98%E4%BA%A4%E6%8D%A2%E7%90%86%E8%AE%BA.md)
 - [命名权（Power of Naming）](%E5%91%BD%E5%90%8D%E6%9D%83.md)
@@ -2393,7 +2397,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（86 个）
+### 商业（87 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -2409,6 +2413,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [创新扩散（Diffusion of Innovations）](%E5%88%9B%E6%96%B0%E6%89%A9%E6%95%A3.md)
 - [创新者窘境（Innovator's Dilemma）](%E5%88%9B%E6%96%B0%E8%80%85%E7%AA%98%E5%A2%83.md)
 - [创意破坏（Creative Destruction）](%E5%88%9B%E6%84%8F%E7%A0%B4%E5%9D%8F.md)
+- [错置具体性（Misplaced Concreteness）](%E9%94%99%E7%BD%AE%E5%85%B7%E4%BD%93%E6%80%A7.md)
 - [代理问题（Agency Problem）](%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98.md)
 - [道德风险（Moral Hazard）](%E9%81%93%E5%BE%B7%E9%A3%8E%E9%99%A9.md)
 - [第二曲线（Second Curve）](%E7%AC%AC%E4%BA%8C%E6%9B%B2%E7%BA%BF.md)
@@ -2638,7 +2643,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（190 个）
+### 决策（191 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2726,6 +2731,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [累积优势（Cumulative Advantage）](%E7%B4%AF%E7%A7%AF%E4%BC%98%E5%8A%BF.md)
 - [李嘉图等价（Ricardian Equivalence）](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md)
+- [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [理性成瘾理论（Rational Addiction Theory）](%E7%90%86%E6%80%A7%E6%88%90%E7%98%BE%E7%90%86%E8%AE%BA.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
