@@ -142,9 +142,49 @@ description: "将知识内容（圆桌讨论、多视角对话、哲学概念等
 
 ### 导出方案
 
-**PDF：必须用浏览器原生 `window.print()`。** html2canvas 在深色背景上无法正确渲染白色文字。浏览器原生打印走 Chrome 自身渲染引擎，颜色和字体 100% 精确。
+**PDF：必须用浏览器原生 `window.print()`。** 浏览器原生打印走 Chrome 自身渲染引擎，颜色、字体、CJK 排版（引号间距等）100% 精确。
 
-**ZIP 图片：可选 html2canvas + JSZip。** 已知深色背景白字可能出现颜色偏差，导出后需目视检查。
+**ZIP 图片：用 html-to-image + JSZip，禁止使用 html2canvas。**
+
+原因：html2canvas 会自己重绘一遍 DOM，导致以下问题：
+- 深色背景上白色文字渲染为黑色（不可修复的颜色 bug）
+- **CJK 排版丢失**——全角/半角空格、`&nbsp;`、CSS padding/margin 在内联元素中的间距全部被吞掉或渲染不一致
+- 嵌套 `<span>` 的样式丢失
+
+html-to-image 走 SVG foreignObject 路径，直接复用浏览器原生渲染结果——页面上看到什么，导出就是什么。CDN 用 UMD 版本（`dist/html-to-image.js`），全局作用域下调用 `htmlToImage.toPng(element, { pixelRatio: 2 })`。
+
+```js
+// 标准导出脚本模板
+<script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+async function exportZip() {
+  const btn = event.target;
+  const origText = btn.textContent;
+  btn.textContent = '导出中...';
+  btn.disabled = true;
+  const cards = document.querySelectorAll('.card');
+  const zip = new JSZip();
+  const promises = Array.from(cards).map(async (card, i) => {
+    try {
+      const dataUrl = await htmlToImage.toPng(card, { pixelRatio: 2, cacheBust: true });
+      const res = await fetch(dataUrl);
+      const blob = await res.blob();
+      zip.file(`card-${String(i+1).padStart(2,'0')}.png`, blob);
+    } catch(e) { console.warn(`Card ${i+1} failed:`, e); }
+  });
+  await Promise.all(promises);
+  const content = await zip.generateAsync({ type: 'blob' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(content);
+  a.download = '[主题]-cards.zip';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  btn.textContent = origText;
+  btn.disabled = false;
+}
+</script>
+```
 
 必须包含 `@media print` 规则：`.card` / `.tile` 上必须有 `print-color-adjust: exact; -webkit-print-color-adjust: exact`，否则打印时背景色消失。
 
