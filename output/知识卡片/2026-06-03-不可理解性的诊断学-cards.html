@@ -69,7 +69,7 @@ body {
   inset: 0;
   display: flex;
   flex-direction: column;
-  padding: 18px 18px 14px;
+  padding: 22px 22px 18px;
 }
 .spacer { flex: 1; }
 
@@ -77,7 +77,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .card-tag {
   font-family: var(--mono);
@@ -100,40 +100,40 @@ body {
 
 .t-hero {
   font-family: var(--sans-zh), var(--sans);
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 200;
-  line-height: 1.18;
+  line-height: 1.22;
   letter-spacing: -0.02em;
 }
 .t-xl {
   font-size: 18px;
   font-weight: 200;
-  line-height: 1.26;
+  line-height: 1.3;
 }
 .t-body {
   font-size: 12.5px;
   font-weight: 300;
-  line-height: 1.62;
+  line-height: 1.7;
   color: var(--text-secondary);
 }
-.t-body + .t-body { margin-top: 8px; }
+.t-body + .t-body { margin-top: 10px; }
 .dark .t-body { color: rgba(255,255,255,0.82); }
 .accent .t-body { color: rgba(255,255,255,0.9); }
 
 .t-body-sm {
   font-size: 11.5px;
   font-weight: 300;
-  line-height: 1.58;
+  line-height: 1.65;
   color: var(--text-secondary);
 }
-.dark .t-body-sm { color: rgba(255,255,255,0.75); }
+.dark .t-body-sm { color: rgba(255,255,255,0.72); }
 .accent .t-body-sm { color: rgba(255,255,255,0.85); }
 
 .hr-accent {
   width: 32px;
   height: 2px;
   background: var(--accent);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .dark .hr-accent { background: rgba(255,255,255,0.7); }
 .accent .hr-accent { background: rgba(255,255,255,0.7); }
@@ -160,13 +160,13 @@ body {
 
 .speaker-label {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 6px;
+  align-items: flex-start;
+  gap: 7px;
+  margin-bottom: 8px;
 }
 .speaker-dot {
   width: 5px; height: 5px; border-radius: 50%;
-  margin-top: 4px; flex-shrink: 0;
+  margin-top: 5px; flex-shrink: 0;
 }
 .accent .speaker-dot { background: rgba(255,255,255,0.9); }
 .dot-sontag   { background: #e0620a; }
@@ -181,44 +181,44 @@ body {
   font-size: 10.5px;
   letter-spacing: 0.05em;
   color: var(--text-primary);
-  line-height: 1.2;
+  line-height: 1.25;
 }
 .dark .speaker-name { color: rgba(255,255,255,0.9); }
 .accent .speaker-name { color: rgba(255,255,255,0.92); }
 
 .speaker-role {
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 9px;
   color: var(--text-helper);
   letter-spacing: 0.03em;
 }
-.dark .speaker-role { color: rgba(255,255,255,0.5); }
+.dark .speaker-role { color: rgba(255,255,255,0.45); }
 .accent .speaker-role { color: rgba(255,255,255,0.5); }
 
 .point-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 9px;
 }
 .point-list li {
   display: flex;
-  gap: 8px;
+  gap: 9px;
   align-items: flex-start;
 }
 .point-mark {
   width: 4px; height: 4px;
   background: var(--accent);
-  margin-top: 6px; flex-shrink: 0;
+  margin-top: 7px; flex-shrink: 0;
 }
 .dark .point-mark { background: rgba(255,255,255,0.6); }
 .accent .point-mark { background: rgba(255,255,255,0.6); }
 
 .participant-row {
   display: flex;
-  gap: 8px;
+  gap: 9px;
   align-items: flex-start;
-  padding: 7px 0;
+  padding: 8px 0;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 .participant-initial {
@@ -234,24 +234,24 @@ body {
 
 .participant-name {
   font-size: 12px; font-weight: 400;
-  color: rgba(255,255,255,0.9); line-height: 1.25;
+  color: rgba(255,255,255,0.9); line-height: 1.3;
 }
 .participant-desc {
   font-family: var(--mono);
   font-size: 9px;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.42);
   letter-spacing: 0.02em;
 }
 
 .dialogue-divider {
   border-top: 1px solid rgba(0,0,0,0.06);
-  padding-top: 10px; margin-top: 10px;
+  padding-top: 12px; margin-top: 12px;
 }
 .dark .dialogue-divider { border-top-color: rgba(255,255,255,0.12); }
 
 .card-footer {
   margin-top: auto;
-  padding-top: 8px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
 }
@@ -321,7 +321,7 @@ body {
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">Roundtable</span>
-      <span class="card-num">01 / 16</span>
+      <span class="card-num">01 / 18</span>
     </div>
     <div class="spacer"></div>
     <div class="t-hero">一部让人<br>看不懂的电影，<br>是艺术还是<br>逃避？</div>
@@ -336,19 +336,23 @@ body {
   </div>
 </div>
 
-<!-- ═══════════ 02 语境卡 ═══════════ -->
+<!-- ═══════════ 02 语境 ═══════════ -->
 <div class="card">
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">Context</span>
-      <span class="card-num">02 / 16</span>
+      <span class="card-num">02 / 18</span>
     </div>
-    <div class="t-xl" style="margin-bottom:10px;">为什么这件事值得聊？</div>
+    <div class="t-xl" style="margin-bottom:12px;">为什么这件事值得聊？</div>
     <div class="hr-accent"></div>
+    <p class="t-body" style="margin-bottom:12px;">
+      看完一部电影或展览，诚实说了句「我没看懂」，得到的回应往往是：<span style="color:var(--accent);font-weight:400;">「是你没打开」「需要修养」「不是给你看的」。</span>
+    </p>
+    <p class="t-body" style="margin-bottom:12px;">
+      你的困惑被说成了你的问题。但另一种可能也成立：作品本身就在利用这个结构——它什么都不承诺，所以永远不会让你失望。
+    </p>
     <p class="t-body">
-      看完一部电影或展览，诚实说了句「我没看懂」，得到的回应往往是：<span style="color:var(--accent);font-weight:400;">「是你没打开」「需要修养」「不是给你看的」</span>。<br><br>
-      你的困惑被说成了你的问题。但另一种可能也成立：作品本身就在利用这个结构——它什么都不承诺，所以永远不会让你失望；你的「看不懂」不是它的失败，而是它设计的一部分。<br><br>
-      这场讨论要解决的：<span style="font-weight:400;color:var(--text-primary);">当一部作品用「让人看不懂」来挡批评的时候，我们怎么分辨它是真的有话要说，还是在躲。</span>
+      这场讨论要解决的是：<span style="font-weight:400;color:var(--text-primary);">当一部作品用「让人看不懂」来挡批评的时候，我们怎么分辨它是真的有话要说，还是在躲。</span>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
@@ -359,7 +363,7 @@ body {
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">Lineup</span>
-      <span class="card-num">03 / 16</span>
+      <span class="card-num">03 / 18</span>
     </div>
     <div class="t-xl" style="color:#fff;margin-bottom:14px;">来聊天的六个人</div>
     <div class="participant-row">
@@ -380,14 +384,14 @@ body {
       <div class="participant-initial p-barth"></div>
       <div>
         <div class="participant-name">罗兰·巴特  Roland Barthes</div>
-        <div class="participant-desc">符号学家 — 研究作品是怎么让人读懂或读不懂的</div>
+        <div class="participant-desc">符号学家 — 研究作品怎么让人读懂或读不懂</div>
       </div>
     </div>
     <div class="participant-row">
       <div class="participant-initial p-truffaut"></div>
       <div>
         <div class="participant-name">弗朗索瓦·特吕弗  François Truffaut</div>
-        <div class="participant-desc">导演 — 认为导演要对自己的每个镜头负责</div>
+        <div class="participant-desc">导演 — 导演要对自己的每个镜头负责</div>
       </div>
     </div>
     <div class="participant-row">
@@ -408,52 +412,74 @@ body {
   </div>
 </div>
 
-<!-- ═══════════ 04 R1 交锋 A ═══════════ -->
+<!-- ═══════════ 04 R1 桑塔格 ═══════════ -->
 <div class="card">
   <div class="card-inner">
     <div class="card-header">
-      <span class="card-tag">第一轮 · 正面交锋</span>
-      <span class="card-num">04 / 16</span>
+      <span class="card-tag">第一轮 · 桑塔格先说</span>
+      <span class="card-num">04 / 18</span>
     </div>
-    <div class="t-xl" style="margin-bottom:10px;">是观众的问题，还是作品在耍滑头？</div>
+    <div class="t-xl" style="margin-bottom:12px;">「看不懂」这个词本身就是个陷阱</div>
     <div class="hr-accent"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-sontag"></div>
       <div>
         <div class="speaker-name text-sontag">桑塔格</div>
-        <div class="speaker-role">批评家 — 先发言</div>
+        <div class="speaker-role">批评家</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:10px;">
-      「看不懂」这个词本身就是个陷阱。有的电影故事碎得拼不起来，但它改变了你对时间的感受——你走出影院时感觉和进去时不一样了。<span style="color:var(--accent)">不是所有创作都是先想好再动手。很多是先做出来，然后看看自己做了什么。</span>
+    <p class="t-body" style="margin-bottom:12px;">
+      我们被训练成阐释动物——看到任何东西第一反应是「这是什么意思？」而不是「这是什么？」。
     </p>
-
-    <div class="dialogue-divider"></div>
-
-    <div class="speaker-label">
-      <div class="speaker-dot dot-adorno"></div>
-      <div>
-        <div class="speaker-name text-adorno">阿多诺</div>
-        <div class="speaker-role">哲学家 — 反驳</div>
-      </div>
-    </div>
+    <p class="t-body" style="margin-bottom:12px;">
+      有的电影故事碎得拼不起来，但它改变了你对时间的感受——走出影院时感觉和进去时不一样了。<span style="color:var(--accent)">身体接收到了，只是脑子没解码。</span>
+    </p>
     <p class="t-body">
-      说得漂亮。但<span style="color:var(--text-primary);font-weight:400;">谁从「看不懂」里得到了好处？</span>独立影展上那些没人看得懂的片子，观众的困惑变成了用来炫耀的谈资——「我去看了那个看不懂的片子」。<br><br>
-      <span style="color:var(--accent);font-weight:400;">达利和贝克特的难懂背后是真的在挣扎；今天很多「散文式」作品只是熟练地装作让人看不懂——像撒胡椒面一样精确控制在「有点不懂但又不是完全看不下去」的程度。</span>
+      不是所有创作都是先想好再动手的。很多伟大的艺术是从没有命题的地方开始的——画家动笔时不知道会画出什么，导演开机时可能只有一个画面感。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 05 R1 交锋 B ═══════════ -->
+<!-- ═══════════ 05 R1 阿多诺反驳 ═══════════ -->
 <div class="card dark">
   <div class="card-inner">
     <div class="card-header">
-      <span class="card-tag">第一轮 · 四个判断方法</span>
-      <span class="card-num">05 / 16</span>
+      <span class="card-tag">第一轮 · 阿多诺反驳</span>
+      <span class="card-num">05 / 18</span>
     </div>
-    <div class="t-xl" style="color:#fff;margin-bottom:10px;">四个人给了四个判断方法</div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">谁从「看不懂」里得到了好处？</div>
+    <div class="hr-accent"></div>
+
+    <div class="speaker-label">
+      <div class="speaker-dot dot-adorno"></div>
+      <div>
+        <div class="speaker-name text-adorno">阿多诺</div>
+        <div class="speaker-role">哲学家</div>
+      </div>
+    </div>
+    <p class="t-body" style="margin-bottom:12px;">
+      说得漂亮。但<span style="color:#e74c5e;font-weight:400;">谁从「看不懂」中获益？</span>
+    </p>
+    <p class="t-body" style="margin-bottom:12px;">
+      独立影展上那些没人看得懂的片子，观众的困惑变成了社交货币——「我去看了那个看不懂的片子」。这不是新感受力，这是困惑的商品化。
+    </p>
+    <p class="t-body">
+      达利和贝克特的难懂背后有真实的挣扎。今天很多「散文式」影视作品只是<span style="color:#e74c5e;font-weight:400;">熟练地装作让人看不懂</span>——像撒胡椒面一样精确控制在「有点不懂但又不是完全看不下去」的程度。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 06 R1 巴特+特吕弗 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">第一轮 · 两个判断方法</span>
+      <span class="card-num">06 / 18</span>
+    </div>
+    <div class="t-xl" style="margin-bottom:12px;">两个人给了两个具体的办法</div>
     <div class="hr-accent"></div>
 
     <div class="speaker-label">
@@ -463,9 +489,11 @@ body {
         <div class="speaker-role">符号学家</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      有的作品像一把锁，作者藏了钥匙；有的像一个工具箱，你自己去拿工具组装意思。<span style="color:#f7dc6f;font-weight:400;">判断方法：看完之后你还想不想再看一遍？</span>想再看的是好作品，想忘掉的大概率不行。
+    <p class="t-body" style="margin-bottom:14px;">
+      有的作品像一把锁，作者藏了钥匙；有的像一个工具箱，你自己去拿工具组装意思。<span style="color:var(--accent);font-weight:400;">判断方法：看完之后你还想不想再看一遍？</span>想再看的是好作品，想忘掉的大概率不行。
     </p>
+
+    <div class="dialogue-divider"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-truffaut"></div>
@@ -474,9 +502,22 @@ body {
         <div class="speaker-role">导演</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
+    <p class="t-body">
       导演能不能一个镜头一个镜头地说清楚「为什么要这样拍」？能说清楚→大概是真的在创作。说不出→可能是乱拍的。
     </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 07 R1 蔡明亮+北岛 ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">第一轮 · 创作者的回答</span>
+      <span class="card-num">07 / 18</span>
+    </div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">拍的人和写的人怎么说</div>
+    <div class="hr-accent"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-tsai"></div>
@@ -485,9 +526,11 @@ body {
         <div class="speaker-role">导演</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      我的电影里一个人对着海报念了很久。<span style="color:#58d68d;">那段长度本身就是孤独，不是在用长度表达孤独。</span>我没故意设置门槛，但也不会为了让你舒服把路上的石头都搬走。
+    <p class="t-body" style="margin-bottom:14px;">
+      我的电影里一个人对着海报念了很久。那段长度本身就是孤独，不是「用长度来表达孤独」。我没故意设置门槛，但也不会为了让你舒服把路上的石头都搬走。
     </p>
+
+    <div class="dialogue-divider"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-beidao"></div>
@@ -497,108 +540,125 @@ body {
       </div>
     </div>
     <p class="t-body">
-      「朦胧诗」这个名字就是别人扣在我们头上的帽子。<span style="color:#bb8fce;">给别人起名字的人有权力，但你身体的反应不会撒谎——被触动了就是被触动了。</span>
+      「朦胧诗」这个名字就是别人扣在我们头上的帽子。给别人起名字的人有权力，但你身体的反应不会骗人——被触动了就是被触动了，不需要以理解为前提。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 06 R1 小结 ═══════════ -->
+<!-- ═══════════ 08 R1 小结 ═══════════ -->
 <div class="card accent">
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">第一轮小结</span>
-      <span class="card-num">06 / 16</span>
+      <span class="card-num">08 / 18</span>
     </div>
-    <div class="t-xl" style="color:#fff;margin-bottom:10px;">表面上大家都同意，实际上吵得很厉害</div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">表面上都同意，实际上吵得很厉害</div>
     <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:10px;">
-      第一轮有一个表面共识：<strong style="font-weight:500;">允许「看不懂」的作品存在。</strong>没人说所有作品都必须一看就懂。
+    <p class="t-body" style="margin-bottom:12px;">
+      表面共识：<strong style="font-weight:500;">允许「看不懂」的作品存在。</strong>没人说所有作品都必须一看就懂。
     </p>
-    <p class="t-body" style="margin-bottom:10px;">
-      但真正的分歧在<strong style="font-weight:500;">怎么判断一部看不懂的作品到底是好是坏：</strong>
+    <p class="t-body" style="margin-bottom:12px;">
+      真正的分歧在<strong style="font-weight:500;">怎么判断好坏：</strong>
     </p>
-    <ul class="point-list" style="margin-bottom:10px;gap:6px;">
+    <ul class="point-list" style="margin-bottom:12px;">
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12px;line-height:1.5;color:rgba(255,255,255,0.92);">
+        <span style="font-size:12px;line-height:1.55;color:rgba(255,255,255,0.92);">
           桑塔格+蔡明亮 → 不需要判断，是你用的标准不对
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12px;line-height:1.5;color:rgba(255,255,255,0.92);">
-          特吕弗+巴特 → 靠具体方法来判断（想不想再看、能不能说清楚）
+        <span style="font-size:12px;line-height:1.55;color:rgba(255,255,255,0.92);">
+          特吕弗+巴特 → 靠具体方法来判断
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12px;line-height:1.5;color:rgba(255,255,255,0.92);">
-          北岛 → 看你的身体有没有被触动
+        <span style="font-size:12px;line-height:1.55;color:rgba(255,255,255,0.92);">
+          北岛 → 身体有没有被触动
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:12px;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="color:#ffcccc;">阿多诺一个人站在对面：</strong>上面这些方法全都可以假装出来
+        <span style="font-size:12px;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="color:#ffcccc;">阿多诺一个人站在对面：</strong>这些方法全都可以假装出来
         </span>
       </li>
     </ul>
     <p class="t-body">
-      这引出下一轮的问题：<br>
-      <strong style="font-weight:500;">如果真假越来越难看出来，到底该谁来负责判断？</strong>
+      下一轮问题：<strong style="font-weight:500;">如果真假难辨，到底该谁来负责判断？</strong>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 07 R2 交锋 A ═══════════ -->
+<!-- ═══════════ 09 R2 阿多诺 ═══════════ -->
 <div class="card">
   <div class="card-inner">
     <div class="card-header">
-      <span class="card-tag">第二轮 · 怎么分好坏</span>
-      <span class="card-num">07 / 16</span>
+      <span class="card-tag">第二轮 · 追问到底</span>
+      <span class="card-num">09 / 18</span>
     </div>
-    <div class="t-xl" style="margin-bottom:10px;">好作品让你不舒服，坏作品只是让你困惑</div>
+    <div class="t-xl" style="margin-bottom:12px;">好作品让你想逃，坏作品只让你困惑</div>
     <div class="hr-accent"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-adorno"></div>
       <div>
         <div class="speaker-name text-adorno">阿多诺</div>
-        <div class="speaker-role">追问到底</div>
+        <div class="speaker-role">哲学家</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:10px;">
-      巴特说的「看完还想再看」真的能说明问题吗？影评人为了写稿子二刷三刷——那是<span style="color:var(--text-primary);font-weight:400;">为了工作不得不看</span>，不是作品本身吸引人。<br><br>
-      我觉得真正能分出来的只有一样：<span style="color:var(--accent);font-weight:400;">这种不舒服到底是强烈的还是温和的？</span>真正好的作品会让你强烈地不舒服（甚至想逃）；装深沉的作品只让你温和地困惑（「嗯挺有意思的」）。
+    <p class="t-body" style="margin-bottom:12px;">
+      巴特说的「看完还想再看」靠不住。影评人二刷三刷是为了工作，不是作品吸引人。
     </p>
-
-    <div class="dialogue-divider"></div>
-
-    <div class="speaker-label">
-      <div class="speaker-dot dot-sontag"></div>
-      <div>
-        <div class="speaker-name text-sontag">桑塔格</div>
-        <div class="speaker-role">不同意阿多诺</div>
-      </div>
-    </div>
+    <p class="t-body" style="margin-bottom:12px;">
+      真正能分出来的只有一样：<span style="color:var(--accent);font-weight:400;">不舒服的程度。</span>
+    </p>
     <p class="t-body">
-      阿多诺预设艺术必须让人「想逃」才叫好作品——这太窄了。维米尔的画让你想逃吗？不。但它改变了你看待一幅画的方式。<br><br>
-      我的修正：<span style="color:var(--accent);font-weight:400;">看你注意力的状态。</span>伪晦涩让你一直在焦虑地猜「这是什么意思」；真晦涩让你不再猜意思，直接去感受——两种状态完全不同。
+      真正好的作品会让你强烈地不舒服——甚至想逃。装深沉的作品只让你温和地困惑：「嗯挺有意思的。」像吃了分子料理，不知道厨师做了什么但不会觉得被冒犯。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 08 R2 交锋 B ═══════════ -->
+<!-- ═══════════ 10 R2 桑塔格 ═══════════ -->
 <div class="card dark">
   <div class="card-inner">
     <div class="card-header">
-      <span class="card-tag">第二轮 · 方法开始打架了</span>
-      <span class="card-num">08 / 16</span>
+      <span class="card-tag">第二轮 · 桑塔格不同意</span>
+      <span class="card-num">10 / 18</span>
     </div>
-    <div class="t-xl" style="color:#fff;margin-bottom:10px;">刚才说的那些方法开始互相矛盾了</div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">别量拳头大小，量注意力</div>
+    <div class="hr-accent"></div>
+
+    <div class="speaker-label">
+      <div class="speaker-dot dot-sontag"></div>
+      <div>
+        <div class="speaker-name text-sontag">桑塔格</div>
+        <div class="speaker-role">批评家</div>
+      </div>
+    </div>
+    <p class="t-body" style="margin-bottom:12px;">
+      阿多诺预设艺术必须让人「想逃」才叫好——太窄了。维米尔的画让你想逃吗？不。但它改变了你看待一幅画的方式。
+    </p>
+    <p class="t-body">
+      我的判据：<span style="color:#f59e4b;font-weight:400;">看你注意力的状态。</span>伪晦涩让你一直在焦虑地猜「这是什么意思」；真晦涩让你不再猜意思，直接去感受。两种状态看起来很像（都是「没看懂」），内在体验完全不同。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 11 R2 三人 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">第二轮 · 方法开始打架</span>
+      <span class="card-num">11 / 18</span>
+    </div>
+    <div class="t-xl" style="margin-bottom:12px;">刚才说的方法开始互相矛盾了</div>
     <div class="hr-accent"></div>
 
     <div class="speaker-label">
@@ -608,19 +668,19 @@ body {
         <div class="speaker-role">承认自己的方法有问题</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      我说的「看完还想再看」其实靠不住。同一本书二十岁看是天书，三十岁被击穿了，四十岁又觉得做作了。<span style="color:#f7dc6f;">这些方法测的不是作品本身好不好，而是你和作品之间的关系——关系会变。</span>
+    <p class="t-body" style="margin-bottom:10px;">
+      「看完还想再看」其实靠不住。同一本书二十岁天书三十岁击穿四十岁又觉得做作。<span style="color:var(--accent);">测的是你和作品的关系，不是作品本身。</span>
     </p>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-tsai"></div>
       <div>
         <div class="speaker-name text-tsai">蔡明亮</div>
-        <div class="speaker-role">补充一个角度</div>
+        <div class="speaker-role">创作者自己是最差的裁判</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      我拍完《爱情万岁》自己也不知道它算什么。后来得了金狮奖，评委给的理由和我当时想的完全不一样。<span style="color:#58d68d;">作品交出去之后好不好就不是创作者能控制的了。</span>
+    <p class="t-body" style="margin-bottom:10px;">
+      拍完《爱情万岁》自己也不知道算什么。后来得了金狮奖，评委理由和当时想的完全不一样。<span style="color:#27ae60;">作品交出去之后好不好就不是创作者能控制的了。</span>
     </p>
 
     <div class="speaker-label">
@@ -631,92 +691,112 @@ body {
       </div>
     </div>
     <p class="t-body">
-      但如果「每次都不一样」那我们就永远不能说「这是烂作品」了——这个权利很重要。我加一条底线：<span style="color:#bb8fce;font-weight:400;">作品本身必须够结实，才能撑得起让人看不懂。</span>随便抽掉一段它就塌了？那不行。
+      但如果每次都不一样，那永远不能说「这是烂作品」了。我的底线：<span style="color:#8e44ad;font-weight:400;">作品必须够结实才能撑起让人看不懂。</span>随便抽掉一段它就塌了？不行。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 09 R2 小结 ═══════════ -->
-<div class="card">
-  <div class="card-inner">
-    <div class="card-header">
-      <span class="card-tag">第二轮小结</span>
-      <span class="card-num">09 / 16</span>
-    </div>
-    <div class="t-xl" style="margin-bottom:10px;">每个人都在出主意，同时也在否定别人的主意</div>
-    <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:10px;">
-      第二轮暴露了一个死循环：
-    </p>
-    <p class="t-body" style="margin-bottom:10px;padding-left:10px;border-left:2px solid var(--accent);">
-      蔡明亮说：每次人和作品的相遇都不一样——那「找一条固定的判断标准」这个目标本身就有问题。
-    </p>
-    <p class="t-body" style="margin-bottom:10px;">
-      北岛立刻堵回去：如果每次都不一样，那我们就永远不能说「这是烂作品」了。必须有一条底线。
-    </p>
-    <p class="t-body">
-      <span style="color:var(--accent);font-weight:400;">这条线不在作品里（形式可以假装），不在创作者那里（可以事后找理由），也不在观众这里（每个人的感觉都合理）。</span><br>
-      那它到底在哪？还是说——承认没有固定答案才是最诚实的？
-    </p>
-    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
-  </div>
-</div>
-
-<!-- ═══════════ 10 R3 交锋 A ═══════════ -->
+<!-- ═══════════ 12 R2 小结 ═══════════ -->
 <div class="card dark">
   <div class="card-inner">
     <div class="card-header">
-      <span class="card-tag">第三轮 · 三条最靠谱的线</span>
-      <span class="card-num">10 / 16</span>
+      <span class="card-tag">第二轮小结</span>
+      <span class="card-num">12 / 18</span>
     </div>
-    <div class="t-xl" style="color:#fff;margin-bottom:10px;">三条没法造假的判断标准</div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">每个人都在出主意，也在否定别人的主意</div>
+    <div class="hr-accent"></div>
+    <p class="t-body" style="margin-bottom:12px;">
+      第二轮暴露了一个死循环：
+    </p>
+    <p class="t-body" style="margin-bottom:12px;padding-left:12px;border-left:2px solid rgba(255,255,255,0.4);">
+      蔡明亮说每次人和作品的相遇都不一样——那「找固定标准」这个目标本身就有问题。
+    </p>
+    <p class="t-body" style="margin-bottom:12px;">
+      北岛堵回去：如果每次都不一样，就永远不能说「这是烂作品」了。必须有一条底线。
+    </p>
+    <p class="t-body">
+      <span style="color:#f59e4b;font-weight:400;">这条线不在作品里（形式可以假装），不在创作者那里（可以事后找理由），也不在观众这里（每个人的感觉都合理）。</span>
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 13 R3 判断线 A ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">第三轮 · 没法造假的线</span>
+      <span class="card-num">13 / 18</span>
+    </div>
+    <div class="t-xl" style="margin-bottom:12px;">两条和时间有关的判断标准</div>
     <div class="hr-accent"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-barth"></div>
       <div>
         <div class="speaker-name text-barth">巴特</div>
-        <div class="speaker-role">换了一个思路</div>
+        <div class="speaker-role">换了思路</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      别再问「这是真的还是假的」了，改问<span style="color:#f7dc6f;font-weight:400;">它面对质疑时的态度：是在解释还是在敷衍？</span>失败和欺骗是两回事。
+    <p class="t-body" style="margin-bottom:14px;">
+      别再问真假了，改问<span style="color:var(--accent);font-weight:400;">它面对质疑时的态度：是在解释还是在敷衍？</span>失败和欺骗是两回事。
     </p>
+
+    <div class="dialogue-divider"></div>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-beidao"></div>
       <div>
         <div class="speaker-name text-beidao">北岛</div>
-        <div class="speaker-role">给出了最简单的标准</div>
-      </div>
-    </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      <span style="color:#bb8fce;font-weight:400;">看时间。</span>五年后还有人讨论这部作品吗？装深沉的作品——影展结束那天就死了，没人再提。真正好的作品从那天起才被人反复谈论。时间没法造假。
-    </p>
-
-    <div class="speaker-label">
-      <div class="speaker-dot dot-adorno"></div>
-      <div>
-        <div class="speaker-name text-adorno">阿多诺</div>
-        <div class="speaker-role">又加了一条</div>
+        <div class="speaker-role">最简单的标准</div>
       </div>
     </div>
     <p class="t-body">
-      但好作品可能要等创作者死了之后才被认可，那活着的时候怎么办？<span style="color:#e74c5e;font-weight:400;">看看是谁在骂它。</span>真正好的作品一定会惹怒某个有权有势的人或机构。装深沉的作品太安全了——没人骂它，因为不值得生气。
+      <span style="color:var(--accent);font-weight:400;">看时间。</span>五年后还有人讨论吗？影展结束那天就没人再提的作品——大概不行。真正好的从那天起才被人反复谈论。时间没法造假。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 11 R3 交锋 B ═══════════ -->
+<!-- ═══════════ 14 R3 判断线 B ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">第三轮 · 第三条线</span>
+      <span class="card-num">14 / 18</span>
+    </div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">看看是谁在骂它</div>
+    <div class="hr-accent"></div>
+
+    <div class="speaker-label">
+      <div class="speaker-dot dot-adorno"></div>
+      <div>
+        <div class="speaker-name text-adorno">阿多诺</div>
+        <div class="speaker-role">哲学家</div>
+      </div>
+    </div>
+    <p class="t-body" style="margin-bottom:12px;">
+      但好作品可能要等创作者死了才被认可。活着的时候怎么办？
+    </p>
+    <p class="t-body" style="margin-bottom:12px;">
+      <span style="color:#e74c5e;font-weight:400;">看看是谁在骂它。</span>真正好的作品一定会惹怒某个有权有势的人或机构。《感官世界》让日本审查制度疯了，《达赖喇嘛》让法国右翼疯了。
+    </p>
+    <p class="t-body">
+      装深沉的作品太安全了——没人骂它，因为不值得生气。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 15 R3 收束 ═══════════ -->
 <div class="card">
   <div class="card-inner">
     <div class="card-header">
-      <span class="card-tag">第三轮 · 最后的结论</span>
-      <span class="card-num">11 / 16</span>
+      <span class="card-tag">第三轮 · 最后走到了同一个答案</span>
+      <span class="card-num">15 / 18</span>
     </div>
-    <div class="t-xl" style="margin-bottom:10px;">最后大家走到了同一个答案</div>
+    <div class="t-xl" style="margin-bottom:12px;">三个人说了三件事，指向同一个地方</div>
     <div class="hr-accent"></div>
 
     <div class="speaker-label">
@@ -726,196 +806,142 @@ body {
         <div class="speaker-role">最后的看法</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      最诚实的回答：<span style="color:var(--accent);font-weight:400;">一部作品可以同时是「真的好艺术」和「在逃避批评」。</span>这两件事不矛盾。不要逼自己二选一。
+    <p class="t-body" style="margin-bottom:10px;">
+      一部作品可以同时是「真的好艺术」和「在逃避批评」。<span style="color:var(--accent);font-weight:400;">不要逼自己二选一。</span>
     </p>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-tsai"></div>
       <div>
         <div class="speaker-name text-tsai">蔡明亮</div>
-        <div class="speaker-role">最简单的测试方法</div>
+        <div class="speaker-role">最简单的测试</div>
       </div>
     </div>
-    <p class="t-body" style="margin-bottom:8px;">
-      真正好的作品不怕你用大白话去讲它。<span style="color:#27ae60;font-weight:400;">装深沉的作品——你一用大白话说它就塌了</span>，因为它本来就没有实在的东西撑着。
+    <p class="t-body" style="margin-bottom:10px;">
+      真正好的不怕你用大白话讲。一用大白话就塌的——本来就没有实在的东西撑着。
     </p>
 
     <div class="speaker-label">
       <div class="speaker-dot dot-truffaut"></div>
       <div>
         <div class="speaker-name text-truffaut">特吕弗</div>
-        <div class="speaker-role">做了总结</div>
+        <div class="speaker-role">总结</div>
       </div>
     </div>
     <p class="t-body">
-      不负责任的人做出来的东西都一个样——用「艺术自由」来挡质疑、用「每个人感受不同」来放弃判断、用「我不懂」来不思考。<br><br>
-      <span style="color:var(--accent);font-weight:400;">而负责任的不管哪种样子都有一个共同点：它愿意把自己摊开给人看。</span>所有判断标准最后汇成一句——<strong style="color:var(--text-primary);">它敢不敢让你用最朴素的方式去看？</strong>
+      所有判据汇成一条：<strong style="color:var(--text-primary);">它敢不敢让你用最朴素的方式去看？</strong>敢的——哪怕看不懂也是真的。不敢的——哪怕说看懂了也是假的。
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 12 工具箱 ═══════════ -->
+<!-- ═══════════ 16 工具箱 ═══════════ -->
 <div class="card accent">
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">工具箱</span>
-      <span class="card-num">12 / 16</span>
+      <span class="card-num">16 / 18</span>
     </div>
-    <div class="t-xl" style="color:#fff;margin-bottom:10px;">下次遇到「看不懂」的作品，用这 7 条检查</div>
+    <div class="t-xl" style="color:#fff;margin-bottom:12px;">下次遇到「看不懂」，用这 7 条检查</div>
     <div class="hr-accent"></div>
     <ul class="point-list">
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">看完还想再看吗？</strong> 想再看→可能真的有东西；想忘掉→大概不行
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">还想再看吗？</strong> 想→可能有东西；想忘→大概不行
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">你在焦虑地猜意思，还是静下来感受了？</strong> 前者可疑，后者可能是好作品
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">在猜意思还是在感受？</strong> 焦虑地猜→可疑；静下来感受→可能是好的
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">不舒服的程度：强烈到想逃（好），还是只是有点困惑（警惕）</strong>
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">不舒服到想逃，还是只是有点困惑？</strong>
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">看完之后你对其他作品的口味变了吗？</strong> 变了→好作品透镜；没变→滤镜
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">看完之后口味变了吗？</strong> 变了→透镜；没变→滤镜
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">随便删掉一段，整个作品还站得住吗？</strong> 塌了→松散；不塌→够结实
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">随便删一段还站得住吗？</strong> 塌了→松散
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">能用一句大白话讲清楚它吗？</strong> 能→不怕；不能→靠包装撑着
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">能用大白话讲清楚吗？</strong> 能→不怕；不能→靠包装
         </span>
       </li>
       <li>
         <div class="point-mark"></div>
-        <span style="font-size:11.5px;font-weight:300;line-height:1.5;color:rgba(255,255,255,0.92);">
-          <strong style="font-weight:500;">面对「看不懂」的质疑，它在解释还是在敷衍？</strong>
+        <span style="font-size:11.5px;font-weight:300;line-height:1.55;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">面对质疑，它在解释还是敷衍？</strong>
         </span>
       </li>
     </ul>
-    <div class="spacer"></div>
-    <div class="t-body-sm" style="color:rgba(255,255,255,0.7)">
-      最后问一句 → 它敢不敢让你用最朴素的方式去看？
-    </div>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 13 结论 ═══════════ -->
+<!-- ═══════════ 17 结论 ═══════════ -->
 <div class="card dark">
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">结论</span>
-      <span class="card-num">13 / 16</span>
+      <span class="card-num">17 / 18</span>
     </div>
-    <div class="t-hero" style="color:#fff;font-size:28px;line-height:1.23;">
-      不负责任的人<br>做出来的东西都一个样
+    <div class="t-hero" style="color:#fff;font-size:28px;line-height:1.25;">
+      不负责任的<br>都一个样
     </div>
     <div class="hr-accent"></div>
-    <p class="t-body">
-      不负责任的创作者——用「艺术自由」来挡技术质疑<br>
-      不负责任的评论家——用「每个人感受不同」来不判断<br>
-      不负责任的观众——用「我看不懂」来不思考<br>
-      不负责任的市场——用「小众精品」来卖高价
+    <p class="t-body" style="margin-bottom:12px;">
+      用「艺术自由」来挡技术质疑——<br>
+      用「每个人感受不同」来放弃判断——<br>
+      用「我看不懂」来不思考——<br>
+      用「小众精品」来卖高价——
     </p>
-    <div class="dialogue-divider"></div>
-    <p class="t-body-sm">
-      这四件事本质上是在做同一件事：<br>
-      <strong style="color:#fff;font-weight:400;">把本来应该交流的地方堵上了一道墙。</strong><br><br>
-      而负责任的样子不管哪种都有一个共同点——<br>
+    <p class="t-body-sm" style="color:rgba(255,255,255,0.7)">
+      四件事在做同一件事：把该交流的地方堵上一道墙。<br><br>
+      负责任的样子不管哪种都有一个共同点——<br>
       它愿意把自己摊开给人看。<br><br>
-      这部作品敢不敢让你用最朴素的方式去看？
+      <strong style="color:#fff;">它敢不敢让你用最朴素的方式去看？</strong>
     </p>
     <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
-<!-- ═══════════ 14 重要修正 ═══════════ -->
+<!-- ═══════════ 18 尾卡 ═══════════ -->
 <div class="card">
-  <div class="card-inner">
-    <div class="card-header">
-      <span class="card-tag">重要修正</span>
-      <span class="card-num">14 / 16</span>
-    </div>
-    <div class="t-xl" style="margin-bottom:10px;">不用选边站，两种可能同时成立</div>
-    <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:10px;">
-      整场讨论最大的陷阱：让你以为必须在「真有深度」和「装深沉」之间选一个。
-    </p>
-    <p class="t-body" style="margin-bottom:10px;">
-      桑塔格最后的修正最重要：一部作品可以真的在追求某种美学效果（创作者真心在尝试），同时客观上又起到了挡批评的作用（确实让质疑者说不出口）。这两件事不需要创作者「故意」去设计。<br><br>
-      <span style="color:var(--accent);font-weight:400;">作品的结构会自动产生一些创作者没想到的效果。</span>
-    </p>
-    <p class="t-body">
-      所以正确的做法不是判它真假，而是把它在做的几件事一件一件列出来——哪些是自觉的艺术尝试、哪些是无意中挡了批评、哪些是被市场和潮流推着走的。<br><br>
-      <strong style="color:var(--text-primary);">一件一件摊开看。不要急着下结论。</strong>
-    </p>
-    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
-  </div>
-</div>
-
-<!-- ═══════════ 15 还没想清楚 ═══════════ -->
-<div class="card">
-  <div class="card-inner">
-    <div class="card-header">
-      <span class="card-tag">还没想清楚的问题</span>
-      <span class="card-num">15 / 16</span>
-    </div>
-    <div class="t-xl" style="margin-bottom:10px;">三个还没想清楚的问题</div>
-    <div class="hr-accent"></div>
-    <p class="t-body" style="margin-bottom:12px;">
-      <span style="color:var(--accent);font-weight:400;">① 「不装」会不会变成一种新的装？</span><br>
-      当「极简」「不做解释」变成了一种被认可的时髦风格，假装朴素是不是比假装深刻更容易？我们这套判断方法本身会不会也被学会和模仿？
-    </p>
-    <p class="t-body" style="margin-bottom:12px;">
-      <span style="color:var(--accent);font-weight:400;">② 如果是 AI 做的呢？</span><br>
-      AI 生成的内容没有一个真人创作者可以接受质询——那所有需要「问创作者」的判断标准全部失效了。我们还剩下什么能用的？
-    </p>
-    <p class="t-body">
-      <span style="color:var(--accent);font-weight:400;">③ 不同文化里，「看不懂」是一回事吗？</span><br>
-      同一部电影在中国观众和美国观众眼里可能完全是两种「看不懂」——这是同一个问题吗？我们的判断方法需要根据文化调整吗？
-    </p>
-    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
-  </div>
-</div>
-
-<!-- ═══════════ 16 尾卡 ═══════════ -->
-<div class="card dark">
   <div class="card-inner">
     <div class="card-header">
       <span class="card-tag">带走</span>
-      <span class="card-num">16 / 16</span>
+      <span class="card-num">18 / 18</span>
     </div>
     <div class="spacer"></div>
-    <div class="t-hero" style="color:#fff;">下次说<br>「我看不懂」<br>之前</div>
-    <div class="spacer"></div>
+    <div class="t-xl" style="margin-bottom:12px;">下次说「我看不懂」之前</div>
     <div class="hr-accent"></div>
-    <p class="t-body-sm" style="color:rgba(255,255,255,0.7)">
-      下次说「我看不懂」之前，先问自己三个问题：<br><br>
-      我是在焦虑地猜它什么意思，<br>
-      还是已经静下来去感受了？<br><br>
-      面对别人的质疑，它在解释还是在敷衍？<br><br>
+    <p class="t-body" style="margin-bottom:10px;">
+      先问自己三个问题：
+    </p>
+    <p class="t-body" style="margin-bottom:10px;padding-left:12px;border-left:2px solid var(--accent);">
+      我是在焦虑地猜它什么意思，<br>还是已经静下来去感受了？
+    </p>
+    <p class="t-body" style="margin-bottom:10px;padding-left:12px;border-left:2px solid var(--accent);">
+      面对别人的质疑，它在解释还是在敷衍？
+    </p>
+    <p class="t-body" style="padding-left:12px;border-left:2px solid var(--accent);">
       用一句大白话讲一遍——它还站得住吗？
     </p>
-    <div class="card-footer">
-      <span class="brand-mark">MERJIC</span>
-    </div>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
   </div>
 </div>
 
