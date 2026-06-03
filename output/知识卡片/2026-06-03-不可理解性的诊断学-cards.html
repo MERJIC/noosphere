@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=375">
+<title>不可理解性的诊断学 · 知识卡片</title>
+<style>
+@font-face {
+  font-family: 'ZY LOYALTY';
+  src: url('fonts/ZY Loyalty.ttf') format('truetype');
+}
+
+:root {
+  --paper: #fafaf8;
+  --ink: #0a0a0a;
+  --accent: #e0620a;
+  --grey-3: #737373;
+  --text-primary: #0a0a0a;
+  --text-secondary: #525252;
+  --text-helper: #737373;
+  --sans: "Inter", "Helvetica Neue", Helvetica, system-ui, sans-serif;
+  --sans-zh: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", "Consolas", monospace;
+  --card-w: 375px;
+  --card-h: 500px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #111;
+  font-family: var(--sans-zh), var(--sans);
+  padding: 32px 24px 60px;
+}
+
+.page-header {
+  color: #444;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.card {
+  width: var(--card-w);
+  height: var(--card-h);
+  position: relative;
+  overflow: hidden;
+  background: var(--paper);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  flex-shrink: 0;
+}
+
+.card.dark   { background: var(--ink);  color: #fff; }
+.card.accent { background: var(--accent); color: #fff; }
+
+.card-inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 22px 16px;
+}
+
+.spacer { flex: 1; }
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.card-tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-helper);
+}
+.card.dark .card-tag { color: rgba(255,255,255,0.5); }
+.card.accent .card-tag { color: rgba(255,255,255,0.75); }
+
+.card-num {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--text-helper);
+}
+.card.dark .card-num { color: rgba(255,255,255,0.4); }
+.card.accent .card-num { color: rgba(255,255,255,0.65); }
+
+.t-hero {
+  font-family: var(--sans-zh), var(--sans);
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.t-hero-sm {
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.t-xl {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.3;
+}
+.t-body {
+  font-size: 13.5px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.card.dark .t-body { color: rgba(255,255,255,0.82); }
+.card.accent .t-body { color: rgba(255,255,255,0.9); }
+
+.t-body-sm {
+  font-size: 12.5px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+.card.dark .t-body-sm { color: rgba(255,255,255,0.75); }
+.card.accent .t-body-sm { color: rgba(255,255,255,0.85); }
+
+.t-meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--text-helper);
+}
+.card.dark .t-meta { color: rgba(255,255,255,0.5); }
+.card.accent .t-meta { color: rgba(255,255,255,0.7); }
+
+.hr-accent {
+  width: 36px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 14px;
+}
+.card.dark .hr-accent { background: rgba(255,255,255,0.7); }
+.card.accent .hr-accent { background: rgba(255,255,255,0.7); }
+
+.quote-block {
+  border-left: 2px solid var(--accent);
+  padding-left: 14px;
+  margin: 10px 0;
+}
+.card.dark .quote-block { border-left-color: rgba(255,255,255,0.5); }
+.card.accent .quote-block { border-left-color: rgba(255,255,255,0.5); }
+
+/* 人物颜色系统 — 6位嘉宾 */
+.text-sontag   { color: #e0620a; }
+.text-adorno   { color: #c0392b; }
+.text-barth    { color: #d4a500; }
+.text-truffaut { color: #3498db; }
+.text-tsai     { color: #27ae60; }
+.text-beidao   { color: #8e44ad; }
+
+.card.dark .text-sontag   { color: #f59e4b; }
+.card.dark .text-adorno   { color: #e74c5e; }
+.card.dark .text-barth    { color: #f7dc6f; }
+.card.dark .text-truffaut { color: #5dade2; }
+.card.dark .text-tsai     { color: #58d68d; }
+.card.dark .text-beidao   { color: #bb8fce; }
+
+.card.accent .text-sontag,
+.card.accent .text-adorno,
+.card.accent .text-barth,
+.card.accent .text-truffaut,
+.card.accent .text-tsai,
+.card.accent .text-beidao { color: #fff; }
+
+.speaker-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.speaker-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.card.accent .speaker-dot { background: rgba(255,255,255,0.9); }
+
+.dot-sontag   { background: #e0620a; }
+.dot-adorno   { background: #c0392b; }
+.dot-barth    { background: #d4a500; }
+.dot-truffaut { background: #3498db; }
+.dot-tsai     { background: #27ae60; }
+.dot-beidao   { background: #8e44ad; }
+
+.speaker-name {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.card.dark .speaker-name { color: rgba(255,255,255,0.9); }
+.card.accent .speaker-name { color: rgba(255,255,255,0.92); }
+
+.speaker-role {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-helper);
+  letter-spacing: 0.04em;
+}
+.card.dark .speaker-role { color: rgba(255,255,255,0.5); }
+.card.accent .speaker-role { color: rgba(255,255,255,0.5); }
+
+.point-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.point-list li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.point-mark {
+  width: 4px;
+  height: 4px;
+  background: var(--accent);
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+.card.dark .point-mark { background: rgba(255,255,255,0.6); }
+.card.accent .point-mark { background: rgba(255,255,255,0.6); }
+
+.participant-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 9px 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.participant-initial {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+.p-sontag   { background: #e0620a; }
+.p-adorno   { background: #c0392b; }
+.p-barth    { background: #d4a500; }
+.p-truffaut { background: #3498db; }
+.p-tsai     { background: #27ae60; }
+.p-beidao   { background: #8e44ad; }
+
+.participant-name {
+  font-size: 12.5px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.3;
+}
+.participant-desc {
+  font-family: var(--mono);
+  font-size: 9.5px;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.03em;
+}
+
+.dialogue-divider {
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+.card.dark .dialogue-divider {
+  border-top-color: rgba(255,255,255,0.12);
+}
+
+.card-footer {
+  margin-top: auto;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.brand-mark {
+  font-family: 'ZY LOYALTY', var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  color: var(--text-helper);
+}
+.card.dark .brand-mark { color: rgba(255,255,255,0.35); }
+.card.accent .brand-mark { color: rgba(255,255,255,0.6); }
+
+.hint {
+  color: #555;
+  font-family: var(--mono);
+  font-size: 11px;
+  text-align: center;
+  margin: 36px auto 14px;
+  line-height: 1.6;
+}
+.export-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.btn {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+.btn-o {
+  background: transparent;
+  border: 1px solid #555;
+  color: #aaa;
+}
+.export-status {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: #666;
+}
+
+/* dark/accent 标题色覆盖 */
+.card.dark .t-hero,
+.card.dark .t-hero-sm,
+.card.dark .t-xl { color: #fff; }
+.card.accent .t-hero,
+.card.accent .t-hero-sm,
+.card.accent .t-xl { color: #fff; }
+
+/* accent 底 helper 文字提亮 */
+.card.accent [style*="color:var(--text-helper)"] { color: rgba(255,255,255,0.8) !important; }
+.card.accent [style*="color:#737373"] { color: rgba(255,255,255,0.8) !important; }
+
+@media print {
+  body { background: white; padding: 0; }
+  .stack { gap: 0; display: block; }
+  .page-header, .hint, .export-bar, .export-status { display: none !important; }
+  .card { page-break-after: always; margin: 0; break-after: page; }
+}
+</style>
+</head>
+<body>
+
+<div class="page-header">Roundtable · 不可理解性的诊断学</div>
+
+<div class="stack">
+
+<!-- ═══════════ 01 封面 ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Roundtable</span>
+      <span class="card-num">01 / 11</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="t-hero">一部让人<br>看不懂的电影，<br>是艺术还是<br>逃避？</div>
+    <div class="spacer"></div>
+    <div class="hr-accent"></div>
+    <p class="t-body-sm" style="color:rgba(255,255,255,0.55)">
+      六位来自批评、哲学、符号学、创作一线的对话者，用三轮交锋拆解「晦涩」的真相。
+    </p>
+    <div class="card-footer">
+      <span class="brand-mark">MERJIC</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 02 阵容 ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Lineup</span>
+      <span class="card-num">02 / 11</span>
+    </div>
+    <div class="t-xl" style="color:#fff;margin-bottom:18px;">六方对话者</div>
+
+    <div class="participant-row">
+      <div class="participant-initial p-sontag"></div>
+      <div>
+        <div class="participant-name">苏珊·桑塔格  Susan Sontag</div>
+        <div class="participant-desc">批评家 / 为不可解读性辩护</div>
+      </div>
+    </div>
+    <div class="participant-row">
+      <div class="participant-initial p-adorno"></div>
+      <div>
+        <div class="participant-name">西奥多·阿多诺  Theodor Adorno</div>
+        <div class="participant-desc">哲学家 / 质疑伪深度的商品化</div>
+      </div>
+    </div>
+    <div class="participant-row">
+      <div class="participant-initial p-barth"></div>
+      <div>
+        <div class="participant-name">罗兰·巴特  Roland Barthes</div>
+        <div class="participant-desc">符号学家 / 可写文本 vs 可读文本</div>
+      </div>
+    </div>
+    <div class="participant-row">
+      <div class="participant-initial p-truffaut"></div>
+      <div>
+        <div class="participant-name">弗朗索瓦·特吕弗  François Truffaut</div>
+        <div class="participant-desc">导演 / 创作自洽性的四个层级</div>
+      </div>
+    </div>
+    <div class="participant-row">
+      <div class="participant-initial p-tsai"></div>
+      <div>
+        <div class="participant-name">蔡明亮  Tsai Ming-liang</div>
+        <div class="participant-desc">导演 / 不设门槛也不削平石头</div>
+      </div>
+    </div>
+    <div class="participant-row">
+      <div class="participant-initial p-beidao"></div>
+      <div>
+        <div class="participant-name">北岛  Bei Dao</div>
+        <div class="participant-desc">诗人 / 命名权与布面张力</div>
+      </div>
+    </div>
+
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 03 桑塔格 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Position A</span>
+      <span class="card-num">03 / 11</span>
+    </div>
+    <div class="speaker-label">
+      <div class="speaker-dot dot-sontag"></div>
+      <div>
+        <div class="speaker-name text-sontag">桑塔格 · Sontag</div>
+        <div class="speaker-role">批评家 / 感官体验优先论</div>
+      </div>
+    </div>
+    <div class="t-hero-sm">你拿错了尺子</div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      「看不懂」这个词本身就是一个陷阱。它把观众的认知习惯当成了作品的评价标准。<br><br>
+      三种看不懂里，叙事断裂最不致命。《镜子》的叙事完全碎了，但它对你的时间感知做了精确的事。走出影院时对时间的感受和进去之前不一样。<br><br>
+      不是所有创作都是「我有一个想法然后表达出来」。大量创<span style="color:var(--accent)">作是做了一件事然后看看它是什么。</span>
+    </p>
+    <div class="spacer"></div>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 04 阿多诺 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Position B</span>
+      <span class="card-num">04 / 11</span>
+    </div>
+    <div class="speaker-label">
+      <div class="speaker-dot dot-adorno"></div>
+      <div>
+        <div class="speaker-name text-adorno">阿多诺 · Adorno</div>
+        <div class="speaker-role">哲学家 / 文化工业批判</div>
+      </div>
+    </div>
+    <div class="t-hero-sm">困惑的<br>商品化</div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      谁在「看不懂」这件事中获益？<br><br>
+      独立影展上放映一部没人看得懂的片子，观众离场时的困惑成了这部片子的社交货币。「我没看懂」变成身份标识——说明去了那个影展、在意这种电影。<br><br>
+      达利的画也晦涩，贝克特的戏也晦涩。但他们的晦涩背后有真实的挣扎。<span style="color:var(--accent)">今天大量「散文式」作品感觉不到挣扎，只感觉到熟练的晦涩</span>——像厨师撒胡椒面一样精确控制在「有点不懂又不至于完全看不下去」的区间。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 05 巴特 ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Position C</span>
+      <span class="card-num">05 / 11</span>
+    </div>
+    <div class="speaker-label">
+      <div class="speaker-dot dot-barth"></div>
+      <div>
+        <div class="speaker-name text-barth">巴特 · Barthes</div>
+        <div class="speaker-role">符号学家 / 文本政治学</div>
+      </div>
+    </div>
+    <div class="t-hero-sm" style="color:#fff;">可写文本<br>邀请你回来</div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      经典可读文本像一把锁——作者放了钥匙。理想的可写文本应该是一个作坊——读者走进去自己组装意义。<br><br>
+      关键区分工具：<span style="color:#f7dc6f">回看率</span>。真正开放的可写文本，第一次看完觉得看不懂，但某种东西留在脑子里。几天后想回去再看。第二次发现完全不一样的东西。<br><br>
+      如果一部「看不懂」的电影没有人想看第二遍，那大概率不是可写文本，就是没写好。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 06 特吕弗 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Position D</span>
+      <span class="card-num">06 / 11</span>
+    </div>
+    <div class="speaker-label">
+      <div class="speaker-dot dot-truffaut"></div>
+      <div>
+        <div class="speaker-name text-truffaut">特吕弗 · Truffaut</div>
+        <div class="speaker-role">导演 / 作者论</div>
+      </div>
+    </div>
+    <div class="t-hero-sm">解释的<br>深度层级</div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      判据不是「能不能逐镜头解释」，而是解释出来的东西属于哪个层级：<br><br>
+      <span style="color:var(--text-primary);font-weight:400;">① 「我觉得这样好看」— 危险信号</span><br>
+      <span style="color:var(--text-primary);font-weight:400;">② 「这段需要节奏呼吸」— 及格线</span><br>
+      <span style="color:var(--accent);font-weight:400;">③ 「沉默让观众感受时间密度」— 及格以上</span><br>
+      <span style="color:var(--accent);font-weight:400;">④ 「沉默同时做三件事：角色时间、观众不适、对前面快节奏段的惩罚性回应」— 最高级</span><br><br>
+      伪晦涩创作者通常停在第一二层级。能解释，但撑不住野心。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 07 蔡明亮 ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Position E</span>
+      <span class="card-num">07 / 11</span>
+    </div>
+    <div class="speaker-label">
+      <div class="speaker-dot dot-tsai"></div>
+      <div>
+        <div class="speaker-name text-tsai">蔡明亮 · Tsai</div>
+        <div class="speaker-role">导演 / 沉默伦理</div>
+      </div>
+    </div>
+    <div class="t-hero-sm" style="color:#fff;">我不设门槛，<br>也不削平石头</div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      《郊游》里李康生对着广告海报念了很久。很多人说太长。对我来说那段长度就是内容本身。<span style="color:#58d68d">不是通过长度表达孤独，长度就是孤独。</span><br><br>
+      观众习惯了每90秒一个反转。任何偏离都显得「有问题」。但生活不是那样。等一个人他没来，坐着时间过得很慢。剪成30秒蒙太奇是在服务注意力习惯，还是在背叛对时间的感知？<br><br>
+      一个人走隧道另一个人吃泡面，情节上没有联系。但有氛围上的联系——同一种寂寞。不是靠叙事逻辑建立的，是靠身体在黑暗中坐两小时后建立起来的。
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 08 北岛 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Position F</span>
+      <span class="card-num">08 / 11</span>
+    </div>
+    <div class="speaker-label">
+      <div class="speaker-dot dot-beidao"></div>
+      <div>
+        <div class="speaker-name text-beidao">北岛 · Bei Dao</div>
+        <div class="speaker-role">诗人 / 朦胧诗代表</div>
+      </div>
+    </div>
+    <div class="t-hero-sm">摸一摸，<br>布面是不是紧的</div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      「朦胧」不是我们给自己取的名字，是批评者给的罪名。谁在看？谁不懂？用什么标准判定？<span style="color:var(--accent)">背后全是权力关系。</span><br><br>
+      必须有一条底线：作品自身必须包含足够的密度来支撑它的不透明性。密度不是信息量大，是每个元素都承受着张力。一行诗每个词都在用力。<br><br>
+      抽掉任何一个元素整个作品会塌——即使你看不懂，你能感觉到它在撑着，像一个绷紧的帐篷。<span style="color:var(--text-primary);font-weight:400;">随便抽一个镜头不塌的，靠的是外部阐释氛围撑着。</span>
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 09 判据矩阵 ═══════════ -->
+<div class="card accent">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Synthesis</span>
+      <span class="card-num">09 / 11</span>
+    </div>
+    <div class="t-hero-sm">所有判据<br>汇成一条</div>
+    <div class="hr-accent"></div>
+    <ul class="point-list" style="margin-top:8px;">
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">回看率</strong>（巴特）— 可写文本召唤回归
+        </span>
+      </li>
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">解释深度</strong>（特吕弗）— 四个层级测创作者自洽
+        </span>
+      </li>
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">注意力模式</strong>（桑塔格）— 认知焦虑 → 感知开放的切换
+        </span>
+      </li>
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">不适感质地</strong>（阿多诺）— 暴力的一拳 vs 礼貌的鞠躬
+        </span>
+      </li>
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">审美阈值偏移</strong>（巴特）— 透镜 vs 滤镜
+        </span>
+      </li>
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">内部张力</strong>（北岛）— 抽掉任意元素，作品塌不塌？
+        </span>
+      </li>
+      <li>
+        <div class="point-mark"></div>
+        <span style="font-size:13px;font-weight:300;line-height:1.6;color:rgba(255,255,255,0.92);">
+          <strong style="font-weight:500;">怕不怕简化</strong>（蔡明亮）— 能不能一句话说不丢人？
+        </span>
+      </li>
+    </ul>
+    <div class="spacer"></div>
+    <div class="t-xl" style="margin-top:12px;">它敢不敢赤裸？</div>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 10 收敛结论 ═══════════ -->
+<div class="card dark">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Conclusion</span>
+      <span class="card-num">10 / 11</span>
+    </div>
+    <div class="t-hero" style="color:#fff;font-size:30px;line-height:1.25;">
+      不负责的样子<br>看起来都一样
+    </div>
+    <div class="hr-accent"></div>
+    <p class="t-body">
+      不负责的创作者用「艺术自由」回避技术质疑。<br>
+      不负责的评论家用「多元解读」放弃判断。<br>
+      不负责的观众用「我不懂」免除思考义务。<br>
+      不负责的市场用「小众精品」抬高价格。<br><br>
+      四件事结构上是同一个动作：<br>
+      <span style="color:#f59e4b;font-weight:400;">把应该发生对话的位置变成一道墙。</span>
+    </p>
+    <div class="dialogue-divider"></div>
+    <p class="t-body-sm">
+      而负责的样子不管哪种形态都有一个共同特征——<br>
+      <strong style="color:#fff;font-weight:400;">它愿意暴露自己。</strong><br><br>
+      所有有效判据归根到底同一个测试：<br>
+      这部作品敢不敢把自己放在光底下，让你用最朴素的方式去看？
+    </p>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+<!-- ═══════════ 11 开放问题 ═══════════ -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-header">
+      <span class="card-tag">Open Questions</span>
+      <span class="card-num">11 / 11</span>
+    </div>
+    <div class="t-xl">讨论没有结束的地方</div>
+    <div class="hr-accent"></div>
+    <p class="t-body" style="margin-bottom:16px;">
+      <span style="color:var(--accent);font-weight:400;">① 「赤裸」会不会成为新的表演？</span><br>
+      当「极简」「直接」「不做解释」成为被认可的标签时，假装赤裸是不是比假装复杂更容易？
+    </p>
+    <p class="t-body" style="margin-bottom:16px;">
+      <span style="color:var(--accent);font-weight:400;">② AI 创作把讨论推向哪里？</span><br>
+      如果没有一个「创作者」可以接受逐镜头质询，所有 creator-side 判据全部失效——我们还剩下什么？
+    </p>
+    <p class="t-body">
+      <span style="color:var(--accent);font-weight:400;">③ 跨文化的「看不懂」不一样吗？</span><br>
+      同一部电影在不同文化语境下被读出完全不同的「看不懂」——这是不是完全不同性质的现象？
+    </p>
+    <div class="spacer"></div>
+    <div class="card-footer"><span class="brand-mark">MERJIC</span></div>
+  </div>
+</div>
+
+</div><!-- end stack -->
+
+<div class="hint">
+  浏览器打开此文件 → 点击下方按钮导出 PDF → 打印对话框选「另存为 PDF」<br>
+  每卡一页，纸张自动适配 375×500px
+</div>
+<div class="export-bar">
+  <button class="btn" onclick="window.print()">导出 PDF</button>
+  <button class="btn-o" onclick="window.scrollTo({top:0,behavior:'smooth'})">回到顶部</button>
+</div>
+<div class="export-status" id="status"></div>
+
+</body>
+</html>
