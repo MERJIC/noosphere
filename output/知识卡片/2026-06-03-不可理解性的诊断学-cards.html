@@ -309,6 +309,46 @@ body {
   .card { page-break-after: always; margin: 0; break-after: page; }
 }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+async function exportZip() {
+  const btn = event.target;
+  const origText = btn.textContent;
+  btn.textContent = '导出中...';
+  btn.disabled = true;
+
+  const cards = document.querySelectorAll('.card');
+  const zip = new JSZip();
+  let idx = 0;
+
+  for (const card of cards) {
+    idx++;
+    try {
+      const canvas = await html2canvas(card, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: null,
+        logging: false
+      });
+      const blob = await new Promise(r => canvas.toBlob(r, 'image/png'));
+      zip.file(`card-${String(idx).padStart(2,'0')}.png`, blob);
+    } catch(e) {
+      console.warn(`Card ${idx} failed:`, e);
+    }
+  }
+
+  const content = await zip.generateAsync({ type: 'blob' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(content);
+  a.download = '不可理解性的诊断学-cards.zip';
+  a.click();
+  URL.revokeObjectURL(a.href);
+
+  btn.textContent = origText;
+  btn.disabled = false;
+}
+</script>
 </head>
 <body>
 
@@ -324,7 +364,7 @@ body {
       <span class="card-num">01 / 17</span>
     </div>
     <div class="spacer"></div>
-    <div class="t-hero">一部让人<br>看不懂的电影，<br>是艺术还是<br>逃避？</div>
+    <div class="t-hero">一部让人<br><span style="color:#e0620a">看不懂</span>的电影，<br>是艺术还是<br><span style="color:#e0620a">逃避</span>？</div>
     <div class="spacer"></div>
     <div class="hr-accent"></div>
     <p class="t-body-sm" style="color:rgba(255,255,255,0.55)">
@@ -922,11 +962,12 @@ body {
 </div><!-- end stack -->
 
 <div class="hint">
-  浏览器打开此文件 → 点击下方按钮导出 PDF → 打印对话框选「另存为 PDF」<br>
-  每卡一页，纸张自动适配 375×500px
+  浏览器打开此文件 → 导出 PDF（打印对话框另存为）或 导出图片 ZIP（每卡一张 PNG）<br>
+  375×500px · 注意：深色背景卡片用 ZIP 导出可能出现颜色偏差，建议目视检查
 </div>
 <div class="export-bar">
   <button class="btn" onclick="window.print()">导出 PDF</button>
+  <button class="btn" onclick="exportZip()">导出图片 ZIP</button>
   <button class="btn-o" onclick="window.scrollTo({top:0,behavior:'smooth'})">回到顶部</button>
 </div>
 
