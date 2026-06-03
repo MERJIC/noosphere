@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（207 个）
+### 哲学（208 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -44,6 +44,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [迪昂-奎因论题（Duhem-Quine Thesis）](%E8%BF%AA%E6%98%82-%E5%A5%8E%E5%9B%A0%E8%AE%BA%E9%A2%98.md)
 - [第一人称权威（First-Person Authority）](%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E6%9D%83%E5%A8%81.md)
 - [第一性原理（First Principles Thinking）](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
+- [毒素难题（Kavka's toxin puzzle）](%E6%AF%92%E7%B4%A0%E9%9A%BE%E9%A2%98.md)
 - [独断的睡眠（Dogmatic Slumber）](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
 - [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [对位法（Counterpoint）](%E5%AF%B9%E4%BD%8D%E6%B3%95.md)
@@ -897,12 +898,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按结构模式
 
-### 悖论（36 个）
+### 悖论（37 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
 - [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
 - [传记悖论（Biographical Paradox）](%E4%BC%A0%E8%AE%B0%E6%82%96%E8%AE%BA.md)
+- [毒素难题（Kavka's toxin puzzle）](%E6%AF%92%E7%B4%A0%E9%9A%BE%E9%A2%98.md)
 - [二阶控制论（Second-Order Cybernetics）](%E4%BA%8C%E9%98%B6%E6%8E%A7%E5%88%B6%E8%AE%BA.md)
 - [非同一性问题（Non-Identity Problem）](%E9%9D%9E%E5%90%8C%E4%B8%80%E6%80%A7%E9%97%AE%E9%A2%98.md)
 - [盖梯尔问题（Gettier Problem）](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
@@ -2636,7 +2638,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（189 个）
+### 决策（190 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2670,6 +2672,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [等终局性（Equifinality）](%E7%AD%89%E7%BB%88%E5%B1%80%E6%80%A7.md)
 - [第三人效果（Third-Person Effect）](%E7%AC%AC%E4%B8%89%E4%BA%BA%E6%95%88%E6%9E%9C.md)
 - [动机性推理（Motivated Reasoning）](%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86.md)
+- [毒素难题（Kavka's toxin puzzle）](%E6%AF%92%E7%B4%A0%E9%9A%BE%E9%A2%98.md)
 - [独断的睡眠（Dogmatic Slumber）](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
 - [短期主义（Short-termism）](%E7%9F%AD%E6%9C%9F%E4%B8%BB%E4%B9%89.md)
 - [多巴胺经济（Dopamine Economy）](%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%8F%E6%B5%8E.md)
