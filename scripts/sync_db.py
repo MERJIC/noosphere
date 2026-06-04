@@ -220,6 +220,18 @@ def init_db(conn: sqlite3.Connection) -> None:
         )
     """)
 
+    # ── 别名/跨名映射表 ──
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS name_aliases (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            canonical   TEXT NOT NULL,
+            variant     TEXT NOT NULL UNIQUE,
+            source      TEXT DEFAULT 'manual'
+        )
+    """)
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_aliases_canonical ON name_aliases(canonical)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_aliases_variant ON name_aliases(variant)")
+
     # ── 集群表 ──
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS clusters (
@@ -1019,6 +1031,362 @@ def run_preset_queries(conn: sqlite3.Connection, preset: str) -> None:
 
 
 # ══════════════════════════════════════════════════════════
+#  查重引擎
+# ══════════════════════════════════════════════════════════
+
+# 跨名映射表（与 check_duplicate.py 保持一致）
+CROSS_NAME_MAP = {
+    "明希豪森三重困境": ["阿格里帕三难", "Agrippa's Trilemma"],
+    "格雷欣法则": ["葛雷欣法则", "Gresham's Law"],
+    "抛入性": ["被抛性", "Geworfenheit"],
+    "多数无知": ["多元无知", "Pluralistic Ignorance"],
+    "证实偏差": ["确认偏误", "Confirmation Bias"],
+    "叙事认同": ["叙事同一性", "Narrative Identity"],
+    "虚假记忆": ["假体记忆", "False Memory"],
+}
+
+# 停用词（子串匹配时排除）
+STOP_WORDS_CN = set(
+    "的 了 在 是 有 和 与 或 对 关于 以及 及 其 中 之 以 于 而 但"
+    " 且 如 若 虽然 即使 因为 所以 如果 那么 这 那 哪 什么 怎么"
+    " 一个 一种 一样 一些 一般 问题 效应 原理 定律 理论 悖论 现象"
+    " 效果 方法 机制 模型 假设 概念 偏误 偏差 错觉 幻觉 困境 难题"
+    "".split()
+)
+
+
+def sync_aliases(conn: sqlite3.Connection) -> int:
+    """将跨名映射表同步到 name_aliases 表。返回写入条数。"""
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM name_aliases")
+
+    count = 0
+    for canonical, variants in CROSS_NAME_MAP.items():
+        for variant in variants:
+            cursor.execute(
+                "INSERT OR IGNORE INTO name_aliases (canonical, variant) VALUES (?, ?)",
+                (canonical, variant),
+            )
+            # 反向也注册：variant → canonical
+            cursor.execute(
+                "INSERT OR IGNORE INTO name_aliases (canonical, variant) VALUES (?, ?)",
+                (variant, canonical),
+            )
+            if cursor.rowcount > 0:
+                count += 1
+        # 自身也注册
+        cursor.execute(
+            "INSERT OR IGNORE INTO name_aliases (canonical, variant) VALUES (?, ?)",
+            (canonical, canonical),
+        )
+        if cursor.rowcount > 0:
+            count += 1
+
+    conn.commit()
+    return count
+
+
+def _levenshtein(s1: str, s2: str) -> int:
+    """Levenshtein 编辑距离。"""
+    if len(s1) < len(s2):
+        return _levenshtein(s2, s1)
+    if len(s2) == 0:
+        return len(s1)
+    prev_row = list(range(len(s2) + 1))
+    for i, c1 in enumerate(s1):
+        curr_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = prev_row[j + 1] + 1
+            deletions = curr_row[j] + 1
+            substitutions = prev_row[j] + (c1 != c2)
+            curr_row.append(min(insertions, deletions, substitutions))
+        prev_row = curr_row
+    return prev_row[-1]
+
+
+def run_duplicates(conn: sqlite3.Connection, candidate_cn: str = "",
+                   candidate_en: str = "") -> None:
+    """
+    查重引擎。两种模式：
+      1. 无参数 → 全库内部查重（扫描所有潜在重复对）
+      2. 有参数 → 检查候选概念是否与已有概念重复（替代 check_duplicate.py 的功能）
+    """
+    cursor = conn.cursor()
+
+    # 确保别名已加载
+    cursor.execute("SELECT COUNT(*) FROM name_aliases")
+    if cursor.fetchone()[0] == 0:
+        sync_aliases(conn)
+
+    if candidate_cn:
+        _check_candidate(conn, cursor, candidate_cn, candidate_en)
+    else:
+        _check_full_db(conn, cursor)
+
+
+def _check_candidate(conn: sqlite3.Connection, cursor,
+                     name_cn: str, name_en: str = "") -> None:
+    """检查单个候选概念是否与库中已有概念重复。"""
+
+    print(f"查重: 「{name_cn}」" + (f" ({name_en})" if name_en else ""))
+    print("-" * 50)
+
+    hits = []
+
+    # ── 策略1：中文名精确匹配 ──
+    cursor.execute("SELECT id, name, name_en FROM concepts WHERE name = ?", (name_cn,))
+    row = cursor.fetchone()
+    if row:
+        hits.append(("精确[中文名]", row["name"], f"完全匹配: 「{row['name']}」"))
+
+    # ── 策略2：英文名精确匹配 ──
+    if name_en:
+        cursor.execute(
+            "SELECT id, name, name_en FROM concepts WHERE LOWER(name_en) = ?",
+            (name_en.lower(),),
+        )
+        row = cursor.fetchone()
+        if row:
+            hits.append(("精确[英文名]", row["name"],
+                        f"英文名 '{name_en}' → 「{row['name']}」"))
+
+    # ── 策略3：别名/跨名映射 ──
+    key = name_cn.lower()
+    cursor.execute(
+        "SELECT DISTINCT canonical FROM name_aliases WHERE variant = ? OR canonical = ?",
+        (key, key),
+    )
+    for row in cursor.fetchall():
+        canonical = row["canonical"]
+        if canonical != name_cn:
+            # 验证这个 canonical 是否真的在库里
+            cursor.execute("SELECT name FROM concepts WHERE name = ?", (canonical,))
+            cr = cursor.fetchone()
+            if cr:
+                hits.append(("跨名映射", cr["name"],
+                            f"「{name_cn}」是「{canonical}」的已知别称"))
+
+    if name_en:
+        cursor.execute(
+            "SELECT DISTINCT canonical FROM name_aliases WHERE variant = ?",
+            (name_en.lower(),),
+        )
+        for row in cursor.fetchall():
+            canonical = row["canonical"]
+            cursor.execute("SELECT name FROM concepts WHERE name = ?", (canonical,))
+            cr = cursor.fetchone()
+            if cr and cr["name"] != name_cn:
+                hits.append(("跨名映射", cr["name"],
+                            f"'{name_en}' 是「{canonical}」的英文名变体"))
+
+    # ── 策略4：子串包含（双向） ──
+    if len(name_cn) >= 3:
+        cursor.execute("SELECT name FROM concepts")
+        for row in cursor.fetchall():
+            existing = row["name"]
+            if existing == name_cn:
+                continue
+            if name_cn in existing and len(name_cn) >= 2:
+                overlap = name_cn
+                if overlap not in STOP_WORDS_CN and len(overlap) >= 2:
+                    hits.append(("子串", existing,
+                                f"「{name_cn}」⊂「{existing}」"))
+            elif existing in name_cn and len(existing) >= 2:
+                overlap = existing
+                if overlap not in STOP_WORDS_CN and len(overlap) >= 2:
+                    hits.append(("子串", existing,
+                                f"「{existing}」⊂「{name_cn}」"))
+
+    # ── 策略5：编辑距离（短名称） ──
+    if len(name_cn) <= 6:
+        cursor.execute("SELECT name FROM concepts WHERE LENGTH(name) <= 8")
+        for row in cursor.fetchall():
+            existing = row["name"]
+            if existing == name_cn:
+                continue
+            if abs(len(existing) - len(name_cn)) > 2:
+                continue
+            dist = _levenshtein(name_cn, existing)
+            if 0 < dist <= 2:
+                from difflib import SequenceMatcher
+                ratio = SequenceMatcher(None, name_cn, existing).ratio()
+                if ratio >= 0.6:
+                    hits.append(("编辑距离", existing,
+                                f"dist={dist}, 相似度={ratio:.2f}"))
+
+    # ── 输出结果 ──
+    if not hits:
+        print("  ✅ 可用 — 无冲突")
+    else:
+        # 按强度分组
+        strong = [h for h in hits if h[0] in ("精确[中文名]", "精确[英文名]", "跨名映射")]
+        weak = [h for h in hits if h not in strong]
+
+        if strong:
+            print(f"  ❌ 重复（{len(strong)} 条强匹配）:")
+            for strategy, target, detail in strong:
+                print(f"    [{strategy}] {detail}")
+        if weak:
+            print(f"  ⚠ 弱命中（{len(weak)} 条，需人工判断）:")
+            for strategy, target, detail in weak:
+                print(f"    [{strategy}] {detail}")
+
+
+def _check_full_db(conn: sqlite3.Connection, cursor) -> None:
+    """全库内部查重：扫描所有潜在重复对。"""
+    from difflib import SequenceMatcher
+
+    print("=" * 60)
+    print("全库查重 — 扫描潜在重复概念对")
+    print("=" * 60)
+
+    duplicates = []
+
+    # ── A. 英文名精确重复 ──
+    cursor.execute("""
+        SELECT a.name AS name_a, b.name AS name_b, a.name_en AS en
+        FROM concepts a
+        JOIN concepts b ON a.id < b.id AND LOWER(a.name_en) = LOWER(b.name_en)
+        AND a.name_en != ''
+        AND b.name_en != ''
+    """)
+    for row in cursor.fetchall():
+        duplicates.append({
+            "type": "❌ 英文名重复",
+            "pair": f"「{row['name_a']}」vs「{row['name_b']}」",
+            "detail": f"共享英文名: {row['en']}",
+        })
+
+    # ── B. 同 domain+discipline 下名称高相似 ──
+    cursor.execute("SELECT id, name, domains, disciplines FROM concepts")
+    all_concepts = [(r["id"], r["name"], r["domains"], r["disciplines"]) for r in cursor.fetchall()]
+
+    # 按 domain+discipline 分组
+    groups = {}
+    for cid, name, domains, disciplines in all_concepts:
+        try:
+            d_key = (tuple(sorted(json.loads(domains))),
+                     tuple(sorted(json.loads(disciplines))))
+        except (json.JSONDecodeError, TypeError):
+            d_key = ((), ())
+        groups.setdefault(d_key, []).append((cid, name))
+
+    for key, members in groups.items():
+        if len(members) < 2:
+            continue
+        for i in range(len(members)):
+            for j in range(i + 1, len(members)):
+                n1, n2 = members[i][1], members[j][1]
+                # LCS ratio
+                s1, s2 = n1, n2
+                m, n = len(s1), len(s2)
+                dp = [[0] * (n + 1) for _ in range(m + 1)]
+                for ii in range(1, m + 1):
+                    for jj in range(1, n + 1):
+                        if s1[ii - 1] == s2[jj - 1]:
+                            dp[ii][jj] = dp[ii - 1][jj - 1] + 1
+                        else:
+                            dp[ii][jj] = max(dp[ii - 1][jj], dp[ii][jj - 1])
+                lcs_len = dp[m][n]
+                ratio = 2 * lcs_len / (m + n) if (m + n) > 0 else 0
+
+                if ratio > 0.75:
+                    duplicates.append({
+                        "type": "⚠ 名称相似" if ratio < 0.95 else "❌ 高度相似",
+                        "pair": f"「{n1}」vs「{n2}」",
+                        "detail": f"LCS 相似度 {ratio:.2f}",
+                    })
+
+    # ── C. 跨名映射命中 ──
+    cursor.execute("SELECT canonical, variant FROM name_aliases")
+    alias_map = {}
+    for row in cursor.fetchall():
+        alias_map.setdefault(row["canonical"], set()).add(row["variant"])
+
+    registered_names = {n[1] for n in all_concepts}
+    for canonical, variants in alias_map.items():
+        if canonical in registered_names:
+            for v in variants:
+                if v in registered_names and v != canonical:
+                    pair_key = tuple(sorted([canonical, v]))
+                    # 去重
+                    if not any(d["pair"] == f"「{pair_key[0]}」vs「{pair_key[1]}」"
+                               for d in duplicates):
+                        duplicates.append({
+                            "type": "❌ 跨名映射",
+                            "pair": f"「{canonical}」vs「{v}」",
+                            "detail": "同一概念的不同叫法",
+                        })
+
+    # ── D. 子串包含 ──
+    checked_pairs = set()
+    for cid1, name1, _, _ in all_concepts:
+        if len(name1) < 3:
+            continue
+        for cid2, name2, _, _ in all_concepts:
+            if cid1 >= cid2:
+                continue
+            pair = (min(cid1, cid2), max(cid1, cid2))
+            if pair in checked_pairs:
+                continue
+            checked_pairs.add(pair)
+
+            if name1 in name2 and len(name1) >= 2:
+                overlap = name1
+                if overlap not in STOP_WORDS_CN:
+                    duplicates.append({
+                        "type": "⚠ 子串包含",
+                        "pair": f"「{name1}」⊂「{name2}」",
+                        "detail": "",
+                    })
+            elif name2 in name1 and len(name2) >= 2:
+                overlap = name2
+                if overlap not in STOP_WORDS_CN:
+                    duplicates.append({
+                        "type": "⚠ 子串包含",
+                        "pair": f"「{name2}」⊂「{name1}」",
+                        "detail": "",
+                    })
+
+    # ── 输出 ──
+    if not duplicates:
+        print("\n✅ 全库无重复 — 干净\n")
+        return
+
+    # 去重（同一对可能被多个策略命中）
+    seen_pairs = set()
+    unique_dups = []
+    for d in duplicates:
+        # 从 pair 中提取两个名字
+        import re as _re
+        names = _re.findall(r'「([^」]+)', d["pair"])
+        if len(names) == 2:
+            pk = tuple(sorted(names))
+            if pk not in seen_pairs:
+                seen_pairs.add(pk)
+                unique_dups.append(d)
+        else:
+            unique_dups.append(d)
+
+    strong = [d for d in unique_dups if d["type"].startswith("❌")]
+    weak = [d for d in unique_dups if d["type"].startswith("⚠")]
+
+    print(f"\n共发现 {len(unique_dups)} 组潜在重复:\n")
+
+    if strong:
+        print(f"### 强匹配（{len(strong)} 组 — 高概率重复）")
+        for d in strong:
+            print(f"  {d['type']}  {d['pair']}" + (f"  {d['detail']}" if d['detail'] else ""))
+
+    if weak:
+        print(f"\n### 弱命中（{len(weak)} 组 — 需人工判断）")
+        for d in weak[:30]:
+            print(f"  {d['type']}  {d['pair']}" + (f"  {d['detail']}" if d['detail'] else ""))
+        if len(weak) > 30:
+            print(f"  ... 还有 {len(weak) - 30} 组")
+
+
+# ══════════════════════════════════════════════════════════
 #  Main
 # ══════════════════════════════════════════════════════════
 
@@ -1035,6 +1403,8 @@ def main():
   python3 scripts/sync_db.py --check              一致性校验
   python3 scripts/sync_db.py --query "SELECT name, domains FROM concepts LIMIT 10"
   python3 scripts/sync_db.py --preset orphans     预设查询（orphans/broken/no-domain/recent/...）
+  python3 scripts/sync_db.py --duplicates          全库查重
+  python3 scripts/sync_db.py -d "候选概念名" "English Name"  查询单个候选
         """,
     )
 
