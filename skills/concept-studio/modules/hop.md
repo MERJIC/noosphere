@@ -33,16 +33,16 @@ python3 scripts/sync_db.py --query "SELECT id FROM concepts WHERE name = '概念
 **禁止读取** concept_lite.json、INDEX.md、concept_graph.json 或任何索引文件来获取概念清单或做查重判断。
 
 **A · 随机抽取**（用户说「随便」「跳一跳」「给我新的」）
-- 从索引的 `names` 数组中随机选一个已有概念作为起点
+- 用 `--query "SELECT name FROM concepts ORDER BY RANDOM() LIMIT 1"` 随机取一个作为起点
 
 **B · 用户指定**（用户直接说一个概念名）
-- 在索引 `names` 数组中搜索该概念名（同时检查 `name_aliases`），存在则作为起点
-- 不存在则提示：「库里还没有这个，要不换一个，或者先建页？」
+- 用 `--query "SELECT id FROM concepts WHERE name = '概念名'"` 检查是否存在
+- 存在则作为起点；不存在则提示：「库里还没有这个，要不换一个，或者先建页？」
 
 **C · 从孤立概念出发**（用户说「从孤立节点」「补链接」）
-- 从索引的 `orphan_nodes` 中读取孤立概念列表（`fully_isolated` = 无入链无出链，`semi_isolated` = 有入链无出链）
+- 用 `--preset orphans` 获取孤立概念列表
 - 孤立列表为空时回退到起点 A（随机抽取），并告知用户「当前无孤立概念，改为随机起点」
-- 优先选 `semi_isolated`（已有入链说明有概念指向它，更容易找到延伸方向）
+- 优先选半孤立（有入链无出链）的概念
 
 ---
 

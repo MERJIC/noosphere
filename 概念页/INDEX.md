@@ -396,7 +396,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（85 个）
+### 经济学（86 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -414,6 +414,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [多巴胺经济（Dopamine Economy）](%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%8F%E6%B5%8E.md)
 - [多臂老虎机问题（Multi-Armed Bandit Problem）](%E5%A4%9A%E8%87%82%E8%80%81%E8%99%8E%E6%9C%BA%E9%97%AE%E9%A2%98.md)
 - [凡勃仑效应（Veblen Effect）](%E5%87%A1%E5%8B%83%E4%BB%91%E6%95%88%E5%BA%94.md)
+- [反公地悲剧（Tragedy of the Anti-commons）](%E5%8F%8D%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
 - [反身性（Reflexivity）](%E5%8F%8D%E8%BA%AB%E6%80%A7.md)
 - [范围不敏感（Scope Insensitivity）](%E8%8C%83%E5%9B%B4%E4%B8%8D%E6%95%8F%E6%84%9F.md)
 - [格雷欣法则（Gresham's Law）](%E6%A0%BC%E9%9B%B7%E6%AC%A3%E6%B3%95%E5%88%99.md)
@@ -1168,7 +1169,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 
-### 反转（110 个）
+### 反转（111 个）
 
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -1192,6 +1193,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [凡勃仑效应（Veblen Effect）](%E5%87%A1%E5%8B%83%E4%BB%91%E6%95%88%E5%BA%94.md)
 - [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
+- [反公地悲剧（Tragedy of the Anti-commons）](%E5%8F%8D%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
 - [反者道之动（Reversal is the Movement of the Dao）](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
 - [范式转换（Paradigm Shift）](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
 - [防御性悲观（Defensive Pessimism）](%E9%98%B2%E5%BE%A1%E6%80%A7%E6%82%B2%E8%A7%82.md)
@@ -1971,7 +1973,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（143 个）
+### 制度（144 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1992,6 +1994,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [帝国建造（Empire Building）](%E5%B8%9D%E5%9B%BD%E5%BB%BA%E9%80%A0.md)
 - [董事会捕获（Board Capture）](%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%8D%95%E8%8E%B7.md)
 - [多元无知（Pluralistic Ignorance）](%E5%A4%9A%E5%85%83%E6%97%A0%E7%9F%A5.md)
+- [反公地悲剧（Tragedy of the Anti-commons）](%E5%8F%8D%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
 - [反身性（Reflexivity）](%E5%8F%8D%E8%BA%AB%E6%80%A7.md)
 - [范式转换（Paradigm Shift）](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
 - [非暴力不合作（Nonviolent Resistance / Satyagraha）](%E9%9D%9E%E6%9A%B4%E5%8A%9B%E4%B8%8D%E5%90%88%E4%BD%9C.md)
@@ -2395,7 +2398,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（89 个）
+### 商业（90 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -2420,6 +2423,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [短期主义（Short-termism）](%E7%9F%AD%E6%9C%9F%E4%B8%BB%E4%B9%89.md)
 - [凡勃仑效应（Veblen Effect）](%E5%87%A1%E5%8B%83%E4%BB%91%E6%95%88%E5%BA%94.md)
 - [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
+- [反公地悲剧（Tragedy of the Anti-commons）](%E5%8F%8D%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
 - [反身性（Reflexivity）](%E5%8F%8D%E8%BA%AB%E6%80%A7.md)
 - [反应贬值（Reactive Devaluation）](%E5%8F%8D%E5%BA%94%E8%B4%AC%E5%80%BC.md)
 - [反者道之动（Reversal is the Movement of the Dao）](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
@@ -2487,7 +2491,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（153 个）
+### 组织（154 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2514,6 +2518,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [短期主义（Short-termism）](%E7%9F%AD%E6%9C%9F%E4%B8%BB%E4%B9%89.md)
 - [二阶控制论（Second-Order Cybernetics）](%E4%BA%8C%E9%98%B6%E6%8E%A7%E5%88%B6%E8%AE%BA.md)
 - [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
+- [反公地悲剧（Tragedy of the Anti-commons）](%E5%8F%8D%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
 - [范式转换（Paradigm Shift）](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
 - [房间里的大象（Elephant in the Room）](%E6%88%BF%E9%97%B4%E9%87%8C%E7%9A%84%E5%A4%A7%E8%B1%A1.md)
 - [飞轮效应（Flywheel Effect）](%E9%A3%9E%E8%BD%AE%E6%95%88%E5%BA%94.md)
