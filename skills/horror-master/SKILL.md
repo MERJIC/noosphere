@@ -37,7 +37,7 @@ description: >
 | 确认子类型框架          | `patterns/subgenres.md`                             |
 | 检查俗套 / 找反套路灵感    | `patterns/tropes-anti.md`                           |
 | 写完后自检            | `craft-checklist.md`                                |
-| 需要灵感种子           | `reddit/twosentence.md` 或 `reddit/nosleep.md`（本地素材） |
+| 需要灵感种子           | `reddit/twosentence.md` 或 `reddit/nosleep.md`（英文素材）或 `tianya/lianpeng.md`（中文素材·莲蓬鬼话经典库） |
 
 
 ### 外部依赖
@@ -82,9 +82,10 @@ Step 6  交付 + 沉淀判断（可选）
 
 用户没有给出具体点子时，从素材池提取种子：
 
-1. **5分钟/鬼故事** → 从 `reddit/twosentence.md` 按知情权模式筛选或随机抽一条做种子
-2. **中等篇幅** → 从 `reddit/nosleep.md` top 30 的开头分析开篇模式做起点
-3. 有具体方向但需要填充 → 跳过，直接进 Step 1
+1. **5分钟/鬼故事** → 从 `reddit/twosentence.md` 按知情权模式筛选或随机抽一条做种子；中文语境优先从 `tianya/lianpeng.md` 选取（搭车父子/一封家书/姑妄听之）
+2. **中等篇幅** → 从 `reddit/nosleep.md` top 30 的开头分析开篇模式做起点；或从 `tianya/lianpeng.md` 选中篇素材（电影院六年/左央/深山孤庙）
+3. **长片/系列** → 从 `tianya/lianpeng.md` 长篇神作中拆解世界观和入局模式（青囊尸衣/宜昌鬼事/双鱼玉佩）
+4. 有具体方向但需要填充 → 跳过，直接进 Step 1
 
 确定种子后告诉用户方向选项，等确认再往下走。
 
@@ -275,9 +276,11 @@ skills/horror-master/
 │   │   ├── elements.md              ←   场景/身体/社会元素库
 │   │   ├── subgenres.md             ←   子类型差异
 │   │   └── tropes-anti.md           ←   Tropes速查 + 反套路
-│   ├── reddit/                       ← 本地素材（不随 skill 分发）
+│   ├── reddit/                       ← 英文本地素材（不随 skill 分发）
 │   │   ├── twosentence.md           ←   100条两句话恐怖故事
 │   │   └── nosleep.md               ←   nosleep top 30 全文 + 索引
+│   ├── tianya/                       ← 中文本地素材（不随 skill 分发）
+│   │   └── lianpeng.md              ←   莲蓬鬼话经典库：12部长篇+16部短篇神贴+叙事DNA+认知机制索引
 │   ├── generated-combinations.md    ← 沉淀：有效组合记录（自增长）
 │   └── generated-ideas.md            ← 沉淀：用户原创点子（自增长）
 ```
