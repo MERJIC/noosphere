@@ -2,11 +2,14 @@
 
 > 概念库工作台的开源传播版。用 AI + Markdown 管理个人知识资产中的**学术概念沉淀**。
 
-从 [concept-studio](https://github.com/...) 派生，去掉知识卡片模块和所有硬编码路径依赖。改一行配置就能接入你自己的概念库。
+从 concept-studio 派生，去掉知识卡片模块和所有硬编码路径依赖。改一行配置就能接入你自己的概念库。
+
+框架无关——适用于任何支持自定义 Skill / Prompt / Agent 指令集的 AI 环境：
+**Claude Code、Codex、Hermes、Grok Build、Cursor、Windsurf、Continue.dev** 等。
 
 ## 它是什么
 
-一套 **Claude Code / 牛马AI Skill**，帮你：
+一套 **AI Agent 工作流定义**，帮你：
 
 | 能做什么 | 一句话说明 |
 |---------|-----------|
@@ -22,7 +25,7 @@
 
 - 用 Obsidian / VS Code 等 Markdown 编辑器管理笔记的人
 - 有跨学科阅读习惯，想系统沉淀学术概念的人
-- 用 Claude Code 或牛马AI 作为 AI 助手的人
+- 使用任何 AI 编程助手 / Agent 框架的人（Claude Code、Codex、Hermes、Grok Build、Cursor 等）
 - 不想从零设计知识库结构，想要一套「拿来就能写」的工作流的人
 
 ## 不适合
@@ -47,8 +50,8 @@ git clone https://github.com/your-repo/concept-studio-spread.git skills/concept-
 **方式 B — 克隆到全局 skills 目录**
 
 ```bash
-# 所有项目都能用
-git clone https://github.com/your-repo/concept-studio-spread.git ~/.newmax/skills/concept-studio-spread
+# 所有项目都能用（路径根据你的 AI 环境调整）
+git clone https://github.com/MERJIC/concept-studio-spread.git ~/.config/ai-agent/skills/concept-studio-spread
 ```
 
 ### 第 2 步：配置路径
@@ -236,7 +239,7 @@ concept-studio-spread/
 | Noosphere 插件依赖 | ✅ 有 | ❌ 移除 |
 | scholar-dict.json | ✅ 必需 | ⚪ 可选（自行维护）|
 | lint_concepts.py | ✅ 建页后强制跑 | ⚪ 建议 but 不强制 |
-| 适用范围 | 麦橘的个人概念库 | 任何人 |
+| 适用范围 | 单一用户的个人概念库 | 任何人 |
 
 逻辑零改动。去掉的是耦合，不是功能。
 
