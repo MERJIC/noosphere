@@ -1484,8 +1484,32 @@ def main():
             if args.full_dup or not args.duplicates:
                 # 全库查重
                 run_duplicates(conn)
+            elif len(args.duplicates) >= 2 and not any(" " in x for x in args.duplicates):
+                # 批量查重：多个候选（无空格的纯中文名，逐个查）
+                print(f"批量查重：{len(args.duplicates)} 个候选\n")
+                print("-" * 50)
+                available = []
+                for cand in args.duplicates:
+                    run_duplicates(conn, cand, "")
+                    print()
+                # 汇总：列出所有可用的
+            elif len(args.duplicates) >= 2:
+                # 批量查重："中文名 英文名" 格式，成对解析
+                pairs = []
+                i = 0
+                while i < len(args.duplicates):
+                    cn = args.duplicates[i]
+                    en = args.duplicates[i + 1] if i + 1 < len(args.duplicates) else ""
+                    pairs.append((cn, en))
+                    i += 2 if en else 1
+
+                print(f"批量查重：{len(pairs)} 个候选\n")
+                print("-" * 50)
+                for cn, en in pairs:
+                    run_duplicates(conn, cn, en)
+                    print()
             else:
-                # 检查候选概念
+                # 单个候选
                 cn = args.duplicates[0]
                 en = args.duplicates[1] if len(args.duplicates) > 1 else ""
                 run_duplicates(conn, cn, en)
