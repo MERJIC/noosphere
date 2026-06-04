@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（211 个）
+### 哲学（212 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -28,6 +28,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
 - [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
 - [彩票悖论（Lottery paradox）](%E5%BD%A9%E7%A5%A8%E6%82%96%E8%AE%BA.md)
+- [侘寂（Wabi-sabi）](%E4%BE%98%E5%AF%82.md)
 - [超当值（Supererogation）](%E8%B6%85%E5%BD%93%E5%80%BC.md)
 - [沉默的极性翻转（Polarity Inversion of Silence）](%E6%B2%89%E9%BB%98%E7%9A%84%E6%9E%81%E6%80%A7%E7%BF%BB%E8%BD%AC.md)
 - [成心（Chengxin / Preformed Mind）](%E6%88%90%E5%BF%83.md)
@@ -399,7 +400,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（84 个）
+### 经济学（85 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -429,6 +430,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [货币幻觉（Money Illusion）](%E8%B4%A7%E5%B8%81%E5%B9%BB%E8%A7%89.md)
 - [机会成本（Opportunity Cost）](%E6%9C%BA%E4%BC%9A%E6%88%90%E6%9C%AC.md)
 - [棘轮效应（Ratchet Effect）](%E6%A3%98%E8%BD%AE%E6%95%88%E5%BA%94.md)
+- [计划性报废（Planned Obsolescence）](%E8%AE%A1%E5%88%92%E6%80%A7%E6%8A%A5%E5%BA%9F.md)
 - [渐进式捕获（Creeping Capture）](%E6%B8%90%E8%BF%9B%E5%BC%8F%E6%8D%95%E8%8E%B7.md)
 - [交易成本（Transaction Cost）](%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC.md)
 - [杰文斯悖论（Jevons Paradox）](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
@@ -775,12 +777,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 
-### 艺术（122 个）
+### 艺术（123 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不可靠放映（Unreliable Projection / Unreliable Cinema）](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%94%BE%E6%98%A0.md)
 - [不可靠叙述者（Unreliable Narrator）](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E5%8F%99%E8%BF%B0%E8%80%85.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
+- [侘寂（Wabi-sabi）](%E4%BE%98%E5%AF%82.md)
 - [场面调度（Mise-en-scène）](%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%BA%A6.md)
 - [场面调幅（Mise-en-abyme）](%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%B9%85.md)
 - [超现实主义（Surrealism）](%E8%B6%85%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
@@ -1285,7 +1288,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我妨碍（Self-Handicapping）](%E8%87%AA%E6%88%91%E5%A6%A8%E7%A2%8D.md)
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 
-### 循环（115 个）
+### 循环（116 个）
 
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
@@ -1317,6 +1320,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [话语权力（Power/Knowledge, Foucault）](%E8%AF%9D%E8%AF%AD%E6%9D%83%E5%8A%9B.md)
 - [回音室效应（Echo Chamber Effect）](%E5%9B%9E%E9%9F%B3%E5%AE%A4%E6%95%88%E5%BA%94.md)
 - [集体欢腾（Collective Effervescence）](%E9%9B%86%E4%BD%93%E6%AC%A2%E8%85%BE.md)
+- [计划性报废（Planned Obsolescence）](%E8%AE%A1%E5%88%92%E6%80%A7%E6%8A%A5%E5%BA%9F.md)
 - [间歇强化（Partial Reinforcement Effect）](%E9%97%B4%E6%AD%87%E5%BC%BA%E5%8C%96.md)
 - [角色过载（Role Overload）](%E8%A7%92%E8%89%B2%E8%BF%87%E8%BD%BD.md)
 - [经典化机制（Canon Formation）](%E7%BB%8F%E5%85%B8%E5%8C%96%E6%9C%BA%E5%88%B6.md)
@@ -1507,7 +1511,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 缺位（81 个）
+### 缺位（82 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
@@ -1518,6 +1522,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [边界跨越者（Boundary Spanner）](%E8%BE%B9%E7%95%8C%E8%B7%A8%E8%B6%8A%E8%80%85.md)
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
 - [蔡格尼克效应（Zeigarnik Effect）](%E8%94%A1%E6%A0%BC%E5%B0%BC%E5%85%8B%E6%95%88%E5%BA%94.md)
+- [侘寂（Wabi-sabi）](%E4%BE%98%E5%AF%82.md)
 - [超当值（Supererogation）](%E8%B6%85%E5%BD%93%E5%80%BC.md)
 - [超现实主义（Surrealism）](%E8%B6%85%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
 - [沉默的大多数（Silent Majority）](%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0.md)
@@ -1593,7 +1598,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（259 个）
+### 自我（260 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1609,6 +1614,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [蔡格尼克效应（Zeigarnik Effect）](%E8%94%A1%E6%A0%BC%E5%B0%BC%E5%85%8B%E6%95%88%E5%BA%94.md)
 - [侧抑制（Lateral Inhibition）](%E4%BE%A7%E6%8A%91%E5%88%B6.md)
 - [测试效应（Testing Effect）](%E6%B5%8B%E8%AF%95%E6%95%88%E5%BA%94.md)
+- [侘寂（Wabi-sabi）](%E4%BE%98%E5%AF%82.md)
 - [超当值（Supererogation）](%E8%B6%85%E5%BD%93%E5%80%BC.md)
 - [超稳定性（Ultrastability）](%E8%B6%85%E7%A8%B3%E5%AE%9A%E6%80%A7.md)
 - [超现实主义（Surrealism）](%E8%B6%85%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
@@ -1978,7 +1984,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（143 个）
+### 制度（144 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2020,6 +2026,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [合法性理论（Legitimacy Theory）](%E5%90%88%E6%B3%95%E6%80%A7%E7%90%86%E8%AE%BA.md)
 - [互套（Bilateral Hold-up）](%E4%BA%92%E5%A5%97.md)
 - [话语权力（Power/Knowledge, Foucault）](%E8%AF%9D%E8%AF%AD%E6%9D%83%E5%8A%9B.md)
+- [计划性报废（Planned Obsolescence）](%E8%AE%A1%E5%88%92%E6%80%A7%E6%8A%A5%E5%BA%9F.md)
 - [渐进式捕获（Creeping Capture）](%E6%B8%90%E8%BF%9B%E5%BC%8F%E6%8D%95%E8%8E%B7.md)
 - [交易成本（Transaction Cost）](%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC.md)
 - [结构性无知（Structural Ignorance / Epistemology of Ignorance）](%E7%BB%93%E6%9E%84%E6%80%A7%E6%97%A0%E7%9F%A5.md)
@@ -2124,7 +2131,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
-### 创作（198 个）
+### 创作（199 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -2136,6 +2143,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [蔡格尼克效应（Zeigarnik Effect）](%E8%94%A1%E6%A0%BC%E5%B0%BC%E5%85%8B%E6%95%88%E5%BA%94.md)
 - [侧抑制（Lateral Inhibition）](%E4%BE%A7%E6%8A%91%E5%88%B6.md)
 - [测不准与观察者效应（Observer Effect / Uncertainty Principle）](%E6%B5%8B%E4%B8%8D%E5%87%86%E4%B8%8E%E8%A7%82%E5%AF%9F%E8%80%85%E6%95%88%E5%BA%94.md)
+- [侘寂（Wabi-sabi）](%E4%BE%98%E5%AF%82.md)
 - [场面调度（Mise-en-scène）](%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%BA%A6.md)
 - [场面调幅（Mise-en-abyme）](%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%B9%85.md)
 - [超常刺激（Supernormal Stimulus）](%E8%B6%85%E5%B8%B8%E5%88%BA%E6%BF%80.md)
@@ -2402,7 +2410,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（88 个）
+### 商业（89 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -2441,6 +2449,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [绩效幂律（Performance Power Law）](%E7%BB%A9%E6%95%88%E5%B9%82%E5%BE%8B.md)
 - [即兴能力（Organizational Improvisation）](%E5%8D%B3%E5%85%B4%E8%83%BD%E5%8A%9B.md)
 - [棘轮效应（Ratchet Effect）](%E6%A3%98%E8%BD%AE%E6%95%88%E5%BA%94.md)
+- [计划性报废（Planned Obsolescence）](%E8%AE%A1%E5%88%92%E6%80%A7%E6%8A%A5%E5%BA%9F.md)
 - [交易成本（Transaction Cost）](%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC.md)
 - [结构洞（Structural Holes）](%E7%BB%93%E6%9E%84%E6%B4%9E.md)
 - [经济护城河（Economic Moat）](%E7%BB%8F%E6%B5%8E%E6%8A%A4%E5%9F%8E%E6%B2%B3.md)
