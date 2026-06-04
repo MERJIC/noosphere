@@ -72,7 +72,8 @@ description: "从 URL 或粘贴文本中提取学术/理论概念，生成标准
 3. 按下方规范生成概念页内容
 4. 用 Write 工具写入 `概念页/{中文名}.md`
 5. 写完后立即执行自检（见「写完后必须自检」）
-6. 运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental` 刷新索引
+6. 运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental` 刷新 JSON 索引
+7. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}` 同步到 SQLite**（每新增一个概念必须执行，不可跳过）
 
 多个概念逐个写入，每个写完后输出确认，再写下一个。
 

@@ -106,7 +106,7 @@ nodes[name] = {**lite['nodes_lite'][name], **graph['nodes_graph'].get(name, {}),
 
 ### Step 7 — 刷新索引
 
-运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental`，确保索引与最新 concept_relations.md 同步。
+运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental` 刷新 JSON 索引，然后运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --incremental` 同步到 SQLite。
 
 ### Step 8 — 输出摘要
 

@@ -141,6 +141,8 @@ python3 scripts/check_duplicate.py -f candidates.txt  # 从文件读取
   - 检查新概念是否在孤立列表中 → 若在，写入后它将从孤立列表移出（下次 `/concept-analyze` 时更新）
 4. 用 Write 工具创建 `概念页/{中文名}.md`，按下方概念页规范写入
 5. 概念页写完后**立即自检**（四条规则，见「写完后必须自检」）
+6. 运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental` 刷新 JSON 索引
+7. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}` 同步到 SQLite**（每新增一个概念必须执行，不可跳过）
 
 **写入时不预设圆桌会发生** —— 不留空圆桌 section。
 
