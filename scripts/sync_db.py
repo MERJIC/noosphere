@@ -1421,6 +1421,11 @@ def main():
                        help="输出统计摘要")
     group.add_argument("--check", "-c", action="store_true",
                        help="一致性校验")
+    group.add_argument("--duplicates", "-d", nargs="+", default=None,
+                       metavar=("中文名", "英文名"),
+                       help="查重：指定候选名则检查该候选；配合 --full-dup 则全库扫描")
+    parser.add_argument("--full-dup", action="store_true",
+                        help="全库内部查重（与 -d 配合或单独使用）")
 
     args = parser.parse_args()
 
@@ -1436,6 +1441,15 @@ def main():
             run_stats(conn)
         elif args.check:
             run_check(conn)
+        elif args.duplicates is not None or args.full_dup:
+            if args.full_dup or not args.duplicates:
+                # 全库查重
+                run_duplicates(conn)
+            else:
+                # 检查候选概念
+                cn = args.duplicates[0]
+                en = args.duplicates[1] if len(args.duplicates) > 1 else ""
+                run_duplicates(conn, cn, en)
         elif args.file:
             result = sync_single(conn, args.file)
             if "error" in result:
