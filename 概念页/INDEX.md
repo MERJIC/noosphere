@@ -599,7 +599,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 管理学（75 个）
+### 管理学（76 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -648,6 +648,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [事前验尸（Pre-mortem）](%E4%BA%8B%E5%89%8D%E9%AA%8C%E5%B0%B8.md)
 - [双回路学习（Double-Loop Learning）](%E5%8F%8C%E5%9B%9E%E8%B7%AF%E5%AD%A6%E4%B9%A0.md)
 - [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
+- [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
 - [替罪羊机制（Scapegoating）](%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%9C%BA%E5%88%B6.md)
 - [透明度悖论（Transparency Paradox）](%E9%80%8F%E6%98%8E%E5%BA%A6%E6%82%96%E8%AE%BA.md)
@@ -1401,7 +1402,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 错位（101 个）
+### 错位（102 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
@@ -1468,6 +1469,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [视点结构（Point of View Structure）](%E8%A7%86%E7%82%B9%E7%BB%93%E6%9E%84.md)
 - [双边市场（Two-Sided Markets）](%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA.md)
 - [隧道挖掘（Tunneling）](%E9%9A%A7%E9%81%93%E6%8C%96%E6%8E%98.md)
+- [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [替罪羊机制（Scapegoating）](%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%9C%BA%E5%88%B6.md)
 - [通感（Synesthesia）](%E9%80%9A%E6%84%9F.md)
 - [托宾q（Tobin's q）](%E6%89%98%E5%AE%BEq.md)
@@ -2491,7 +2493,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（154 个）
+### 组织（155 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2599,6 +2601,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [水能载舟亦能覆舟（Shui Neng Zai Zhou Yi Neng Fu Zhou / The Water That Bears the Boat Can Also Capsize It）](%E6%B0%B4%E8%83%BD%E8%BD%BD%E8%88%9F%E4%BA%A6%E8%83%BD%E8%A6%86%E8%88%9F.md)
 - [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
+- [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
 - [替罪羊机制（Scapegoating）](%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%9C%BA%E5%88%B6.md)
 - [透明度悖论（Transparency Paradox）](%E9%80%8F%E6%98%8E%E5%BA%A6%E6%82%96%E8%AE%BA.md)
@@ -2648,7 +2651,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（191 个）
+### 决策（192 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2781,6 +2784,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [睡眠者效应（Sleeper Effect）](%E7%9D%A1%E7%9C%A0%E8%80%85%E6%95%88%E5%BA%94.md)
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
 - [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
+- [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
 - [团体迷思（Groupthink）](%E5%9B%A2%E4%BD%93%E8%BF%B7%E6%80%9D.md)
 - [托宾q（Tobin's q）](%E6%89%98%E5%AE%BEq.md)
