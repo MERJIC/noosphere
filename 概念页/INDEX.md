@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（211 个）
+### 哲学（212 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -105,6 +105,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [看见与看做（Seeing and Seeing-as / Aspect Perception）](%E7%9C%8B%E8%A7%81%E4%B8%8E%E7%9C%8B%E5%81%9A.md)
 - [空能指（Empty Signifier）](%E7%A9%BA%E8%83%BD%E6%8C%87.md)
 - [恐怖的美学（Aesthetics of Horror）](%E6%81%90%E6%80%96%E7%9A%84%E7%BE%8E%E5%AD%A6.md)
+- [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
 - [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
@@ -1502,7 +1503,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 缺位（81 个）
+### 缺位（82 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
@@ -1548,6 +1549,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
 - [刻奇（Kitsch）](%E5%88%BB%E5%A5%87.md)
 - [空能指（Empty Signifier）](%E7%A9%BA%E8%83%BD%E6%8C%87.md)
+- [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [离奇感（L'Étrange / The Strange）](%E7%A6%BB%E5%A5%87%E6%84%9F.md)
 - [留白（Ellipsis / Narrative Gap）](%E7%95%99%E7%99%BD.md)
 - [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
@@ -1588,7 +1590,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（256 个）
+### 自我（257 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1704,6 +1706,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [刻意练习（Deliberate Practice）](%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0.md)
 - [恐惧管理理论（Terror Management Theory）](%E6%81%90%E6%83%A7%E7%AE%A1%E7%90%86%E7%90%86%E8%AE%BA.md)
 - [恐惧习得（Fear Conditioning / Vicarious Fear Learning）](%E6%81%90%E6%83%A7%E4%B9%A0%E5%BE%97.md)
+- [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [礼貌理论（Politeness Theory）](%E7%A4%BC%E8%B2%8C%E7%90%86%E8%AE%BA.md)
 - [理性成瘾理论（Rational Addiction Theory）](%E7%90%86%E6%80%A7%E6%88%90%E7%98%BE%E7%90%86%E8%AE%BA.md)
@@ -2640,7 +2643,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（190 个）
+### 决策（191 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2724,6 +2727,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [可逆性错觉（Illusion of Reversibility）](%E5%8F%AF%E9%80%86%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
 - [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
+- [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [框架效应（Framing Effect）](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [累积优势（Cumulative Advantage）](%E7%B4%AF%E7%A7%AF%E4%BC%98%E5%8A%BF.md)

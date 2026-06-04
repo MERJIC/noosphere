@@ -14,16 +14,23 @@ description: "概念跳跃——以概念库中的已有概念为跳板，向外
 
 ## 起点选择（三种，开始时先确认）
 
-**准备**：读取 `/Users/myke/Documents/MERJIC/概念库/memory/concept_lite.json`。
-- `names` 数组 = 库内所有概念中文名，用于判断「是否已在库中」（O(1) 查找）
-- `orphan_nodes` = 孤立概念列表（用于起点 C）
-- `apply_index` = 按应用场景分组的概念列表
-- `name_aliases` = 同义名映射（查重时也要检查别名）
-- `name_en_index` = 英文名倒排索引（英文名查重用）
+**准备**：不需要预加载任何索引文件。所有查询通过命令按需执行：
 
-索引固定路径：`/Users/myke/Documents/MERJIC/概念库/memory/concept_lite.json`。找不到说明路径写错了，检查后重试。
+```bash
+# 查概念是否存在 / 查重
+python3 scripts/sync_db.py -d "候选名"
 
-后续所有「是否已在库中」的判断都基于这份已读取的索引，不再读取 INDEX.md 或旧格式 concept_index.json。
+# 随机起点（从库里随机取一个）
+python3 scripts/sync_db.py --query "SELECT name FROM concepts ORDER BY RANDOM() LIMIT 1"
+
+# 孤立概念列表（用于起点 C）
+python3 scripts/sync_db.py --preset orphans
+
+# 用户指定的概念是否在库中
+python3 scripts/sync_db.py --query "SELECT id FROM concepts WHERE name = '概念名'"
+```
+
+**禁止读取** concept_lite.json、INDEX.md、concept_graph.json 或任何索引文件来获取概念清单或做查重判断。
 
 **A · 随机抽取**（用户说「随便」「跳一跳」「给我新的」）
 - 从索引的 `names` 数组中随机选一个已有概念作为起点
