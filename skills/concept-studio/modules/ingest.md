@@ -37,15 +37,20 @@ description: "从 URL 或粘贴文本中提取学术/理论概念，生成标准
 
 提取 1-5 个候选概念，按沉淀价值从高到低排序。
 
-### Step 3 — 去重检查（轻量索引）
+### Step 3 — 去重检查
 
-读取 `/Users/myke/Documents/MERJIC/概念库/memory/concept_lite.json`，对每个候选概念执行去重：
+对每个候选概念执行查重（逐个或批量）：
 
-1. **精确匹配**：检查 `候选中文名 in names` → 存在则标注「已有」
-2. **别名匹配**：检查 `name_aliases[候选名]` → 发现则标注「可能重复：与 {别名} 同义」
-3. **英文名匹配**：检查 `name_en_index[候选英文名.lower()]` → 存在则标注「英文名已有：{对应中文名}」
+```bash
+python3 scripts/sync_db.py -d "候选中文名" "English Name"
+```
 
-不再使用 `ls 概念页/{名}.md`、读 INDEX.md 或旧格式 `concept_index.json` 做去重。
+输出三种结果：
+- **✅ 可用** — 无冲突，可以建页
+- **⚠ 弱命中** — 子串/关键词重叠，标注为「可能重复」
+- **❌ 重复** — 精确/别名命中，标注为「已有」
+
+不再读取 concept_lite.json、INDEX.md 或任何索引文件做手动比对。
 
 ### Step 4 — 展示候选，等待确认
 
@@ -72,8 +77,7 @@ description: "从 URL 或粘贴文本中提取学术/理论概念，生成标准
 3. 按下方规范生成概念页内容
 4. 用 Write 工具写入 `概念页/{中文名}.md`
 5. 写完后立即执行自检（见「写完后必须自检」）
-6. 运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental` 刷新 JSON 索引
-7. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}` 同步到 SQLite**（每新增一个概念必须执行，不可跳过）
+6. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}`** — 这一条命令同时完成：SQLite 同步 + JSON 索引刷新（每新增一个概念必须执行，不可跳过）
 
 多个概念逐个写入，每个写完后输出确认，再写下一个。
 

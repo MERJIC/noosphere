@@ -23,6 +23,8 @@ import json
 import os
 import re
 import sqlite3
+import subprocess
+import sys
 import sys
 import time
 from datetime import datetime, timezone
@@ -464,6 +466,28 @@ def delete_concept(conn: sqlite3.Connection, name_cn: str) -> bool:
     return deleted
 
 
+def _refresh_json_index() -> dict:
+    """自动调用 build_index.py --incremental 刷新 JSON 索引。返回结果摘要。"""
+    index_script = os.path.join(SCRIPT_DIR, "build_index.py")
+    if not os.path.exists(index_script):
+        return {"skipped": True, "reason": "build_index.py 不存在"}
+
+    try:
+        result = subprocess.run(
+            [sys.executable, index_script, "--incremental"],
+            capture_output=True, text=True, timeout=30,
+        )
+        return {
+            "ok": result.returncode == 0,
+            "stdout": result.stdout.strip(),
+            "stderr": result.stderr.strip(),
+        }
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "reason": "超时"}
+    except Exception as e:
+        return {"ok": False, "reason": str(e)}
+
+
 def sync_full(conn: sqlite3.Connection) -> dict:
     """全量同步：扫描所有 .md 文件，重建整个数据库内容。"""
     start = time.time()
@@ -502,6 +526,9 @@ def sync_full(conn: sqlite3.Connection) -> dict:
     # 同步集群
     cluster_count = sync_clusters(conn)
 
+    # 自动刷新 JSON 索引
+    index_result = _refresh_json_index()
+
     elapsed = time.time() - start
 
     return {
@@ -513,6 +540,7 @@ def sync_full(conn: sqlite3.Connection) -> dict:
         "error_details": errors,
         "clusters": cluster_count,
         "elapsed": round(elapsed, 3),
+        "index_refresh": index_result.get("ok", False),
     }
 
 
@@ -584,6 +612,12 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
     # 同步集群
     cluster_count = sync_clusters(conn)
 
+    # 自动刷新 JSON 索引（有变动时才刷新）
+    if to_process or removed:
+        index_result = _refresh_json_index()
+    else:
+        index_result = {"skipped": True}
+
     elapsed = time.time() - start
 
     return {
@@ -596,6 +630,7 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
         "error_details": errors,
         "clusters": cluster_count,
         "elapsed": round(elapsed, 3),
+        "index_refresh": index_result.get("ok", index_result.get("skipped", False)),
     }
 
 
@@ -615,11 +650,15 @@ def sync_single(conn: sqlite3.Connection, concept_name: str) -> dict:
         concept_id = upsert_concept(conn, data)
         sync_clusters(conn)
 
+        # 自动刷新 JSON 索引
+        index_result = _refresh_json_index()
+
         return {
             "mode": "single",
             "concept": concept_name,
             "id": concept_id,
             "elapsed": round(time.time() - start, 3),
+            "index_refresh": index_result.get("ok", False),
         }
     except Exception as e:
         return {"error": str(e)}

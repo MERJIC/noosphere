@@ -21,35 +21,25 @@ description: "将某个学科领域中晦涩的学术理论/原理，通过寓�
 
 在内部确定原理名称，**暂不向用户透露**。
 
-确定后，用查重脚本检测是否已存在：
+确定后，立即用查重检测是否已存在：
 
 ```bash
-python3 scripts/check_duplicate.py "中文名" "English Name"
+python3 scripts/sync_db.py -d "中文名" "English Name"
 ```
 
-脚本路径：`/Users/myke/Documents/MERJIC/概念库/scripts/check_duplicate.py`。找不到说明路径写错了，检查后重试。
-
-**匹配策略（7 层，按优先级）：**
-1. 中文名精确匹配
-2. 英文名精确匹配
-3. 别名正/反查
-4. 中文名子串双向包含（≥2 字）
-5. 英文名关键词重叠（≥2 词）
-6. 编辑距离（短名称 ≤6 字时启用）
-7. 跨名映射表（同一概念的多种叫法，如「阿格里帕三难」=「明希豪森三重困境」）
+脚本路径：`/Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py`。
 
 输出三种结果：
 - **可用** — 无任何命中，可以建页
 - **⚠ 弱命中** — 子串/关键词重叠，需人工判断是否为同一概念
 - **❌ 重复** — 精确/别名/跨名映射命中，确认重复
 
-批量查多个候选：
-```bash
-python3 scripts/check_duplicate.py --batch        # 交互式逐个输入
-python3 scripts/check_duplicate.py -f candidates.txt  # 从文件读取
-```
-
 ❌ 重复 或 ⚠ 弱命中且确认为同一概念时，换一个重查。
+
+**⚠️ 关键规则：**
+- **禁止读取 INDEX.md、concept_lite.json 或任何索引文件来列已有概念清单。** 直接选一个你判断大概率没被写过的候选，用 `-d` 命令查，命中就换。
+- **最多尝试 3 个候选。** 第 3 个还重复就降低冷门度选一个更经典的，不要无限循环找"最冷门的"。
+- 不要向用户展示查重过程或候选列表，用户只看到最终结果。
 
 ### Step 2 — 构建故事
 
@@ -141,8 +131,7 @@ python3 scripts/check_duplicate.py -f candidates.txt  # 从文件读取
   - 检查新概念是否在孤立列表中 → 若在，写入后它将从孤立列表移出（下次 `/concept-analyze` 时更新）
 4. 用 Write 工具创建 `概念页/{中文名}.md`，按下方概念页规范写入
 5. 概念页写完后**立即自检**（四条规则，见「写完后必须自检」）
-6. 运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/build_index.py --incremental` 刷新 JSON 索引
-7. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}` 同步到 SQLite**（每新增一个概念必须执行，不可跳过）
+6. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}`** — 这一条命令同时完成：SQLite 同步 + JSON 索引刷新（不可跳过）
 
 **写入时不预设圆桌会发生** —— 不留空圆桌 section。
 
