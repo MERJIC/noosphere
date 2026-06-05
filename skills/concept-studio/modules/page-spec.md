@@ -299,3 +299,9 @@ tags: [discipline/行为经济学, pattern/循环, apply/商业]
 12. **中文引号合规**：正文使用「」，禁止使用""（弯引号）
 13. **禁止否定排比**：正文不使用「不是A而是B」「不仅A更B」句式，直接说B
 14. **建页后强制跑 lint**：新建或修改概念页后，必须运行 `python3 scripts/lint_concepts.py --file 概念名` 通过质检，发现 F07/F10/F11 问题需当场修复
+15. **`lint --fix` 安全边界**（批处理必读，防 F09 误伤）：
+   - 默认只报告：`python3 scripts/lint_concepts.py`（不写回）
+   - `python3 scripts/lint_concepts.py --fix` **自动修复不含 F09**（学者短名替换已拆出）
+   - 学者标注自动改字必须显式加 `--fix-scholars`，且**先**跑 `python3 scripts/repair_scholar_f09_damage.py`（预览）→ `--apply`（写回），再决定是否开 `--fix-scholars`
+   - 大批量改入口场景/通读加厚后：全库先 `repair_scholar_f09_damage.py --apply`，再 `lint`；禁止对整库连跑两次 `--fix`/`--fix-scholars` 叠修
+   - 误伤扫描信号：`星罗杰·巴克`、`胡约翰·塞尔`、双层英文括号 `（…）（…）` —— 见 `scripts/scholar_annotation_utils.py` 白名单与 `EXACT_DAMAGE_REPLACEMENTS`
