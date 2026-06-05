@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（166 个）
+### 哲学（167 个）
 
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -147,6 +147,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [叙事不可逆（Narrative Irreversibility）](%E5%8F%99%E4%BA%8B%E4%B8%8D%E5%8F%AF%E9%80%86.md)
 - [叙事契约（Narrative Contract）](%E5%8F%99%E4%BA%8B%E5%A5%91%E7%BA%A6.md)
 - [叙事同一性（Narrative Identity）](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md)
+- [悬置（Epoché）](%E6%82%AC%E7%BD%AE.md)
 - [循环因果（Circular Causality）](%E5%BE%AA%E7%8E%AF%E5%9B%A0%E6%9E%9C.md)
 - [亚临界漂移（Subcritical Drift）](%E4%BA%9A%E4%B8%B4%E7%95%8C%E6%BC%82%E7%A7%BB.md)
 - [延异（Différance）](%E5%BB%B6%E5%BC%82.md)
@@ -835,7 +836,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [真实性悖论（Authenticity Paradox）](%E7%9C%9F%E5%AE%9E%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 
-### 盲区（88 个）
+### 盲区（89 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -909,6 +910,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信息级联（Information Cascade）](%E4%BF%A1%E6%81%AF%E7%BA%A7%E8%81%94.md)
 - [幸存者偏差（Survivorship Bias）](%E5%B9%B8%E5%AD%98%E8%80%85%E5%81%8F%E5%B7%AE.md)
 - [虚假记忆（False Memory）](%E8%99%9A%E5%81%87%E8%AE%B0%E5%BF%86.md)
+- [悬置（Epoché）](%E6%82%AC%E7%BD%AE.md)
 - [宜家效应（IKEA Effect）](%E5%AE%9C%E5%AE%B6%E6%95%88%E5%BA%94.md)
 - [艺术意志（Kunstwollen）](%E8%89%BA%E6%9C%AF%E6%84%8F%E5%BF%97.md)
 - [英雄式领导神话（Heroic Leadership Myth）](%E8%8B%B1%E9%9B%84%E5%BC%8F%E9%A2%86%E5%AF%BC%E7%A5%9E%E8%AF%9D.md)
@@ -1418,7 +1420,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（205 个）
+### 自我（206 个）
 
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
 - [本体论不安全感（Ontological Insecurity）](%E6%9C%AC%E4%BD%93%E8%AE%BA%E4%B8%8D%E5%AE%89%E5%85%A8%E6%84%9F.md)
@@ -1592,6 +1594,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
 - [虚假记忆（False Memory）](%E8%99%9A%E5%81%87%E8%AE%B0%E5%BF%86.md)
 - [叙事同一性（Narrative Identity）](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md)
+- [悬置（Epoché）](%E6%82%AC%E7%BD%AE.md)
 - [循环因果（Circular Causality）](%E5%BE%AA%E7%8E%AF%E5%9B%A0%E6%9E%9C.md)
 - [亚临界漂移（Subcritical Drift）](%E4%BA%9A%E4%B8%B4%E7%95%8C%E6%BC%82%E7%A7%BB.md)
 - [延异（Différance）](%E5%BB%B6%E5%BC%82.md)
@@ -2347,7 +2350,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（175 个）
+### 决策（176 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2491,6 +2494,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [虚假记忆（False Memory）](%E8%99%9A%E5%81%87%E8%AE%B0%E5%BF%86.md)
 - [叙事不可逆（Narrative Irreversibility）](%E5%8F%99%E4%BA%8B%E4%B8%8D%E5%8F%AF%E9%80%86.md)
 - [悬念与惊吓（Suspense vs Surprise）](%E6%82%AC%E5%BF%B5%E4%B8%8E%E6%83%8A%E5%90%93.md)
+- [悬置（Epoché）](%E6%82%AC%E7%BD%AE.md)
 - [循环因果（Circular Causality）](%E5%BE%AA%E7%8E%AF%E5%9B%A0%E6%9E%9C.md)
 - [延展心智（Extended Mind）](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md)
 - [眼镜蛇效应（Cobra Effect）](%E7%9C%BC%E9%95%9C%E8%9B%87%E6%95%88%E5%BA%94.md)
@@ -2630,7 +2634,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ---
 
-## ⚠️ 待整理（79 个）
+## ⚠️ 待整理（78 个）
 
 > 以下概念页未通过质检，未进入主分类。修正后保存即自动归类。
 
@@ -2697,7 +2701,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [心流（Flow）](%E5%BF%83%E6%B5%81.md) — 学者「庄子」首次出现缺英文名标注，应为「庄子（Zhuangzi）」
 - [性本善（Innate Goodness of Human Nature）](%E6%80%A7%E6%9C%AC%E5%96%84.md) — 学者「霍布斯」首次出现缺英文名标注，应为「托马斯·霍布斯（Thomas Hobbes）」
 - [序言悖论（Preface Paradox）](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md) — 学者「维特根斯坦」首次出现缺英文名标注，应为「路德维希·维特根斯坦（Ludwig Wittgenstein）」；学者「海德格尔」首次出现缺英文名标注，应为「马丁·海德格尔（Martin Heidegger）」；学者「胡塞尔」首次出现缺英文名标注，应为「埃德蒙·胡塞尔（Edmund Husserl）」；学者「卡尼曼」首次出现缺英文名标注，应为「丹尼尔·卡尼曼（Daniel Kahneman）」
-- [悬置（Epoché）](%E6%82%AC%E7%BD%AE.md) — 学者「胡塞尔」首次出现缺英文名标注，应为「埃德蒙·胡塞尔（Edmund Husserl）」；学者「庄子」首次出现缺英文名标注，应为「庄子（Zhuangzi）」
 - [压抑回归（Return of the Repressed）](%E5%8E%8B%E6%8A%91%E5%9B%9E%E5%BD%92.md) — 学者「弗洛伊德」首次出现缺英文名标注，应为「西格蒙德·弗洛伊德（Sigmund Freud）」
 - [移情（Einfühlung）](%E7%A7%BB%E6%83%85.md) — 学者「康德」首次出现缺英文名标注，应为「伊曼努尔·康德（Immanuel Kant）」
 - [以指喻指之非指（Yi Zhi Yu Zhi Fei Zhi / Pointing to Show Non-Pointing）](%E4%BB%A5%E6%8C%87%E5%96%BB%E6%8C%87%E4%B9%8B%E9%9D%9E%E6%8C%87.md) — 学者「庄子」首次出现缺英文名标注，应为「庄子（Zhuangzi）」
