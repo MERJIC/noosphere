@@ -29,6 +29,14 @@ SCHOLAR_DICT_PATH = os.path.join(
     LIB_ROOT, "skills/concept-studio/modules/scholar-dict.json"
 )
 
+# F09 学者短名自动替换默认关闭（见 --fix-scholars）；工具函数见 scholar_annotation_utils.py
+from scholar_annotation_utils import (  # noqa: E402
+    build_short_unsafe,
+    find_safe_short_positions,
+    load_scholar_dict as _load_scholar_dict_util,
+    short_match_is_safe,
+)
+
 # ── 词汇表白名单 ──────────────────────────────────────────────
 DOMAIN_WHITELIST = [
     "哲学", "心理学", "经济学", "社会学", "传播学",
@@ -105,10 +113,7 @@ SHALLOW_ENDINGS = ["突出", "彰显", "反映", "象征"]
 
 def load_scholar_dict() -> dict:
     """加载学者对照表。"""
-    if not os.path.exists(SCHOLAR_DICT_PATH):
-        return {}
-    with open(SCHOLAR_DICT_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return _load_scholar_dict_util()
 
 
 def parse_frontmatter(content: str) -> Optional[dict]:
@@ -147,7 +152,9 @@ def extract_h1(body: str) -> List[str]:
     return re.findall(r"^# (.+)$", body, re.MULTILINE)
 
 
-def check_file(filepath: str, scholar_dict: dict, fix: bool = False) -> List[dict]:
+def check_file(
+    filepath: str, scholar_dict: dict, fix: bool = False, short_unsafe: Optional[set] = None
+) -> List[dict]:
     """检查单个概念页，返回问题列表。fix=True 时自动修复可修复项。"""
     fname = os.path.basename(filepath)
     concept_name = fname[:-3] if fname.endswith(".md") else fname
@@ -413,45 +420,23 @@ def check_file(filepath: str, scholar_dict: dict, fix: bool = False) -> List[dic
     # 此规则主要靠 F06 的 FORBIDDEN_SECTIONS 覆盖
 
     # ── 9. 学者名标注合规 ───────────────────────────────────
-    # 检查 scholar-dict.json 中的学者是否在正文中首次出现时缺少英文括号注
-    # 正确格式：全名（English Name），如 吉尔·德勒兹（Gilles Deleuze）
-    # 字典 key 为全名，info["short"] 为搜索用短名/姓氏
-    # 覆盖两种情况：(a) 全名裸出现 (b) 短名裸出现
+    if short_unsafe is None:
+        short_unsafe = build_short_unsafe(scholar_dict)
+
+    body_clean = re.sub(r"\[\[.*?\]\]", "", body)
+
     for key, info in scholar_dict.items():
         full_name = info["full"]
         en_name = info["en"]
-        short_name = info.get("short", key)  # 搜索用短名，优先取 short 字段
+        short_name = info.get("short", key)
 
-        # 排除 wikilinks 和 frontmatter 中的出现
-        body_clean = re.sub(r"\[\[.*?\]\]", "", body)
-
-        has_full = bool(re.search(re.escape(full_name), body_clean))
-        has_short = (short_name != full_name) and bool(re.search(re.escape(short_name), body_clean))
-        # 短名消歧：如果短名只是另一个已正确标注学者全名的子串，跳过
-        if has_short:
-            for _okey, _oinfo in scholar_dict.items():
-                if _okey == key:
-                    continue
-                _ofull = _oinfo["full"]
-                _oen = _oinfo["en"]
-                if short_name in _ofull and len(_ofull) > len(short_name):
-                    _ocorrect = re.escape(_ofull) + r"（" + re.escape(_oen) + r"）"
-                    if re.search(_ocorrect, content):
-                        has_short = False
-                        break
-
-        if not has_full and not has_short:
-            continue
-
-        # 已有正确格式的 全名（En Name）→ 跳过
         correct_pattern = re.escape(full_name) + r"（" + re.escape(en_name) + r"）"
         if re.search(correct_pattern, content):
             continue
-        # 英文名已以其他形式出现在正文中（如表格列）→ 跳过
         if re.search(re.escape(en_name), body_clean):
             continue
 
-        # 全名裸出现 → 补英文名
+        has_full = bool(re.search(re.escape(full_name), body_clean))
         if has_full:
             issues.append({
                 "rule": "F09", "concept": concept_name,
@@ -459,14 +444,25 @@ def check_file(filepath: str, scholar_dict: dict, fix: bool = False) -> List[dic
                 "fixable": True, "auto_fix": "fix_scholar_name_full",
                 "detail": {"full": full_name, "en": en_name},
             })
-        # 短名裸出现且短名≠全名 → 替换为全名（En Name）
-        # 过滤过短的短名（≤1 字）避免大量误报
-        elif has_short and len(short_name) > 1:
+            continue
+
+        if short_name == full_name or len(short_name) <= 1:
+            continue
+
+        safe_positions = find_safe_short_positions(
+            body_clean, short_name, full_name, scholar_dict, short_unsafe
+        )
+        if safe_positions:
             issues.append({
                 "rule": "F09", "concept": concept_name,
                 "msg": f"学者「{short_name}」使用了短名缺标注（应为{full_name}（{en_name}））",
                 "fixable": True, "auto_fix": "fix_scholar_name_short",
-                "detail": {"short": short_name, "full": full_name, "en": en_name},
+                "detail": {
+                    "short": short_name,
+                    "full": full_name,
+                    "en": en_name,
+                    "pos": safe_positions[0],
+                },
             })
 
     # ── 10. 圆桌嘉宾行格式 ──────────────────────────────────
@@ -803,16 +799,17 @@ def fix_issue(content: str, issue: dict) -> str:
         short_name = detail["short"]
         full_name = detail["full"]
         en_name = detail["en"]
-        # 将正文中首次出现的短名替换为 全名（En Name）
+        pos = detail.get("pos")
         fm_end = content.find("---", content.find("---") + 3) + 3
         if fm_end < 10:
             return content
         fm = content[:fm_end]
         body = content[fm_end:]
         replacement = f"{full_name}（{en_name}）"
-        new_body = re.sub(
-            re.escape(short_name), replacement, body, count=1
-        )
+        if pos is not None:
+            new_body = body[:pos] + replacement + body[pos + len(short_name) :]
+        else:
+            new_body = body
         if new_body != body:
             return fm + new_body
         return content
@@ -888,10 +885,15 @@ def dump_entries(out_path: str) -> None:
     print(f"已导出 {n} 页入口场景 → {out_path}")
 
 
-def run_lint(fix: bool = False, target_file: Optional[str] = None,
-             entry_report: bool = False) -> None:
-    """运行全量质检。"""
+def run_lint(
+    fix: bool = False,
+    target_file: Optional[str] = None,
+    entry_report: bool = False,
+    fix_scholars: bool = False,
+) -> None:
+    """运行全量质检。F09 学者短名替换默认不随 --fix 执行，需 --fix-scholars。"""
     scholar_dict = load_scholar_dict()
+    short_unsafe = build_short_unsafe(scholar_dict)
     start = time.time()
 
     if target_file:
@@ -913,10 +915,17 @@ def run_lint(fix: bool = False, target_file: Optional[str] = None,
     all_issues = []
     fix_count = 0
 
+    scholar_fix_types = {"fix_scholar_name", "fix_scholar_name_full", "fix_scholar_name_short"}
+
     for name, fpath in files:
-        issues = check_file(fpath, scholar_dict, fix=fix)
+        issues = check_file(fpath, scholar_dict, fix=fix, short_unsafe=short_unsafe)
         if fix and issues:
             fixable = [i for i in issues if i.get("fixable")]
+            if not fix_scholars:
+                fixable = [
+                    i for i in fixable
+                    if i.get("auto_fix") not in scholar_fix_types
+                ]
             if fixable:
                 with open(fpath, "r", encoding="utf-8") as f:
                     content = f.read()
@@ -994,12 +1003,20 @@ def run_lint(fix: bool = False, target_file: Optional[str] = None,
     if fix:
         print(f"\n已自动修复: {fix_count} 处")
     elif total_fixable > 0:
-        print(f"\n提示: 运行 python3 scripts/lint_concepts.py --fix 自动修复 {total_fixable} 处")
+        print(
+            f"\n提示: python3 scripts/lint_concepts.py --fix 可自动修复非 F09 项；"
+            f"学者标注需加 --fix-scholars（慎用，先跑 repair_scholar_f09_damage.py）"
+        )
 
 
 def main():
     parser = argparse.ArgumentParser(description="概念库全量格式质检")
-    parser.add_argument("--fix", action="store_true", help="自动修复可修复的问题")
+    parser.add_argument("--fix", action="store_true", help="自动修复可修复的问题（不含 F09）")
+    parser.add_argument(
+        "--fix-scholars",
+        action="store_true",
+        help="与 --fix 联用时才自动改学者名（默认关闭，避免短名误伤）",
+    )
     parser.add_argument("--file", type=str, help="只检查指定概念（不含 .md 后缀）")
     parser.add_argument("--entry-report", action="store_true",
                         help="只输出入口场景候选清单（按命中信号数排序）")
@@ -1009,7 +1026,12 @@ def main():
     if args.dump_entries:
         dump_entries(args.dump_entries)
         return
-    run_lint(fix=args.fix, target_file=args.file, entry_report=args.entry_report)
+    run_lint(
+        fix=args.fix,
+        target_file=args.file,
+        entry_report=args.entry_report,
+        fix_scholars=args.fix_scholars,
+    )
 
 
 if __name__ == "__main__":
