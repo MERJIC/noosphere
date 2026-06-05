@@ -92,6 +92,8 @@ python3 scripts/sync_db.py -d "候选中文名" "English Name"
 
 **只补自然出现的链接，不强行加。**
 
+4. **运行 `python3 scripts/sync_db.py --file {起点概念名}`** — 补链接后必须同步（捕获新加的 [[link]] 关系）
+
 补链接完成后，主动提示：
 ```
 链接已补。继续跳？（说「继续」）

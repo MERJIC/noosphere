@@ -16,7 +16,7 @@ description: >
 |------|------|
 | 概念页目录 | `/Users/myke/Documents/MERJIC/概念库/概念页/` |
 | 概念页规范（唯一权威） | `modules/page-spec.md`（写概念页时参照，写完后用「自检清单」质检。Noosphere 插件也从这里读取词汇表，不维护硬编码副本） |
-| 学者名对照表 | `modules/scholar-dict.json`（Noosphere 插件读取，用于自动检查学者名首现中英文标注） |
+| 学者名对照表 | `modules/scholar-dict.json`（lint_concepts.py F09 规则读取，用于检查学者名首现中英文标注） |
 | **SQLite 索引层**（主入口，查询/查重/统计全走这里） | `/Users/myke/Documents/MERJIC/概念库/memory/concepts.db` |
 | 同步脚本（SQLite + JSON 索引一体化） | `/Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py` |
 | JSON 索引分片（供 check_duplicate.py 等旧脚本使用，逐步淘汰中） | `memory/concept_lite.json` / `concept_graph.json` / `concept_meta.json` |

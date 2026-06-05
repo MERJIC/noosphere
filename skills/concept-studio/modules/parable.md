@@ -201,6 +201,8 @@ python3 scripts/sync_db.py -d "候选1名" "英文名1" "候选2名" "英文名2
 - 出现的所有重要概念名用 `[[]]` 标注（包括尚未建页的虚链接）
 - 有值得独立成页的衍生概念，写入后主动提出
 
+7. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}`** — 圆桌内容写入后必须同步（捕获圆桌中的新 [[link]] 和嘉宾信息）
+
 ---
 
 ## 概念页规范
