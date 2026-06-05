@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（212 个）
+### 哲学（213 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -214,6 +214,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
 - [早熟抽象（Premature Abstraction）](%E6%97%A9%E7%86%9F%E6%8A%BD%E8%B1%A1.md)
 - [战略无知（Strategic Ignorance）](%E6%88%98%E7%95%A5%E6%97%A0%E7%9F%A5.md)
+- [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
 - [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
@@ -903,7 +904,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按结构模式
 
-### 悖论（38 个）
+### 悖论（39 个）
 
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
@@ -940,6 +941,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [因果过度确定（Causal Overdetermination）](%E5%9B%A0%E6%9E%9C%E8%BF%87%E5%BA%A6%E7%A1%AE%E5%AE%9A.md)
 - [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
 - [元操作（Meta-operation）](%E5%85%83%E6%93%8D%E4%BD%9C.md)
+- [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
 - [真实性悖论（Authenticity Paradox）](%E7%9C%9F%E5%AE%9E%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
@@ -1594,7 +1596,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（257 个）
+### 自我（258 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1838,6 +1840,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [阈限叙事（Liminal Narrative）](%E9%98%88%E9%99%90%E5%8F%99%E4%BA%8B.md)
 - [元操作（Meta-operation）](%E5%85%83%E6%93%8D%E4%BD%9C.md)
 - [元认知（Metacognition）](%E5%85%83%E8%AE%A4%E7%9F%A5.md)
+- [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
 - [真实性悖论（Authenticity Paradox）](%E7%9C%9F%E5%AE%9E%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [致虚极守静笃（Zhi Xu Ji Shou Jing Du / Attain the Utmost Void, Guard the Firmest Stillness）](%E8%87%B4%E8%99%9A%E6%9E%81%E5%AE%88%E9%9D%99%E7%AC%83.md)
