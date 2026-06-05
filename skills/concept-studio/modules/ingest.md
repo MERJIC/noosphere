@@ -74,10 +74,11 @@ python3 scripts/sync_db.py -d "候选中文名" "English Name"
 2. **读取 `/Users/myke/Documents/MERJIC/概念库/memory/concept_relations.md`**：查看该概念的集群归属和孤立概念列表
    - 若属于某集群，写正文时在自然出现处用 `[[]]` 链接集群内相关概念
    - 若出现在孤立列表，说明它此前无出链，建完页后它就有了入链
-3. 按下方规范生成概念页内容
-4. 用 Write 工具写入 `概念页/{中文名}.md`
-5. 写完后立即执行自检（见「写完后必须自检」）
-6. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}`** — 这一条命令同时完成：SQLite 同步 + JSON 索引刷新（每新增一个概念必须执行，不可跳过）
+3. **写「入口场景」前（`source: 概念跳跃` 或从 hop 沉淀路由进来时必做）**：读取 `modules/parable.md` → **Step 2 — 构建故事**，按寓言同一流程写完整故事体（约 300–500 字）。不得写成 2–5 句梗概。与寓言的唯一差别：入口场景不必隐藏概念名；仍须动作、对白、因果链、在对的地方停下、用「写完检查一件事」自检。
+4. 按 `modules/page-spec.md` 生成其余章节（核心机制、现实锚点、适用边界）
+5. 用 Write 工具写入 `概念页/{中文名}.md`
+6. 写完后立即执行自检（见「写完后必须自检」）
+7. **运行 `python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {中文名}`** — 这一条命令同时完成：SQLite 同步 + JSON 索引刷新（每新增一个概念必须执行，不可跳过）
 
 多个概念逐个写入，每个写完后输出确认，再写下一个。
 
