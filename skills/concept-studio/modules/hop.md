@@ -8,7 +8,6 @@ description: "概念跳跃——以概念库中的已有概念为跳板，向外
 以概念库中的**已有概念**为跳板，每次向外跳到一个**库里没有的新概念**。你感兴趣就深入，腻了就继续跳，想沉淀就调 `/concept-ingest`。
 
 概念库路径：`/Users/myke/Documents/MERJIC/概念库/概念页/`
-关联图谱：`/Users/myke/Documents/MERJIC/概念库/memory/concept_relations.md`
 
 ---
 

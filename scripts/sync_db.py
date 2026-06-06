@@ -1460,6 +1460,8 @@ def main():
                        help="查重：指定候选名则检查该候选；配合 --full-dup 则全库扫描")
     parser.add_argument("--full-dup", action="store_true",
                         help="全库内部查重（与 -d 配合或单独使用）")
+    parser.add_argument("--set-meta", nargs=2, metavar=("KEY", "VALUE"),
+                        help="写入 db_meta 键值对（如 --set-meta last_analysis 2026-06-06）")
 
     args = parser.parse_args()
 
@@ -1517,6 +1519,14 @@ def main():
         elif args.incremental:
             result = sync_incremental(conn)
             _print_sync_result(result)
+        elif args.set_meta:
+            cursor = conn.cursor()
+            cursor.execute(
+                "INSERT OR REPLACE INTO db_meta (key, value) VALUES (?, ?)",
+                args.set_meta,
+            )
+            conn.commit()
+            print(f"✅ db_meta 已更新: {args.set_meta[0]} = {args.set_meta[1]}")
         else:
             result = sync_full(conn)
             _print_sync_result(result)

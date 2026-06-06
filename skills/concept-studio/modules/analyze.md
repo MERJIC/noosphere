@@ -54,11 +54,15 @@ python3 scripts/sync_db.py --query "SELECT ..."
 
 ### Step 1 — 确定扫描范围
 
-用 `--stats` 获取当前概念总数和上次同步时间。
+用 `--stats` 获取当前概念总数。
 
-首次运行（无 `last_analysis` 字段）：自动切换为全量模式。
+**增量判断**：从 DB 查询上次分析日期：
+```bash
+python3 scripts/sync_db.py --query "SELECT value FROM db_meta WHERE key = 'last_analysis'"
+```
 
-增量：对比 `concept_relations.md` 的 `last_analysis` 和当前时间。如果 DB 已包含最新数据（`sync_db.py --incremental` 已跑过），直接用预设查询；否则先运行 `sync_db.py --incremental`。
+- 查不到（首次运行）：自动切换为全量模式
+- 增量：如果 DB 已包含最新数据（`sync_db.py --incremental` 已跑过），直接用预设查询；否则先运行 `sync_db.py --incremental`
 
 ### Step 2 — 提取链接关系
 
@@ -124,7 +128,6 @@ GROUP BY value ORDER BY COUNT(*) DESC;
 ### Step 6 — 更新 concept_relations.md
 
 更新 `/Users/myke/Documents/MERJIC/概念库/memory/concept_relations.md` 中的以下内容：
-- `last_analysis` 日期（用 `date` 命令获取当前日期）
 - `concept_count` 总数
 - `orphan_count` 孤立概念数
 - 孤立概念列表（如有变化）
@@ -132,6 +135,11 @@ GROUP BY value ORDER BY COUNT(*) DESC;
 - Apply 分析结果
 
 **不删除已有的「已解决」记录，只追加新内容。**
+
+同步更新 DB 中的 last_analysis：
+```bash
+python3 scripts/sync_db.py --set-meta last_analysis {date}
+```
 
 ### Step 7 — 刷新索引
 

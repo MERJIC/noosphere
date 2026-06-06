@@ -63,10 +63,19 @@ tags: [{tags}]
 
 #### W3 — 查关联图谱
 
-读取 `/Users/myke/Documents/MERJIC/概念库/memory/concept_relations.md`：
+**用 SQL 查询替代读文件**（concept_relations.md 随概念库增长会膨胀，查询成本固定）：
 
-- 检查新概念是否属于已知集群 → 若是，确认调用模块提供的正文中集群内相关概念已有 `[[]]` 链接。如缺失，在写入前补上
-- 检查新概念是否在孤立列表中 → 若在，记录：写入后它将从孤立列表移出（下次关联分析时更新）
+```bash
+# 查集群归属（一次查出该概念所属的所有集群）
+python3 scripts/sync_db.py --query "SELECT c.name FROM cluster_members cm JOIN clusters c ON cm.cluster_id = c.id JOIN concepts co ON cm.concept_id = co.id WHERE co.name = '{concept_cn}'"
+
+# 查孤立状态
+python3 scripts/sync_db.py --preset orphans
+```
+
+- 查到集群归属 → 确认调用模块提供的正文中集群内相关概念已有 `[[]]` 链接。如缺失，在写入前补上
+- 查到孤立状态 → 记录：写入后它将从孤立列表移出（下次关联分析时更新）
+- 两者都查不到 → 正常继续，不做特殊处理
 
 #### W4 — 写入文件
 
@@ -96,11 +105,18 @@ tags: [{tags}]
 
 正文从 `## h2` 开始，无 h1 标题。**不预设圆桌 section**。
 
-#### W5 — 自检
+#### W5 — 自检（仅 lint 覆盖不到的 4 条）
 
-读取 `modules/page-spec.md` 的「自检清单」章节，逐条检查（15 条规则）。发现问题立即修复，不交给用户指出。
+**不重复 lint 已检查的规则**（frontmatter 格式、tags 词汇表、章节顺序、中文引号等由 W6 lint 负责）。
 
-重点关注：frontmatter 字段名合规、name 格式（中文全角括号）、tags 词汇表和顺序、正文无 h1、章节完整且顺序正确、现实锚点 bullet point 格式、学者名标注、中文引号、否定排比。
+只检查 lint 无法覆盖的内容质量问题：
+
+1. **否定排比**：正文是否出现「不是A而是B」「不仅A更B」→ 直接说B
+2. **学者名标注准确性**：首次出现是否对照 `modules/scholar-dict.json` 标注了中文全名（英文名），后续是否只用简称
+3. **`[[]]` 链接自然性**：链接是否自然嵌入正文语境，而非为了加链接而加
+4. **章节内容非空洞**：每个 section 是否有实质性内容，而非只有一两句泛泛描述
+
+发现问题立即修复。
 
 #### W6 — lint 质检（强制）
 
@@ -126,7 +142,7 @@ python3 /Users/myke/Documents/MERJIC/概念库/scripts/sync_db.py --file {concep
 
 ## 模式 B：圆桌归位
 
-由 `parable.md` Step 7 调用。圆桌流程结束后，将讨论内容追加到已有概念页。
+由 `parable.md` Step 7、`ingest.md` Step 7 调用。圆桌流程结束后，将讨论内容追加到已有概念页。
 
 ### 调用前提
 
@@ -166,9 +182,13 @@ date +%Y-%m-%d
 - 出现的所有重要概念名用 `[[]]` 标注（包括尚未建页的虚链接）
 - 有值得独立成页的衍生概念，写入后主动提出
 
-#### B4 — 自检
+#### B4 — 自检（仅 lint 覆盖不到的规则）
 
-读取 `modules/page-spec.md` 的「自检清单」章节，逐条检查。重点关注圆桌相关规则：F10（嘉宾行格式）、F11（圆桌沉淀格式）。发现问题立即修复。
+- 否定排比
+- `[[]]` 链接自然性
+- 圆桌内容完整性（嘉宾表四列、轮次结构完整）
+
+发现问题立即修复。
 
 #### B5 — lint 质检
 
