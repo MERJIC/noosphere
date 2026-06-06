@@ -50,3 +50,11 @@ F. 输出知识卡片
 ```
 
 每次执行只激活一个 module，不混用。
+
+---
+
+## 共享模块
+
+| 模块 | 说明 |
+|------|------|
+| `modules/write-page.md` | 概念页写入层。不被用户直接触发，由 parable（Step 5 建页、Step 7 圆桌归位）和 ingest（Step 5 建页）委托调用。负责：组装 frontmatter、写入文件、自检、lint、sync_db。
