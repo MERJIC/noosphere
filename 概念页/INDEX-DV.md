@@ -9,12 +9,11 @@ description: Dataview 动态索引，自动同步，无需手动维护
 
 ---
 
-## 按学科
-
 ```dataviewjs
 const pages = dv.pages("")
   .where(p => p.file.name !== "INDEX" && p.file.name !== "INDEX-DV" && p.domain);
 
+// ── 按学科 ──
 const grouped = {};
 for (const p of pages) {
   for (const d of (p.domain ?? [])) {
@@ -25,62 +24,42 @@ for (const p of pages) {
 
 const domains = ["哲学", "心理学", "经济学", "社会学", "传播学", "管理学", "生物学", "物理学", "人类学", "政治学", "艺术"];
 
-let md = "";
+dv.header(2, "按学科");
+
 for (const d of domains) {
   const items = grouped[d];
   if (!items || items.length === 0) continue;
-  md += `### ${d}（${items.length} 个）\n\n`;
-  for (const p of items.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN"))) {
-    md += `- ${p.file.link}\n`;
-  }
-  md += "\n";
+  dv.header(3, `${d}（${items.length} 个）`);
+  dv.list(items.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN")).map(p => p.file.link));
 }
 
 // 未分类
 const otherKeys = Object.keys(grouped).filter(d => !domains.includes(d));
 if (otherKeys.length > 0) {
   const otherItems = otherKeys.flatMap(d => grouped[d]);
-  md += `### 其他（${otherItems.length} 个）\n\n`;
-  for (const p of otherItems.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN"))) {
-    md += `- ${p.file.link}\n`;
-  }
-  md += "\n";
+  dv.header(3, `其他（${otherItems.length} 个）`);
+  dv.list(otherItems.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN")).map(p => p.file.link));
 }
 
-dv.paragraph(md);
-```
-
----
-
-## 按应用场景
-
-```dataviewjs
-const pages = dv.pages("")
-  .where(p => p.file.name !== "INDEX" && p.file.name !== "INDEX-DV");
-
-const grouped = {};
+// ── 按应用场景 ──
+const applyGrouped = {};
 for (const p of pages) {
   const tags = p.tags ?? [];
   for (const t of tags) {
     if (t.startsWith("apply/")) {
       const val = t.slice("apply/".length);
-      if (!grouped[val]) grouped[val] = [];
-      grouped[val].push(p);
+      if (!applyGrouped[val]) applyGrouped[val] = [];
+      applyGrouped[val].push(p);
     }
   }
 }
 
-const applies = Object.keys(grouped).sort();
+dv.header(2, "按应用场景");
 
-let md = "";
+const applies = Object.keys(applyGrouped).sort();
 for (const a of applies) {
-  const items = grouped[a];
-  md += `### ${a}（${items.length} 个）\n\n`;
-  for (const p of items.sort((x, y) => x.file.name.localeCompare(y.file.name, "zh-Hans-CN"))) {
-    md += `- ${p.file.link}\n`;
-  }
-  md += "\n";
+  const items = applyGrouped[a];
+  dv.header(3, `${a}（${items.length} 个）`);
+  dv.list(items.sort((x, y) => x.file.name.localeCompare(y.file.name, "zh-Hans-CN")).map(p => p.file.link));
 }
-
-dv.paragraph(md);
 ```
