@@ -349,6 +349,15 @@ def check_file(
                     "msg": f"禁止章节名: {sec}",
                     "fixable": False,
                 })
+        # 非标准章节名：不在 SECTION_ORDER 里的全部报错
+        if sec not in SECTION_ORDER and sec not in FORBIDDEN_SECTIONS:
+            # 排除 FORBIDDEN_SECTIONS 已处理的
+            if not any(sec.startswith(p) and ("的关系" in sec or "的区别" in sec) for p in FORBIDDEN_SECTIONS_PREFIX):
+                issues.append({
+                    "rule": "F06", "concept": concept_name,
+                    "msg": f"非标准章节名: {sec}（允许的章节: {', '.join(SECTION_ORDER)}）",
+                    "fixable": False,
+                })
 
     # ── 7. 现实锚点使用 bullet point ────────────────────────
     if "现实锚点" in sections:
