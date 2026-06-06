@@ -11,18 +11,8 @@ description: Dataview 动态索引，自动同步，无需手动维护
 
 ## 按学科
 
-```dataview
-TABLE WITHOUT ID
-  file.link AS "概念"
-FROM "概念页"
-WHERE file.name != "INDEX" AND file.name != "INDEX-DV" AND domain
-FLATTEN domain AS d
-GROUP BY d
-SORT rows.filelink ASC
-```
-
 ```dataviewjs
-const pages = dv.pages('"概念页"')
+const pages = dv.pages('"."')
   .where(p => p.file.name !== "INDEX" && p.file.name !== "INDEX-DV" && p.domain);
 
 const grouped = {};
@@ -47,15 +37,11 @@ for (const d of domains) {
 }
 
 // 未分类的
-const uncategorized = [];
-for (const d of Object.keys(grouped)) {
-  if (!domains.includes(d)) {
-    for (const p of grouped[d]) uncategorized.push(p);
-  }
-}
-if (uncategorized.length > 0) {
-  md += `### 其他（${uncategorized.length} 个）\n\n`;
-  for (const p of uncategorized.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN"))) {
+const otherKeys = Object.keys(grouped).filter(d => !domains.includes(d));
+if (otherKeys.length > 0) {
+  const otherItems = otherKeys.flatMap(d => grouped[d]);
+  md += `### 其他（${otherItems.length} 个）\n\n`;
+  for (const p of otherItems.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN"))) {
     md += `- ${p.file.link}\n`;
   }
   md += "\n";
@@ -69,10 +55,9 @@ dv.paragraph(md);
 ## 按应用场景
 
 ```dataviewjs
-const pages = dv.pages('"概念页"')
+const pages = dv.pages('"."')
   .where(p => p.file.name !== "INDEX" && p.file.name !== "INDEX-DV");
 
-// 从 tags 中提取 apply 值
 const grouped = {};
 for (const p of pages) {
   const tags = p.tags ?? [];
@@ -91,7 +76,7 @@ let md = "";
 for (const a of applies) {
   const items = grouped[a];
   md += `### ${a}（${items.length} 个）\n\n`;
-  for (const p of items.sort((a, b) => a.file.name.localeCompare(b.file.name, "zh-Hans-CN"))) {
+  for (const p of items.sort((x, y) => x.file.name.localeCompare(y.file.name, "zh-Hans-CN"))) {
     md += `- ${p.file.link}\n`;
   }
   md += "\n";
