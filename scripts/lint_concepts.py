@@ -81,13 +81,6 @@ FORBIDDEN_SECTIONS = [
 
 FORBIDDEN_SECTIONS_PREFIX = ["与", "和"]
 
-PERSON_WHITELIST = [
-    "维特根斯坦", "康德", "庄子", "海德格尔", "弗洛伊德",
-    "卡尼曼", "布迪厄", "福柯", "胡塞尔", "阿伦特",
-]
-
-PERSON_THRESHOLD = 5
-
 REQUIRED_SECTIONS = ["核心机制", "入口场景", "现实锚点", "适用边界"]
 SECTION_ORDER = ["核心机制", "入口场景", "现实锚点", "适用边界", "圆桌沉淀"]
 
@@ -201,7 +194,7 @@ def check_file(
             "fixable": False,
         })
 
-    # ── 3. tags 三类必填 + person 可选 ───────────────────────
+    # ── 3. tags 两类必填 ─────────────────────────────────────
     if fm:
         tags = fm.get("tags", [])
         if isinstance(tags, str):
@@ -223,16 +216,16 @@ def check_file(
                 "fixable": False,
             })
 
-        # 检查 person 标签是否在白名单内
+        # 检查未知前缀
         for tag in tags:
-            if tag.startswith("person/"):
-                person = tag[len("person/"):]
-                if person not in PERSON_WHITELIST:
-                    issues.append({
-                        "rule": "F03", "concept": concept_name,
-                        "msg": f"person/{person} 不在白名单内",
-                        "fixable": False,
-                    })
+            if tag.startswith(("discipline/", "apply/", "person/")):
+                continue
+            if tag:
+                issues.append({
+                    "rule": "F03", "concept": concept_name,
+                    "msg": f"tag \"{tag}\" 前缀不规范",
+                    "fixable": False,
+                })
 
         # 检查 discipline 值是否在词汇表内
         for tag in tags:
@@ -264,8 +257,8 @@ def check_file(
                 "fixable": True, "auto_fix": "remove_discipline_field",
             })
 
-        # 检查 tags 顺序：discipline → apply → person
-        tag_order_prefixes = ["discipline/", "apply/", "person/"]
+        # 检查 tags 顺序：discipline → apply
+        tag_order_prefixes = ["discipline/", "apply/"]
         order_violation = False
         max_seen_idx = -1
         for tag in tags:
@@ -276,7 +269,7 @@ def check_file(
                     max_seen_idx = max(max_seen_idx, idx)
                     break
         if order_violation:
-            # 重排：按 discipline/pattern/apply/person 分组，保持各组内部原有顺序
+            # 重排：按 discipline/apply 分组，保持各组内部原有顺序
             reordered = []
             for prefix in tag_order_prefixes:
                 for t in tags:
@@ -284,7 +277,7 @@ def check_file(
                         reordered.append(t)
             issues.append({
                 "rule": "F03", "concept": concept_name,
-                "msg": f"tags 顺序应为 discipline → apply → person",
+                "msg": f"tags 顺序应为 discipline → apply",
                 "fixable": True, "auto_fix": "reorder_tags",
                 "_reordered_tags": reordered,
             })
@@ -953,7 +946,7 @@ def run_lint(
     rule_labels = {
         "F01": "frontmatter 字段合规（禁用字段/source）",
         "F02": "name 字段格式",
-        "F03": "tags 合规（discipline/pattern/apply/person）",
+        "F03": "tags 合规（discipline/apply）",
         "F04": "domain 合规",
         "F05": "正文无 h1 标题",
         "F06": "章节结构完整且顺序正确",
