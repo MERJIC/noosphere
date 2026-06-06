@@ -12,7 +12,7 @@ description: Dataview 动态索引，自动同步，无需手动维护
 ## 按学科
 
 ```dataviewjs
-const pages = dv.pages('"."')
+const pages = dv.pages("")
   .where(p => p.file.name !== "INDEX" && p.file.name !== "INDEX-DV" && p.domain);
 
 const grouped = {};
@@ -36,7 +36,7 @@ for (const d of domains) {
   md += "\n";
 }
 
-// 未分类的
+// 未分类
 const otherKeys = Object.keys(grouped).filter(d => !domains.includes(d));
 if (otherKeys.length > 0) {
   const otherItems = otherKeys.flatMap(d => grouped[d]);
@@ -55,7 +55,7 @@ dv.paragraph(md);
 ## 按应用场景
 
 ```dataviewjs
-const pages = dv.pages('"."')
+const pages = dv.pages("")
   .where(p => p.file.name !== "INDEX" && p.file.name !== "INDEX-DV");
 
 const grouped = {};
