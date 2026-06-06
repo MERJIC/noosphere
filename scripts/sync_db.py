@@ -138,15 +138,12 @@ def parse_tags(tags_value) -> dict:
         tags_value = [tags_value]
 
     disciplines = []
-    pattern = None
     applies = []
     persons = []
 
     for tag in tags_value:
         if tag.startswith("discipline/"):
             disciplines.append(tag[len("discipline/"):])
-        elif tag.startswith("pattern/"):
-            pattern = tag[len("pattern/"):]
         elif tag.startswith("apply/"):
             applies.append(tag[len("apply/"):])
         elif tag.startswith("person/"):
@@ -154,7 +151,6 @@ def parse_tags(tags_value) -> dict:
 
     return {
         "discipline": disciplines,
-        "pattern": pattern,
         "apply": applies,
         "persons": persons,
     }
@@ -198,7 +194,7 @@ def init_db(conn: sqlite3.Connection) -> None:
             source          TEXT NOT NULL DEFAULT '',
             tags            TEXT NOT NULL DEFAULT '[]',
             disciplines     TEXT NOT NULL DEFAULT '[]',
-            pattern         TEXT DEFAULT NULL,
+            pattern         TEXT DEFAULT NULL,  -- 已废弃，保留列不删除，新数据置 NULL
             applies         TEXT NOT NULL DEFAULT '[]',
             persons         TEXT NOT NULL DEFAULT '[]',
             filepath        TEXT NOT NULL UNIQUE,
@@ -374,7 +370,6 @@ def scan_one_file(filepath: str) -> Optional[dict]:
         "domain": domain,
         "tags": tags_raw if isinstance(tags_raw, list) else [tags_raw],
         "disciplines": parsed_tags["discipline"],
-        "pattern": parsed_tags["pattern"],
         "applies": parsed_tags["apply"],
         "persons": parsed_tags["persons"],
         "source": source,
@@ -412,7 +407,7 @@ def upsert_concept(conn: sqlite3.Connection, data: dict) -> int:
             source        = excluded.source,
             tags          = excluded.tags,
             disciplines   = excluded.disciplines,
-            pattern       = excluded.pattern,
+            pattern       = NULL,
             applies       = excluded.applies,
             persons       = excluded.persons,
             filepath      = excluded.filepath,
@@ -422,7 +417,7 @@ def upsert_concept(conn: sqlite3.Connection, data: dict) -> int:
     """, (
         data["name_cn"], data["name_en"], json.dumps(data["domain"], ensure_ascii=False),
         data["date"], data["source"], json.dumps(data["tags"], ensure_ascii=False),
-        json.dumps(data["disciplines"], ensure_ascii=False), data["pattern"],
+        json.dumps(data["disciplines"], ensure_ascii=False), None,
         json.dumps(data["applies"], ensure_ascii=False),
         json.dumps(data["persons"], ensure_ascii=False),
         data["filepath"], data["mtime"], data["word_count"], data["now"],

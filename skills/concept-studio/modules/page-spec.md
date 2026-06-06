@@ -17,7 +17,7 @@ name: 概念名称（English Name）
 domain: [经济学]
 date: YYYY-MM-DD
 source: 阅读沉淀
-tags: [discipline/行为经济学, pattern/循环, apply/商业]
+tags: [discipline/行为经济学, apply/商业]
 ---
 ```
 
@@ -69,17 +69,6 @@ tags: [discipline/行为经济学, pattern/循环, apply/商业]
 政治学：政治哲学 / 国际关系
 艺术：美学 / 音乐理论 / 视觉理论 / 叙事学 / 文学理论
 ```
-
-**pattern/** — 概念的结构形状，选最贴切的一个（共 8 个，不得自行添加）：
-
-- `pattern/悖论` — 自我指涉或逻辑矛盾
-- `pattern/盲区` — 系统性看不见某个维度
-- `pattern/冲突` — 内部或外部张力结构
-- `pattern/渐变` — 变化积累但临界点不可见
-- `pattern/反转` — 结果与直觉或意图相反
-- `pattern/循环` — 原因和结果互相强化
-- `pattern/错位` — 两个系统之间的不匹配
-- `pattern/缺位` — 某个应该存在的要素不在场
 
 **person/** — 概念相关的学者/思想家，可多选。仅标记正文中有实质性引用的学者，tag 中提到的不算。**准入门槛：该学者在全库中出现频次 ≥5 次才可使用此标签。** 低于门槛的学者不标注，即使正文引用了。白名单（2025-05-25 锁定）：
 
@@ -286,8 +275,8 @@ tags: [discipline/行为经济学, pattern/循环, apply/商业]
 
 1. **frontmatter 字段名合规**：所有字段名在模板列表内（name / domain / date / source / tags），无禁用字段
 2. **name 字段格式**：`中文名（English Name）`，括号是中文全角括号，英文首字母大写
-3. **tags 三类必填且在词汇表内 + person 可选**：`tags` 数组包含 `discipline/`、`pattern/`、`apply/` 三类前缀，值全在上方词汇表内。`person/` 为可选附加层，仅当正文实质性引用的学者在白名单内时才标注（白名单及准入门槛见上方 person 说明）。禁止单独使用 `discipline:` 字段——所有 discipline 必须放进 `tags` 数组
-   - **tag 顺序固定为：discipline → pattern → apply → person**。同类别内部多个标签按需排列，不强制字母序。lint 会检测并自动修复顺序错误
+3. **tags 两类必填且在词汇表内 + person 可选**：`tags` 数组包含 `discipline/`、`apply/` 两类前缀，值全在上方词汇表内。`person/` 为可选附加层，仅当正文实质性引用的学者在白名单内时才标注（白名单及准入门槛见上方 person 说明）。禁止单独使用 `discipline:` 字段——所有 discipline 必须放进 `tags` 数组
+   - **tag 顺序固定为：discipline → apply → person**。同类别内部多个标签按需排列，不强制字母序。lint 会检测并自动修复顺序错误
 4. **domain 合规**：数组格式，学科名在 11 个顶层固定值内
 5. **正文无 h1 标题**：文件名即标题，正文从 `## h2` 开始
 6. **章节结构完整且顺序正确**：核心机制 → 入口场景 → 现实锚点 → 适用边界 →（圆桌沉淀，可选）。无非标准章节名

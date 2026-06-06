@@ -60,10 +60,6 @@ DISCIPLINE_WHITELIST = [
     "视觉理论", "叙事学", "文学理论", "音乐理论",
 ]
 
-PATTERN_WHITELIST = [
-    "悖论", "盲区", "冲突", "渐变", "反转", "循环", "错位", "缺位",
-]
-
 APPLY_WHITELIST = [
     "自我", "关系", "制度", "创作", "自媒体",
     "商业", "组织", "决策", "领导", "教育",
@@ -212,19 +208,12 @@ def check_file(
             tags = [tags]
 
         has_discipline = any(t.startswith("discipline/") for t in tags)
-        has_pattern = any(t.startswith("pattern/") for t in tags)
         has_apply = any(t.startswith("apply/") for t in tags)
 
         if not has_discipline:
             issues.append({
                 "rule": "F03", "concept": concept_name,
                 "msg": "缺少 discipline 标签",
-                "fixable": False,
-            })
-        if not has_pattern:
-            issues.append({
-                "rule": "F03", "concept": concept_name,
-                "msg": "缺少 pattern 标签",
                 "fixable": False,
             })
         if not has_apply:
@@ -256,17 +245,6 @@ def check_file(
                         "fixable": False,
                     })
 
-        # 检查 pattern 值
-        for tag in tags:
-            if tag.startswith("pattern/"):
-                val = tag[len("pattern/"):]
-                if val not in PATTERN_WHITELIST:
-                    issues.append({
-                        "rule": "F03", "concept": concept_name,
-                        "msg": f"pattern/{val} 不在词汇表内",
-                        "fixable": False,
-                    })
-
         # 检查 apply 值
         for tag in tags:
             if tag.startswith("apply/"):
@@ -286,8 +264,8 @@ def check_file(
                 "fixable": True, "auto_fix": "remove_discipline_field",
             })
 
-        # 检查 tags 顺序：discipline → pattern → apply → person
-        tag_order_prefixes = ["discipline/", "pattern/", "apply/", "person/"]
+        # 检查 tags 顺序：discipline → apply → person
+        tag_order_prefixes = ["discipline/", "apply/", "person/"]
         order_violation = False
         max_seen_idx = -1
         for tag in tags:
@@ -306,7 +284,7 @@ def check_file(
                         reordered.append(t)
             issues.append({
                 "rule": "F03", "concept": concept_name,
-                "msg": f"tags 顺序应为 discipline → pattern → apply → person",
+                "msg": f"tags 顺序应为 discipline → apply → person",
                 "fixable": True, "auto_fix": "reorder_tags",
                 "_reordered_tags": reordered,
             })

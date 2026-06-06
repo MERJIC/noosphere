@@ -123,7 +123,7 @@ python3 scripts/sync_db.py -d "候选1名" "英文名1" "候选2名" "英文名2
 ### Step 5 — 写入概念页
 
 1. 用 `date` 命令获取当前日期
-2. 确定 domain（从固定词汇表选）、discipline 标签、pattern 标签、apply 标签
+2. 确定 domain（从固定词汇表选）、discipline 标签、apply 标签
 3. **查关联图谱**：读取 `/Users/myke/Documents/MERJIC/概念库/memory/concept_relations.md`
   - 检查新概念是否属于已知集群 → 若是，在正文中自然提及集群内相关概念并加 `[[]]`
   - 检查新概念是否在孤立列表中 → 若在，写入后它将从孤立列表移出（下次 `/concept-analyze` 时更新）

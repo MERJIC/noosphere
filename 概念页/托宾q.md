@@ -3,7 +3,7 @@ name: 托宾q（Tobin's q）
 domain: [经济学]
 date: 2026-05-16
 source: 寓言故事
-tags: [discipline/金融学, pattern/错位, apply/商业, apply/决策]
+tags: [discipline/金融学, apply/商业, apply/决策]
 ---
 
 ## 核心机制

@@ -3,7 +3,7 @@ name: ELIZA效应（ELIZA Effect）
 domain: [心理学, 传播学]
 date: 2026-05-22
 source: 概念跳跃
-tags: [discipline/认知心理学, pattern/盲区, apply/自媒体, apply/自我]
+tags: [discipline/认知心理学, apply/自媒体, apply/自我]
 ---
 
 ## 核心机制

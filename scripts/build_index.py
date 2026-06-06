@@ -69,9 +69,6 @@ VOCABULARY = {
         # 艺术
         "视觉理论", "叙事学", "文学理论", "音乐理论",
     ],
-    "pattern": [
-        "悖论", "盲区", "冲突", "渐变", "反转", "循环", "错位", "缺位",
-    ],
     "apply": [
         "自我", "关系", "制度", "创作", "自媒体",
         "商业", "组织", "决策", "领导", "教育",
@@ -140,23 +137,20 @@ def extract_wikilinks(content: str) -> List[str]:
 
 
 def parse_tags(tags_value) -> dict:
-    """拆分 tags 为 discipline/pattern/apply 三组。"""
+    """拆分 tags 为 discipline/apply 两组。"""
     if isinstance(tags_value, str):
         tags_value = [tags_value]
 
     disciplines = []
-    pattern = None
     applies = []
 
     for tag in tags_value:
         if tag.startswith("discipline/"):
             disciplines.append(tag[len("discipline/"):])
-        elif tag.startswith("pattern/"):
-            pattern = tag[len("pattern/"):]
         elif tag.startswith("apply/"):
             applies.append(tag[len("apply/"):])
 
-    return {"discipline": disciplines, "pattern": pattern, "apply": applies}
+    return {"discipline": disciplines, "apply": applies}
 
 
 def extract_english_name(name_field: str) -> Optional[str]:
@@ -229,7 +223,6 @@ def scan_file(filepath: str) -> Optional[dict]:
         "name_en": name_en,
         "domain": domain,
         "discipline": tags["discipline"],
-        "pattern": tags["pattern"],
         "apply": tags["apply"],
         "persons": persons,
         "source": source,
@@ -293,7 +286,7 @@ def compute_broken_links(nodes: dict) -> List[dict]:
 
 
 def compute_inverted_index(nodes: dict, field: str) -> Dict[str, List[str]]:
-    """按某个字段构建倒排索引。field 可以是 'apply', 'domain', 'discipline', 'pattern'。"""
+    """按某个字段构建倒排索引。field 可以是 'apply', 'domain', 'discipline'。"""
     index = defaultdict(list)
     for name, node in nodes.items():
         values = node.get(field)
@@ -570,14 +563,6 @@ def validate_frontmatter(nodes: dict, vocab: dict) -> List[dict]:
                     "allowed": f"参见 vocabulary.discipline（{len(vocab['discipline'])}个）",
                 })
 
-        # pattern
-        p = node.get("pattern")
-        if p and p not in vocab["pattern"]:
-            violations.append({
-                "concept": name, "field": "pattern", "value": p,
-                "allowed": vocab["pattern"],
-            })
-
         # apply
         for a in node.get("apply", []):
             if a not in vocab["apply"]:
@@ -605,13 +590,6 @@ def validate_frontmatter(nodes: dict, vocab: dict) -> List[dict]:
             violations.append({
                 "concept": name, "field": "discipline", "value": "(缺失)",
                 "allowed": "至少一个 discipline 标签",
-            })
-
-        # 缺 pattern
-        if not node.get("pattern"):
-            violations.append({
-                "concept": name, "field": "pattern", "value": "(缺失)",
-                "allowed": vocab["pattern"],
             })
 
         # 缺 apply
@@ -666,7 +644,6 @@ def build_full_index() -> dict:
     apply_idx = compute_inverted_index(nodes, "apply")
     domain_idx = compute_inverted_index(nodes, "domain")
     discipline_idx = compute_inverted_index(nodes, "discipline")
-    pattern_idx = compute_inverted_index(nodes, "pattern")
 
     # 集群（从 concept_relations.md 加载）
     clusters = load_clusters_from_relations(RELATIONS_PATH)
@@ -704,7 +681,6 @@ def build_full_index() -> dict:
         "apply_index": apply_idx,
         "domain_index": domain_idx,
         "discipline_index": discipline_idx,
-        "pattern_index": pattern_idx,
         "name_aliases": aliases,
         "potential_duplicates": duplicates,
         "vocabulary": VOCABULARY,
@@ -800,7 +776,6 @@ def build_incremental_index() -> dict:
     apply_idx = compute_inverted_index(nodes, "apply")
     domain_idx = compute_inverted_index(nodes, "domain")
     discipline_idx = compute_inverted_index(nodes, "discipline")
-    pattern_idx = compute_inverted_index(nodes, "pattern")
 
     clusters = load_clusters_from_relations(RELATIONS_PATH)
     aliases = load_name_aliases(ALIASES_PATH)
@@ -837,7 +812,6 @@ def build_incremental_index() -> dict:
         "apply_index": apply_idx,
         "domain_index": domain_idx,
         "discipline_index": discipline_idx,
-        "pattern_index": pattern_idx,
         "name_aliases": aliases,
         "potential_duplicates": duplicates,
         "vocabulary": VOCABULARY,
@@ -910,7 +884,6 @@ def write_shards(index: dict) -> None:
             "name_en": data.get("name_en"),
             "domain": data.get("domain", []),
             "discipline": data.get("discipline", []),
-            "pattern": data.get("pattern"),
             "apply": data.get("apply", []),
             "persons": data.get("persons", []),
         }
@@ -923,7 +896,6 @@ def write_shards(index: dict) -> None:
         "apply_index": index["apply_index"],
         "domain_index": index["domain_index"],
         "discipline_index": index["discipline_index"],
-        "pattern_index": index["pattern_index"],
         "name_aliases": index["name_aliases"],
         "orphan_nodes": index["orphan_nodes"],
         "vocabulary": index["vocabulary"],
@@ -1085,7 +1057,6 @@ def load_existing_shards() -> Optional[dict]:
             "apply_index": lite.get("apply_index", {}),
             "domain_index": lite.get("domain_index", {}),
             "discipline_index": lite.get("discipline_index", {}),
-            "pattern_index": lite.get("pattern_index", {}),
             "name_aliases": lite.get("name_aliases", {}),
             "potential_duplicates": graph.get("potential_duplicates", []),
             "vocabulary": lite.get("vocabulary", {}),
