@@ -53,9 +53,10 @@ python3 scripts/sync_db.py --query "SELECT id FROM concepts WHERE name = '概念
 
 ### 2. 跳向新概念（3 个，每次必须是库里没有的）
 
-用查重命令确认每个候选不在库中：
+用查重命令确认每个候选不在库中（**3 个候选一次性批量提交**，一条命令）：
+
 ```bash
-python3 scripts/sync_db.py -d "候选中文名" "English Name"
+python3 scripts/sync_db.py -d "候选1名" "英文名1" "候选2名" "英文名2" "候选3名" "英文名3"
 ```
 输出「✅ 可用」即可使用。不要读索引文件来手动比对。
 

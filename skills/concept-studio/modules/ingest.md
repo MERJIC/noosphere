@@ -39,10 +39,10 @@ description: "从 URL 或粘贴文本中提取学术/理论概念，生成标准
 
 ### Step 3 — 去重检查
 
-对每个候选概念执行查重（逐个或批量）：
+**一次性批量查重**（一条命令，所有候选一起交）：
 
 ```bash
-python3 scripts/sync_db.py -d "候选中文名" "English Name"
+python3 scripts/sync_db.py -d "候选1名" "英文名1" "候选2名" "英文名2" ...
 ```
 
 输出三种结果：
@@ -73,7 +73,7 @@ python3 scripts/sync_db.py -d "候选中文名" "English Name"
 1. **准备入口场景**：
    - `source: 概念跳跃` 或从 hop 沉淀路由进来时：读取 `modules/parable.md` → Step 2 — 构建故事，按寓言同一流程写完整故事体（约 300–500 字）。不得写成 2–5 句梗概。与寓言的唯一差别：入口场景不必隐藏概念名；仍须动作、对白、因果链、在对的地方停下、用「写完检查一件事」自检。
    - 其他来源：2-5 句场景片段。
-2. **准备其余章节**：按 `modules/page-spec.md` 生成核心机制、现实锚点、适用边界
+2. **准备其余章节**：按 `modules/page-spec.md` 各章节的写作规范生成核心机制、现实锚点、适用边界
 3. **确定元数据**：domain（从固定词汇表选）、source、tags（discipline/ → apply/ → person/）
 4. 读取 `modules/write-page.md`，按**模式 A**执行写入、自检、lint、同步
 
@@ -90,6 +90,14 @@ python3 scripts/sync_db.py -d "候选中文名" "English Name"
 问题生成规则：必须是开放性问题，指向这个原理的核心张力或实践困境，不超过 2 句话。
 
 麦橘确认后读取 `modules/roundtable.md`，以该问题为议题执行圆桌流程；否定则流程结束。
+
+### Step 7 — 圆桌内容归位
+
+圆桌流程执行完毕后，主动提示：
+
+> 圆桌结束了，要把内容归位到概念页吗？
+
+麦橘确认后，读取 `modules/write-page.md`，按**模式 B**执行圆桌沉淀追加、自检、lint、同步。
 
 ---
 

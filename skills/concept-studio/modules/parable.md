@@ -125,7 +125,7 @@ python3 scripts/sync_db.py -d "候选1名" "英文名1" "候选2名" "英文名2
 在执行本步骤前，准备好以下内容：
 
 - 入口场景：Step 2 产生的完整寓言正文（300-500 字，概念名隐藏）
-- 核心机制、现实锚点、适用边界：基于 Step 3 揭示的原理生成
+- 核心机制、现实锚点、适用边界：基于 Step 3 揭示的原理，按 `modules/page-spec.md` 各章节的写作规范生成
 - 元数据：domain（从固定词汇表选）、source=寓言故事、tags（discipline/ → apply/ → person/）
 
 然后读取 `modules/write-page.md`，按**模式 A**执行写入、自检、lint、同步。
