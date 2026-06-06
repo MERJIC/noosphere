@@ -410,7 +410,13 @@ def check_file(
     if short_unsafe is None:
         short_unsafe = build_short_unsafe(scholar_dict)
 
-    body_clean = re.sub(r"\[\[.*?\]\]", "", body)
+    # 圆桌沉淀部分有嘉宾表格提供中英文，F09 只检查正文
+    body_for_f09 = body
+    if "圆桌沉淀" in sections:
+        rt_start = body.find("## 圆桌沉淀")
+        if rt_start != -1:
+            body_for_f09 = body[:rt_start]
+    body_clean = re.sub(r"\[\[.*?\]\]", "", body_for_f09)
 
     for key, info in scholar_dict.items():
         full_name = info["full"]
