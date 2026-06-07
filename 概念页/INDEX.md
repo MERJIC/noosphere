@@ -11,13 +11,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（217 个）
+### 哲学（216 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
-- [被抛性（Geworfenheit）](%E8%A2%AB%E6%8A%9B%E6%80%A7.md)
 - [本体论不安全感（Ontological Insecurity）](%E6%9C%AC%E4%BD%93%E8%AE%BA%E4%B8%8D%E5%AE%89%E5%85%A8%E6%84%9F.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
 - [本质主义（Essentialism）](%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89.md)
@@ -231,7 +230,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（169 个）
+### 心理学（170 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -364,6 +363,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [通感（Synesthesia）](%E9%80%9A%E6%84%9F.md)
 - [同情疲劳（Compassion Fatigue）](%E5%90%8C%E6%83%85%E7%96%B2%E5%8A%B3.md)
 - [透明度错觉（Illusion of Transparency）](%E9%80%8F%E6%98%8E%E5%BA%A6%E9%94%99%E8%A7%89.md)
+- [凸显性偏差（Salience Bias）](%E5%87%B8%E6%98%BE%E6%80%A7%E5%81%8F%E5%B7%AE.md)
 - [图形与背景（Figure-Ground）](%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%83%8C%E6%99%AF.md)
 - [团体迷思（Groupthink）](%E5%9B%A2%E4%BD%93%E8%BF%B7%E6%80%9D.md)
 - [妄见（Apophenia）](%E5%A6%84%E8%A7%81.md)
@@ -916,12 +916,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（263 个）
+### 自我（262 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
 - [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
-- [被抛性（Geworfenheit）](%E8%A2%AB%E6%8A%9B%E6%80%A7.md)
 - [本体论不安全感（Ontological Insecurity）](%E6%9C%AC%E4%BD%93%E8%AE%BA%E4%B8%8D%E5%AE%89%E5%85%A8%E6%84%9F.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
 - [本质主义（Essentialism）](%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89.md)
@@ -1736,7 +1735,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（90 个）
+### 商业（91 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1807,6 +1806,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [双曲折现（Hyperbolic Discounting）](%E5%8F%8C%E6%9B%B2%E6%8A%98%E7%8E%B0.md)
 - [隧道挖掘（Tunneling）](%E9%9A%A7%E9%81%93%E6%8C%96%E6%8E%98.md)
 - [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
+- [凸显性偏差（Salience Bias）](%E5%87%B8%E6%98%BE%E6%80%A7%E5%81%8F%E5%B7%AE.md)
 - [托宾q（Tobin's q）](%E6%89%98%E5%AE%BEq.md)
 - [外适应（Exaptation）](%E5%A4%96%E9%80%82%E5%BA%94.md)
 - [网络外部性（Network Externality）](%E7%BD%91%E7%BB%9C%E5%A4%96%E9%83%A8%E6%80%A7.md)
@@ -1992,7 +1992,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
-- [被抛性（Geworfenheit）](%E8%A2%AB%E6%8A%9B%E6%80%A7.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
@@ -2125,6 +2124,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
 - [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
+- [凸显性偏差（Salience Bias）](%E5%87%B8%E6%98%BE%E6%80%A7%E5%81%8F%E5%B7%AE.md)
 - [团体迷思（Groupthink）](%E5%9B%A2%E4%BD%93%E8%BF%B7%E6%80%9D.md)
 - [托宾q（Tobin's q）](%E6%89%98%E5%AE%BEq.md)
 - [妄见（Apophenia）](%E5%A6%84%E8%A7%81.md)
@@ -2296,11 +2296,3 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
-
----
-
-## ⚠️ 待整理（1 个）
-
-> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
-
-- [凸显性偏差（Salience Bias）](%E5%87%B8%E6%98%BE%E6%80%A7%E5%81%8F%E5%B7%AE.md) — domain 应为数组
