@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（216 个）
+### 哲学（217 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -62,6 +62,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [范式转换（Paradigm Shift）](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
 - [非暴力不合作（Nonviolent Resistance / Satyagraha）](%E9%9D%9E%E6%9A%B4%E5%8A%9B%E4%B8%8D%E5%90%88%E4%BD%9C.md)
 - [非同一性问题（Non-Identity Problem）](%E9%9D%9E%E5%90%8C%E4%B8%80%E6%80%A7%E9%97%AE%E9%A2%98.md)
+- [菲奇可知性悖论（Fitch's Paradox of Knowability）](%E8%8F%B2%E5%A5%87%E5%8F%AF%E7%9F%A5%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [风格即人（Style Is the Man / Stylometry）](%E9%A3%8E%E6%A0%BC%E5%8D%B3%E4%BA%BA.md)
 - [缝合体系（Suture）](%E7%BC%9D%E5%90%88%E4%BD%93%E7%B3%BB.md)
 - [否定辩证法（Negative Dialectics）](%E5%90%A6%E5%AE%9A%E8%BE%A9%E8%AF%81%E6%B3%95.md)
@@ -1979,7 +1980,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（194 个）
+### 决策（195 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2028,6 +2029,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [范畴错误（Category Mistake）](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md)
 - [范围不敏感（Scope Insensitivity）](%E8%8C%83%E5%9B%B4%E4%B8%8D%E6%95%8F%E6%84%9F.md)
 - [防御性悲观（Defensive Pessimism）](%E9%98%B2%E5%BE%A1%E6%80%A7%E6%82%B2%E8%A7%82.md)
+- [菲奇可知性悖论（Fitch's Paradox of Knowability）](%E8%8F%B2%E5%A5%87%E5%8F%AF%E7%9F%A5%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [盖梯尔问题（Gettier Problem）](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
 - [功能固着（Functional Fixedness）](%E5%8A%9F%E8%83%BD%E5%9B%BA%E7%9D%80.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
@@ -2235,12 +2237,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 教育（49 个）
+### 教育（50 个）
 
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
 - [测试效应（Testing Effect）](%E6%B5%8B%E8%AF%95%E6%95%88%E5%BA%94.md)
 - [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
 - [反图书馆（Anti-library）](%E5%8F%8D%E5%9B%BE%E4%B9%A6%E9%A6%86.md)
+- [菲奇可知性悖论（Fitch's Paradox of Knowability）](%E8%8F%B2%E5%A5%87%E5%8F%AF%E7%9F%A5%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [格式塔转换（Gestalt Shift）](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
 - [格物致知（Gewu Zhizhi / Investigation of Things）](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
 - [观物取象（Guan Wu Qu Xiang / Observing Things to Take Images）](%E8%A7%82%E7%89%A9%E5%8F%96%E8%B1%A1.md)
