@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -n --rawfile content memory/MEMORY.md '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":(\"# 项目 MEMORY.md（自动注入）\\n\\n\" + $content)}}'",
+            "statusMessage": "读取项目记忆..."
+          }
+        ]
+      }
+    ]
+  }
+}
