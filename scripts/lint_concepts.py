@@ -637,6 +637,18 @@ def check_file(
     return issues
 
 
+def _extract_body(content: str) -> tuple[int, str]:
+    """返回 (frontmatter 结束偏移, 正文)。兼容有无 --- 分隔的 frontmatter。"""
+    m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
+    if m:
+        return m.end(), content[m.end():]
+    # 无 --- 分隔：找第一个 ## 作为正文起点
+    h2 = re.search(r"\n## ", content)
+    if h2:
+        return h2.start(), content[h2.start():]
+    return 0, content
+
+
 def fix_issue(content: str, issue: dict) -> str:
     """根据 issue 的 auto_fix 类型执行修复。"""
     fix_type = issue.get("auto_fix")
@@ -765,19 +777,11 @@ def fix_issue(content: str, issue: dict) -> str:
         detail = issue.get("detail", {})
         full_name = detail["full"]
         en_name = detail["en"]
-        # 在正文（非 frontmatter）中，将首次出现的裸全名替换为 全名（En Name）
-        fm_end = content.find("---", content.find("---") + 3) + 3
-        if fm_end < 10:
-            return content
-        fm = content[:fm_end]
-        body = content[fm_end:]
-        # 替换首次出现的全名（不在 wikilink 内）
+        fm_offset, body = _extract_body(content)
         replacement = f"{full_name}（{en_name}）"
-        new_body = re.sub(
-            re.escape(full_name), replacement, body, count=1
-        )
+        new_body = re.sub(re.escape(full_name), replacement, body, count=1)
         if new_body != body:
-            return fm + new_body
+            return content[:fm_offset] + new_body
         return content
 
     if fix_type == "fix_scholar_name_short":
@@ -786,18 +790,14 @@ def fix_issue(content: str, issue: dict) -> str:
         full_name = detail["full"]
         en_name = detail["en"]
         pos = detail.get("pos")
-        fm_end = content.find("---", content.find("---") + 3) + 3
-        if fm_end < 10:
-            return content
-        fm = content[:fm_end]
-        body = content[fm_end:]
+        fm_offset, body = _extract_body(content)
         replacement = f"{full_name}（{en_name}）"
         if pos is not None:
-            new_body = body[:pos] + replacement + body[pos + len(short_name) :]
+            new_body = body[:pos] + replacement + body[pos + len(short_name):]
         else:
             new_body = body
         if new_body != body:
-            return fm + new_body
+            return content[:fm_offset] + new_body
         return content
 
     return content
