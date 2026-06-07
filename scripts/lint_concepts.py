@@ -427,7 +427,7 @@ def check_file(
             issues.append({
                 "rule": "F09", "concept": concept_name,
                 "msg": f"学者「{full_name}」缺英文名标注（应为{full_name}（{en_name}））",
-                "fixable": True, "auto_fix": "fix_scholar_name_full",
+                "fixable": True, "auto_fix": "fix_scholar_name",
                 "detail": {"full": full_name, "en": en_name},
             })
             continue
@@ -901,7 +901,7 @@ def run_lint(
     all_issues = []
     fix_count = 0
 
-    scholar_fix_types = {"fix_scholar_name", "fix_scholar_name_full", "fix_scholar_name_short"}
+    scholar_fix_types = {"fix_scholar_name", "fix_scholar_name_short"}
 
     for name, fpath in files:
         issues = check_file(fpath, scholar_dict, fix=fix, short_unsafe=short_unsafe)
