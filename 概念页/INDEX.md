@@ -11,10 +11,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（218 个）
+### 哲学（220 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
+- [安全条件（Safety Condition）](%E5%AE%89%E5%85%A8%E6%9D%A1%E4%BB%B6.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
 - [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
 - [本体论不安全感（Ontological Insecurity）](%E6%9C%AC%E4%BD%93%E8%AE%BA%E4%B8%8D%E5%AE%89%E5%85%A8%E6%84%9F.md)
@@ -114,6 +115,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
+- [鲁棒性检验（Robustness Check）](%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
@@ -232,7 +234,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（170 个）
+### 心理学（171 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -259,6 +261,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德直觉（Moral Intuition）](%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89.md)
 - [邓巴数（Dunbar's Number）](%E9%82%93%E5%B7%B4%E6%95%B0.md)
 - [动机性推理（Motivated Reasoning）](%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86.md)
+- [赌徒谬误（Gambler's Fallacy）](%E8%B5%8C%E5%BE%92%E8%B0%AC%E8%AF%AF.md)
 - [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
 - [多巴胺经济（Dopamine Economy）](%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%8F%E6%B5%8E.md)
 - [多元无知（Pluralistic Ignorance）](%E5%A4%9A%E5%85%83%E6%97%A0%E7%9F%A5.md)
@@ -405,7 +408,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（88 个）
+### 经济学（89 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -419,6 +422,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德风险（Moral Hazard）](%E9%81%93%E5%BE%B7%E9%A3%8E%E9%99%A9.md)
 - [帝国建造（Empire Building）](%E5%B8%9D%E5%9B%BD%E5%BB%BA%E9%80%A0.md)
 - [董事会捕获（Board Capture）](%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%8D%95%E8%8E%B7.md)
+- [赌徒谬误（Gambler's Fallacy）](%E8%B5%8C%E5%BE%92%E8%B0%AC%E8%AF%AF.md)
 - [短期主义（Short-termism）](%E7%9F%AD%E6%9C%9F%E4%B8%BB%E4%B9%89.md)
 - [多巴胺经济（Dopamine Economy）](%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%8F%E6%B5%8E.md)
 - [多臂老虎机问题（Multi-Armed Bandit Problem）](%E5%A4%9A%E8%87%82%E8%80%81%E8%99%8E%E6%9C%BA%E9%97%AE%E9%A2%98.md)
@@ -1740,7 +1744,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（92 个）
+### 商业（94 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1762,6 +1766,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [第二曲线（Second Curve）](%E7%AC%AC%E4%BA%8C%E6%9B%B2%E7%BA%BF.md)
 - [第一性原理（First Principles Thinking）](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
 - [动态能力（Dynamic Capabilities）](%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B.md)
+- [赌徒谬误（Gambler's Fallacy）](%E8%B5%8C%E5%BE%92%E8%B0%AC%E8%AF%AF.md)
 - [短期主义（Short-termism）](%E7%9F%AD%E6%9C%9F%E4%B8%BB%E4%B9%89.md)
 - [凡勃仑效应（Veblen Effect）](%E5%87%A1%E5%8B%83%E4%BB%91%E6%95%88%E5%BA%94.md)
 - [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
@@ -1790,6 +1795,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [科斯定理（Coase Theorem）](%E7%A7%91%E6%96%AF%E5%AE%9A%E7%90%86.md)
 - [库拉圈（Kula Ring）](%E5%BA%93%E6%8B%89%E5%9C%88.md)
 - [夸富宴（Potlatch）](%E5%A4%B8%E5%AF%8C%E5%AE%B4.md)
+- [鲁棒性检验（Robustness Check）](%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [马太效应（Matthew Effect）](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)
@@ -1993,10 +1999,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（197 个）
+### 决策（200 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
+- [安全条件（Safety Condition）](%E5%AE%89%E5%85%A8%E6%9D%A1%E4%BB%B6.md)
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2030,6 +2037,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [动机性推理（Motivated Reasoning）](%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86.md)
 - [毒素难题（Kavka's toxin puzzle）](%E6%AF%92%E7%B4%A0%E9%9A%BE%E9%A2%98.md)
 - [独断的睡眠（Dogmatic Slumber）](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
+- [赌徒谬误（Gambler's Fallacy）](%E8%B5%8C%E5%BE%92%E8%B0%AC%E8%AF%AF.md)
 - [短期主义（Short-termism）](%E7%9F%AD%E6%9C%9F%E4%B8%BB%E4%B9%89.md)
 - [多巴胺经济（Dopamine Economy）](%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%8F%E6%B5%8E.md)
 - [多臂老虎机问题（Multi-Armed Bandit Problem）](%E5%A4%9A%E8%87%82%E8%80%81%E8%99%8E%E6%9C%BA%E9%97%AE%E9%A2%98.md)
@@ -2091,6 +2099,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [粒度轴（Granularity Axis）](%E7%B2%92%E5%BA%A6%E8%BD%B4.md)
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
+- [鲁棒性检验（Robustness Check）](%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
 - [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
@@ -2252,8 +2261,9 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 教育（51 个）
+### 教育（52 个）
 
+- [安全条件（Safety Condition）](%E5%AE%89%E5%85%A8%E6%9D%A1%E4%BB%B6.md)
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
 - [测试效应（Testing Effect）](%E6%B5%8B%E8%AF%95%E6%95%88%E5%BA%94.md)
 - [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
