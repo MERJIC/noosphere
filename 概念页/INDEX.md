@@ -11,11 +11,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（215 个）
+### 哲学（216 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
+- [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
 - [被抛性（Geworfenheit）](%E8%A2%AB%E6%8A%9B%E6%80%A7.md)
 - [本体论不安全感（Ontological Insecurity）](%E6%9C%AC%E4%BD%93%E8%AE%BA%E4%B8%8D%E5%AE%89%E5%85%A8%E6%84%9F.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
@@ -911,10 +912,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（262 个）
+### 自我（263 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
+- [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
 - [被抛性（Geworfenheit）](%E8%A2%AB%E6%8A%9B%E6%80%A7.md)
 - [本体论不安全感（Ontological Insecurity）](%E6%9C%AC%E4%BD%93%E8%AE%BA%E4%B8%8D%E5%AE%89%E5%85%A8%E6%84%9F.md)
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
