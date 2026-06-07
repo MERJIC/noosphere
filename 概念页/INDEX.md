@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（216 个）
+### 哲学（217 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -93,6 +93,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [焦虑（Angst）](%E7%84%A6%E8%99%91.md)
 - [铰链命题（Hinge Proposition）](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md)
 - [结构性无知（Structural Ignorance / Epistemology of Ignorance）](%E7%BB%93%E6%9E%84%E6%80%A7%E6%97%A0%E7%9F%A5.md)
+- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
 - [经权（Jing Quan / Principle and Expediency）](%E7%BB%8F%E6%9D%83.md)
 - [经验主义（Empiricism）](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
 - [惊异（Wonder / Thaumazein）](%E6%83%8A%E5%BC%82.md)
@@ -917,7 +918,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（262 个）
+### 自我（263 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1020,6 +1021,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [角色退出（Role Exit）](%E8%A7%92%E8%89%B2%E9%80%80%E5%87%BA.md)
 - [铰链命题（Hinge Proposition）](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md)
 - [杰文斯悖论（Jevons Paradox）](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
+- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
 - [解释深度错觉（Illusion of Explanatory Depth）](%E8%A7%A3%E9%87%8A%E6%B7%B1%E5%BA%A6%E9%94%99%E8%A7%89.md)
 - [禁果效应（Forbidden Fruit Effect）](%E7%A6%81%E6%9E%9C%E6%95%88%E5%BA%94.md)
 - [禁止效应（Reactance / Psychological Reactance）](%E7%A6%81%E6%AD%A2%E6%95%88%E5%BA%94.md)
@@ -1456,7 +1458,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
-### 创作（198 个）
+### 创作（199 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -1528,6 +1530,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [假体性（Prosthetic / The Prosthetic）](%E5%81%87%E4%BD%93%E6%80%A7.md)
 - [间离效果（Verfremdungseffekt）](%E9%97%B4%E7%A6%BB%E6%95%88%E6%9E%9C.md)
 - [贱斥（Abjection）](%E8%B4%B1%E6%96%A5.md)
+- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
 - [惊异（Wonder / Thaumazein）](%E6%83%8A%E5%BC%82.md)
 - [晶体-影像（image-cristal）](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
 - [景深构图（Deep Focus Composition）](%E6%99%AF%E6%B7%B1%E6%9E%84%E5%9B%BE.md)
