@@ -403,7 +403,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（86 个）
+### 经济学（87 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -454,6 +454,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [柠檬市场（Market for Lemons）](%E6%9F%A0%E6%AA%AC%E5%B8%82%E5%9C%BA.md)
 - [帕累托最优（Pareto Optimality）](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
 - [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
+- [强互惠（Strong Reciprocity）](%E5%BC%BA%E4%BA%92%E6%83%A0.md)
 - [身份消费（Identity Consumption）](%E8%BA%AB%E4%BB%BD%E6%B6%88%E8%B4%B9.md)
 - [胜者诅咒（Winner's Curse）](%E8%83%9C%E8%80%85%E8%AF%85%E5%92%92.md)
 - [时间贴现（Temporal Discounting）](%E6%97%B6%E9%97%B4%E8%B4%B4%E7%8E%B0.md)
@@ -688,7 +689,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 生物学（30 个）
+### 生物学（32 个）
 
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [不利条件原理（Handicap Principle）](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md)
@@ -703,11 +704,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [寄生（Parasitism）](%E5%AF%84%E7%94%9F.md)
 - [恐怖谷（Uncanny Valley）](%E6%81%90%E6%80%96%E8%B0%B7.md)
 - [恐惧习得（Fear Conditioning / Vicarious Fear Learning）](%E6%81%90%E6%83%A7%E4%B9%A0%E5%BE%97.md)
+- [绿胡子效应（Green-beard Effect）](%E7%BB%BF%E8%83%A1%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [迷因（Meme）](%E8%BF%B7%E5%9B%A0.md)
 - [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [模因（Meme / Cultural Replicator）](%E6%A8%A1%E5%9B%A0.md)
 - [拟态（Mimicry）](%E6%8B%9F%E6%80%81.md)
 - [耦合振荡（Coupled Oscillation）](%E8%80%A6%E5%90%88%E6%8C%AF%E8%8D%A1.md)
+- [强互惠（Strong Reciprocity）](%E5%BC%BA%E4%BA%92%E6%83%A0.md)
 - [亲缘选择（Kin Selection）](%E4%BA%B2%E7%BC%98%E9%80%89%E6%8B%A9.md)
 - [群体智能（Swarm Intelligence）](%E7%BE%A4%E4%BD%93%E6%99%BA%E8%83%BD.md)
 - [社会免疫（Social Immunity）](%E7%A4%BE%E4%BC%9A%E5%85%8D%E7%96%AB.md)
@@ -1179,7 +1182,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（119 个）
+### 关系（121 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1225,6 +1228,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [狂欢化（Carnivalesque）](%E7%8B%82%E6%AC%A2%E5%8C%96.md)
 - [礼貌理论（Politeness Theory）](%E7%A4%BC%E8%B2%8C%E7%90%86%E8%AE%BA.md)
 - [临界质量（Critical Mass / Tipping Point）](%E4%B8%B4%E7%95%8C%E8%B4%A8%E9%87%8F.md)
+- [绿胡子效应（Green-beard Effect）](%E7%BB%BF%E8%83%A1%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
 - [秘密的社会学（Sociology of Secrets）](%E7%A7%98%E5%AF%86%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
@@ -1241,6 +1245,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [偏好伪装（Preference Falsification）](%E5%81%8F%E5%A5%BD%E4%BC%AA%E8%A3%85.md)
 - [拼贴（Collage）](%E6%8B%BC%E8%B4%B4.md)
 - [齐美尔纽带（Simmelian Ties）](%E9%BD%90%E7%BE%8E%E5%B0%94%E7%BA%BD%E5%B8%A6.md)
+- [强互惠（Strong Reciprocity）](%E5%BC%BA%E4%BA%92%E6%83%A0.md)
 - [亲缘选择（Kin Selection）](%E4%BA%B2%E7%BC%98%E9%80%89%E6%8B%A9.md)
 - [情感传染（Emotional Contagion）](%E6%83%85%E6%84%9F%E4%BC%A0%E6%9F%93.md)
 - [情感预测失误（Affective Forecasting）](%E6%83%85%E6%84%9F%E9%A2%84%E6%B5%8B%E5%A4%B1%E8%AF%AF.md)
@@ -1301,7 +1306,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（145 个）
+### 制度（147 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1365,6 +1370,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [李嘉图等价（Ricardian Equivalence）](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
+- [绿胡子效应（Green-beard Effect）](%E7%BB%BF%E8%83%A1%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [秘密的社会学（Sociology of Secrets）](%E7%A7%98%E5%AF%86%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6.md)
 - [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)
@@ -1380,6 +1386,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [偏好瀑布（Preference Cascade）](%E5%81%8F%E5%A5%BD%E7%80%91%E5%B8%83.md)
 - [偏好伪装（Preference Falsification）](%E5%81%8F%E5%A5%BD%E4%BC%AA%E8%A3%85.md)
 - [平庸之恶（Banality of Evil）](%E5%B9%B3%E5%BA%B8%E4%B9%8B%E6%81%B6.md)
+- [强互惠（Strong Reciprocity）](%E5%BC%BA%E4%BA%92%E6%83%A0.md)
 - [亲缘选择（Kin Selection）](%E4%BA%B2%E7%BC%98%E9%80%89%E6%8B%A9.md)
 - [全景监狱（Panopticon）](%E5%85%A8%E6%99%AF%E7%9B%91%E7%8B%B1.md)
 - [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
