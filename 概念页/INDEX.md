@@ -403,7 +403,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（87 个）
+### 经济学（88 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -452,6 +452,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
 - [逆向选择（Adverse Selection）](%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9.md)
 - [柠檬市场（Market for Lemons）](%E6%9F%A0%E6%AA%AC%E5%B8%82%E5%9C%BA.md)
+- [帕累托前沿（Pareto Frontier）](%E5%B8%95%E7%B4%AF%E6%89%98%E5%89%8D%E6%B2%BF.md)
 - [帕累托最优（Pareto Optimality）](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
 - [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
 - [强互惠（Strong Reciprocity）](%E5%BC%BA%E4%BA%92%E6%83%A0.md)
@@ -1735,7 +1736,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（91 个）
+### 商业（92 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1792,6 +1793,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
 - [逆向选择（Adverse Selection）](%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9.md)
 - [柠檬市场（Market for Lemons）](%E6%9F%A0%E6%AA%AC%E5%B8%82%E5%9C%BA.md)
+- [帕累托前沿（Pareto Frontier）](%E5%B8%95%E7%B4%AF%E6%89%98%E5%89%8D%E6%B2%BF.md)
 - [平台包络（Platform Envelopment）](%E5%B9%B3%E5%8F%B0%E5%8C%85%E7%BB%9C.md)
 - [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
 - [人设经济（Persona Economy）](%E4%BA%BA%E8%AE%BE%E7%BB%8F%E6%B5%8E.md)
@@ -1987,7 +1989,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（195 个）
+### 决策（196 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2094,6 +2096,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
 - [魔鬼代言人（Devil's Advocate）](%E9%AD%94%E9%AC%BC%E4%BB%A3%E8%A8%80%E4%BA%BA.md)
 - [默认可信（Default Entitlement to Testimony）](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
+- [帕累托前沿（Pareto Frontier）](%E5%B8%95%E7%B4%AF%E6%89%98%E5%89%8D%E6%B2%BF.md)
 - [帕累托最优（Pareto Optimality）](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
 - [旁观者效应（Bystander Effect）](%E6%97%81%E8%A7%82%E8%80%85%E6%95%88%E5%BA%94.md)
 - [抛入性（Geworfenheit）](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
