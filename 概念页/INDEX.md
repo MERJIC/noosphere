@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（225 个）
+### 哲学（226 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -141,6 +141,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
 - [认识论不正义（Epistemic Injustice）](%E8%AE%A4%E8%AF%86%E8%AE%BA%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [认知帝国（Cognitive Imperialism）](%E8%AE%A4%E7%9F%A5%E5%B8%9D%E5%9B%BD.md)
 - [认知封闭性（Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E5%B0%81%E9%97%AD%E6%80%A7.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
 - [认知权威（Epistemic Authority）](%E8%AE%A4%E7%9F%A5%E6%9D%83%E5%A8%81.md)
@@ -239,7 +240,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（173 个）
+### 心理学（174 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -351,6 +352,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [确认偏误（Confirmation Bias）](%E7%A1%AE%E8%AE%A4%E5%81%8F%E8%AF%AF.md)
 - [群体极化（Group Polarization）](%E7%BE%A4%E4%BD%93%E6%9E%81%E5%8C%96.md)
 - [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
+- [认知帝国（Cognitive Imperialism）](%E8%AE%A4%E7%9F%A5%E5%B8%9D%E5%9B%BD.md)
 - [认知负荷（Cognitive Load Theory）](%E8%AE%A4%E7%9F%A5%E8%B4%9F%E8%8D%B7.md)
 - [认知吝啬鬼（Cognitive Miser）](%E8%AE%A4%E7%9F%A5%E5%90%9D%E5%95%AC%E9%AC%BC.md)
 - [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
@@ -508,7 +510,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
-### 社会学（66 个）
+### 社会学（67 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性合规（Performative Compliance）](%E8%A1%A8%E6%BC%94%E6%80%A7%E5%90%88%E8%A7%84.md)
@@ -551,6 +553,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [数据殖民（Data Colonialism）](%E6%95%B0%E6%8D%AE%E6%AE%96%E6%B0%91.md)
 - [数字鸿沟（Digital Divide）](%E6%95%B0%E5%AD%97%E9%B8%BF%E6%B2%9F.md)
 - [数字劳动（Digital Labor）](%E6%95%B0%E5%AD%97%E5%8A%B3%E5%8A%A8.md)
+- [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
 - [听觉文化（Auditory Culture）](%E5%90%AC%E8%A7%89%E6%96%87%E5%8C%96.md)
 - [同人志叙事（Fanon Narrative）](%E5%90%8C%E4%BA%BA%E5%BF%97%E5%8F%99%E4%BA%8B.md)
 - [文化霸权（Cultural Hegemony）](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
@@ -1204,7 +1207,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（125 个）
+### 关系（126 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1281,6 +1284,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [确认偏误（Confirmation Bias）](%E7%A1%AE%E8%AE%A4%E5%81%8F%E8%AF%AF.md)
 - [认识论不正义（Epistemic Injustice）](%E8%AE%A4%E8%AF%86%E8%AE%BA%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
+- [认知帝国（Cognitive Imperialism）](%E8%AE%A4%E7%9F%A5%E5%B8%9D%E5%9B%BD.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
 - [认知权威（Epistemic Authority）](%E8%AE%A4%E7%9F%A5%E6%9D%83%E5%A8%81.md)
 - [认知勇气（Intellectual Courage）](%E8%AE%A4%E7%9F%A5%E5%8B%87%E6%B0%94.md)
@@ -1332,7 +1336,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（151 个）
+### 制度（152 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1421,6 +1425,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [全景监狱（Panopticon）](%E5%85%A8%E6%99%AF%E7%9B%91%E7%8B%B1.md)
 - [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [认识论不正义（Epistemic Injustice）](%E8%AE%A4%E8%AF%86%E8%AE%BA%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [认知帝国（Cognitive Imperialism）](%E8%AE%A4%E7%9F%A5%E5%B8%9D%E5%9B%BD.md)
 - [容忍的悖论（Paradox of Tolerance）](%E5%AE%B9%E5%BF%8D%E7%9A%84%E6%82%96%E8%AE%BA.md)
 - [熵增美学（Entropy Aesthetics）](%E7%86%B5%E5%A2%9E%E7%BE%8E%E5%AD%A6.md)
 - [少数派影响（Minority Influence）](%E5%B0%91%E6%95%B0%E6%B4%BE%E5%BD%B1%E5%93%8D.md)
@@ -1486,7 +1491,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
-### 创作（200 个）
+### 创作（201 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -1627,6 +1632,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [死亡驱力（Death Drive / Thanatos）](%E6%AD%BB%E4%BA%A1%E9%A9%B1%E5%8A%9B.md)
 - [特罗克勒消逝（Troxler's Fading）](%E7%89%B9%E7%BD%97%E5%85%8B%E5%8B%92%E6%B6%88%E9%80%9D.md)
 - [体裁进化（Genre Evolution）](%E4%BD%93%E8%A3%81%E8%BF%9B%E5%8C%96.md)
+- [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
 - [通感（Synesthesia）](%E9%80%9A%E6%84%9F.md)
 - [同情疲劳（Compassion Fatigue）](%E5%90%8C%E6%83%85%E7%96%B2%E5%8A%B3.md)
 - [同人志叙事（Fanon Narrative）](%E5%90%8C%E4%BA%BA%E5%BF%97%E5%8F%99%E4%BA%8B.md)
@@ -1689,7 +1695,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 自媒体（76 个）
+### 自媒体（77 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1747,6 +1753,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [睡眠者效应（Sleeper Effect）](%E7%9D%A1%E7%9C%A0%E8%80%85%E6%95%88%E5%BA%94.md)
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [体裁进化（Genre Evolution）](%E4%BD%93%E8%A3%81%E8%BF%9B%E5%8C%96.md)
+- [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
 - [稀缺性制造（Manufactured Scarcity）](%E7%A8%80%E7%BC%BA%E6%80%A7%E5%88%B6%E9%80%A0.md)
 - [象征性边界（Symbolic Boundaries）](%E8%B1%A1%E5%BE%81%E6%80%A7%E8%BE%B9%E7%95%8C.md)
 - [新闻回避（News avoidance）](%E6%96%B0%E9%97%BB%E5%9B%9E%E9%81%BF.md)
@@ -1866,7 +1873,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（157 个）
+### 组织（158 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -1978,6 +1985,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
 - [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
+- [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
 - [替罪羊机制（Scapegoating）](%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%9C%BA%E5%88%B6.md)
 - [透明度悖论（Transparency Paradox）](%E9%80%8F%E6%98%8E%E5%BA%A6%E6%82%96%E8%AE%BA.md)
 - [团体迷思（Groupthink）](%E5%9B%A2%E4%BD%93%E8%BF%B7%E6%80%9D.md)
@@ -2294,7 +2302,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 教育（52 个）
+### 教育（53 个）
 
 - [安全条件（Safety Condition）](%E5%AE%89%E5%85%A8%E6%9D%A1%E4%BB%B6.md)
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
@@ -2327,6 +2335,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [皮格马利翁效应（Pygmalion Effect）](%E7%9A%AE%E6%A0%BC%E9%A9%AC%E5%88%A9%E7%BF%81%E6%95%88%E5%BA%94.md)
 - [情境学习（Situated Learning）](%E6%83%85%E5%A2%83%E5%AD%A6%E4%B9%A0.md)
 - [情绪识别力（Emotional Granularity）](%E6%83%85%E7%BB%AA%E8%AF%86%E5%88%AB%E5%8A%9B.md)
+- [认知帝国（Cognitive Imperialism）](%E8%AE%A4%E7%9F%A5%E5%B8%9D%E5%9B%BD.md)
 - [认知负荷（Cognitive Load Theory）](%E8%AE%A4%E7%9F%A5%E8%B4%9F%E8%8D%B7.md)
 - [社会参照（Social Referencing）](%E7%A4%BE%E4%BC%9A%E5%8F%82%E7%85%A7.md)
 - [身教（Shen Jiao / Teaching by Example）](%E8%BA%AB%E6%95%99.md)
