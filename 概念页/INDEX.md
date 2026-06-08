@@ -626,7 +626,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 管理学（76 个）
+### 管理学（77 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -649,6 +649,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [核心刚性（Core Rigidities）](%E6%A0%B8%E5%BF%83%E5%88%9A%E6%80%A7.md)
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
 - [黑暗三角（Dark Triad）](%E9%BB%91%E6%9A%97%E4%B8%89%E8%A7%92.md)
+- [霍夫斯塔特法则（Hofstadter's Law）](%E9%9C%8D%E5%A4%AB%E6%96%AF%E5%A1%94%E7%89%B9%E6%B3%95%E5%88%99.md)
 - [绩效幂律（Performance Power Law）](%E7%BB%A9%E6%95%88%E5%B9%82%E5%BE%8B.md)
 - [即兴能力（Organizational Improvisation）](%E5%8D%B3%E5%85%B4%E8%83%BD%E5%8A%9B.md)
 - [技术债务（Technical Debt）](%E6%8A%80%E6%9C%AF%E5%80%BA%E5%8A%A1.md)
@@ -1865,7 +1866,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（156 个）
+### 组织（157 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -1915,6 +1916,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
 - [红皇后假说（Red Queen Hypothesis）](%E7%BA%A2%E7%9A%87%E5%90%8E%E5%81%87%E8%AF%B4.md)
 - [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
+- [霍夫斯塔特法则（Hofstadter's Law）](%E9%9C%8D%E5%A4%AB%E6%96%AF%E5%A1%94%E7%89%B9%E6%B3%95%E5%88%99.md)
 - [绩效幂律（Performance Power Law）](%E7%BB%A9%E6%95%88%E5%B9%82%E5%BE%8B.md)
 - [即兴能力（Organizational Improvisation）](%E5%8D%B3%E5%85%B4%E8%83%BD%E5%8A%9B.md)
 - [集体欢腾（Collective Effervescence）](%E9%9B%86%E4%BD%93%E6%AC%A2%E8%85%BE.md)
@@ -2024,7 +2026,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（204 个）
+### 决策（205 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2097,6 +2099,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [回音室效应（Echo Chamber Effect）](%E5%9B%9E%E9%9F%B3%E5%AE%A4%E6%95%88%E5%BA%94.md)
 - [混沌边缘（Edge of Chaos）](%E6%B7%B7%E6%B2%8C%E8%BE%B9%E7%BC%98.md)
 - [货币幻觉（Money Illusion）](%E8%B4%A7%E5%B8%81%E5%B9%BB%E8%A7%89.md)
+- [霍夫斯塔特法则（Hofstadter's Law）](%E9%9C%8D%E5%A4%AB%E6%96%AF%E5%A1%94%E7%89%B9%E6%B3%95%E5%88%99.md)
 - [机会成本（Opportunity Cost）](%E6%9C%BA%E4%BC%9A%E6%88%90%E6%9C%AC.md)
 - [机巧（Cleverness / Ingenuity）](%E6%9C%BA%E5%B7%A7.md)
 - [基本归因错误（Fundamental Attribution Error）](%E5%9F%BA%E6%9C%AC%E5%BD%92%E5%9B%A0%E9%94%99%E8%AF%AF.md)
@@ -2231,7 +2234,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 
-### 领导（56 个）
+### 领导（57 个）
 
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [边界跨越者（Boundary Spanner）](%E8%BE%B9%E7%95%8C%E8%B7%A8%E8%B6%8A%E8%80%85.md)
@@ -2249,6 +2252,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [合法性理论（Legitimacy Theory）](%E5%90%88%E6%B3%95%E6%80%A7%E7%90%86%E8%AE%BA.md)
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
 - [黑暗三角（Dark Triad）](%E9%BB%91%E6%9A%97%E4%B8%89%E8%A7%92.md)
+- [霍夫斯塔特法则（Hofstadter's Law）](%E9%9C%8D%E5%A4%AB%E6%96%AF%E5%A1%94%E7%89%B9%E6%B3%95%E5%88%99.md)
 - [基本归因错误（Fundamental Attribution Error）](%E5%9F%BA%E6%9C%AC%E5%BD%92%E5%9B%A0%E9%94%99%E8%AF%AF.md)
 - [绩效幂律（Performance Power Law）](%E7%BB%A9%E6%95%88%E5%B9%82%E5%BE%8B.md)
 - [即兴能力（Organizational Improvisation）](%E5%8D%B3%E5%85%B4%E8%83%BD%E5%8A%9B.md)
@@ -2344,3 +2348,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
+
+---
+
+## ⚠️ 待整理（1 个）
+
+> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
+
+- [附饰（Parergon）](%E9%99%84%E9%A5%B0.md) — tag "pattern/错位" 前缀不规范
