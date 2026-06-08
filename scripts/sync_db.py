@@ -520,6 +520,7 @@ def sync_full(conn: sqlite3.Connection) -> dict:
 
     # 同步集群
     cluster_count = sync_clusters(conn)
+    refresh_link_resolution(conn)
 
     # 自动刷新 JSON 索引
     index_result = _refresh_json_index()
@@ -606,6 +607,7 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
 
     # 同步集群
     cluster_count = sync_clusters(conn)
+    refresh_link_resolution(conn)
 
     # 自动刷新 JSON 索引（有变动时才刷新）
     if to_process or removed:
@@ -644,6 +646,7 @@ def sync_single(conn: sqlite3.Connection, concept_name: str) -> dict:
 
         concept_id = upsert_concept(conn, data)
         sync_clusters(conn)
+        refresh_link_resolution(conn)
 
         # 自动刷新 JSON 索引
         index_result = _refresh_json_index()
@@ -657,6 +660,30 @@ def sync_single(conn: sqlite3.Connection, concept_name: str) -> dict:
         }
     except Exception as e:
         return {"error": str(e)}
+
+
+# ══════════════════════════════════════════════════════════
+#  链接解析刷新
+# ══════════════════════════════════════════════════════════
+
+def refresh_link_resolution(conn: sqlite3.Connection) -> None:
+    """根据当前 concepts 表统一刷新 links 的 resolved/target_id。"""
+    cursor = conn.cursor()
+    cursor.execute("""
+        UPDATE links
+        SET target_id = (
+            SELECT concepts.id FROM concepts
+            WHERE concepts.name = links.target_name
+        ),
+        resolved = CASE
+            WHEN EXISTS (
+                SELECT 1 FROM concepts
+                WHERE concepts.name = links.target_name
+            ) THEN 1
+            ELSE 0
+        END
+    """)
+    conn.commit()
 
 
 # ══════════════════════════════════════════════════════════
