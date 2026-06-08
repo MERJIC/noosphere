@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（221 个）
+### 哲学（222 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -120,6 +120,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
 - [伦理作为第一哲学（Ethics as First Philosophy）](%E4%BC%A6%E7%90%86%E4%BD%9C%E4%B8%BA%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%A6.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
+- [绵延（Durée）](%E7%BB%B5%E5%BB%B6.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [明希豪森三重困境（Münchhausen Trilemma）](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
@@ -929,7 +930,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（264 个）
+### 自我（265 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1058,6 +1059,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [冒名顶替综合征（Impostor Syndrome）](%E5%86%92%E5%90%8D%E9%A1%B6%E6%9B%BF%E7%BB%BC%E5%90%88%E5%BE%81.md)
 - [梅农悖论（Meno's Paradox）](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
 - [门控机制（Gating mechanism）](%E9%97%A8%E6%8E%A7%E6%9C%BA%E5%88%B6.md)
+- [绵延（Durée）](%E7%BB%B5%E5%BB%B6.md)
 - [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
 - [目标设定理论（Goal-Setting Theory）](%E7%9B%AE%E6%A0%87%E8%AE%BE%E5%AE%9A%E7%90%86%E8%AE%BA.md)
 - [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
@@ -2333,11 +2335,3 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
-
----
-
-## ⚠️ 待整理（1 个）
-
-> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
-
-- [绵延（Durée）](%E7%BB%B5%E5%BB%B6.md) — tag "pattern/冲突" 前缀不规范
