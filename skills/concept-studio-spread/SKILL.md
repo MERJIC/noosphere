@@ -1,16 +1,16 @@
 ---
 name: "concept-studio-spread"
 description: >
-  概念库工作台·传播版——从 concept-studio 派生，去掉知识卡片模块，去除所有硬编码路径依赖。
-  覆盖：寓言故事（被动学习，含圆桌）、摄入（从 URL/文本建概念页）、跳跃（从已有概念向外探索新概念）、关联分析（更新图谱）。
-  触发词：「寓言故事」「讲个故事」「摄入」「ingest」「沉淀这个」「跳一跳」「漫游」「关联分析」「更新图谱」
+  概念库工作台·传播版——从 concept-studio 派生，去除所有硬编码路径依赖，改用配置驱动。
+  覆盖：寓言故事（被动学习，含圆桌）、摄入（从 URL/文本建概念页）、跳跃（从已有概念向外探索新概念）、关联分析（更新图谱）、知识卡片（转小红书）。
+  触发词：「寓言故事」「讲个故事」「摄入」「ingest」「沉淀这个」「跳一跳」「漫游」「关联分析」「更新图谱」「知识卡片」「做成卡片」「传播版」「发到小红书」
 config:
   concept_lib_root: "{ROOT}"
 ---
 
 # Concept Studio Spread · 概念库工作台（传播版）
 
-concept-studio 的开源传播版。去掉知识卡片（cards）模块和所有硬编码路径，改用配置驱动。
+concept-studio 的开源传播版。去除所有硬编码路径，改用配置驱动。
 
 ## 配置
 
@@ -35,14 +35,12 @@ config:
 ├── 概念页/              # 概念 .md 文件存放目录
 ├── memory/
 │   ├── MEMORY.md        # 项目记忆文件
-│   ├── concept_lite.json      # 轻量索引（概念名列表、孤立节点、别名）
-│   ├── concept_graph.json     # 图结构索引（链接关系）
-│   ├── concept_meta.json      # 管理索引（元数据）
+│   ├── concepts.db      # SQLite 索引层（主入口，查询/查重/统计全走这里）
 │   └── concept_relations.md   # 关联图谱（集群、孤立节点记录）
 ├── scripts/
-│   ├── build_index.py         # 索引构建脚本
-│   ├── lint_concepts.py       # 概念页质检脚本（可选）
-│   └── check_duplicate.py     # 查重脚本（可选）
+│   ├── sync_db.py       # SQLite 同步脚本（每新增/修改概念页后必须执行）
+│   ├── build_index.py   # JSON 索引刷新（供查重脚本使用，逐步淘汰中）
+│   └── lint_concepts.py # 概念页质检脚本（可选）
 └── roundtable/          # 圆桌讨论记录存放目录
 ```
 
@@ -56,11 +54,12 @@ config:
 
 | 用户说 | 路由到 |
 |--------|--------|
-| 「讲个寓言」「寓言故事」「讲个故事」「想听个故事」「寓言」 | 读 `modules/parable.md` |
+| 「讲个寓言」「寓言故事」「讲个故事」「想听个故事」「寓言」 | 读 `modules/parable.md`，正常流程 |
 | 「圆桌」「圆桌讨论」「roundtable」「辩论」「多角度」+ 具体议题 | 读 `modules/parable.md`，跳过故事直接执行 Step 6（直接圆桌模式） |
 | 「摄入」「ingest」「沉淀这个」「存进概念库」「这个值得记」「从这个 URL」「粘贴内容」 | 读 `modules/ingest.md` |
 | 「跳一跳」「漫游」「给我新的」「举一反三」「从孤立节点」「随便」 | 读 `modules/hop.md` |
 | 「关联分析」「更新图谱」「concept-analyze」「跑一下」「增量」「全量重跑」 | 读 `modules/analyze.md` |
+| 「知识卡片」「做成卡片」「传播版」「可传播格式」「小红书卡片」「发到小红书」「知识图文」 | 读 `modules/cards.md` |
 
 **有歧义时直接问：**
 ```
@@ -70,6 +69,7 @@ B. 圆桌讨论（直接发起，不需要故事）
 C. 摄入新概念（从 URL 或文字）
 D. 向外探索新概念（概念跳跃）
 E. 更新关联图谱
+F. 输出知识卡片
 ```
 
 每次执行只激活一个 module，不混用。
@@ -85,11 +85,17 @@ E. 更新关联图谱
 | 占位符 | 实际路径 |
 |--------|---------|
 | `{ROOT}/概念页/` | 概念页 .md 文件目录 |
-| `{ROOT}/memory/concept_lite.json` | 轻量索引 |
-| `{ROOT}/memory/concept_graph.json` | 图结构索引 |
-| `{ROOT}/memory/concept_meta.json` | 管理索引 |
+| `{ROOT}/memory/concepts.db` | SQLite 索引层 |
 | `{ROOT}/memory/concept_relations.md` | 关联图谱 |
-| `{ROOT}/scripts/build_index.py` | 索引构建脚本 |
+| `{ROOT}/scripts/sync_db.py` | SQLite 同步脚本 |
+| `{ROOT}/scripts/build_index.py` | JSON 索引刷新（可选） |
 | `{ROOT}/scripts/lint_concepts.py` | 质检脚本（可选） |
-| `{ROOT}/scripts/check_duplicate.py` | 查重脚本（可选） |
 | `{ROOT}/roundtable/` | 圆桌记录目录 |
+
+---
+
+## 共享模块
+
+| 模块 | 说明 |
+|------|------|
+| `modules/write-page.md` | 概念页写入层。不被用户直接触发，由 parable（Step 5 建页、Step 7 圆桌归位）和 ingest（Step 5 建页）委托调用。负责：组装 frontmatter、写入文件、自检、lint、sync_db。 |

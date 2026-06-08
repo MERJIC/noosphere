@@ -75,9 +75,6 @@ VOCABULARY = {
         "国际关系",
         "视觉理论", "叙事学", "文学理论", "音乐理论",
     ],
-    "pattern": [
-        "悖论", "盲区", "冲突", "渐变", "反转", "循环", "错位", "缺位",
-    ],
     "apply": [
         "自我", "关系", "制度", "创作", "自媒体",
         "商业", "组织", "决策", "领导", "教育",
@@ -134,20 +131,17 @@ def extract_wikilinks(content: str) -> List[str]:
 
 
 def parse_tags(tags_value) -> dict:
-    """拆分 tags 为 discipline/pattern/apply 三组。"""
+    """拆分 tags 为 discipline/apply 两组。"""
     if isinstance(tags_value, str):
         tags_value = [tags_value]
     disciplines = []
-    pattern = None
     applies = []
     for tag in tags_value:
         if tag.startswith("discipline/"):
             disciplines.append(tag[len("discipline/"):])
-        elif tag.startswith("pattern/"):
-            pattern = tag[len("pattern/"):]
         elif tag.startswith("apply/"):
             applies.append(tag[len("apply/"):])
-    return {"discipline": disciplines, "pattern": pattern, "apply": applies}
+    return {"discipline": disciplines, "apply": applies}
 
 
 def extract_english_name(name_field: str) -> Optional[str]:
@@ -207,7 +201,6 @@ def scan_file(filepath: str) -> Optional[dict]:
         "name_en": name_en,
         "domain": domain,
         "discipline": tags["discipline"],
-        "pattern": tags["pattern"],
         "apply": tags["apply"],
         "persons": persons,
         "source": source,
@@ -415,7 +408,6 @@ def build_output(nodes: dict, paths: dict, incremental: bool = False) -> dict:
             name: {
                 "domain": nodes[name]["domain"],
                 "discipline": nodes[name]["discipline"],
-                "pattern": nodes[name]["pattern"],
                 "apply": nodes[name]["apply"],
                 "source": nodes[name]["source"],
                 "date": nodes[name]["date"],
