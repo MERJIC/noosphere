@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（224 个）
+### 哲学（225 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -42,6 +42,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [代际创伤（Intergenerational Trauma）](%E4%BB%A3%E9%99%85%E5%88%9B%E4%BC%A4.md)
 - [道德残余（Moral Remainder）](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
 - [道德创伤（Moral Injury）](%E9%81%93%E5%BE%B7%E5%88%9B%E4%BC%A4.md)
+- [道德特殊主义（Moral Particularism）](%E9%81%93%E5%BE%B7%E7%89%B9%E6%AE%8A%E4%B8%BB%E4%B9%89.md)
 - [道德运气（Moral Luck）](%E9%81%93%E5%BE%B7%E8%BF%90%E6%B0%94.md)
 - [道德直觉（Moral Intuition）](%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89.md)
 - [道法自然（Dao Follows Nature）](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
@@ -932,7 +933,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（266 个）
+### 自我（267 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -972,6 +973,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德创伤（Moral Injury）](%E9%81%93%E5%BE%B7%E5%88%9B%E4%BC%A4.md)
 - [道德钝化（Moral Numbing）](%E9%81%93%E5%BE%B7%E9%92%9D%E5%8C%96.md)
 - [道德分离（Moral Disengagement）](%E9%81%93%E5%BE%B7%E5%88%86%E7%A6%BB.md)
+- [道德特殊主义（Moral Particularism）](%E9%81%93%E5%BE%B7%E7%89%B9%E6%AE%8A%E4%B8%BB%E4%B9%89.md)
 - [道德许可效应（Moral Licensing Effect）](%E9%81%93%E5%BE%B7%E8%AE%B8%E5%8F%AF%E6%95%88%E5%BA%94.md)
 - [道德直觉（Moral Intuition）](%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89.md)
 - [道法自然（Dao Follows Nature）](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
@@ -2022,7 +2024,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（203 个）
+### 决策（204 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2053,6 +2055,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德残余（Moral Remainder）](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
 - [道德钝化（Moral Numbing）](%E9%81%93%E5%BE%B7%E9%92%9D%E5%8C%96.md)
 - [道德分离（Moral Disengagement）](%E9%81%93%E5%BE%B7%E5%88%86%E7%A6%BB.md)
+- [道德特殊主义（Moral Particularism）](%E9%81%93%E5%BE%B7%E7%89%B9%E6%AE%8A%E4%B8%BB%E4%B9%89.md)
 - [道德许可效应（Moral Licensing Effect）](%E9%81%93%E5%BE%B7%E8%AE%B8%E5%8F%AF%E6%95%88%E5%BA%94.md)
 - [道德直觉（Moral Intuition）](%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89.md)
 - [道法自然（Dao Follows Nature）](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
@@ -2341,11 +2344,3 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
-
----
-
-## ⚠️ 待整理（1 个）
-
-> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
-
-- [道德特殊主义（Moral Particularism）](%E9%81%93%E5%BE%B7%E7%89%B9%E6%AE%8A%E4%B8%BB%E4%B9%89.md) — tag "pattern/错位" 前缀不规范
