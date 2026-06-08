@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（222 个）
+### 哲学（224 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -23,6 +23,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [本质主义（Essentialism）](%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89.md)
 - [边界侵犯（Boundary Violation）](%E8%BE%B9%E7%95%8C%E4%BE%B5%E7%8A%AF.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
+- [不可辨别者同一性（Identity of Indiscernibles）](%E4%B8%8D%E5%8F%AF%E8%BE%A8%E5%88%AB%E8%80%85%E5%90%8C%E4%B8%80%E6%80%A7.md)
 - [不可靠记忆（Unreliable Memory）](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E8%AE%B0%E5%BF%86.md)
 - [不可通约性（Incommensurability）](%E4%B8%8D%E5%8F%AF%E9%80%9A%E7%BA%A6%E6%80%A7.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
@@ -110,6 +111,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [看见与看做（Seeing and Seeing-as / Aspect Perception）](%E7%9C%8B%E8%A7%81%E4%B8%8E%E7%9C%8B%E5%81%9A.md)
 - [空能指（Empty Signifier）](%E7%A9%BA%E8%83%BD%E6%8C%87.md)
 - [恐怖的美学（Aesthetics of Horror）](%E6%81%90%E6%80%96%E7%9A%84%E7%BE%8E%E5%AD%A6.md)
+- [宽容原则（Principle of Charity）](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md)
 - [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
 - [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
@@ -930,7 +932,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（265 个）
+### 自我（266 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -940,6 +942,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [本质主义（Essentialism）](%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
 - [禀赋效应（Endowment Effect）](%E7%A6%80%E8%B5%8B%E6%95%88%E5%BA%94.md)
+- [不可辨别者同一性（Identity of Indiscernibles）](%E4%B8%8D%E5%8F%AF%E8%BE%A8%E5%88%AB%E8%80%85%E5%90%8C%E4%B8%80%E6%80%A7.md)
 - [不可靠记忆（Unreliable Memory）](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E8%AE%B0%E5%BF%86.md)
 - [不信的表演（Performed Disbelief）](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
 - [不注意盲（Inattentional Blindness）](%E4%B8%8D%E6%B3%A8%E6%84%8F%E7%9B%B2.md)
@@ -1198,7 +1201,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（124 个）
+### 关系（125 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1243,6 +1246,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [恐惧管理理论（Terror Management Theory）](%E6%81%90%E6%83%A7%E7%AE%A1%E7%90%86%E7%90%86%E8%AE%BA.md)
 - [库拉圈（Kula Ring）](%E5%BA%93%E6%8B%89%E5%9C%88.md)
 - [夸富宴（Potlatch）](%E5%A4%B8%E5%AF%8C%E5%AE%B4.md)
+- [宽容原则（Principle of Charity）](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md)
 - [狂欢化（Carnivalesque）](%E7%8B%82%E6%AC%A2%E5%8C%96.md)
 - [礼貌理论（Politeness Theory）](%E7%A4%BC%E8%B2%8C%E7%90%86%E8%AE%BA.md)
 - [临界质量（Critical Mass / Tipping Point）](%E4%B8%B4%E7%95%8C%E8%B4%A8%E9%87%8F.md)
@@ -2018,7 +2022,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（201 个）
+### 决策（203 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2027,6 +2031,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [本真性（Eigentlichkeit）](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
+- [不可辨别者同一性（Identity of Indiscernibles）](%E4%B8%8D%E5%8F%AF%E8%BE%A8%E5%88%AB%E8%80%85%E5%90%8C%E4%B8%80%E6%80%A7.md)
 - [不可通约性（Incommensurability）](%E4%B8%8D%E5%8F%AF%E9%80%9A%E7%BA%A6%E6%80%A7.md)
 - [不利条件原理（Handicap Principle）](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md)
 - [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
@@ -2107,6 +2112,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [可得性启发式（Availability Heuristic）](%E5%8F%AF%E5%BE%97%E6%80%A7%E5%90%AF%E5%8F%91%E5%BC%8F.md)
 - [可逆性错觉（Illusion of Reversibility）](%E5%8F%AF%E9%80%86%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
+- [宽容原则（Principle of Charity）](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md)
 - [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [框架效应（Framing Effect）](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
