@@ -23,28 +23,31 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
-# 公共模块：路径常量、frontmatter 解析、词汇表（单一数据源）、集群解析等
-from _common import (
-    CONCEPT_DIR,
-    LIB_ROOT,
-    MEMORY_DIR,
-    LITE_PATH,
-    GRAPH_PATH,
-    META_PATH,
-    ALIASES_PATH,
-    RELATIONS_PATH,
-    VOCABULARY,
-    parse_frontmatter,
-    extract_english_name,
-    extract_wikilinks,
-    parse_tags,
-    parse_relations_clusters,
-    iter_concept_files,
-    atomic_write_json as _atomic_write,
-)
+# ── 路径常量 ──────────────────────────────────────────────
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LIB_ROOT = os.path.dirname(SCRIPT_DIR)  # 概念库/
+CONCEPT_DIR = os.path.join(LIB_ROOT, "概念页")
+MEMORY_DIR = os.path.join(LIB_ROOT, "memory")
+INDEX_PATH = os.path.join(MEMORY_DIR, "concept_index.json")  # 旧格式（过渡期保留）
+LITE_PATH = os.path.join(MEMORY_DIR, "concept_lite.json")
+GRAPH_PATH = os.path.join(MEMORY_DIR, "concept_graph.json")
+META_PATH = os.path.join(MEMORY_DIR, "concept_meta.json")
+ALIASES_PATH = os.path.join(MEMORY_DIR, "name_aliases.json")
+RELATIONS_PATH = os.path.join(MEMORY_DIR, "concept_relations.md")
 
-# 旧格式索引路径（过渡期保留，不放入公共模块）
-INDEX_PATH = os.path.join(MEMORY_DIR, "concept_index.json")
+# ── 词汇表白名单 ──────────────────────────────────────────
+VOCABULARY = {
+    "domain": [
+        "哲学", "心理学", "经济学", "社会学", "传播学",
+        "管理学", "生物学", "物理学", "人类学", "政治学", "艺术",
+    ],
+    "discipline": [
+        # 哲学
+        "伦理学", "行动哲学", "认识论", "心灵哲学", "形而上学",
+        "语言哲学", "科学哲学", "政治哲学", "逻辑学", "美学",
+        "中式哲学", "批判理论", "技术哲学", "存在主义", "现象学", "精神分析",
+        # 心理学
+        "社会心理学", "认知心理学", "动机心理学", "发展心理学", "临床心理学",
         # 经济学
         "行为经济学", "制度经济学", "信息经济学", "金融学",
         # 社会学
@@ -75,8 +78,92 @@ INDEX_PATH = os.path.join(MEMORY_DIR, "concept_index.json")
     ],
 }
 
-# ── 以下函数已迁移至 _common.py，从此处导入 ──
-# parse_frontmatter / extract_wikilinks / parse_tags / extract_english_name
+# ── Frontmatter 解析 ─────────────────────────────────────
+
+def parse_frontmatter(content: str) -> Optional[dict]:
+    """提取 YAML frontmatter，返回字段字典。不依赖 PyYAML。"""
+    m = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+    if not m:
+        return None
+
+    raw = m.group(1)
+    result = {}
+
+    for line in raw.split('\n'):
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+
+        # key: value
+        colon_idx = line.find(':')
+        if colon_idx < 0:
+            continue
+
+        key = line[:colon_idx].strip()
+        val = line[colon_idx + 1:].strip()
+
+        # 解析值
+        if val.startswith('[') and val.endswith(']'):
+            # 行内数组 [X, Y, Z]
+            items = re.findall(r'[^\[\],\s]+', val)
+            result[key] = items
+        elif val.startswith('"') or val.startswith("'"):
+            result[key] = val.strip('"').strip("'")
+        else:
+            result[key] = val
+
+    return result
+
+
+def extract_wikilinks(content: str) -> List[str]:
+    """提取所有 [[目标名]] 链接，处理 [[名|显示文本]] 和 [[名#章节]]。"""
+    # 匹配 [[...]]，内部可含 |显示文本 或 #章节
+    raw = re.findall(r'\[\[([^\]]+)\]\]', content)
+    targets = []
+    for r in raw:
+        # 取 | 和 # 之前的部分
+        target = re.split(r'[|#]', r)[0].strip()
+        if target:
+            targets.append(target)
+
+    # 去重但保序
+    seen = set()
+    unique = []
+    for t in targets:
+        if t not in seen:
+            seen.add(t)
+            unique.append(t)
+    return unique
+
+
+def parse_tags(tags_value) -> dict:
+    """拆分 tags 为 discipline/apply 两组。"""
+    if isinstance(tags_value, str):
+        tags_value = [tags_value]
+
+    disciplines = []
+    applies = []
+
+    for tag in tags_value:
+        if tag.startswith("discipline/"):
+            disciplines.append(tag[len("discipline/"):])
+        elif tag.startswith("apply/"):
+            applies.append(tag[len("apply/"):])
+
+    return {"discipline": disciplines, "apply": applies}
+
+
+def extract_english_name(name_field: str) -> Optional[str]:
+    """从 '弱意志（Akrasia）' 提取英文名。全角括号分隔。"""
+    m = re.search(r'（([^）]+)）', name_field)
+    if m:
+        return m.group(1).strip()
+    # 也尝试半角括号
+    m = re.search(r'\(([^)]+)\)', name_field)
+    if m:
+        return m.group(1).strip()
+    return None
+
 
 # ── 单文件扫描 ────────────────────────────────────────────
 
@@ -339,18 +426,105 @@ def detect_duplicates(nodes: dict) -> List[dict]:
     return duplicates
 
 
-# ── 从 concept_relations.md 加载集群（使用 _common 的唯一实现） ──
+# ── 从 concept_relations.md 加载集群 ──────────────────────
 
 def load_clusters_from_relations(relations_path: str) -> List[dict]:
-    """解析 concept_relations.md 中的集群定义。（兼容接口，委托给 _common）"""
+    """解析 concept_relations.md 中的集群定义。"""
     if not os.path.exists(relations_path):
         return []
+
     try:
         with open(relations_path, 'r', encoding='utf-8') as f:
             content = f.read()
     except IOError:
         return []
-    return parse_relations_clusters(content)
+
+    clusters = []
+
+    # 逐行扫描
+    lines = content.split('\n')
+    current_cluster = None
+    current_members_raw = []
+    members_parsed = False  # 标记成员是否已解析
+
+    def _parse_members(raw_lines):
+        """从收集的行中解析成员概念名。"""
+        text = '\n'.join(raw_lines)
+        members = re.findall(r'`([^`]+)`', text)
+        if not members:
+            members = [w.strip() for w in text.split() if w.strip()]
+        return members
+
+    def _finalize_cluster(cluster, raw_lines):
+        """解析成员并保存集群。"""
+        if cluster and not cluster.get("_finalized"):
+            if raw_lines and not cluster["members"]:
+                cluster["members"] = _parse_members(raw_lines)
+            cluster["_finalized"] = True
+            # 去掉内部标记
+            cluster.pop("_finalized", None)
+            clusters.append(cluster)
+
+    for line in lines:
+        # 匹配集群标题行: ### A · 集体意见动力学 ✅
+        header_match = re.match(
+            r'###\s+([A-Z])\s*[·•]\s*(.+?)(?:\s*✅)?\s*$', line
+        )
+        if header_match:
+            # 保存上一个集群
+            _finalize_cluster(current_cluster, current_members_raw)
+
+            cluster_id = header_match.group(1)
+            cluster_name = header_match.group(2).strip()
+            current_cluster = {
+                "id": cluster_id,
+                "name": cluster_name,
+                "members": [],
+                "description": "",
+            }
+            current_members_raw = []
+            members_parsed = False
+            continue
+
+        # 如果在集群内
+        if current_cluster is not None:
+            stripped = line.strip()
+
+            if not stripped:
+                # 空行：如果成员还没解析，现在解析
+                if current_members_raw and not members_parsed:
+                    current_cluster["members"] = _parse_members(current_members_raw)
+                    members_parsed = True
+                continue
+
+            if stripped.startswith('>'):
+                # 引用块是描述。先解析成员（如果还没解析）
+                if current_members_raw and not members_parsed:
+                    current_cluster["members"] = _parse_members(current_members_raw)
+                    members_parsed = True
+                desc = stripped.lstrip('> ').strip()
+                if current_cluster["description"]:
+                    current_cluster["description"] += " " + desc
+                else:
+                    current_cluster["description"] = desc
+                continue
+
+            if stripped.startswith('#') or stripped.startswith('---'):
+                # 新章节或分隔线，结束当前集群
+                _finalize_cluster(current_cluster, current_members_raw)
+                current_cluster = None
+                current_members_raw = []
+                members_parsed = False
+                continue
+
+            # 成员行（含反引号概念名或纯文本）
+            if not members_parsed:
+                current_members_raw.append(stripped)
+
+    # 文件结尾，保存最后一个集群
+    _finalize_cluster(current_cluster, current_members_raw)
+
+    return clusters
 
 
 # ── 从 name_aliases.json 加载别名 ────────────────────────
@@ -684,7 +858,16 @@ def run_check() -> None:
 
 # ── 原子写入 ──────────────────────────────────────────────
 
-# _atomic_write 已从 _common 导入，此处不再重复定义
+def _atomic_write(path: str, data: dict, compact: bool = False) -> None:
+    """原子写入 JSON 文件。compact=True 时使用无缩进格式。"""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp_path = path + ".tmp"
+    with open(tmp_path, 'w', encoding='utf-8') as f:
+        if compact:
+            json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+        else:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_path, path)
 
 
 def write_shards(index: dict) -> None:

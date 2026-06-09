@@ -23,31 +23,11 @@ import json
 import os
 import re
 import sqlite3
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
 from typing import Dict, List, Optional, Set, Tuple
-
-# 公共模块：路径常量、frontmatter 解析、词汇表、集群解析等
-from _common import (
-    CONCEPT_DIR,
-    LIB_ROOT,
-    MEMORY_DIR,
-    DB_PATH,
-    RELATIONS_PATH,
-    SCHOLAR_DICT_PATH,
-    LITE_PATH,
-    GRAPH_PATH,
-    META_PATH,
-    ALIASES_PATH,
-    parse_frontmatter,
-    extract_english_name,
-    extract_wikilinks,
-    parse_tags,
-    parse_relations_clusters,
-    iter_concept_files,
-    load_scholar_dict,
-)
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -57,18 +37,86 @@ if hasattr(sys.stderr, "reconfigure"):
 # Scholar annotation
 try:
     from scholar_tagger import annotate_file as annotate_scholar_file
-    from scholar_annotation_utils import build_short_unsafe
+    from scholar_annotation_utils import (
+        load_scholar_dict,
+        build_short_unsafe,
+    )
 except ImportError:
     annotate_scholar_file = None
+    load_scholar_dict = None
     build_short_unsafe = None
+
+# ── 路径常量 ──────────────────────────────────────────────
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LIB_ROOT = os.path.dirname(SCRIPT_DIR)
+CONCEPT_DIR = os.path.join(LIB_ROOT, "概念页")
+MEMORY_DIR = os.path.join(LIB_ROOT, "memory")
+DB_PATH = os.path.join(MEMORY_DIR, "concepts.db")
+RELATIONS_PATH = os.path.join(MEMORY_DIR, "concept_relations.md")
 
 # ── Schema 版本 ───────────────────────────────────────────
 SCHEMA_VERSION = 1
 
 
 # ══════════════════════════════════════════════════════════
-#  链接上下文检测（sync_db 特有：需要章节定位）
+#  Frontmatter / Wikilink 解析（复用 build_index.py 的逻辑）
 # ══════════════════════════════════════════════════════════
+
+def parse_frontmatter(content: str) -> Optional[dict]:
+    """提取 YAML frontmatter，返回字段字典。不依赖 PyYAML。"""
+    m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
+    if not m:
+        return None
+
+    raw = m.group(1)
+    result = {}
+
+    for line in raw.split("\n"):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+
+        colon_idx = line.find(":")
+        if colon_idx < 0:
+            continue
+
+        key = line[:colon_idx].strip()
+        val = line[colon_idx + 1:].strip()
+
+        if val.startswith("[") and val.endswith("]"):
+            items = re.findall(r"[^\[\],\s]+", val)
+            result[key] = items
+        elif val.startswith('"') or val.startswith("'"):
+            result[key] = val.strip('"').strip("'")
+        else:
+            result[key] = val
+
+    return result
+
+
+def extract_english_name(name_field: str) -> Optional[str]:
+    """从 '弱意志（Akrasia）' 提取英文名。"""
+    m = re.search(r"（([^）]+)）", name_field)
+    if m:
+        return m.group(1).strip()
+    m = re.search(r"\(([^)]+)\)", name_field)
+    if m:
+        return m.group(1).strip()
+    return None
+
+
+def extract_wikilinks(content: str) -> List[str]:
+    """提取所有 [[目标名]] 链接，去重保序。"""
+    raw = re.findall(r"\[\[([^\]]+)\]\]", content)
+    targets = []
+    seen = set()
+    for r in raw:
+        target = re.split(r"[|#]", r)[0].strip()
+        if target and target not in seen:
+            seen.add(target)
+            targets.append(target)
+    return targets
+
 
 def detect_link_context(content: str, target: str) -> str:
     """
@@ -100,7 +148,31 @@ def detect_link_context(content: str, target: str) -> str:
     return ""
 
 
-_SCHOLAR_DICT = load_scholar_dict()
+def parse_tags(tags_value) -> dict:
+    """拆分 tags 为 discipline/pattern/apply/person 四组。"""
+    if isinstance(tags_value, str):
+        tags_value = [tags_value]
+
+    disciplines = []
+    applies = []
+    persons = []
+
+    for tag in tags_value:
+        if tag.startswith("discipline/"):
+            disciplines.append(tag[len("discipline/"):])
+        elif tag.startswith("apply/"):
+            applies.append(tag[len("apply/"):])
+        elif tag.startswith("person/"):
+            persons.append(tag[len("person/"):])
+
+    return {
+        "discipline": disciplines,
+        "apply": applies,
+        "persons": persons,
+    }
+
+
+_SCHOLAR_DICT = load_scholar_dict() if load_scholar_dict else {}
 _SHORT_UNSAFE = build_short_unsafe(_SCHOLAR_DICT) if build_short_unsafe and _SCHOLAR_DICT else set()
 
 
@@ -419,17 +491,23 @@ def delete_concept(conn: sqlite3.Connection, name_cn: str) -> bool:
 
 
 def _refresh_json_index() -> dict:
-    """直接调用 build_index 的增量构建，刷新 JSON 索引。返回结果摘要。"""
+    """自动调用 build_index.py --incremental 刷新 JSON 索引。返回结果摘要。"""
+    index_script = os.path.join(SCRIPT_DIR, "build_index.py")
+    if not os.path.exists(index_script):
+        return {"skipped": True, "reason": "build_index.py 不存在"}
+
     try:
-        # 延迟导入避免循环依赖（build_index 不导入 sync_db）
-        from build_index import build_incremental_index
-        index = build_incremental_index()
+        result = subprocess.run(
+            [sys.executable, index_script, "--incremental"],
+            capture_output=True, text=True, timeout=30,
+        )
         return {
-            "ok": True,
-            "concepts": index.get("meta", {}).get("total_concepts", 0),
+            "ok": result.returncode == 0,
+            "stdout": result.stdout.strip(),
+            "stderr": result.stderr.strip(),
         }
-    except ImportError:
-        return {"ok": False, "reason": "build_index 模块不存在"}
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "reason": "超时"}
     except Exception as e:
         return {"ok": False, "reason": str(e)}
 
@@ -693,8 +771,75 @@ def sync_clusters(conn: sqlite3.Connection) -> int:
     return count
 
 
-# 集群解析直接使用 _common 中的唯一实现
-_parse_relations_clusters = parse_relations_clusters
+def _parse_relations_clusters(content: str) -> List[dict]:
+    """解析 concept_relations.md 中的集群定义。"""
+    clusters = []
+    lines = content.split("\n")
+    current_cluster = None
+    current_members_raw = []
+    members_parsed = False
+
+    def _parse_members(raw_lines):
+        text = "\n".join(raw_lines)
+        members = re.findall(r"`([^`]+)`", text)
+        if not members:
+            members = [w.strip() for w in text.split() if w.strip()]
+        return members
+
+    def _finalize(cluster, raw_lines):
+        if cluster and not cluster.get("_finalized"):
+            if raw_lines and not cluster["members"]:
+                cluster["members"] = _parse_members(raw_lines)
+            cluster["_finalized"] = True
+            cluster.pop("_finalized", None)
+            clusters.append(cluster)
+
+    for line in lines:
+        header_match = re.match(r"###\s+([A-Z])\s*[·•]\s*(.+?)(?:\s*✅)?\s*$", line)
+        if header_match:
+            _finalize(current_cluster, current_members_raw)
+            current_cluster = {
+                "id": header_match.group(1),
+                "name": header_match.group(2).strip(),
+                "members": [],
+                "description": "",
+            }
+            current_members_raw = []
+            members_parsed = False
+            continue
+
+        if current_cluster is not None:
+            stripped = line.strip()
+
+            if not stripped:
+                if current_members_raw and not members_parsed:
+                    current_cluster["members"] = _parse_members(current_members_raw)
+                    members_parsed = True
+                continue
+
+            if stripped.startswith(">"):
+                if current_members_raw and not members_parsed:
+                    current_cluster["members"] = _parse_members(current_members_raw)
+                    members_parsed = True
+                desc = stripped.lstrip("> ").strip()
+                if current_cluster["description"]:
+                    current_cluster["description"] += " " + desc
+                else:
+                    current_cluster["description"] = desc
+                continue
+
+            if stripped.startswith("#") or stripped.startswith("---"):
+                _finalize(current_cluster, current_members_raw)
+                current_cluster = None
+                current_members_raw = []
+                members_parsed = False
+                continue
+
+            if not members_parsed:
+                current_members_raw.append(stripped)
+
+    _finalize(current_cluster, current_members_raw)
+    return clusters
 
 
 # ══════════════════════════════════════════════════════════
