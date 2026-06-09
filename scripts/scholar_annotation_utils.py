@@ -78,6 +78,8 @@ def build_short_unsafe(scholar_dict: dict) -> Set[str]:
             unsafe.add(short)
             continue
         for other in full_names:
+            if other == full:
+                continue
             if short in other and short != other:
                 unsafe.add(short)
                 break

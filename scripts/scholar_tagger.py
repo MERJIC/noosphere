@@ -84,8 +84,10 @@ def find_conservative_scholars(core_text: str, scholar_dict: dict, short_unsafe:
                     matched = True
                     break
 
-        if matched and short not in found:
-            found.append(short)
+        if matched:
+            tag_name = full_name if short in short_unsafe else short
+            if tag_name not in found:
+                found.append(tag_name)
     return found
 
 def annotate_file(filepath: str, scholar_dict: dict, short_unsafe: Set[str]) -> bool:
