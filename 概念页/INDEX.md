@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（226 个）
+### 哲学（227 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -70,6 +70,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [缝合体系（Suture）](%E7%BC%9D%E5%90%88%E4%BD%93%E7%B3%BB.md)
 - [否定辩证法（Negative Dialectics）](%E5%90%A6%E5%AE%9A%E8%BE%A9%E8%AF%81%E6%B3%95.md)
 - [否认（Denial）](%E5%90%A6%E8%AE%A4.md)
+- [附饰（Parergon）](%E9%99%84%E9%A5%B0.md)
 - [副现象论（Epiphenomenalism）](%E5%89%AF%E7%8E%B0%E8%B1%A1%E8%AE%BA.md)
 - [盖梯尔问题（Gettier Problem）](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
 - [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
@@ -937,7 +938,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（267 个）
+### 自我（268 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1005,6 +1006,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [负熵（Negentropy）](%E8%B4%9F%E7%86%B5.md)
 - [负性幻觉（Negative Hallucination）](%E8%B4%9F%E6%80%A7%E5%B9%BB%E8%A7%89.md)
 - [附身（Possession）](%E9%99%84%E8%BA%AB.md)
+- [附饰（Parergon）](%E9%99%84%E9%A5%B0.md)
 - [副现象论（Epiphenomenalism）](%E5%89%AF%E7%8E%B0%E8%B1%A1%E8%AE%BA.md)
 - [概化他者（Generalized Other）](%E6%A6%82%E5%8C%96%E4%BB%96%E8%80%85.md)
 - [感受质（Qualia）](%E6%84%9F%E5%8F%97%E8%B4%A8.md)
@@ -1491,7 +1493,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
-### 创作（201 个）
+### 创作（202 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [悖论叙事（Paradoxical Narrative）](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
@@ -1535,6 +1537,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [负熵（Negentropy）](%E8%B4%9F%E7%86%B5.md)
 - [负性幻觉（Negative Hallucination）](%E8%B4%9F%E6%80%A7%E5%B9%BB%E8%A7%89.md)
 - [附身（Possession）](%E9%99%84%E8%BA%AB.md)
+- [附饰（Parergon）](%E9%99%84%E9%A5%B0.md)
 - [复调（Polyphony）](%E5%A4%8D%E8%B0%83.md)
 - [副文本（Paratext）](%E5%89%AF%E6%96%87%E6%9C%AC.md)
 - [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
@@ -2357,11 +2360,3 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
-
----
-
-## ⚠️ 待整理（1 个）
-
-> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
-
-- [附饰（Parergon）](%E9%99%84%E9%A5%B0.md) — tag "pattern/错位" 前缀不规范
