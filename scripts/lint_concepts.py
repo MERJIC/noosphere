@@ -21,12 +21,16 @@ import time
 from collections import defaultdict
 from typing import Dict, List, Optional
 
-# ── 路径 ──────────────────────────────────────────────────────
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-LIB_ROOT = os.path.dirname(SCRIPT_DIR)
-CONCEPT_DIR = os.path.join(LIB_ROOT, "概念页")
-SCHOLAR_DICT_PATH = os.path.join(
-    LIB_ROOT, "skills/concept-studio/modules/scholar-dict.json"
+# 公共模块：路径常量、frontmatter 解析、词汇表（单一数据源）
+from _common import (
+    CONCEPT_DIR,
+    SCHOLAR_DICT_PATH,
+    VOCABULARY,
+    DOMAIN_WHITELIST,
+    DISCIPLINE_WHITELIST,
+    APPLY_WHITELIST,
+    SOURCE_WHITELIST,
+    parse_frontmatter,
 )
 
 # F09 学者短名自动替换默认关闭（见 --fix-scholars）；工具函数见 scholar_annotation_utils.py
@@ -37,36 +41,15 @@ from scholar_annotation_utils import (  # noqa: E402
     short_match_is_safe,
 )
 
-# ── 词汇表白名单 ──────────────────────────────────────────────
-DOMAIN_WHITELIST = [
-    "哲学", "心理学", "经济学", "社会学", "传播学",
-    "管理学", "生物学", "物理学", "人类学", "政治学", "艺术",
-]
+# ── lint 专用常量（不在公共模块中） ────────────────────────
+FORBIDDEN_FIELDS = {
+    "title", "slug", "created", "related", "updated",
+    "aliases", "name_en", "status", "discipline",
+}
 
-DISCIPLINE_WHITELIST = [
-    "伦理学", "行动哲学", "认识论", "心灵哲学", "形而上学",
-    "语言哲学", "科学哲学", "政治哲学", "逻辑学", "美学",
-    "中式哲学", "批判理论", "技术哲学", "存在主义", "现象学", "精神分析",
-    "社会心理学", "认知心理学", "动机心理学", "发展心理学", "临床心理学",
-    "行为经济学", "制度经济学", "信息经济学", "金融学",
-    "社会学", "文化社会学", "组织社会学",
-    "传播学",
-    "组织行为学", "知识管理", "系统思维",
-    "行为生物学", "演化生物学", "控制论",
-    "量子物理", "热力学", "复杂系统", "统计物理",
-    "流行病学",
-    "认知科学", "教育心理学", "人格心理学",
-    "国际关系",
-    "视觉理论", "叙事学", "文学理论", "音乐理论",
-]
-
-APPLY_WHITELIST = [
-    "自我", "关系", "制度", "创作", "自媒体",
-    "商业", "组织", "决策", "领导", "教育",
-]
-
-SOURCE_WHITELIST = [
-    "寓言故事", "概念跳跃", "对话整理", "阅读沉淀", "圆桌讨论",
+FORBIDDEN_SECTIONS = [
+    "寓言", "关联概念", "相关概念", "衍生问题",
+    "延伸", "拓展",
 ]
 
 FORBIDDEN_FIELDS = {
@@ -105,30 +88,7 @@ def load_scholar_dict() -> dict:
     return _load_scholar_dict_util()
 
 
-def parse_frontmatter(content: str) -> Optional[dict]:
-    """提取 frontmatter 字典。"""
-    m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
-    if not m:
-        return None
-    raw = m.group(1)
-    result = {}
-    for line in raw.split("\n"):
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        colon_idx = line.find(":")
-        if colon_idx < 0:
-            continue
-        key = line[:colon_idx].strip()
-        val = line[colon_idx + 1:].strip()
-        if val.startswith("[") and val.endswith("]"):
-            items = re.findall(r'[^\[\],\s]+', val)
-            result[key] = items
-        elif val.startswith('"') or val.startswith("'"):
-            result[key] = val.strip('"').strip("'")
-        else:
-            result[key] = val
-    return result
+# parse_frontmatter 已从 _common 导入，此处不再重复定义
 
 
 def extract_sections(body: str) -> List[str]:

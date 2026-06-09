@@ -9,13 +9,15 @@ import re
 import sys
 from typing import Dict, List, Set
 
+# 确保能找到同目录下的公共模块（无论作为脚本运行还是被 import）
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-LIB_ROOT = os.path.dirname(SCRIPT_DIR)
-CONCEPT_DIR = os.path.join(LIB_ROOT, "概念页")
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+
+from _common import CONCEPT_DIR, parse_frontmatter
 
 # 尝试导入工具
 try:
-    sys.path.append(SCRIPT_DIR)
     from scholar_annotation_utils import load_scholar_dict, build_short_unsafe
 except ImportError:
     if __name__ == "__main__":
@@ -29,27 +31,7 @@ CONSERVATIVE_KEYWORDS = [
     "关键在于", "本质是", "标志着", "代表了",
 ]
 
-def parse_frontmatter(content: str):
-    m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
-    if not m:
-        return None
-    raw = m.group(1)
-    result = {}
-    for line in raw.split("\n"):
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        colon_idx = line.find(":")
-        if colon_idx < 0:
-            continue
-        key = line[:colon_idx].strip()
-        val = line[colon_idx + 1:].strip()
-        if val.startswith("[") and val.endswith("]"):
-            items = re.findall(r"[^[\],\s]+", val)
-            result[key] = items
-        else:
-            result[key] = val
-    return result
+# parse_frontmatter 已从 _common 导入，此处不再重复定义
 
 def extract_core_mechanism(content: str) -> str:
     match = re.search(r"##\s*核心机制\s*\n(.*?)(?=\n## |\Z)", content, re.DOTALL)

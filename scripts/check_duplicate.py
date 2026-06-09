@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 """
-概念查重工具 — check_duplicate.py
+⚠️ 已弃用 — 概念查重工具 check_duplicate.py
 
-用法：
+功能已完全整合到 sync_db.py 中，推荐使用：
+  python3 scripts/sync_db.py -d "候选概念名"          # 单个候选查重
+  python3 scripts/sync_db.py --full-dup               # 全库内部查重
+
+本文件保留仅作为轻量独立入口（交互式批量模式）。
+后续版本可能移除。
+
+---
+用法（兼容旧接口，但不推荐新项目使用）：
   python3 scripts/check_duplicate.py "概念中文名"                    # 单个中文
   python3 scripts/check_duplicate.py "中文名" "English Name"        # 中英双语
   python3 scripts/check_duplicate.py --batch                       # 交互式批量（逐个输入）
