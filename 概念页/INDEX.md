@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（227 个）
+### 哲学（233 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -78,6 +78,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [感受质（Qualia）](%E6%84%9F%E5%8F%97%E8%B4%A8.md)
 - [格式塔转换（Gestalt Shift）](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
 - [格物致知（Gewu Zhizhi / Investigation of Things）](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
+- [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [观物取象（Guan Wu Qu Xiang / Observing Things to Take Images）](%E8%A7%82%E7%89%A9%E5%8F%96%E8%B1%A1.md)
 - [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
 - [规则遵循悖论（Rule-Following Paradox）](%E8%A7%84%E5%88%99%E9%81%B5%E5%BE%AA%E6%82%96%E8%AE%BA.md)
@@ -173,6 +174,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [水能载舟亦能覆舟（Shui Neng Zai Zhou Yi Neng Fu Zhou / The Water That Bears the Boat Can Also Capsize It）](%E6%B0%B4%E8%83%BD%E8%BD%BD%E8%88%9F%E4%BA%A6%E8%83%BD%E8%A6%86%E8%88%9F.md)
 - [说谎者悖论（Liar Paradox）](%E8%AF%B4%E8%B0%8E%E8%80%85%E6%82%96%E8%AE%BA.md)
 - [私人语言论证（Private Language Argument）](%E7%A7%81%E4%BA%BA%E8%AF%AD%E8%A8%80%E8%AE%BA%E8%AF%81.md)
+- [斯多葛（Stoicism）](%E6%96%AF%E5%A4%9A%E8%91%9B.md)
 - [死亡驱力（Death Drive / Thanatos）](%E6%AD%BB%E4%BA%A1%E9%A9%B1%E5%8A%9B.md)
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
@@ -180,6 +182,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [他者性（Alterität）](%E4%BB%96%E8%80%85%E6%80%A7.md)
 - [忒修斯之船（Ship of Theseus）](%E5%BF%92%E4%BF%AE%E6%96%AF%E4%B9%8B%E8%88%B9.md)
 - [体验机（Experience Machine）](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
+- [图画理论（Picture Theory）](%E5%9B%BE%E7%94%BB%E7%90%86%E8%AE%BA.md)
 - [忘筌（Wang Quan / Forgetting the Trap）](%E5%BF%98%E7%AD%8C.md)
 - [文化资本（Cultural Capital）](%E6%96%87%E5%8C%96%E8%B5%84%E6%9C%AC.md)
 - [无为而治（Wu Wei / Effortless Governance）](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
@@ -229,10 +232,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [战略无知（Strategic Ignorance）](%E6%88%98%E7%95%A5%E6%97%A0%E7%9F%A5.md)
 - [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
+- [哲学作为生活方式（Philosophy as a Way of Life）](%E5%93%B2%E5%AD%A6%E4%BD%9C%E4%B8%BA%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F.md)
+- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
 - [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [知彼知己（Zhi Bi Zhi Ji / Know the Other, Know Yourself）](%E7%9F%A5%E5%BD%BC%E7%9F%A5%E5%B7%B1.md)
 - [执两用中（Zhi Liang Yong Zhong / Holding Both Ends, Using the Middle）](%E6%89%A7%E4%B8%A4%E7%94%A8%E4%B8%AD.md)
+- [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
 - [致虚极守静笃（Zhi Xu Ji Shou Jing Du / Attain the Utmost Void, Guard the Firmest Stillness）](%E8%87%B4%E8%99%9A%E6%9E%81%E5%AE%88%E9%9D%99%E7%AC%83.md)
 - [智识谦逊（Intellectual Humility）](%E6%99%BA%E8%AF%86%E8%B0%A6%E9%80%8A.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
@@ -772,7 +778,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [仪式化行为（Ritualized Behavior）](%E4%BB%AA%E5%BC%8F%E5%8C%96%E8%A1%8C%E4%B8%BA.md)
 - [阈限性（Liminality）](%E9%98%88%E9%99%90%E6%80%A7.md)
 
-### 政治学（35 个）
+### 政治学（37 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -806,6 +812,8 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [无为而治（Wu Wei / Effortless Governance）](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
 - [协商民主（Deliberative Democracy）](%E5%8D%8F%E5%95%86%E6%B0%91%E4%B8%BB.md)
 - [议程设置（Agenda Setting）](%E8%AE%AE%E7%A8%8B%E8%AE%BE%E7%BD%AE.md)
+- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
+- [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
 - [资源诅咒（Resource Curse）](%E8%B5%84%E6%BA%90%E8%AF%85%E5%92%92.md)
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
@@ -938,7 +946,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（268 个）
+### 自我（273 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1014,6 +1022,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [格式塔转换（Gestalt Shift）](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
 - [格物致知（Gewu Zhizhi / Investigation of Things）](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
 - [怪诞（The Grotesque）](%E6%80%AA%E8%AF%9E.md)
+- [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [惯习（Habitus）](%E6%83%AF%E4%B9%A0.md)
 - [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
 - [过度理由效应（Overjustification Effect）](%E8%BF%87%E5%BA%A6%E7%90%86%E7%94%B1%E6%95%88%E5%BA%94.md)
@@ -1127,6 +1136,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [双重效果原则（Doctrine of Double Effect）](%E5%8F%8C%E9%87%8D%E6%95%88%E6%9E%9C%E5%8E%9F%E5%88%99.md)
 - [说谎者悖论（Liar Paradox）](%E8%AF%B4%E8%B0%8E%E8%80%85%E6%82%96%E8%AE%BA.md)
 - [私人语言论证（Private Language Argument）](%E7%A7%81%E4%BA%BA%E8%AF%AD%E8%A8%80%E8%AE%BA%E8%AF%81.md)
+- [斯多葛（Stoicism）](%E6%96%AF%E5%A4%9A%E8%91%9B.md)
 - [死亡驱力（Death Drive / Thanatos）](%E6%AD%BB%E4%BA%A1%E9%A9%B1%E5%8A%9B.md)
 - [他者性（Alterität）](%E4%BB%96%E8%80%85%E6%80%A7.md)
 - [忒修斯之船（Ship of Theseus）](%E5%BF%92%E4%BF%AE%E6%96%AF%E4%B9%8B%E8%88%B9.md)
@@ -1135,6 +1145,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [体验机（Experience Machine）](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
 - [同情疲劳（Compassion Fatigue）](%E5%90%8C%E6%83%85%E7%96%B2%E5%8A%B3.md)
 - [透明度错觉（Illusion of Transparency）](%E9%80%8F%E6%98%8E%E5%BA%A6%E9%94%99%E8%A7%89.md)
+- [图画理论（Picture Theory）](%E5%9B%BE%E7%94%BB%E7%90%86%E8%AE%BA.md)
 - [外适应（Exaptation）](%E5%A4%96%E9%80%82%E5%BA%94.md)
 - [妄见（Apophenia）](%E5%A6%84%E8%A7%81.md)
 - [忘筌（Wang Quan / Forgetting the Trap）](%E5%BF%98%E7%AD%8C.md)
@@ -1194,7 +1205,9 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [元认知（Metacognition）](%E5%85%83%E8%AE%A4%E7%9F%A5.md)
 - [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
+- [哲学作为生活方式（Philosophy as a Way of Life）](%E5%93%B2%E5%AD%A6%E4%BD%9C%E4%B8%BA%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F.md)
 - [真实性悖论（Authenticity Paradox）](%E7%9C%9F%E5%AE%9E%E6%80%A7%E6%82%96%E8%AE%BA.md)
+- [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
 - [致虚极守静笃（Zhi Xu Ji Shou Jing Du / Attain the Utmost Void, Guard the Firmest Stillness）](%E8%87%B4%E8%99%9A%E6%9E%81%E5%AE%88%E9%9D%99%E7%AC%83.md)
 - [重复强迫（Repetition Compulsion）](%E9%87%8D%E5%A4%8D%E5%BC%BA%E8%BF%AB.md)
 - [重新框定（Reframing）](%E9%87%8D%E6%96%B0%E6%A1%86%E5%AE%9A.md)
@@ -1338,7 +1351,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（152 个）
+### 制度（154 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1475,10 +1488,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [责任扩散（Diffusion of Responsibility）](%E8%B4%A3%E4%BB%BB%E6%89%A9%E6%95%A3.md)
 - [战略无知（Strategic Ignorance）](%E6%88%98%E7%95%A5%E6%97%A0%E7%9F%A5.md)
 - [战略性模糊（Strategic Ambiguity）](%E6%88%98%E7%95%A5%E6%80%A7%E6%A8%A1%E7%B3%8A.md)
+- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
 - [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识问题（Knowledge Problem）](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md)
 - [知识转化（SECI Model）](%E7%9F%A5%E8%AF%86%E8%BD%AC%E5%8C%96.md)
+- [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
 - [制度俘获（Regulatory Capture）](%E5%88%B6%E5%BA%A6%E4%BF%98%E8%8E%B7.md)
 - [制度逻辑（Institutional Logics）](%E5%88%B6%E5%BA%A6%E9%80%BB%E8%BE%91.md)
 - [制度神话（Institutional Myth）](%E5%88%B6%E5%BA%A6%E7%A5%9E%E8%AF%9D.md)
@@ -1698,7 +1713,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 自媒体（77 个）
+### 自媒体（78 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1774,6 +1789,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [议程设置（Agenda Setting）](%E8%AE%AE%E7%A8%8B%E8%AE%BE%E7%BD%AE.md)
 - [优先连接（Preferential Attachment）](%E4%BC%98%E5%85%88%E8%BF%9E%E6%8E%A5.md)
 - [有趣性（The Interesting）](%E6%9C%89%E8%B6%A3%E6%80%A7.md)
+- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
 - [真实性悖论（Authenticity Paradox）](%E7%9C%9F%E5%AE%9E%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
@@ -2037,7 +2053,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（205 个）
+### 决策（209 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2095,6 +2111,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [功能固着（Functional Fixedness）](%E5%8A%9F%E8%83%BD%E5%9B%BA%E7%9D%80.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
 - [共同信息效应（Shared Information Bias）](%E5%85%B1%E5%90%8C%E4%BF%A1%E6%81%AF%E6%95%88%E5%BA%94.md)
+- [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
 - [规范性解离（Normative Dissociation）](%E8%A7%84%E8%8C%83%E6%80%A7%E8%A7%A3%E7%A6%BB.md)
 - [规划谬误（Planning Fallacy）](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md)
@@ -2180,6 +2197,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [双重束缚（Double Bind）](%E5%8F%8C%E9%87%8D%E6%9D%9F%E7%BC%9A.md)
 - [双重效果原则（Doctrine of Double Effect）](%E5%8F%8C%E9%87%8D%E6%95%88%E6%9E%9C%E5%8E%9F%E5%88%99.md)
 - [睡眠者效应（Sleeper Effect）](%E7%9D%A1%E7%9C%A0%E8%80%85%E6%95%88%E5%BA%94.md)
+- [斯多葛（Stoicism）](%E6%96%AF%E5%A4%9A%E8%91%9B.md)
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
 - [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
 - [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
@@ -2230,11 +2248,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [晕轮效应（Halo Effect）](%E6%99%95%E8%BD%AE%E6%95%88%E5%BA%94.md)
 - [灾难正常化（Normalization of Deviance）](%E7%81%BE%E9%9A%BE%E6%AD%A3%E5%B8%B8%E5%8C%96.md)
 - [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
+- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
 - [证言问题（Problem of Testimony）](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
 - [知彼知己（Zhi Bi Zhi Ji / Know the Other, Know Yourself）](%E7%9F%A5%E5%BD%BC%E7%9F%A5%E5%B7%B1.md)
 - [知识半衰期（Knowledge Half-life）](%E7%9F%A5%E8%AF%86%E5%8D%8A%E8%A1%B0%E6%9C%9F.md)
 - [知识问题（Knowledge Problem）](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md)
 - [执两用中（Zhi Liang Yong Zhong / Holding Both Ends, Using the Middle）](%E6%89%A7%E4%B8%A4%E7%94%A8%E4%B8%AD.md)
+- [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
 - [智识谦逊（Intellectual Humility）](%E6%99%BA%E8%AF%86%E8%B0%A6%E9%80%8A.md)
 - [资源诅咒（Resource Curse）](%E8%B5%84%E6%BA%90%E8%AF%85%E5%92%92.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
@@ -2305,7 +2325,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 教育（53 个）
+### 教育（54 个）
 
 - [安全条件（Safety Condition）](%E5%AE%89%E5%85%A8%E6%9D%A1%E4%BB%B6.md)
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
@@ -2356,6 +2376,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [元认知（Metacognition）](%E5%85%83%E8%AE%A4%E7%9F%A5.md)
 - [早熟抽象（Premature Abstraction）](%E6%97%A9%E7%86%9F%E6%8A%BD%E8%B1%A1.md)
 - [哲学治疗（Therapeutic Philosophy）](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
+- [哲学作为生活方式（Philosophy as a Way of Life）](%E5%93%B2%E5%AD%A6%E4%BD%9C%E4%B8%BA%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F.md)
 - [知识沟（Knowledge Gap）](%E7%9F%A5%E8%AF%86%E6%B2%9F.md)
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
