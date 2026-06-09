@@ -86,6 +86,9 @@ def find_conservative_scholars(core_text: str, scholar_dict: dict, short_unsafe:
 
         if matched:
             tag_name = full_name if short in short_unsafe else short
+            # 安全检查：person 标签必须为中文，禁止英文/下划线格式
+            if re.search(r'[A-Za-z]', tag_name):
+                continue  # 跳过英文标签，不生成
             if tag_name not in found:
                 found.append(tag_name)
     return found

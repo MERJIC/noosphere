@@ -249,6 +249,17 @@ def check_file(
                         "fixable": False,
                     })
 
+        # 检查 person/ 标签是否为纯中文（禁止英文/下划线格式）
+        for tag in tags:
+            if tag.startswith("person/"):
+                val = tag[len("person/"):]
+                if re.search(r'[A-Za-z]', val):
+                    issues.append({
+                        "rule": "F03", "concept": concept_name,
+                        "msg": f"person/{val} 包含英文字符，标签值必须使用中文",
+                        "fixable": False,
+                    })
+
         # 检查独立的 discipline 字段（应放在 tags 里）
         if "discipline" in fm:
             issues.append({
