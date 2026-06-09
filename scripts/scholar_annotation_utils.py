@@ -72,7 +72,10 @@ def build_short_unsafe(scholar_dict: dict) -> Set[str]:
     for info in scholar_dict.values():
         short = info.get("short", info["full"])
         full = info["full"]
-        if not short or short == full or len(short) <= 1:
+        if not short or short == full:
+            continue
+        if len(short) <= 1:
+            unsafe.add(short)
             continue
         for other in full_names:
             if short in other and short != other:
