@@ -25,10 +25,26 @@ import re
 import sqlite3
 import subprocess
 import sys
-import sys
 import time
 from datetime import datetime, timezone
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
+# Scholar annotation
+try:
+    from scholar_tagger import annotate_file as annotate_scholar_file
+    from scholar_annotation_utils import (
+        load_scholar_dict,
+        build_short_unsafe,
+    )
+except ImportError:
+    annotate_scholar_file = None
+    load_scholar_dict = None
+    build_short_unsafe = None
 
 # ── 路径常量 ──────────────────────────────────────────────
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -154,6 +170,19 @@ def parse_tags(tags_value) -> dict:
         "apply": applies,
         "persons": persons,
     }
+
+
+_SCHOLAR_DICT = load_scholar_dict() if load_scholar_dict else {}
+_SHORT_UNSAFE = build_short_unsafe(_SCHOLAR_DICT) if build_short_unsafe and _SCHOLAR_DICT else set()
+
+
+def _annotate_scholars_if_needed(filepath: str) -> bool:
+    if not annotate_scholar_file or not _SCHOLAR_DICT:
+        return False
+    try:
+        return annotate_scholar_file(filepath, _SCHOLAR_DICT, _SHORT_UNSAFE)
+    except Exception:
+        return False
 
 
 # ══════════════════════════════════════════════════════════
@@ -509,6 +538,7 @@ def sync_full(conn: sqlite3.Connection) -> dict:
 
         scanned += 1
         try:
+            _annotate_scholars_if_needed(fpath)
             data = scan_one_file(fpath)
             if data:
                 upsert_concept(conn, data)
@@ -561,12 +591,14 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
             continue
         fpath = os.path.join(CONCEPT_DIR, fname)
         if os.path.isfile(fpath):
+            annotated = _annotate_scholars_if_needed(fpath)
             rel_path = os.path.relpath(fpath, LIB_ROOT)
             current_files[rel_path] = {
                 "fname": fname,
                 "name_cn": fname[:-3],
                 "mtime": os.path.getmtime(fpath),
                 "fpath": fpath,
+                "annotated": annotated,
             }
 
     # 分类
@@ -578,7 +610,7 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
         if fpath in db_files:
             db_mtime = db_files[fpath]["mtime"]
             cur_mtime = current_files[fpath]["mtime"]
-            if cur_mtime > db_mtime + 0.001:  # 浮点容差
+            if current_files[fpath].get("annotated") or cur_mtime > db_mtime + 0.001:  # 浮点容差
                 modified.add(fpath)
 
     to_process = added | modified
@@ -640,6 +672,7 @@ def sync_single(conn: sqlite3.Connection, concept_name: str) -> dict:
         return {"error": f"文件不存在: {filepath}"}
 
     try:
+        _annotate_scholars_if_needed(filepath)
         data = scan_one_file(filepath)
         if not data:
             return {"error": f"无法解析文件（可能缺少 frontmatter）: {filepath}"}
