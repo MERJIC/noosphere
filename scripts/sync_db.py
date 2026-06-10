@@ -434,6 +434,17 @@ def _refresh_json_index() -> dict:
         return {"ok": False, "reason": str(e)}
 
 
+def _refresh_index_person_section() -> dict:
+    """刷新 INDEX.md 中的 person 标签分组。"""
+    try:
+        from update_index_person_section import refresh_index_person_section
+        return refresh_index_person_section()
+    except ImportError:
+        return {"ok": False, "reason": "update_index_person_section 模块不存在"}
+    except Exception as e:
+        return {"ok": False, "reason": str(e)}
+
+
 def sync_full(conn: sqlite3.Connection) -> dict:
     """全量同步：扫描所有 .md 文件，重建整个数据库内容。"""
     start = time.time()
@@ -476,6 +487,7 @@ def sync_full(conn: sqlite3.Connection) -> dict:
 
     # 自动刷新 JSON 索引
     index_result = _refresh_json_index()
+    person_index_result = _refresh_index_person_section()
 
     elapsed = time.time() - start
 
@@ -489,6 +501,7 @@ def sync_full(conn: sqlite3.Connection) -> dict:
         "clusters": cluster_count,
         "elapsed": round(elapsed, 3),
         "index_refresh": index_result.get("ok", False),
+        "person_index_refresh": person_index_result.get("ok", False),
     }
 
 
@@ -568,6 +581,7 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
         index_result = _refresh_json_index()
     else:
         index_result = {"skipped": True}
+    person_index_result = _refresh_index_person_section()
 
     elapsed = time.time() - start
 
@@ -582,6 +596,7 @@ def sync_incremental(conn: sqlite3.Connection) -> dict:
         "clusters": cluster_count,
         "elapsed": round(elapsed, 3),
         "index_refresh": index_result.get("ok", index_result.get("skipped", False)),
+        "person_index_refresh": person_index_result.get("ok", False),
     }
 
 
@@ -605,6 +620,7 @@ def sync_single(conn: sqlite3.Connection, concept_name: str) -> dict:
 
         # 自动刷新 JSON 索引
         index_result = _refresh_json_index()
+        person_index_result = _refresh_index_person_section()
 
         return {
             "mode": "single",
@@ -612,6 +628,7 @@ def sync_single(conn: sqlite3.Connection, concept_name: str) -> dict:
             "id": concept_id,
             "elapsed": round(time.time() - start, 3),
             "index_refresh": index_result.get("ok", False),
+            "person_index_refresh": person_index_result.get("ok", False),
         }
     except Exception as e:
         return {"error": str(e)}
@@ -1471,6 +1488,10 @@ def _print_sync_result(result: dict) -> None:
 
     if result.get("clusters") is not None:
         print(f"  集群: {result['clusters']} 个")
+
+    if "person_index_refresh" in result:
+        status = "完成" if result["person_index_refresh"] else "失败"
+        print(f"  人物索引: {status}")
 
     if result.get("errors", 0) > 0:
         print(f"\n⚠ {result['errors']} 个错误:")
