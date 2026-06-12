@@ -12,6 +12,9 @@ skills/
 scripts/
 scripts_backup_*/
 
+# 索引 / 缓存（本地生成，不入库）
+memory/
+
 # 产出物
 output/
 roundtable/
