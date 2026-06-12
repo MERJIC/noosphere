@@ -1,8 +1,41 @@
-conversations/
+# Noosphere — 只跟踪概念页
+
+# 概念页（唯一跟踪的目录）
+# 概念页/
+# INDEX.md
+# README.md
+# LICENSE
+# .gitignore
+
+# 工具 / Skill
+skills/
+scripts/
+scripts_backup_*/
+
+# 产出物
+output/
+roundtable/
+projects/
+social-card-incomprehensibility/
+
+# 项目配置（个人使用）
 .codepilot-uploads/
 .claude/
+.codex/
+.rtk/
+AGENTS.md
+CLAUDE.md
+MEMORY.md
+rtk-readme.md
+
+# Obsidian
 .obsidian/
 **/.obsidian/
-memory/
-CLAUDE.md
+
+# 对话记录
+conversations/
+
+# 系统
 .DS_Store
+__pycache__/
+node_modules/
