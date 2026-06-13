@@ -2394,20 +2394,34 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ### 维特根斯坦（6 个）
 
-- [规则遵循悖论（Rule-Following Paradox）](%E8%A7%84%E5%88%99%E9%81%B5%E5%BE%AA%E6%82%96%E8%AE%BA.md)
-- [家族相似（Familienähnlichkeit）](%E5%AE%B6%E6%97%8F%E7%9B%B8%E4%BC%BC.md)
-- [铰链命题（Hinge Proposition）](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md)
-- [私人语言论证（Private Language Argument）](%E7%A7%81%E4%BA%BA%E8%AF%AD%E8%A8%80%E8%AE%BA%E8%AF%81.md)
 - [图画理论（Picture Theory）](%E5%9B%BE%E7%94%BB%E7%90%86%E8%AE%BA.md)
+- [家族相似（Familienähnlichkeit）](%E5%AE%B6%E6%97%8F%E7%9B%B8%E4%BC%BC.md)
+- [私人语言论证（Private Language Argument）](%E7%A7%81%E4%BA%BA%E8%AF%AD%E8%A8%80%E8%AE%BA%E8%AF%81.md)
+- [规则遵循悖论（Rule-Following Paradox）](%E8%A7%84%E5%88%99%E9%81%B5%E5%BE%AA%E6%82%96%E8%AE%BA.md)
 - [语言游戏（Language Game）](%E8%AF%AD%E8%A8%80%E6%B8%B8%E6%88%8F.md)
+- [铰链命题（Hinge Proposition）](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md)
 
 ### 福柯（5 个）
 
-- [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [倦怠社会（Müdigkeitsgesellschaft / Burn-out Society）](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+- [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [异托邦（Heterotopia）](%E5%BC%82%E6%89%98%E9%82%A6.md)
-- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
 - [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
+- [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
+
+### 亚里士多德（4 个）
+
+- [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [时机（Kairos）](%E6%97%B6%E6%9C%BA.md)
+- [第一性原理（First Principles Thinking）](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
+- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
+
+### 卡尼曼（4 个）
+
+- [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
+- [属性替换（Attribute Substitution）](%E5%B1%9E%E6%80%A7%E6%9B%BF%E6%8D%A2.md)
+- [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
+- [规划谬误（Planning Fallacy）](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md)
 
 ### 布迪厄（4 个）
 
@@ -2416,128 +2430,140 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [文化资本（Cultural Capital）](%E6%96%87%E5%8C%96%E8%B5%84%E6%9C%AC.md)
 - [象征性暴力（Symbolic Violence）](%E8%B1%A1%E5%BE%81%E6%80%A7%E6%9A%B4%E5%8A%9B.md)
 
-### 卡尼曼（4 个）
-
-- [规划谬误（Planning Fallacy）](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md)
-- [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
-- [属性替换（Attribute Substitution）](%E5%B1%9E%E6%80%A7%E6%9B%BF%E6%8D%A2.md)
-- [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
-
-### 亚里士多德（4 个）
-
-- [布里丹之驴（Buridan's Ass）](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
-- [第一性原理（First Principles Thinking）](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
-- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
-- [时机（Kairos）](%E6%97%B6%E6%9C%BA.md)
-
-### 海德格尔（3 个）
-
-- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
-- [抛入性（Geworfenheit）](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
-- [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
-
-### 胡塞尔（3 个）
-
-- [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
-- [间性（Intersubjectivity）](%E9%97%B4%E6%80%A7.md)
-- [现象学还原（Phenomenological Reduction）](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md)
-
 ### 列维纳斯（3 个）
 
+- [他者性（Alterität）](%E4%BB%96%E8%80%85%E6%80%A7.md)
 - [伦理作为第一哲学（Ethics as First Philosophy）](%E4%BC%A6%E7%90%86%E4%BD%9C%E4%B8%BA%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%A6.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
-- [他者性（Alterität）](%E4%BB%96%E8%80%85%E6%80%A7.md)
 
-### 特沃斯基（3 个）
-
-- [规划谬误（Planning Fallacy）](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md)
-- [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
-- [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
-
-### 爱森斯坦（2 个）
-
-- [电影眼睛（Kino-Eye）](%E7%94%B5%E5%BD%B1%E7%9C%BC%E7%9D%9B.md)
-- [蒙太奇（Montage）](%E8%92%99%E5%A4%AA%E5%A5%87.md)
-
-### 巴特勒（2 个）
-
-- [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
-- [身体政治（Body Politics）](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
-
-### 班杜拉（2 个）
-
-- [道德分离（Moral Disengagement）](%E9%81%93%E5%BE%B7%E5%88%86%E7%A6%BB.md)
-- [自我效能感（Self-Efficacy）](%E8%87%AA%E6%88%91%E6%95%88%E8%83%BD%E6%84%9F.md)
-
-### 查尔莫斯（2 个）
-
-- [认知卸载（Cognitive Offloading）](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md)
-- [延展心智（Extended Mind）](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md)
-
-### 戴维森（2 个）
+### 戴维森（3 个）
 
 - [宽容原则（Principle of Charity）](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md)
 - [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
+- [第三人效果（Third-Person Effect）](%E7%AC%AC%E4%B8%89%E4%BA%BA%E6%95%88%E6%9E%9C.md)
 
-### 德勒兹（2 个）
+### 海德格尔（3 个）
 
-- [时间-影像（l'image-temps）](%E6%97%B6%E9%97%B4-%E5%BD%B1%E5%83%8F.md)
-- [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
+- [抛入性（Geworfenheit）](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
+- [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
+- [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
 
-### 蒂斯（2 个）
+### 特沃斯基（3 个）
 
-- [动态能力（Dynamic Capabilities）](%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B.md)
-- [互补资产（Complementary Assets）](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md)
+- [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
+- [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
+- [规划谬误（Planning Fallacy）](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md)
 
-### 弗里克（2 个）
+### 胡塞尔（3 个）
 
-- [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
-- [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
-
-### 弗洛伊德（2 个）
-
-- [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
-- [重复强迫（Repetition Compulsion）](%E9%87%8D%E5%A4%8D%E5%BC%BA%E8%BF%AB.md)
-
-### 哈拉维（2 个）
-
-- [赛博格（Cyborg）](%E8%B5%9B%E5%8D%9A%E6%A0%BC.md)
-- [赛博格叙事（Cyborg Narratology）](%E8%B5%9B%E5%8D%9A%E6%A0%BC%E5%8F%99%E4%BA%8B.md)
-
-### 赫伯特·西蒙（2 个）
-
-- [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
-- [有限理性（Bounded Rationality）](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md)
-
-### 卡尔·韦克（2 个）
-
-- [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
-- [意义建构（Sensemaking）](%E6%84%8F%E4%B9%89%E5%BB%BA%E6%9E%84.md)
-
-### 科恩（2 个）
-
-- [道德恐慌（Moral Panic）](%E9%81%93%E5%BE%B7%E6%81%90%E6%85%8C.md)
-- [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
+- [现象学还原（Phenomenological Reduction）](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md)
+- [被动综合（Passive Synthesis）](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
+- [间性（Intersubjectivity）](%E9%97%B4%E6%80%A7.md)
 
 ### 克拉克（2 个）
 
-- [认知卸载（Cognitive Offloading）](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md)
 - [延展心智（Extended Mind）](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md)
+- [认知卸载（Cognitive Offloading）](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md)
 
 ### 克里斯蒂娃（2 个）
 
 - [互文性（Intertextuality）](%E4%BA%92%E6%96%87%E6%80%A7.md)
 - [贱斥（Abjection）](%E8%B4%B1%E6%96%A5.md)
 
-### 赖尔（2 个）
+### 卡尔·韦克（2 个）
 
-- [范畴错误（Category Mistake）](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md)
-- [实践知识（Knowing-How）](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+- [意义建构（Sensemaking）](%E6%84%8F%E4%B9%89%E5%BB%BA%E6%9E%84.md)
+- [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
+
+### 哈拉维（2 个）
+
+- [赛博格叙事（Cyborg Narratology）](%E8%B5%9B%E5%8D%9A%E6%A0%BC%E5%8F%99%E4%BA%8B.md)
+- [赛博格（Cyborg）](%E8%B5%9B%E5%8D%9A%E6%A0%BC.md)
+
+### 塔勒布（2 个）
+
+- [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
+- [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
+
+### 威廉斯（2 个）
+
+- [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
+- [道德残余（Moral Remainder）](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
+
+### 巴特勒（2 个）
+
+- [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
+- [身体政治（Body Politics）](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
+
+### 弗洛伊德（2 个）
+
+- [重复强迫（Repetition Compulsion）](%E9%87%8D%E5%A4%8D%E5%BC%BA%E8%BF%AB.md)
+- [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
+
+### 弗里克（2 个）
+
+- [证言不正义（Testimonial Injustice）](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+
+### 德勒兹（2 个）
+
+- [时间-影像（l'image-temps）](%E6%97%B6%E9%97%B4-%E5%BD%B1%E5%83%8F.md)
+- [运动-影像（l'image-mouvement）](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
 
 ### 李嘉图（2 个）
 
-- [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
 - [李嘉图等价（Ricardian Equivalence）](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md)
+- [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
+
+### 查尔莫斯（2 个）
+
+- [延展心智（Extended Mind）](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md)
+- [认知卸载（Cognitive Offloading）](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md)
+
+### 温格（2 个）
+
+- [实践社区（Communities of Practice）](%E5%AE%9E%E8%B7%B5%E7%A4%BE%E5%8C%BA.md)
+- [情境学习（Situated Learning）](%E6%83%85%E5%A2%83%E5%AD%A6%E4%B9%A0.md)
+
+### 爱森斯坦（2 个）
+
+- [电影眼睛（Kino-Eye）](%E7%94%B5%E5%BD%B1%E7%9C%BC%E7%9D%9B.md)
+- [蒙太奇（Montage）](%E8%92%99%E5%A4%AA%E5%A5%87.md)
+
+### 班杜拉（2 个）
+
+- [自我效能感（Self-Efficacy）](%E8%87%AA%E6%88%91%E6%95%88%E8%83%BD%E6%84%9F.md)
+- [道德分离（Moral Disengagement）](%E9%81%93%E5%BE%B7%E5%88%86%E7%A6%BB.md)
+
+### 科恩（2 个）
+
+- [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
+- [道德恐慌（Moral Panic）](%E9%81%93%E5%BE%B7%E6%81%90%E6%85%8C.md)
+
+### 蒂斯（2 个）
+
+- [互补资产（Complementary Assets）](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md)
+- [动态能力（Dynamic Capabilities）](%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B.md)
+
+### 西蒙（2 个）
+
+- [有限理性（Bounded Rationality）](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md)
+- [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
+
+### 赖尔（2 个）
+
+- [实践知识（Knowing-How）](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+- [范畴错误（Category Mistake）](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md)
+
+### 赫伯特·西蒙（2 个）
+
+- [有限理性（Bounded Rationality）](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md)
+- [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
+
+### 韦克（2 个）
+
+- [意义建构（Sensemaking）](%E6%84%8F%E4%B9%89%E5%BB%BA%E6%9E%84.md)
+- [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
 
 ### 默顿（2 个）
 
@@ -2549,50 +2575,129 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [秘密的社会学（Sociology of Secrets）](%E7%A7%98%E5%AF%86%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6.md)
 - [齐美尔纽带（Simmelian Ties）](%E9%BD%90%E7%BE%8E%E5%B0%94%E7%BA%BD%E5%B8%A6.md)
 
-### 塔勒布（2 个）
+### 亨德森（1 个）
 
-- [反脆弱（Antifragility）](%E5%8F%8D%E8%84%86%E5%BC%B1.md)
-- [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
+- [经验曲线效应（Experience Curve Effect）](%E7%BB%8F%E9%AA%8C%E6%9B%B2%E7%BA%BF%E6%95%88%E5%BA%94.md)
 
-### 威廉斯（2 个）
+### 休谟（1 个）
 
-- [道德残余（Moral Remainder）](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
-- [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
+- [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
 
-### 韦克（2 个）
+### 伽达默尔（1 个）
 
-- [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
-- [意义建构（Sensemaking）](%E6%84%8F%E4%B9%89%E5%BB%BA%E6%9E%84.md)
+- [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
 
-### 温格（2 个）
-
-- [情境学习（Situated Learning）](%E6%83%85%E5%A2%83%E5%AD%A6%E4%B9%A0.md)
-- [实践社区（Communities of Practice）](%E5%AE%9E%E8%B7%B5%E7%A4%BE%E5%8C%BA.md)
-
-### 西蒙（2 个）
-
-- [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
-- [有限理性（Bounded Rationality）](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md)
-
-### 阿伦特（1 个）
-
-- [平庸之恶（Banality of Evil）](%E5%B9%B3%E5%BA%B8%E4%B9%8B%E6%81%B6.md)
-
-### 艾德蒙森（1 个）
-
-- [心理安全感（Psychological Safety）](%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F.md)
-
-### 艾利克森（1 个）
-
-- [刻意练习（Deliberate Practice）](%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0.md)
-
-### 艾姆斯（1 个）
+### 克朗斯（1 个）
 
 - [冒名顶替综合征（Impostor Syndrome）](%E5%86%92%E5%90%8D%E9%A1%B6%E6%9B%BF%E7%BB%BC%E5%90%88%E5%BE%81.md)
+
+### 克莱·约翰逊（1 个）
+
+- [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
+
+### 克里斯坦森（1 个）
+
+- [创新者窘境（Innovator's Dilemma）](%E5%88%9B%E6%96%B0%E8%80%85%E7%AA%98%E5%A2%83.md)
+
+### 克里普克（1 个）
+
+- [规则遵循悖论（Rule-Following Paradox）](%E8%A7%84%E5%88%99%E9%81%B5%E5%BE%AA%E6%82%96%E8%AE%BA.md)
+
+### 克鲁格（1 个）
+
+- [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
+
+### 克鲁格兰斯基（1 个）
+
+- [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
+
+### 冯内古特（1 个）
+
+- [元小说（Metafiction）](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
+
+### 凯文·斯科尔斯（1 个）
+
+- [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
+
+### 利奥塔（1 个）
+
+- [元小说（Metafiction）](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
+
+### 利科（1 个）
+
+- [叙事同一性（Narrative Identity）](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md)
+
+### 加库马（1 个）
+
+- [平台包络（Platform Envelopment）](%E5%B9%B3%E5%8F%B0%E5%8C%85%E7%BB%9C.md)
+
+### 加里·克莱因（1 个）
+
+- [事前验尸（Pre-mortem）](%E4%BA%8B%E5%89%8D%E9%AA%8C%E5%B0%B8.md)
+
+### 勒温（1 个）
+
+- [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
+
+### 古尔德（1 个）
+
+- [外适应（Exaptation）](%E5%A4%96%E9%80%82%E5%BA%94.md)
+
+### 吉姆·柯林斯（1 个）
+
+- [飞轮效应（Flywheel Effect）](%E9%A3%9E%E8%BD%AE%E6%95%88%E5%BA%94.md)
+
+### 哈耶克（1 个）
+
+- [知识问题（Knowledge Problem）](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md)
+
+### 唐纳德·坎贝尔（1 个）
+
+- [坎贝尔定律（Campbell's Law）](%E5%9D%8E%E8%B4%9D%E5%B0%94%E5%AE%9A%E5%BE%8B.md)
+
+### 图灵（1 个）
+
+- [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
+
+### 坎宁安（1 个）
+
+- [技术债务（Technical Debt）](%E6%8A%80%E6%9C%AF%E5%80%BA%E5%8A%A1.md)
+
+### 基伯格（1 个）
+
+- [彩票悖论（Lottery paradox）](%E5%BD%A9%E7%A5%A8%E6%82%96%E8%AE%BA.md)
+
+### 夏皮罗（1 个）
+
+- [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
+
+### 多尔西（1 个）
+
+- [经济护城河（Economic Moat）](%E7%BB%8F%E6%B5%8E%E6%8A%A4%E5%9F%8E%E6%B2%B3.md)
+
+### 大卫·曼宁·怀特（1 个）
+
+- [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
+
+### 契克森米哈赖（1 个）
+
+- [心流（Flow）](%E5%BF%83%E6%B5%81.md)
 
 ### 奥斯特罗姆（1 个）
 
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
+
+### 威尔逊（1 个）
+
+- [情感预测失误（Affective Forecasting）](%E6%83%85%E6%84%9F%E9%A2%84%E6%B5%8B%E5%A4%B1%E8%AF%AF.md)
+
+### 孟子（1 个）
+
+- [性本善（Innate Goodness of Human Nature）](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+
+### 密尔（1 个）
+
+- [亲缘选择（Kin Selection）](%E4%BA%B2%E7%BC%98%E9%80%89%E6%8B%A9.md)
 
 ### 巴尔斯（1 个）
 
@@ -2606,137 +2711,33 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [蒙太奇（Montage）](%E8%92%99%E5%A4%AA%E5%A5%87.md)
 
-### 鲍德里亚（1 个）
-
-- [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
-
-### 贝姆（1 个）
-
-- [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
-
-### 本居宣长（1 个）
-
-- [物哀（Mono no Aware）](%E7%89%A9%E5%93%80.md)
-
-### 波兰尼（1 个）
-
-- [隐性知识（Tacit Knowledge）](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md)
-
-### 波普尔（1 个）
-
-- [容忍的悖论（Paradox of Tolerance）](%E5%AE%B9%E5%BF%8D%E7%9A%84%E6%82%96%E8%AE%BA.md)
-
-### 波特（1 个）
-
-- [竞合（Coopetition）](%E7%AB%9E%E5%90%88.md)
-
 ### 布兰登伯格（1 个）
 
 - [竞合（Coopetition）](%E7%AB%9E%E5%90%88.md)
 
-### 大卫·曼宁·怀特（1 个）
+### 希翁（1 个）
 
-- [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
+- [声音景观（Soundscape）](%E5%A3%B0%E9%9F%B3%E6%99%AF%E8%A7%82.md)
 
-### 道金斯（1 个）
+### 帕累托（1 个）
 
-- [模因（Meme / Cultural Replicator）](%E6%A8%A1%E5%9B%A0.md)
+- [帕累托最优（Pareto Optimality）](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
 
-### 德波（1 个）
+### 帕菲特（1 个）
 
-- [景观社会（Society of the Spectacle）](%E6%99%AF%E8%A7%82%E7%A4%BE%E4%BC%9A.md)
+- [非同一性问题（Non-Identity Problem）](%E9%9D%9E%E5%90%8C%E4%B8%80%E6%80%A7%E9%97%AE%E9%A2%98.md)
 
-### 邓宁（1 个）
+### 席勒（1 个）
 
-- [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
+- [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
 
-### 笛卡尔（1 个）
+### 库恩（1 个）
 
-- [范畴错误（Category Mistake）](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md)
+- [范式转换（Paradigm Shift）](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
 
-### 多尔西（1 个）
-
-- [经济护城河（Economic Moat）](%E7%BB%8F%E6%B5%8E%E6%8A%A4%E5%9F%8E%E6%B2%B3.md)
-
-### 法农（1 个）
-
-- [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
-
-### 冯内古特（1 个）
-
-- [元小说（Metafiction）](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
-
-### 弗里斯顿（1 个）
-
-- [预测编码（Predictive Coding）](%E9%A2%84%E6%B5%8B%E7%BC%96%E7%A0%81.md)
-
-### 戈夫曼（1 个）
-
-- [角色距离（Role Distance）](%E8%A7%92%E8%89%B2%E8%B7%9D%E7%A6%BB.md)
-
-### 格林里夫（1 个）
-
-- [服务型领导（Servant Leadership）](%E6%9C%8D%E5%8A%A1%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
-
-### 葛兰西（1 个）
-
-- [文化霸权（Cultural Hegemony）](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
-
-### 古尔德（1 个）
-
-- [外适应（Exaptation）](%E5%A4%96%E9%80%82%E5%BA%94.md)
-
-### 哈耶克（1 个）
-
-- [知识问题（Knowledge Problem）](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md)
-
-### 韩炳哲（1 个）
-
-- [倦怠社会（Müdigkeitsgesellschaft / Burn-out Society）](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
-
-### 亨德森（1 个）
-
-- [经验曲线效应（Experience Curve Effect）](%E7%BB%8F%E9%AA%8C%E6%9B%B2%E7%BA%BF%E6%95%88%E5%BA%94.md)
-
-### 基伯格（1 个）
-
-- [彩票悖论（Lottery paradox）](%E5%BD%A9%E7%A5%A8%E6%82%96%E8%AE%BA.md)
-
-### 吉姆·柯林斯（1 个）
-
-- [飞轮效应（Flywheel Effect）](%E9%A3%9E%E8%BD%AE%E6%95%88%E5%BA%94.md)
-
-### 加库马（1 个）
+### 库斯马诺（1 个）
 
 - [平台包络（Platform Envelopment）](%E5%B9%B3%E5%8F%B0%E5%8C%85%E7%BB%9C.md)
-
-### 加里·克莱因（1 个）
-
-- [事前验尸（Pre-mortem）](%E4%BA%8B%E5%89%8D%E9%AA%8C%E5%B0%B8.md)
-
-### 伽达默尔（1 个）
-
-- [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
-
-### 贾斯汀·克鲁格（1 个）
-
-- [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
-
-### 杰里·约翰逊（1 个）
-
-- [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
-
-### 杰森·斯坦利（1 个）
-
-- [杰文斯悖论（Jevons Paradox）](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
-
-### 凯文·斯科尔斯（1 个）
-
-- [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
-
-### 坎宁安（1 个）
-
-- [技术债务（Technical Debt）](%E6%8A%80%E6%9C%AF%E5%80%BA%E5%8A%A1.md)
 
 ### 康德（1 个）
 
@@ -2746,41 +2747,21 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [防御性悲观（Defensive Pessimism）](%E9%98%B2%E5%BE%A1%E6%80%A7%E6%82%B2%E8%A7%82.md)
 
-### 科斯（1 个）
+### 弗里斯顿（1 个）
 
-- [交易成本（Transaction Cost）](%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC.md)
+- [预测编码（Predictive Coding）](%E9%A2%84%E6%B5%8B%E7%BC%96%E7%A0%81.md)
 
-### 克莱·约翰逊（1 个）
+### 德波（1 个）
 
-- [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
+- [景观社会（Society of the Spectacle）](%E6%99%AF%E8%A7%82%E7%A4%BE%E4%BC%9A.md)
 
-### 克朗斯（1 个）
+### 戈夫曼（1 个）
 
-- [冒名顶替综合征（Impostor Syndrome）](%E5%86%92%E5%90%8D%E9%A1%B6%E6%9B%BF%E7%BB%BC%E5%90%88%E5%BE%81.md)
+- [角色距离（Role Distance）](%E8%A7%92%E8%89%B2%E8%B7%9D%E7%A6%BB.md)
 
-### 克里普克（1 个）
+### 扎哈维（1 个）
 
-- [规则遵循悖论（Rule-Following Paradox）](%E8%A7%84%E5%88%99%E9%81%B5%E5%BE%AA%E6%82%96%E8%AE%BA.md)
-
-### 克里斯坦森（1 个）
-
-- [创新者窘境（Innovator's Dilemma）](%E5%88%9B%E6%96%B0%E8%80%85%E7%AA%98%E5%A2%83.md)
-
-### 克鲁格（1 个）
-
-- [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
-
-### 克鲁格兰斯基（1 个）
-
-- [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
-
-### 库恩（1 个）
-
-- [范式转换（Paradigm Shift）](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
-
-### 库斯马诺（1 个）
-
-- [平台包络（Platform Envelopment）](%E5%B9%B3%E5%8F%B0%E5%8C%85%E7%BB%9C.md)
+- [不利条件原理（Handicap Principle）](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md)
 
 ### 拉夫（1 个）
 
@@ -2794,113 +2775,37 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [通感（Synesthesia）](%E9%80%9A%E6%84%9F.md)
 
-### 莱布尼茨（1 个）
-
-- [不可辨别者同一性（Identity of Indiscernibles）](%E4%B8%8D%E5%8F%AF%E8%BE%A8%E5%88%AB%E8%80%85%E5%90%8C%E4%B8%80%E6%80%A7.md)
-
-### 莱考夫（1 个）
-
-- [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
-
-### 勒温（1 个）
-
-- [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
-
-### 李普曼（1 个）
-
-- [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
-
-### 理查德·罗尔（1 个）
-
-- [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
-
-### 利奥塔（1 个）
-
-- [元小说（Metafiction）](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
-
-### 利科（1 个）
-
-- [叙事同一性（Narrative Identity）](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md)
-
-### 鲁宾（1 个）
-
-- [图形与背景（Figure-Ground）](%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%83%8C%E6%99%AF.md)
-
-### 路桑斯（1 个）
-
-- [心理资本（Psychological Capital）](%E5%BF%83%E7%90%86%E8%B5%84%E6%9C%AC.md)
-
-### 罗尔（1 个）
-
-- [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
-
-### 罗杰斯（1 个）
-
-- [创新扩散（Diffusion of Innovations）](%E5%88%9B%E6%96%B0%E6%89%A9%E6%95%A3.md)
-
-### 洛克（1 个）
-
-- [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
-
-### 马克·约翰逊（1 个）
-
-- [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
-
-### 马奇（1 个）
-
-- [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
-
-### 迈尔斯（1 个）
+### 斯图尔特·迈尔斯（1 个）
 
 - [实物期权（Real Options）](%E5%AE%9E%E7%89%A9%E6%9C%9F%E6%9D%83.md)
-
-### 迈克尔·波兰尼（1 个）
-
-- [隐性知识（Tacit Knowledge）](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md)
-
-### 孟子（1 个）
-
-- [性本善（Innate Goodness of Human Nature）](%E6%80%A7%E6%9C%AC%E5%96%84.md)
-
-### 密尔（1 个）
-
-- [亲缘选择（Kin Selection）](%E4%BA%B2%E7%BC%98%E9%80%89%E6%8B%A9.md)
-
-### 莫维尔（1 个）
-
-- [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
-
-### 穆尔维（1 个）
-
-- [男性凝视（Male Gaze）](%E7%94%B7%E6%80%A7%E5%87%9D%E8%A7%86.md)
-
-### 纳尔巴夫（1 个）
-
-- [竞合（Coopetition）](%E7%AB%9E%E5%90%88.md)
-
-### 诺齐克（1 个）
-
-- [体验机（Experience Machine）](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
-
-### 帕菲特（1 个）
-
-- [非同一性问题（Non-Identity Problem）](%E9%9D%9E%E5%90%8C%E4%B8%80%E6%80%A7%E9%97%AE%E9%A2%98.md)
-
-### 帕累托（1 个）
-
-- [帕累托最优（Pareto Optimality）](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
-
-### 普罗克特（1 个）
-
-- [无知学（Agnotology）](%E6%97%A0%E7%9F%A5%E5%AD%A6.md)
 
 ### 普特南（1 个）
 
 - [语义外在主义（Semantic Externalism）](%E8%AF%AD%E4%B9%89%E5%A4%96%E5%9C%A8%E4%B8%BB%E4%B9%89.md)
 
-### 契克森米哈赖（1 个）
+### 普罗克特（1 个）
 
-- [心流（Flow）](%E5%BF%83%E6%B5%81.md)
+- [无知学（Agnotology）](%E6%97%A0%E7%9F%A5%E5%AD%A6.md)
+
+### 本居宣长（1 个）
+
+- [物哀（Mono no Aware）](%E7%89%A9%E5%93%80.md)
+
+### 李普曼（1 个）
+
+- [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
+
+### 杰森·斯坦利（1 个）
+
+- [杰文斯悖论（Jevons Paradox）](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
+
+### 杰里·约翰逊（1 个）
+
+- [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
+
+### 格林里夫（1 个）
+
+- [服务型领导（Servant Leadership）](%E6%9C%8D%E5%8A%A1%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
 
 ### 桑代克（1 个）
 
@@ -2910,33 +2815,77 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
 
-### 斯图尔特·迈尔斯（1 个）
+### 沃尔曼（1 个）
 
-- [实物期权（Real Options）](%E5%AE%9E%E7%89%A9%E6%9C%9F%E6%9D%83.md)
+- [信息架构（Information Architecture）](%E4%BF%A1%E6%81%AF%E6%9E%B6%E6%9E%84.md)
 
-### 唐纳德·坎贝尔（1 个）
+### 沃恩（1 个）
 
-- [坎贝尔定律（Campbell's Law）](%E5%9D%8E%E8%B4%9D%E5%B0%94%E5%AE%9A%E5%BE%8B.md)
+- [灾难正常化（Normalization of Deviance）](%E7%81%BE%E9%9A%BE%E6%AD%A3%E5%B8%B8%E5%8C%96.md)
 
-### 图灵（1 个）
+### 法农（1 个）
 
-- [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
+- [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
+
+### 波兰尼（1 个）
+
+- [隐性知识（Tacit Knowledge）](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md)
+
+### 波普尔（1 个）
+
+- [容忍的悖论（Paradox of Tolerance）](%E5%AE%B9%E5%BF%8D%E7%9A%84%E6%82%96%E8%AE%BA.md)
+
+### 波特（1 个）
+
+- [竞合（Coopetition）](%E7%AB%9E%E5%90%88.md)
+
+### 洛克（1 个）
+
+- [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
 
 ### 涂尔干（1 个）
 
 - [集体欢腾（Collective Effervescence）](%E9%9B%86%E4%BD%93%E6%AC%A2%E8%85%BE.md)
 
+### 熊彼特（1 个）
+
+- [创意破坏（Creative Destruction）](%E5%88%9B%E6%84%8F%E7%A0%B4%E5%9D%8F.md)
+
+### 理查德·罗尔（1 个）
+
+- [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
+
 ### 瓦里安（1 个）
 
 - [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
 
-### 韦伯（1 个）
+### 科斯（1 个）
 
-- [制度同形（Institutional Isomorphism）](%E5%88%B6%E5%BA%A6%E5%90%8C%E5%BD%A2.md)
+- [交易成本（Transaction Cost）](%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC.md)
 
-### 韦恩·布斯（1 个）
+### 穆尔维（1 个）
 
-- [隐含作者（Implied Author）](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md)
+- [男性凝视（Male Gaze）](%E7%94%B7%E6%80%A7%E5%87%9D%E8%A7%86.md)
+
+### 竹内（1 个）
+
+- [知识转化（SECI Model）](%E7%9F%A5%E8%AF%86%E8%BD%AC%E5%8C%96.md)
+
+### 笛卡尔（1 个）
+
+- [范畴错误（Category Mistake）](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md)
+
+### 约瑟夫·坎贝尔（1 个）
+
+- [英雄之旅（Hero's Journey）](%E8%8B%B1%E9%9B%84%E4%B9%8B%E6%97%85.md)
+
+### 约翰·塞尔（1 个）
+
+- [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
+
+### 纳尔巴夫（1 个）
+
+- [竞合（Coopetition）](%E7%AB%9E%E5%90%88.md)
 
 ### 维尔托夫（1 个）
 
@@ -2946,54 +2895,1151 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 沃恩（1 个）
+### 罗尔（1 个）
 
-- [灾难正常化（Normalization of Deviance）](%E7%81%BE%E9%9A%BE%E6%AD%A3%E5%B8%B8%E5%8C%96.md)
+- [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 
-### 沃尔曼（1 个）
+### 罗杰斯（1 个）
 
-- [信息架构（Information Architecture）](%E4%BF%A1%E6%81%AF%E6%9E%B6%E6%9E%84.md)
+- [创新扩散（Diffusion of Innovations）](%E5%88%9B%E6%96%B0%E6%89%A9%E6%95%A3.md)
 
-### 希翁（1 个）
+### 艾利克森（1 个）
 
-- [声音景观（Soundscape）](%E5%A3%B0%E9%9F%B3%E6%99%AF%E8%A7%82.md)
+- [刻意练习（Deliberate Practice）](%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0.md)
 
-### 席勒（1 个）
+### 艾姆斯（1 个）
 
-- [游戏冲动（Spieltrieb）](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
+- [冒名顶替综合征（Impostor Syndrome）](%E5%86%92%E5%90%8D%E9%A1%B6%E6%9B%BF%E7%BB%BC%E5%90%88%E5%BE%81.md)
 
-### 夏皮罗（1 个）
+### 艾德蒙森（1 个）
 
-- [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
+- [心理安全感（Psychological Safety）](%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F.md)
+
+### 莫维尔（1 个）
+
+- [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
+
+### 莱布尼茨（1 个）
+
+- [不可辨别者同一性（Identity of Indiscernibles）](%E4%B8%8D%E5%8F%AF%E8%BE%A8%E5%88%AB%E8%80%85%E5%90%8C%E4%B8%80%E6%80%A7.md)
+
+### 莱考夫（1 个）
+
+- [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
+
+### 葛兰西（1 个）
+
+- [文化霸权（Cultural Hegemony）](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
+
+### 诺齐克（1 个）
+
+- [体验机（Experience Machine）](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
 
 ### 谢弗（1 个）
 
 - [声音景观（Soundscape）](%E5%A3%B0%E9%9F%B3%E6%99%AF%E8%A7%82.md)
 
-### 熊彼特（1 个）
+### 贝姆（1 个）
 
-- [创意破坏（Creative Destruction）](%E5%88%9B%E6%84%8F%E7%A0%B4%E5%9D%8F.md)
+- [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 
-### 休谟（1 个）
+### 贾斯汀·克鲁格（1 个）
 
-- [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
+- [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
+
+### 路桑斯（1 个）
+
+- [心理资本（Psychological Capital）](%E5%BF%83%E7%90%86%E8%B5%84%E6%9C%AC.md)
+
+### 迈克尔·波兰尼（1 个）
+
+- [隐性知识（Tacit Knowledge）](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md)
+
+### 迈尔斯（1 个）
+
+- [实物期权（Real Options）](%E5%AE%9E%E7%89%A9%E6%9C%9F%E6%9D%83.md)
+
+### 道金斯（1 个）
+
+- [模因（Meme / Cultural Replicator）](%E6%A8%A1%E5%9B%A0.md)
+
+### 邓宁（1 个）
+
+- [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
 
 ### 野中（1 个）
 
 - [知识转化（SECI Model）](%E7%9F%A5%E8%AF%86%E8%BD%AC%E5%8C%96.md)
 
-### 约翰·塞尔（1 个）
+### 阿伦特（1 个）
 
-- [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
+- [平庸之恶（Banality of Evil）](%E5%B9%B3%E5%BA%B8%E4%B9%8B%E6%81%B6.md)
 
-### 约瑟夫·坎贝尔（1 个）
+### 韦伯（1 个）
 
-- [英雄之旅（Hero's Journey）](%E8%8B%B1%E9%9B%84%E4%B9%8B%E6%97%85.md)
+- [制度同形（Institutional Isomorphism）](%E5%88%B6%E5%BA%A6%E5%90%8C%E5%BD%A2.md)
 
-### 扎哈维（1 个）
+### 韦恩·布斯（1 个）
 
-- [不利条件原理（Handicap Principle）](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md)
+- [隐含作者（Implied Author）](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md)
 
-### 竹内（1 个）
+### 韩炳哲（1 个）
 
-- [知识转化（SECI Model）](%E7%9F%A5%E8%AF%86%E8%BD%AC%E5%8C%96.md)
+- [倦怠社会（Müdigkeitsgesellschaft / Burn-out Society）](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+
+### 马克·约翰逊（1 个）
+
+- [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
+
+### 马奇（1 个）
+
+- [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
+
+### 鲁宾（1 个）
+
+- [图形与背景（Figure-Ground）](%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%83%8C%E6%99%AF.md)
+
+### 鲍德里亚（1 个）
+
+- [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
+
+## 学者索引
+
+> 从正文自动提取。★ = 该学者为此概念的核心贡献者。完整数据见 memory/scholar_index.json。
+
+### 康德（22 个）
+
+- [审美无利害](%E5%AE%A1%E7%BE%8E%E6%97%A0%E5%88%A9%E5%AE%B3.md) ★
+- [不可靠记忆](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E8%AE%B0%E5%BF%86.md)
+- [丧我](%E4%B8%A7%E6%88%91.md)
+- [二阶欲望](%E4%BA%8C%E9%98%B6%E6%AC%B2%E6%9C%9B.md)
+- [优美](%E4%BC%98%E7%BE%8E.md)
+- [先验统一性](%E5%85%88%E9%AA%8C%E7%BB%9F%E4%B8%80%E6%80%A7.md)
+- [刻奇](%E5%88%BB%E5%A5%87.md)
+- [叙事同一性](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md)
+- [因果过度确定](%E5%9B%A0%E6%9E%9C%E8%BF%87%E5%BA%A6%E7%A1%AE%E5%AE%9A.md)
+- [崇高](%E5%B4%87%E9%AB%98.md)
+- [成心](%E6%88%90%E5%BF%83.md)
+- [游戏冲动](%E6%B8%B8%E6%88%8F%E5%86%B2%E5%8A%A8.md)
+- [独断的睡眠](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
+- [移情](%E7%A7%BB%E6%83%85.md)
+- [经验主义](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
+- [莫利纽问题](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
+- [认知怯懦](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
+- [超当值](%E8%B6%85%E5%BD%93%E5%80%BC.md)
+- [趣味审判](%E8%B6%A3%E5%91%B3%E5%AE%A1%E5%88%A4.md)
+- [道德残余](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
+- [道德运气](%E9%81%93%E5%BE%B7%E8%BF%90%E6%B0%94.md)
+- [附饰](%E9%99%84%E9%A5%B0.md)
+
+### 维特根斯坦（22 个）
+
+- [图画理论](%E5%9B%BE%E7%94%BB%E7%90%86%E8%AE%BA.md) ★
+- [家族相似](%E5%AE%B6%E6%97%8F%E7%9B%B8%E4%BC%BC.md) ★
+- [规则遵循悖论](%E8%A7%84%E5%88%99%E9%81%B5%E5%BE%AA%E6%82%96%E8%AE%BA.md) ★
+- [语言游戏](%E8%AF%AD%E8%A8%80%E6%B8%B8%E6%88%8F.md) ★
+- [铰链命题](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md) ★
+- [哲学治疗](%E5%93%B2%E5%AD%A6%E6%B2%BB%E7%96%97.md)
+- [套牢问题](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
+- [实践知识](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [意义整体论](%E6%84%8F%E4%B9%89%E6%95%B4%E4%BD%93%E8%AE%BA.md)
+- [摩尔悖论](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
+- [明希豪森三重困境](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
+- [格式塔转换](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
+- [沉默的极性翻转](%E6%B2%89%E9%BB%98%E7%9A%84%E6%9E%81%E6%80%A7%E7%BF%BB%E8%BD%AC.md)
+- [生活形式](%E7%94%9F%E6%B4%BB%E5%BD%A2%E5%BC%8F.md)
+- [看见与看做](%E7%9C%8B%E8%A7%81%E4%B8%8E%E7%9C%8B%E5%81%9A.md)
+- [私人语言论证](%E7%A7%81%E4%BA%BA%E8%AF%AD%E8%A8%80%E8%AE%BA%E8%AF%81.md)
+- [第一人称权威](%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E6%9D%83%E5%A8%81.md)
+- [索里特斯悖论](%E7%B4%A2%E9%87%8C%E7%89%B9%E6%96%AF%E6%82%96%E8%AE%BA.md)
+- [解释深度错觉](%E8%A7%A3%E9%87%8A%E6%B7%B1%E5%BA%A6%E9%94%99%E8%A7%89.md)
+- [诠释不正义](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [语言拐杖](%E8%AF%AD%E8%A8%80%E6%8B%90%E6%9D%96.md)
+
+### 庄子（19 个）
+
+- [丧我](%E4%B8%A7%E6%88%91.md)
+- [以指喻指之非指](%E4%BB%A5%E6%8C%87%E5%96%BB%E6%8C%87%E4%B9%8B%E9%9D%9E%E6%8C%87.md)
+- [元操作](%E5%85%83%E6%93%8D%E4%BD%9C.md)
+- [双重效果原则](%E5%8F%8C%E9%87%8D%E6%95%88%E6%9E%9C%E5%8E%9F%E5%88%99.md)
+- [图形与背景](%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%83%8C%E6%99%AF.md)
+- [庖丁解牛](%E5%BA%96%E4%B8%81%E8%A7%A3%E7%89%9B.md)
+- [得意忘言](%E5%BE%97%E6%84%8F%E5%BF%98%E8%A8%80.md)
+- [心流](%E5%BF%83%E6%B5%81.md)
+- [忘筌](%E5%BF%98%E7%AD%8C.md)
+- [悬置](%E6%82%AC%E7%BD%AE.md)
+- [感而遂通](%E6%84%9F%E8%80%8C%E9%81%82%E9%80%9A.md)
+- [成心](%E6%88%90%E5%BF%83.md)
+- [机巧](%E6%9C%BA%E5%B7%A7.md)
+- [能力进路](%E8%83%BD%E5%8A%9B%E8%BF%9B%E8%B7%AF.md)
+- [自我指涉](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
+- [自我服务偏差](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
+- [述行矛盾](%E8%BF%B0%E8%A1%8C%E7%9F%9B%E7%9B%BE.md)
+- [适应性偏好](%E9%80%82%E5%BA%94%E6%80%A7%E5%81%8F%E5%A5%BD.md)
+- [道德残余](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
+
+### 福柯（17 个）
+
+- [异托邦](%E5%BC%82%E6%89%98%E9%82%A6.md) ★
+- [真理政体](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md) ★
+- [全景监狱](%E5%85%A8%E6%99%AF%E7%9B%91%E7%8B%B1.md)
+- [关心自己](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
+- [哲学作为生活方式](%E5%93%B2%E5%AD%A6%E4%BD%9C%E4%B8%BA%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F.md)
+- [感性的分配](%E6%84%9F%E6%80%A7%E7%9A%84%E5%88%86%E9%85%8D.md)
+- [文化霸权](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
+- [斯多葛](%E6%96%AF%E5%A4%9A%E8%91%9B.md)
+- [沉默的极性翻转](%E6%B2%89%E9%BB%98%E7%9A%84%E6%9E%81%E6%80%A7%E7%BF%BB%E8%BD%AC.md)
+- [生命政治](%E7%94%9F%E5%91%BD%E6%94%BF%E6%B2%BB.md)
+- [直言](%E7%9B%B4%E8%A8%80.md)
+- [神圣人](%E7%A5%9E%E5%9C%A3%E4%BA%BA.md)
+- [算法治理术](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
+- [话语权力](%E8%AF%9D%E8%AF%AD%E6%9D%83%E5%8A%9B.md)
+- [赤裸生命](%E8%B5%A4%E8%A3%B8%E7%94%9F%E5%91%BD.md)
+- [身体政治](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
+- [面容](%E9%9D%A2%E5%AE%B9.md)
+
+### 卡尼曼（16 个）
+
+- [前景理论](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md) ★
+- [属性替换](%E5%B1%9E%E6%80%A7%E6%9B%BF%E6%8D%A2.md) ★
+- [损失厌恶](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md) ★
+- [规划谬误](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md) ★
+- [信念固着](%E4%BF%A1%E5%BF%B5%E5%9B%BA%E7%9D%80.md)
+- [参照点效应](%E5%8F%82%E7%85%A7%E7%82%B9%E6%95%88%E5%BA%94.md)
+- [实践侵入](%E5%AE%9E%E8%B7%B5%E4%BE%B5%E5%85%A5.md)
+- [峰终定律](%E5%B3%B0%E7%BB%88%E5%AE%9A%E5%BE%8B.md)
+- [布里丹之驴](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [框架效应](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
+- [确认偏误](%E7%A1%AE%E8%AE%A4%E5%81%8F%E8%AF%AF.md)
+- [自我服务偏差](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
+- [认知闭合需要](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
+- [超当值](%E8%B6%85%E5%BD%93%E5%80%BC.md)
+- [迪昂-奎因论题](%E8%BF%AA%E6%98%82-%E5%A5%8E%E5%9B%A0%E8%AE%BA%E9%A2%98.md)
+
+### 弗洛伊德（15 个）
+
+- [重复强迫](%E9%87%8D%E5%A4%8D%E5%BC%BA%E8%BF%AB.md) ★
+- [二阶欲望](%E4%BA%8C%E9%98%B6%E6%AC%B2%E6%9C%9B.md)
+- [压抑回归](%E5%8E%8B%E6%8A%91%E5%9B%9E%E5%BD%92.md)
+- [否认](%E5%90%A6%E8%AE%A4.md)
+- [哀悼与抑郁](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+- [恐怖的美学](%E6%81%90%E6%80%96%E7%9A%84%E7%BE%8E%E5%AD%A6.md)
+- [恐怖谷](%E6%81%90%E6%80%96%E8%B0%B7.md)
+- [死亡驱力](%E6%AD%BB%E4%BA%A1%E9%A9%B1%E5%8A%9B.md)
+- [离奇感](%E7%A6%BB%E5%A5%87%E6%84%9F.md)
+- [自我服务偏差](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
+- [负性幻觉](%E8%B4%9F%E6%80%A7%E5%B9%BB%E8%A7%89.md)
+- [贱斥](%E8%B4%B1%E6%96%A5.md)
+- [超现实主义](%E8%B6%85%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
+- [道德残余](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
+
+### 休谟（14 个）
+
+- [归纳问题](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md) ★
+- [丧我](%E4%B8%A7%E6%88%91.md)
+- [二阶欲望](%E4%BA%8C%E9%98%B6%E6%AC%B2%E6%9C%9B.md)
+- [先验统一性](%E5%85%88%E9%AA%8C%E7%BB%9F%E4%B8%80%E6%80%A7.md)
+- [因果关系](%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB.md)
+- [妄见](%E5%A6%84%E8%A7%81.md)
+- [实然与应然](%E5%AE%9E%E7%84%B6%E4%B8%8E%E5%BA%94%E7%84%B6.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [成心](%E6%88%90%E5%BF%83.md)
+- [独断的睡眠](%E7%8B%AC%E6%96%AD%E7%9A%84%E7%9D%A1%E7%9C%A0.md)
+- [经验主义](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
+- [绿蓝悖论](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
+- [证言问题](%E8%AF%81%E8%A8%80%E9%97%AE%E9%A2%98.md)
+- [默认可信](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
+
+### 亚里士多德（13 个）
+
+- [时机](%E6%97%B6%E6%9C%BA.md) ★
+- [第一性原理](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md) ★
+- [解蔽](%E8%A7%A3%E8%94%BD.md) ★
+- [三一律](%E4%B8%89%E4%B8%80%E5%BE%8B.md)
+- [弱意志](%E5%BC%B1%E6%84%8F%E5%BF%97.md)
+- [心理安全感](%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F.md)
+- [情感弧线](%E6%83%85%E6%84%9F%E5%BC%A7%E7%BA%BF.md)
+- [惊异](%E6%83%8A%E5%BC%82.md)
+- [戏剧反讽](%E6%88%8F%E5%89%A7%E5%8F%8D%E8%AE%BD.md)
+- [技艺](%E6%8A%80%E8%89%BA.md)
+- [本质主义](%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89.md)
+- [董事会捕获](%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%8D%95%E8%8E%B7.md)
+- [间离效果](%E9%97%B4%E7%A6%BB%E6%95%88%E6%9E%9C.md)
+
+### 布迪厄（12 个）
+
+- [文化资本](%E6%96%87%E5%8C%96%E8%B5%84%E6%9C%AC.md) ★
+- [象征性暴力](%E8%B1%A1%E5%BE%81%E6%80%A7%E6%9A%B4%E5%8A%9B.md) ★
+- [体制化审美](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
+- [印象管理](%E5%8D%B0%E8%B1%A1%E7%AE%A1%E7%90%86.md)
+- [惯习](%E6%83%AF%E4%B9%A0.md)
+- [文化霸权](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
+- [社会图式](%E7%A4%BE%E4%BC%9A%E5%9B%BE%E5%BC%8F.md)
+- [经典化机制](%E7%BB%8F%E5%85%B8%E5%8C%96%E6%9C%BA%E5%88%B6.md)
+- [自我知觉理论](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
+- [趣味审判](%E8%B6%A3%E5%91%B3%E5%AE%A1%E5%88%A4.md)
+- [身份消费](%E8%BA%AB%E4%BB%BD%E6%B6%88%E8%B4%B9.md)
+- [风格即人](%E9%A3%8E%E6%A0%BC%E5%8D%B3%E4%BA%BA.md)
+
+### 海德格尔（12 个）
+
+- [解蔽](%E8%A7%A3%E8%94%BD.md) ★
+- [诠释学循环](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md) ★
+- [向死而生](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [惊异](%E6%83%8A%E5%BC%82.md)
+- [技艺](%E6%8A%80%E8%89%BA.md)
+- [抛入性](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
+- [本真性](%E6%9C%AC%E7%9C%9F%E6%80%A7.md)
+- [氛围](%E6%B0%9B%E5%9B%B4.md)
+- [焦虑](%E7%84%A6%E8%99%91.md)
+- [物化](%E7%89%A9%E5%8C%96.md)
+- [诗意栖居](%E8%AF%97%E6%84%8F%E6%A0%96%E5%B1%85.md)
+
+### 胡塞尔（11 个）
+
+- [现象学还原](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md) ★
+- [间性](%E9%97%B4%E6%80%A7.md) ★
+- [丧我](%E4%B8%A7%E6%88%91.md)
+- [元操作](%E5%85%83%E6%93%8D%E4%BD%9C.md)
+- [先验统一性](%E5%85%88%E9%AA%8C%E7%BB%9F%E4%B8%80%E6%80%A7.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [悬置](%E6%82%AC%E7%BD%AE.md)
+- [成心](%E6%88%90%E5%BF%83.md)
+- [自我指涉](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
+- [被动综合](%E8%A2%AB%E5%8A%A8%E7%BB%BC%E5%90%88.md)
+- [铰链命题](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md)
+
+### 孔子（9 个）
+
+- [举直错诸枉](%E4%B8%BE%E7%9B%B4%E9%94%99%E8%AF%B8%E6%9E%89.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [忘筌](%E5%BF%98%E7%AD%8C.md)
+- [执两用中](%E6%89%A7%E4%B8%A4%E7%94%A8%E4%B8%AD.md)
+- [抛入性](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
+- [痕迹](%E7%97%95%E8%BF%B9.md)
+- [认知勇气](%E8%AE%A4%E7%9F%A5%E5%8B%87%E6%B0%94.md)
+- [认知怯懦](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
+- [身教](%E8%BA%AB%E6%95%99.md)
+
+### 老子（8 个）
+
+- [不言之教](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
+- [反者道之动](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
+- [大巧若拙](%E5%A4%A7%E5%B7%A7%E8%8B%A5%E6%8B%99.md)
+- [大象无形](%E5%A4%A7%E8%B1%A1%E6%97%A0%E5%BD%A2.md)
+- [无为而治](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
+- [氛围](%E6%B0%9B%E5%9B%B4.md)
+- [致虚极守静笃](%E8%87%B4%E8%99%9A%E6%9E%81%E5%AE%88%E9%9D%99%E7%AC%83.md)
+- [道法自然](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
+
+### 德里达（8 个）
+
+- [假体性](%E5%81%87%E4%BD%93%E6%80%A7.md)
+- [幽灵文本](%E5%B9%BD%E7%81%B5%E6%96%87%E6%9C%AC.md)
+- [延异](%E5%BB%B6%E5%BC%82.md)
+- [痕迹](%E7%97%95%E8%BF%B9.md)
+- [缺笔](%E7%BC%BA%E7%AC%94.md)
+- [能指与所指](%E8%83%BD%E6%8C%87%E4%B8%8E%E6%89%80%E6%8C%87.md)
+- [自身免疫](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
+- [附饰](%E9%99%84%E9%A5%B0.md)
+
+### 库恩（7 个）
+
+- [范式转换](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md) ★
+- [不可通约性](%E4%B8%8D%E5%8F%AF%E9%80%9A%E7%BA%A6%E6%80%A7.md)
+- [以指喻指之非指](%E4%BB%A5%E6%8C%87%E5%96%BB%E6%8C%87%E4%B9%8B%E9%9D%9E%E6%8C%87.md)
+- [成心](%E6%88%90%E5%BF%83.md)
+- [格式塔转换](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
+- [生活形式](%E7%94%9F%E6%B4%BB%E5%BD%A2%E5%BC%8F.md)
+- [社会免疫](%E7%A4%BE%E4%BC%9A%E5%85%8D%E7%96%AB.md)
+
+### 孙子（7 个）
+
+- [以正合以奇胜](%E4%BB%A5%E6%AD%A3%E5%90%88%E4%BB%A5%E5%A5%87%E8%83%9C.md)
+- [外适应](%E5%A4%96%E9%80%82%E5%BA%94.md)
+- [套牢问题](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
+- [慎战](%E6%85%8E%E6%88%98.md)
+- [李嘉图等价](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md)
+- [知彼知己](%E7%9F%A5%E5%BD%BC%E7%9F%A5%E5%B7%B1.md)
+- [身体政治](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
+
+### 特沃斯基（7 个）
+
+- [前景理论](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md) ★
+- [损失厌恶](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md) ★
+- [规划谬误](%E8%A7%84%E5%88%92%E8%B0%AC%E8%AF%AF.md) ★
+- [参照点效应](%E5%8F%82%E7%85%A7%E7%82%B9%E6%95%88%E5%BA%94.md)
+- [布里丹之驴](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [框架效应](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
+- [自我服务偏差](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
+
+### 摩尔（6 个）
+
+- [不信的表演](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
+- [异托邦](%E5%BC%82%E6%89%98%E9%82%A6.md)
+- [摩尔悖论](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
+- [经验曲线效应](%E7%BB%8F%E9%AA%8C%E6%9B%B2%E7%BA%BF%E6%95%88%E5%BA%94.md)
+- [铰链命题](%E9%93%B0%E9%93%BE%E5%91%BD%E9%A2%98.md)
+- [间离效果](%E9%97%B4%E7%A6%BB%E6%95%88%E6%9E%9C.md)
+
+### 韩炳哲（6 个）
+
+- [亚临界漂移](%E4%BA%9A%E4%B8%B4%E7%95%8C%E6%BC%82%E7%A7%BB.md)
+- [他者性](%E4%BB%96%E8%80%85%E6%80%A7.md)
+- [倦怠社会](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+- [杰文斯悖论](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
+- [超常刺激](%E8%B6%85%E5%B8%B8%E5%88%BA%E6%BF%80.md)
+- [面容](%E9%9D%A2%E5%AE%B9.md)
+
+### 科斯（6 个）
+
+- [交易成本](%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC.md) ★
+- [反公地悲剧](%E5%8F%8D%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
+- [帕累托最优](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md)
+- [科斯定理](%E7%A7%91%E6%96%AF%E5%AE%9A%E7%90%86.md)
+- [非暴力不合作](%E9%9D%9E%E6%9A%B4%E5%8A%9B%E4%B8%8D%E5%90%88%E4%BD%9C.md)
+- [预先承诺](%E9%A2%84%E5%85%88%E6%89%BF%E8%AF%BA.md)
+
+### 戈夫曼（6 个）
+
+- [角色距离](%E8%A7%92%E8%89%B2%E8%B7%9D%E7%A6%BB.md) ★
+- [人设经济](%E4%BA%BA%E8%AE%BE%E7%BB%8F%E6%B5%8E.md)
+- [印象管理](%E5%8D%B0%E8%B1%A1%E7%AE%A1%E7%90%86.md)
+- [戏中戏](%E6%88%8F%E4%B8%AD%E6%88%8F.md)
+- [污名化](%E6%B1%A1%E5%90%8D%E5%8C%96.md)
+- [真实性悖论](%E7%9C%9F%E5%AE%9E%E6%80%A7%E6%82%96%E8%AE%BA.md)
+
+### 柏拉图（6 个）
+
+- [优美](%E4%BC%98%E7%BE%8E.md)
+- [哲学作为生活方式](%E5%93%B2%E5%AD%A6%E4%BD%9C%E4%B8%BA%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F.md)
+- [技艺](%E6%8A%80%E8%89%BA.md)
+- [本质主义](%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89.md)
+- [梅农悖论](%E6%A2%85%E5%86%9C%E6%82%96%E8%AE%BA.md)
+- [盖梯尔问题](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
+
+### 巴赞（6 个）
+
+- [蒙太奇](%E8%92%99%E5%A4%AA%E5%A5%87.md) ★
+- [作者论](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
+- [场面调度](%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%BA%A6.md)
+- [影像本体论](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
+- [景深构图](%E6%99%AF%E6%B7%B1%E6%9E%84%E5%9B%BE.md)
+- [画外音](%E7%94%BB%E5%A4%96%E9%9F%B3.md)
+
+### 爱森斯坦（6 个）
+
+- [电影眼睛](%E7%94%B5%E5%BD%B1%E7%9C%BC%E7%9D%9B.md) ★
+- [蒙太奇](%E8%92%99%E5%A4%AA%E5%A5%87.md) ★
+- [作者论](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
+- [影像本体论](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
+- [拼贴](%E6%8B%BC%E8%B4%B4.md)
+- [运动-影像](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
+
+### 塔勒布（6 个）
+
+- [反脆弱](%E5%8F%8D%E8%84%86%E5%BC%B1.md) ★
+- [路德效应](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md) ★
+- [反图书馆](%E5%8F%8D%E5%9B%BE%E4%B9%A6%E9%A6%86.md)
+- [反者道之动](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
+- [实践侵入](%E5%AE%9E%E8%B7%B5%E4%BE%B5%E5%85%A5.md)
+- [道德运气](%E9%81%93%E5%BE%B7%E8%BF%90%E6%B0%94.md)
+
+### 波普尔（6 个）
+
+- [容忍的悖论](%E5%AE%B9%E5%BF%8D%E7%9A%84%E6%82%96%E8%AE%BA.md) ★
+- [反身性](%E5%8F%8D%E8%BA%AB%E6%80%A7.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [归纳问题](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
+- [明希豪森三重困境](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
+- [迪昂-奎因论题](%E8%BF%AA%E6%98%82-%E5%A5%8E%E5%9B%A0%E8%AE%BA%E9%A2%98.md)
+
+### 海明威（6 个）
+
+- [叙事闭合](%E5%8F%99%E4%BA%8B%E9%97%AD%E5%90%88.md)
+- [契诃夫之枪](%E5%A5%91%E8%AF%83%E5%A4%AB%E4%B9%8B%E6%9E%AA.md)
+- [展示而非讲述](%E5%B1%95%E7%A4%BA%E8%80%8C%E9%9D%9E%E8%AE%B2%E8%BF%B0.md)
+- [情感节奏](%E6%83%85%E6%84%9F%E8%8A%82%E5%A5%8F.md)
+- [沉默修辞](%E6%B2%89%E9%BB%98%E4%BF%AE%E8%BE%9E.md)
+- [续集强迫](%E7%BB%AD%E9%9B%86%E5%BC%BA%E8%BF%AB.md)
+
+### 阿伦特（6 个）
+
+- [平庸之恶](%E5%B9%B3%E5%BA%B8%E4%B9%8B%E6%81%B6.md) ★
+- [因果过度确定](%E5%9B%A0%E6%9E%9C%E8%BF%87%E5%BA%A6%E7%A1%AE%E5%AE%9A.md)
+- [董事会捕获](%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%8D%95%E8%8E%B7.md)
+- [认知怯懦](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
+- [道德残余](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
+- [面容](%E9%9D%A2%E5%AE%B9.md)
+
+### 威廉·詹姆斯（6 个）
+
+- [实践侵入](%E5%AE%9E%E8%B7%B5%E4%BE%B5%E5%85%A5.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [托宾q](%E6%89%98%E5%AE%BEq.md)
+- [明希豪森三重困境](%E6%98%8E%E5%B8%8C%E8%B1%AA%E6%A3%AE%E4%B8%89%E9%87%8D%E5%9B%B0%E5%A2%83.md)
+- [诠释不正义](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [超常刺激](%E8%B6%85%E5%B8%B8%E5%88%BA%E6%BF%80.md)
+
+### 拉康（6 个）
+
+- [镜像阶段](%E9%95%9C%E5%83%8F%E9%98%B6%E6%AE%B5.md) ★
+- [死亡驱力](%E6%AD%BB%E4%BA%A1%E9%A9%B1%E5%8A%9B.md)
+- [男性凝视](%E7%94%B7%E6%80%A7%E5%87%9D%E8%A7%86.md)
+- [缝合体系](%E7%BC%9D%E5%90%88%E4%BD%93%E7%B3%BB.md)
+- [能指与所指](%E8%83%BD%E6%8C%87%E4%B8%8E%E6%89%80%E6%8C%87.md)
+- [镜面认同](%E9%95%9C%E9%9D%A2%E8%AE%A4%E5%90%8C.md)
+
+### 野中（5 个）
+
+- [知识转化](%E7%9F%A5%E8%AF%86%E8%BD%AC%E5%8C%96.md) ★
+- [不注意盲](%E4%B8%8D%E6%B3%A8%E6%84%8F%E7%9B%B2.md)
+- [特罗克勒消逝](%E7%89%B9%E7%BD%97%E5%85%8B%E5%8B%92%E6%B6%88%E9%80%9D.md)
+- [身体政治](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
+- [隐性知识](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md)
+
+### 阿甘本（5 个）
+
+- [例外状态](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
+- [安全化](%E5%AE%89%E5%85%A8%E5%8C%96.md)
+- [生命政治](%E7%94%9F%E5%91%BD%E6%94%BF%E6%B2%BB.md)
+- [神圣人](%E7%A5%9E%E5%9C%A3%E4%BA%BA.md)
+- [赤裸生命](%E8%B5%A4%E8%A3%B8%E7%94%9F%E5%91%BD.md)
+
+### 荣格（5 个）
+
+- [原型批评](%E5%8E%9F%E5%9E%8B%E6%89%B9%E8%AF%84.md)
+- [对立转化](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
+- [英雄之旅](%E8%8B%B1%E9%9B%84%E4%B9%8B%E6%97%85.md)
+- [超现实主义](%E8%B6%85%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
+- [阴影原型](%E9%98%B4%E5%BD%B1%E5%8E%9F%E5%9E%8B.md)
+
+### 笛卡尔（5 个）
+
+- [范畴错误](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md) ★
+- [哲学作为生活方式](%E5%93%B2%E5%AD%A6%E4%BD%9C%E4%B8%BA%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F.md)
+- [惊异](%E6%83%8A%E5%BC%82.md)
+- [抛入性](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
+- [赛博格叙事](%E8%B5%9B%E5%8D%9A%E6%A0%BC%E5%8F%99%E4%BA%8B.md)
+
+### 迈克尔·波兰尼（5 个）
+
+- [隐性知识](%E9%9A%90%E6%80%A7%E7%9F%A5%E8%AF%86.md) ★
+- [实践知识](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+- [知识问题](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md)
+- [私人语言论证](%E7%A7%81%E4%BA%BA%E8%AF%AD%E8%A8%80%E8%AE%BA%E8%AF%81.md)
+- [道法自然](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
+
+### 戴维森（5 个）
+
+- [宽容原则](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md) ★
+- [沼泽人](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md) ★
+- [第三人效果](%E7%AC%AC%E4%B8%89%E4%BA%BA%E6%95%88%E6%9E%9C.md) ★
+- [意义整体论](%E6%84%8F%E4%B9%89%E6%95%B4%E4%BD%93%E8%AE%BA.md)
+- [第一人称权威](%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E6%9D%83%E5%A8%81.md)
+
+### 赫伯特·西蒙（5 个）
+
+- [有限理性](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md) ★
+- [满意化](%E6%BB%A1%E6%84%8F%E5%8C%96.md) ★
+- [布里丹之驴](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [恐惧管理理论](%E6%81%90%E6%83%A7%E7%AE%A1%E7%90%86%E7%90%86%E8%AE%BA.md)
+- [适应性偏好](%E9%80%82%E5%BA%94%E6%80%A7%E5%81%8F%E5%A5%BD.md)
+
+### 弗朗茨·卡夫卡（5 个）
+
+- [布里丹之驴](%E5%B8%83%E9%87%8C%E4%B8%B9%E4%B9%8B%E9%A9%B4.md)
+- [悖论叙事](%E6%82%96%E8%AE%BA%E5%8F%99%E4%BA%8B.md)
+- [赛博格叙事](%E8%B5%9B%E5%8D%9A%E6%A0%BC%E5%8F%99%E4%BA%8B.md)
+- [阈限叙事](%E9%98%88%E9%99%90%E5%8F%99%E4%BA%8B.md)
+- [魔幻现实主义](%E9%AD%94%E5%B9%BB%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
+
+### 希区柯克（5 个）
+
+- [平行剪辑](%E5%B9%B3%E8%A1%8C%E5%89%AA%E8%BE%91.md)
+- [悬念与惊吓](%E6%82%AC%E5%BF%B5%E4%B8%8E%E6%83%8A%E5%90%93.md)
+- [痕迹](%E7%97%95%E8%BF%B9.md)
+- [类型片](%E7%B1%BB%E5%9E%8B%E7%89%87.md)
+- [麦高芬](%E9%BA%A6%E9%AB%98%E8%8A%AC.md)
+
+### 弗里克（5 个）
+
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [结构性无知](%E7%BB%93%E6%9E%84%E6%80%A7%E6%97%A0%E7%9F%A5.md)
+- [认识论不正义](%E8%AE%A4%E8%AF%86%E8%AE%BA%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [证言不正义](%E8%AF%81%E8%A8%80%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [诠释不正义](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+
+### 巴特勒（5 个）
+
+- [表演性](%E8%A1%A8%E6%BC%94%E6%80%A7.md) ★
+- [身体政治](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md) ★
+- [沉默的极性翻转](%E6%B2%89%E9%BB%98%E7%9A%84%E6%9E%81%E6%80%A7%E7%BF%BB%E8%BD%AC.md)
+- [深度表演](%E6%B7%B1%E5%BA%A6%E8%A1%A8%E6%BC%94.md)
+- [误读作为方法](%E8%AF%AF%E8%AF%BB%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95.md)
+
+### 阿丽恩·麦克（4 个）
+
+- [不注意盲](%E4%B8%8D%E6%B3%A8%E6%84%8F%E7%9B%B2.md)
+- [自身免疫](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
+- [透明度悖论](%E9%80%8F%E6%98%8E%E5%BA%A6%E6%82%96%E8%AE%BA.md)
+- [阴森感](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
+
+### 阿马蒂亚·森（4 个）
+
+- [二阶欲望](%E4%BA%8C%E9%98%B6%E6%AC%B2%E6%9C%9B.md)
+- [物化](%E7%89%A9%E5%8C%96.md)
+- [能力进路](%E8%83%BD%E5%8A%9B%E8%BF%9B%E8%B7%AF.md)
+- [自组织临界](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
+
+### 罗杰斯（4 个）
+
+- [创新扩散](%E5%88%9B%E6%96%B0%E6%89%A9%E6%95%A3.md) ★
+- [体裁进化](%E4%BD%93%E8%A3%81%E8%BF%9B%E5%8C%96.md)
+- [概化他者](%E6%A6%82%E5%8C%96%E4%BB%96%E8%80%85.md)
+- [阈值模型](%E9%98%88%E5%80%BC%E6%A8%A1%E5%9E%8B.md)
+
+### 鲍德里亚（4 个）
+
+- [拟象](%E6%8B%9F%E8%B1%A1.md) ★
+- [体验机](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
+- [晶体-影像](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
+- [阴森感](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
+
+### 特吕弗（4 个）
+
+- [作者论](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
+- [影像本体论](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
+- [摄影机自来水笔](%E6%91%84%E5%BD%B1%E6%9C%BA%E8%87%AA%E6%9D%A5%E6%B0%B4%E7%AC%94.md)
+- [风格即人](%E9%A3%8E%E6%A0%BC%E5%8D%B3%E4%BA%BA.md)
+
+### 奥斯特罗姆（4 个）
+
+- [自主治理](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md) ★
+- [公地悲剧](%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
+- [套牢问题](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
+- [道法自然](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
+
+### 哈贝马斯（4 个）
+
+- [协商民主](%E5%8D%8F%E5%95%86%E6%B0%91%E4%B8%BB.md)
+- [合法性理论](%E5%90%88%E6%B3%95%E6%80%A7%E7%90%86%E8%AE%BA.md)
+- [述行矛盾](%E8%BF%B0%E8%A1%8C%E7%9F%9B%E7%9B%BE.md)
+- [间性](%E9%97%B4%E6%80%A7.md)
+
+### 威廉斯（4 个）
+
+- [厚概念](%E5%8E%9A%E6%A6%82%E5%BF%B5.md) ★
+- [认知怯懦](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
+- [超当值](%E8%B6%85%E5%BD%93%E5%80%BC.md)
+- [道德残余](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
+
+### 默顿（4 个）
+
+- [累积优势](%E7%B4%AF%E7%A7%AF%E4%BC%98%E5%8A%BF.md) ★
+- [自证预言](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md) ★
+- [反身性](%E5%8F%8D%E8%BA%AB%E6%80%A7.md)
+- [马太效应](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
+
+### 韦恩·布斯（4 个）
+
+- [隐含作者](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md) ★
+- [套牢问题](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+- [胜者诅咒](%E8%83%9C%E8%80%85%E8%AF%85%E5%92%92.md)
+
+### 德勒兹（4 个）
+
+- [影像本体论](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
+- [时间-影像](%E6%97%B6%E9%97%B4-%E5%BD%B1%E5%83%8F.md)
+- [晶体-影像](%E6%99%B6%E4%BD%93-%E5%BD%B1%E5%83%8F.md)
+- [运动-影像](%E8%BF%90%E5%8A%A8-%E5%BD%B1%E5%83%8F.md)
+
+### 朱熹（4 个）
+
+- [格物致知](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
+- [经验主义](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
+- [观物取象](%E8%A7%82%E7%89%A9%E5%8F%96%E8%B1%A1.md)
+- [诠释学循环](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
+
+### 洛克（4 个）
+
+- [莫利纽问题](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md) ★
+- [目标设定理论](%E7%9B%AE%E6%A0%87%E8%AE%BE%E5%AE%9A%E7%90%86%E8%AE%BA.md)
+- [第一性原理](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
+- [经验主义](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
+
+### 哈耶克（4 个）
+
+- [知识问题](%E7%9F%A5%E8%AF%86%E9%97%AE%E9%A2%98.md) ★
+- [自发秩序](%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F.md)
+- [自由市场](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
+- [道法自然](%E9%81%93%E6%B3%95%E8%87%AA%E7%84%B6.md)
+
+### 扎哈维（3 个）
+
+- [不利条件原理](%E4%B8%8D%E5%88%A9%E6%9D%A1%E4%BB%B6%E5%8E%9F%E7%90%86.md) ★
+- [信号成本理论](%E4%BF%A1%E5%8F%B7%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA.md)
+- [诚实信号](%E8%AF%9A%E5%AE%9E%E4%BF%A1%E5%8F%B7.md)
+
+### 费耶阿本德（3 个）
+
+- [不可通约性](%E4%B8%8D%E5%8F%AF%E9%80%9A%E7%BA%A6%E6%80%A7.md)
+- [解释深度错觉](%E8%A7%A3%E9%87%8A%E6%B7%B1%E5%BA%A6%E9%94%99%E8%A7%89.md)
+- [迪昂-奎因论题](%E8%BF%AA%E6%98%82-%E5%A5%8E%E5%9B%A0%E8%AE%BA%E9%A2%98.md)
+
+### 约翰·塞尔（3 个）
+
+- [中文屋论证](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md) ★
+- [夸富宴](%E5%A4%B8%E5%AF%8C%E5%AE%B4.md)
+- [实然与应然](%E5%AE%9E%E7%84%B6%E4%B8%8E%E5%BA%94%E7%84%B6.md)
+
+### 图灵（3 个）
+
+- [中文屋论证](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md) ★
+- [实践知识](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+- [说谎者悖论](%E8%AF%B4%E8%B0%8E%E8%80%85%E6%82%96%E8%AE%BA.md)
+
+### 查尔莫斯（3 个）
+
+- [延展心智](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md) ★
+- [认知卸载](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md) ★
+- [乙型反事实](%E4%B9%99%E5%9E%8B%E5%8F%8D%E4%BA%8B%E5%AE%9E.md)
+
+### 克里斯蒂娃（3 个）
+
+- [互文性](%E4%BA%92%E6%96%87%E6%80%A7.md) ★
+- [复调](%E5%A4%8D%E8%B0%83.md)
+- [贱斥](%E8%B4%B1%E6%96%A5.md)
+
+### 蒂斯（3 个）
+
+- [互补资产](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md) ★
+- [动态能力](%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B.md) ★
+- [男性凝视](%E7%94%B7%E6%80%A7%E5%87%9D%E8%A7%86.md)
+
+### 波特（3 个）
+
+- [竞合](%E7%AB%9E%E5%90%88.md) ★
+- [人物即世界](%E4%BA%BA%E7%89%A9%E5%8D%B3%E4%B8%96%E7%95%8C.md)
+- [逆火效应](%E9%80%86%E7%81%AB%E6%95%88%E5%BA%94.md)
+
+### 陀思妥耶夫斯基（3 个）
+
+- [人物即世界](%E4%BA%BA%E7%89%A9%E5%8D%B3%E4%B8%96%E7%95%8C.md)
+- [复调](%E5%A4%8D%E8%B0%83.md)
+- [适应性偏好](%E9%80%82%E5%BA%94%E6%80%A7%E5%81%8F%E5%A5%BD.md)
+
+### 列维纳斯（3 个）
+
+- [他者性](%E4%BB%96%E8%80%85%E6%80%A7.md) ★
+- [伦理作为第一哲学](%E4%BC%A6%E7%90%86%E4%BD%9C%E4%B8%BA%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%A6.md) ★
+- [面容](%E9%9D%A2%E5%AE%B9.md)
+
+### 道金斯（3 个）
+
+- [模因](%E6%A8%A1%E5%9B%A0.md) ★
+- [倦怠社会](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+- [杰文斯悖论](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
+
+### 利奥塔（3 个）
+
+- [元小说](%E5%85%83%E5%B0%8F%E8%AF%B4.md) ★
+- [元叙事](%E5%85%83%E5%8F%99%E4%BA%8B.md)
+- [制度神话](%E5%88%B6%E5%BA%A6%E7%A5%9E%E8%AF%9D.md)
+
+### 伍迪·艾伦（3 个）
+
+- [元小说](%E5%85%83%E5%B0%8F%E8%AF%B4.md)
+- [打破第四面墙](%E6%89%93%E7%A0%B4%E7%AC%AC%E5%9B%9B%E9%9D%A2%E5%A2%99.md)
+- [镜面认同](%E9%95%9C%E9%9D%A2%E8%AE%A4%E5%90%8C.md)
+
+### 韦伯（3 个）
+
+- [制度同形](%E5%88%B6%E5%BA%A6%E5%90%8C%E5%BD%A2.md) ★
+- [合法性理论](%E5%90%88%E6%B3%95%E6%80%A7%E7%90%86%E8%AE%BA.md)
+- [知识诅咒](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
+
+### 黑格尔（3 个）
+
+- [反者道之动](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
+- [否定辩证法](%E5%90%A6%E5%AE%9A%E8%BE%A9%E8%AF%81%E6%B3%95.md)
+- [扬弃](%E6%89%AC%E5%BC%83.md)
+
+### 利科（3 个）
+
+- [叙事同一性](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md) ★
+- [叙事不可逆](%E5%8F%99%E4%BA%8B%E4%B8%8D%E5%8F%AF%E9%80%86.md)
+- [意义整体论](%E6%84%8F%E4%B9%89%E6%95%B4%E4%BD%93%E8%AE%BA.md)
+
+### 契诃夫（3 个）
+
+- [叙事闭合](%E5%8F%99%E4%BA%8B%E9%97%AD%E5%90%88.md)
+- [契诃夫之枪](%E5%A5%91%E8%AF%83%E5%A4%AB%E4%B9%8B%E6%9E%AA.md)
+- [展示而非讲述](%E5%B1%95%E7%A4%BA%E8%80%8C%E9%9D%9E%E8%AE%B2%E8%BF%B0.md)
+
+### 辛格（3 个）
+
+- [唤醒的错误归因](%E5%94%A4%E9%86%92%E7%9A%84%E9%94%99%E8%AF%AF%E5%BD%92%E5%9B%A0.md)
+- [因果过度确定](%E5%9B%A0%E6%9E%9C%E8%BF%87%E5%BA%A6%E7%A1%AE%E5%AE%9A.md)
+- [超当值](%E8%B6%85%E5%BD%93%E5%80%BC.md)
+
+### 霍布斯（3 个）
+
+- [套牢问题](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
+- [忒修斯之船](%E5%BF%92%E4%BF%AE%E6%96%AF%E4%B9%8B%E8%88%B9.md)
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+
+### 本雅明（3 个）
+
+- [实践知识](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [氛围](%E6%B0%9B%E5%9B%B4.md)
+
+### 奎因（3 个）
+
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [理论不充分决定](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
+- [绿蓝悖论](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
+
+### 蒯因（3 个）
+
+- [序言悖论](%E5%BA%8F%E8%A8%80%E6%82%96%E8%AE%BA.md)
+- [理论不充分决定](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
+- [绿蓝悖论](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
+
+### 努斯鲍姆（3 个）
+
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+- [能力进路](%E8%83%BD%E5%8A%9B%E8%BF%9B%E8%B7%AF.md)
+- [道德运气](%E9%81%93%E5%BE%B7%E8%BF%90%E6%B0%94.md)
+
+### 桑塔格（3 个）
+
+- [恐怖的美学](%E6%81%90%E6%80%96%E7%9A%84%E7%BE%8E%E5%AD%A6.md)
+- [消逝感](%E6%B6%88%E9%80%9D%E6%84%9F.md)
+- [身体政治](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
+
+### 卡尔·韦克（3 个）
+
+- [意义建构](%E6%84%8F%E4%B9%89%E5%BB%BA%E6%9E%84.md) ★
+- [松紧耦合](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md) ★
+- [无为而治](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
+
+### 戈达尔（3 个）
+
+- [时间-影像](%E6%97%B6%E9%97%B4-%E5%BD%B1%E5%83%8F.md)
+- [画外音](%E7%94%BB%E5%A4%96%E9%9F%B3.md)
+- [风格即人](%E9%A3%8E%E6%A0%BC%E5%8D%B3%E4%BA%BA.md)
+
+### 王阳明（3 个）
+
+- [格物致知](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
+- [经验主义](%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89.md)
+- [诠释学循环](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
+
+### 王羲之（3 个）
+
+- [消逝感](%E6%B6%88%E9%80%9D%E6%84%9F.md)
+- [误读作为方法](%E8%AF%AF%E8%AF%BB%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95.md)
+- [镜面认同](%E9%95%9C%E9%9D%A2%E8%AE%A4%E5%90%8C.md)
+
+### 巴菲特（3 个）
+
+- [经济护城河](%E7%BB%8F%E6%B5%8E%E6%8A%A4%E5%9F%8E%E6%B2%B3.md) ★
+- [胜者诅咒](%E8%83%9C%E8%80%85%E8%AF%85%E5%92%92.md)
+- [赢家折扣](%E8%B5%A2%E5%AE%B6%E6%8A%98%E6%89%A3.md)
+
+### 拉辛（2 个）
+
+- [三一律](%E4%B8%89%E4%B8%80%E5%BE%8B.md)
+- [互文阅读](%E4%BA%92%E6%96%87%E9%98%85%E8%AF%BB.md)
+
+### 拉夫（2 个）
+
+- [情境学习](%E6%83%85%E5%A2%83%E5%AD%A6%E4%B9%A0.md) ★
+- [不信的表演](%E4%B8%8D%E4%BF%A1%E7%9A%84%E8%A1%A8%E6%BC%94.md)
+
+### 莱布尼茨（2 个）
+
+- [不可辨别者同一性](%E4%B8%8D%E5%8F%AF%E8%BE%A8%E5%88%AB%E8%80%85%E5%90%8C%E4%B8%80%E6%80%A7.md) ★
+- [莫利纽问题](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
+
+### 阿斯特吕克（2 个）
+
+- [不可靠放映](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%94%BE%E6%98%A0.md)
+- [摄影机自来水笔](%E6%91%84%E5%BD%B1%E6%9C%BA%E8%87%AA%E6%9D%A5%E6%B0%B4%E7%AC%94.md)
+
+### 维尔托夫（2 个）
+
+- [电影眼睛](%E7%94%B5%E5%BD%B1%E7%9C%BC%E7%9D%9B.md) ★
+- [不可靠放映](%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%94%BE%E6%98%A0.md)
+
+### 欧文·罗克（2 个）
+
+- [不注意盲](%E4%B8%8D%E6%B3%A8%E6%84%8F%E7%9B%B2.md)
+- [特罗克勒消逝](%E7%89%B9%E7%BD%97%E5%85%8B%E5%8B%92%E6%B6%88%E9%80%9D.md)
+
+### 芬奇（2 个）
+
+- [二手经验](%E4%BA%8C%E6%89%8B%E7%BB%8F%E9%AA%8C.md)
+- [听觉文化](%E5%90%AC%E8%A7%89%E6%96%87%E5%8C%96.md)
+
+### 克里斯坦森（2 个）
+
+- [创新者窘境](%E5%88%9B%E6%96%B0%E8%80%85%E7%AA%98%E5%A2%83.md) ★
+- [互补资产](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md)
+
+### 吉布森（2 个）
+
+- [亚临界漂移](%E4%BA%9A%E4%B8%B4%E7%95%8C%E6%BC%82%E7%A7%BB.md)
+- [超常刺激](%E8%B6%85%E5%B8%B8%E5%88%BA%E6%BF%80.md)
+
+### 密尔（2 个）
+
+- [亲缘选择](%E4%BA%B2%E7%BC%98%E9%80%89%E6%8B%A9.md) ★
+- [认知怯懦](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
+
+### 大卫·曼宁·怀特（2 个）
+
+- [把关人](%E6%8A%8A%E5%85%B3%E4%BA%BA.md) ★
+- [人物弧光](%E4%BA%BA%E7%89%A9%E5%BC%A7%E5%85%89.md)
+
+### 卡德（2 个）
+
+- [体验机](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
+- [信息觅食理论](%E4%BF%A1%E6%81%AF%E8%A7%85%E9%A3%9F%E7%90%86%E8%AE%BA.md)
+
+### 卢曼（2 个）
+
+- [信任悖论](%E4%BF%A1%E4%BB%BB%E6%82%96%E8%AE%BA.md)
+- [自创生](%E8%87%AA%E5%88%9B%E7%94%9F.md)
+
+### 马斯洛（2 个）
+
+- [倦怠社会](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+- [杰文斯悖论](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
+
+### 克鲁泡特金（2 个）
+
+- [倦怠社会](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+- [杰文斯悖论](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
+
+### 查尔默斯（2 个）
+
+- [僵尸论证](%E5%83%B5%E5%B0%B8%E8%AE%BA%E8%AF%81.md)
+- [意识的硬问题](%E6%84%8F%E8%AF%86%E7%9A%84%E7%A1%AC%E9%97%AE%E9%A2%98.md)
+
+### 马克思（2 个）
+
+- [元叙事](%E5%85%83%E5%8F%99%E4%BA%8B.md)
+- [套牢问题](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
+
+### 冯内古特（2 个）
+
+- [元小说](%E5%85%83%E5%B0%8F%E8%AF%B4.md) ★
+- [情感弧线](%E6%83%85%E6%84%9F%E5%BC%A7%E7%BA%BF.md)
+
+### 法农（2 个）
+
+- [内化压迫](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
+- [沉默的极性翻转](%E6%B2%89%E9%BB%98%E7%9A%84%E6%9E%81%E6%80%A7%E7%BF%BB%E8%BD%AC.md)
+
+### 乔布斯（2 个）
+
+- [创始人综合征](%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%BB%BC%E5%90%88%E5%BE%81.md)
+- [胜者诅咒](%E8%83%9C%E8%80%85%E8%AF%85%E5%92%92.md)
+
+### 熊彼特（2 个）
+
+- [创意破坏](%E5%88%9B%E6%84%8F%E7%A0%B4%E5%9D%8F.md) ★
+- [反者道之动](%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8.md)
+
+### 达尔文（2 个）
+
+- [努力](%E5%8A%AA%E5%8A%9B.md)
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+
+### 罗尔斯（2 个）
+
+- [协商民主](%E5%8D%8F%E5%95%86%E6%B0%91%E4%B8%BB.md)
+- [道德运气](%E9%81%93%E5%BE%B7%E8%BF%90%E6%B0%94.md)
+
+### 约瑟夫·坎贝尔（2 个）
+
+- [英雄之旅](%E8%8B%B1%E9%9B%84%E4%B9%8B%E6%97%85.md) ★
+- [原型批评](%E5%8E%9F%E5%9E%8B%E6%89%B9%E8%AF%84.md)
+
+### 唐纳德·坎贝尔（2 个）
+
+- [坎贝尔定律](%E5%9D%8E%E8%B4%9D%E5%B0%94%E5%AE%9A%E5%BE%8B.md) ★
+- [古德哈特定律](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
+
+### 阿多诺（2 个）
+
+- [否定辩证法](%E5%90%A6%E5%AE%9A%E8%BE%A9%E8%AF%81%E6%B3%95.md)
+- [沉默修辞](%E6%B2%89%E9%BB%98%E4%BF%AE%E8%BE%9E.md)
+
+### 科恩（2 个）
+
+- [吸收能力](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md) ★
+- [道德恐慌](%E9%81%93%E5%BE%B7%E6%81%90%E6%85%8C.md) ★
+
+### 鲁宾（2 个）
+
+- [图形与背景](%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%83%8C%E6%99%AF.md) ★
+- [因果关系](%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB.md)
+
+### 谢弗（2 个）
+
+- [声音景观](%E5%A3%B0%E9%9F%B3%E6%99%AF%E8%A7%82.md) ★
+- [图形与背景](%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%83%8C%E6%99%AF.md)
+
+### 安东尼奥尼（2 个）
+
+- [契诃夫之枪](%E5%A5%91%E8%AF%83%E5%A4%AB%E4%B9%8B%E6%9E%AA.md)
+- [时间-影像](%E6%97%B6%E9%97%B4-%E5%BD%B1%E5%83%8F.md)
+
+### 斯图尔特·迈尔斯（2 个）
+
+- [实物期权](%E5%AE%9E%E7%89%A9%E6%9C%9F%E6%9D%83.md) ★
+- [群体极化](%E7%BE%A4%E4%BD%93%E6%9E%81%E5%8C%96.md)
+
+### 赖尔（2 个）
+
+- [范畴错误](%E8%8C%83%E7%95%B4%E9%94%99%E8%AF%AF.md) ★
+- [实践知识](%E5%AE%9E%E8%B7%B5%E7%9F%A5%E8%AF%86.md)
+
+### 温格（2 个）
+
+- [实践社区](%E5%AE%9E%E8%B7%B5%E7%A4%BE%E5%8C%BA.md) ★
+- [情境学习](%E6%83%85%E5%A2%83%E5%AD%A6%E4%B9%A0.md) ★
+
+### 温格_Wenger（2 个）
+
+- [实践社区](%E5%AE%9E%E8%B7%B5%E7%A4%BE%E5%8C%BA.md) ★
+- [情境学习](%E6%83%85%E5%A2%83%E5%AD%A6%E4%B9%A0.md) ★
+
+### 格里菲斯（2 个）
+
+- [对位法](%E5%AF%B9%E4%BD%8D%E6%B3%95.md)
+- [平行剪辑](%E5%B9%B3%E8%A1%8C%E5%89%AA%E8%BE%91.md)
+
+### 帕累托（2 个）
+
+- [帕累托最优](%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98.md) ★
+- [帕累托前沿](%E5%B8%95%E7%B4%AF%E6%89%98%E5%89%8D%E6%B2%BF.md)
+
+### 克拉克（2 个）
+
+- [延展心智](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md) ★
+- [认知卸载](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md) ★
+
+### 柏格森（2 个）
+
+- [影像本体论](%E5%BD%B1%E5%83%8F%E6%9C%AC%E4%BD%93%E8%AE%BA.md)
+- [绵延](%E7%BB%B5%E5%BB%B6.md)
+
+### 孟子（2 个）
+
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+- [经权](%E7%BB%8F%E6%9D%83.md)
+
+### 荀子（2 个）
+
+- [性本善](%E6%80%A7%E6%9C%AC%E5%96%84.md)
+- [水能载舟亦能覆舟](%E6%B0%B4%E8%83%BD%E8%BD%BD%E8%88%9F%E4%BA%A6%E8%83%BD%E8%A6%86%E8%88%9F.md)
+
+### 马尔克斯（2 个）
+
+- [怪诞写实](%E6%80%AA%E8%AF%9E%E5%86%99%E5%AE%9E.md)
+- [魔幻现实主义](%E9%AD%94%E5%B9%BB%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89.md)
+
+### 贝克尔（2 个）
+
+- [恐惧管理理论](%E6%81%90%E6%83%A7%E7%AE%A1%E7%90%86%E7%90%86%E8%AE%BA.md)
+- [理性成瘾理论](%E7%90%86%E6%80%A7%E6%88%90%E7%98%BE%E7%90%86%E8%AE%BA.md)
+
+### 坎宁安（2 个）
+
+- [技术债务](%E6%8A%80%E6%9C%AF%E5%80%BA%E5%8A%A1.md) ★
+- [电影眼睛](%E7%94%B5%E5%BD%B1%E7%9C%BC%E7%9D%9B.md)
+
+### 马奇（2 个）
+
+- [探索-利用困境](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md) ★
+- [能力陷阱](%E8%83%BD%E5%8A%9B%E9%99%B7%E9%98%B1.md)
+
+### 德鲁克（2 个）
+
+- [无为而治](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
+- [范式转换](%E8%8C%83%E5%BC%8F%E8%BD%AC%E6%8D%A2.md)
+
+### 韩非子（2 个）
+
+- [无为而治](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
+- [赏信罚必](%E8%B5%8F%E4%BF%A1%E7%BD%9A%E5%BF%85.md)
+
+### 稻盛和夫（2 个）
+
+- [无为而治](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
+- [服务型领导](%E6%9C%8D%E5%8A%A1%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
+
+### 李嘉图（2 个）
+
+- [李嘉图等价](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md) ★
+- [比较优势](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md) ★
+
+### 莱考夫（2 个）
+
+- [概念隐喻](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md) ★
+- [认知闭合需要](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
+
+### 本居宣长（2 个）
+
+- [物哀](%E7%89%A9%E5%93%80.md) ★
+- [消逝感](%E6%B6%88%E9%80%9D%E6%84%9F.md)
+
+### 齐美尔（2 个）
+
+- [秘密的社会学](%E7%A7%98%E5%AF%86%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6.md) ★
+- [齐美尔纽带](%E9%BD%90%E7%BE%8E%E5%B0%94%E7%BA%BD%E5%B8%A6.md)
+
+### 普特南（2 个）
+
+- [语义外在主义](%E8%AF%AD%E4%B9%89%E5%A4%96%E5%9C%A8%E4%B8%BB%E4%B9%89.md) ★
+- [绿蓝悖论](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
+
+### 班杜拉（2 个）
+
+- [自我效能感](%E8%87%AA%E6%88%91%E6%95%88%E8%83%BD%E6%84%9F.md) ★
+- [道德分离](%E9%81%93%E5%BE%B7%E5%88%86%E7%A6%BB.md) ★
+
+### 威廉姆森（2 个）
+
+- [董事会捕获](%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%8D%95%E8%8E%B7.md)
+- [资产专用性](%E8%B5%84%E4%BA%A7%E4%B8%93%E7%94%A8%E6%80%A7.md)
+
+### 奥斯汀（2 个）
+
+- [表演性](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
+- [误读作为方法](%E8%AF%AF%E8%AF%BB%E4%BD%9C%E4%B8%BA%E6%96%B9%E6%B3%95.md)
+
+### 热奈特（2 个）
+
+- [视点结构](%E8%A7%86%E7%82%B9%E7%BB%93%E6%9E%84.md)
+- [隐含作者](%E9%9A%90%E5%90%AB%E4%BD%9C%E8%80%85.md)
+
+### 哈拉维（2 个）
+
+- [赛博格](%E8%B5%9B%E5%8D%9A%E6%A0%BC.md) ★
+- [赛博格叙事](%E8%B5%9B%E5%8D%9A%E6%A0%BC%E5%8F%99%E4%BA%8B.md) ★
+
+### 斯金纳（2 个）
+
+- [适应性偏好](%E9%80%82%E5%BA%94%E6%80%A7%E5%81%8F%E5%A5%BD.md)
+- [间歇强化](%E9%97%B4%E6%AD%87%E5%BC%BA%E5%8C%96.md)
