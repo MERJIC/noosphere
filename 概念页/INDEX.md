@@ -2430,12 +2430,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
 - [时机（Kairos）](%E6%97%B6%E6%9C%BA.md)
 
-### 戴维森（3 个）
-
-- [第三人效果（Third-Person Effect）](%E7%AC%AC%E4%B8%89%E4%BA%BA%E6%95%88%E6%9E%9C.md)
-- [宽容原则（Principle of Charity）](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md)
-- [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
-
 ### 海德格尔（3 个）
 
 - [解蔽（Aletheia）](%E8%A7%A3%E8%94%BD.md)
@@ -2453,12 +2447,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [伦理作为第一哲学（Ethics as First Philosophy）](%E4%BC%A6%E7%90%86%E4%BD%9C%E4%B8%BA%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%A6.md)
 - [面容（le visage）](%E9%9D%A2%E5%AE%B9.md)
 - [他者性（Alterität）](%E4%BB%96%E8%80%85%E6%80%A7.md)
-
-### 马克·约翰逊（3 个）
-
-- [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
-- [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
-- [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
 
 ### 特沃斯基（3 个）
 
@@ -2485,6 +2473,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [认知卸载（Cognitive Offloading）](%E8%AE%A4%E7%9F%A5%E5%8D%B8%E8%BD%BD.md)
 - [延展心智（Extended Mind）](%E5%BB%B6%E5%B1%95%E5%BF%83%E6%99%BA.md)
+
+### 戴维森（2 个）
+
+- [宽容原则（Principle of Charity）](%E5%AE%BD%E5%AE%B9%E5%8E%9F%E5%88%99.md)
+- [沼泽人（Swampman）](%E6%B2%BC%E6%B3%BD%E4%BA%BA.md)
 
 ### 德勒兹（2 个）
 
@@ -2737,6 +2730,10 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [杰文斯悖论（Jevons Paradox）](%E6%9D%B0%E6%96%87%E6%96%AF%E6%82%96%E8%AE%BA.md)
 
+### 凯文·斯科尔斯（1 个）
+
+- [战略漂移（Strategic Drift）](%E6%88%98%E7%95%A5%E6%BC%82%E7%A7%BB.md)
+
 ### 坎宁安（1 个）
 
 - [技术债务（Technical Debt）](%E6%8A%80%E6%9C%AF%E5%80%BA%E5%8A%A1.md)
@@ -2845,6 +2842,10 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 - [莫利纽问题（Molyneux's Problem）](%E8%8E%AB%E5%88%A9%E7%BA%BD%E9%97%AE%E9%A2%98.md)
 
+### 马克·约翰逊（1 个）
+
+- [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
+
 ### 马奇（1 个）
 
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
@@ -2928,10 +2929,6 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 ### 瓦里安（1 个）
 
 - [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
-
-### 威尔逊（1 个）
-
-- [情感预测失误（Affective Forecasting）](%E6%83%85%E6%84%9F%E9%A2%84%E6%B5%8B%E5%A4%B1%E8%AF%AF.md)
 
 ### 韦伯（1 个）
 
