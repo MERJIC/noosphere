@@ -591,7 +591,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织沉默（Organizational Silence）](%E7%BB%84%E7%BB%87%E6%B2%89%E9%BB%98.md)
 
-### 传播学（46 个）
+### 传播学（47 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
@@ -632,6 +632,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
 - [叙事劫持（Narrative Hijacking）](%E5%8F%99%E4%BA%8B%E5%8A%AB%E6%8C%81.md)
 - [议程设置（Agenda Setting）](%E8%AE%AE%E7%A8%8B%E8%AE%BE%E7%BD%AE.md)
+- [意义转移模型（Meaning Transfer Model）](%E6%84%8F%E4%B9%89%E8%BD%AC%E7%A7%BB%E6%A8%A1%E5%9E%8B.md)
 - [优先连接（Preferential Attachment）](%E4%BC%98%E5%85%88%E8%BF%9E%E6%8E%A5.md)
 - [阈值模型（Threshold Models / Critical Mass）](%E9%98%88%E5%80%BC%E6%A8%A1%E5%9E%8B.md)
 - [战略性模糊（Strategic Ambiguity）](%E6%88%98%E7%95%A5%E6%80%A7%E6%A8%A1%E7%B3%8A.md)
@@ -1720,7 +1721,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 自媒体（79 个）
+### 自媒体（80 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1795,6 +1796,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [亚临界漂移（Subcritical Drift）](%E4%BA%9A%E4%B8%B4%E7%95%8C%E6%BC%82%E7%A7%BB.md)
 - [仪式性支持行为（Ritual Support Behavior）](%E4%BB%AA%E5%BC%8F%E6%80%A7%E6%94%AF%E6%8C%81%E8%A1%8C%E4%B8%BA.md)
 - [议程设置（Agenda Setting）](%E8%AE%AE%E7%A8%8B%E8%AE%BE%E7%BD%AE.md)
+- [意义转移模型（Meaning Transfer Model）](%E6%84%8F%E4%B9%89%E8%BD%AC%E7%A7%BB%E6%A8%A1%E5%9E%8B.md)
 - [优先连接（Preferential Attachment）](%E4%BC%98%E5%85%88%E8%BF%9E%E6%8E%A5.md)
 - [有趣性（The Interesting）](%E6%9C%89%E8%B6%A3%E6%80%A7.md)
 - [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
@@ -1802,7 +1804,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（96 个）
+### 商业（97 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1888,6 +1890,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [效果推理（Effectuation）](%E6%95%88%E6%9E%9C%E6%8E%A8%E7%90%86.md)
 - [心理账户（Mental Accounting）](%E5%BF%83%E7%90%86%E8%B4%A6%E6%88%B7.md)
 - [选择架构（Choice Architecture）](%E9%80%89%E6%8B%A9%E6%9E%B6%E6%9E%84.md)
+- [意义转移模型（Meaning Transfer Model）](%E6%84%8F%E4%B9%89%E8%BD%AC%E7%A7%BB%E6%A8%A1%E5%9E%8B.md)
 - [赢家折扣（Winner's Discount）](%E8%B5%A2%E5%AE%B6%E6%8A%98%E6%89%A3.md)
 - [优先连接（Preferential Attachment）](%E4%BC%98%E5%85%88%E8%BF%9E%E6%8E%A5.md)
 - [诱饵效应（Decoy Effect）](%E8%AF%B1%E9%A5%B5%E6%95%88%E5%BA%94.md)
