@@ -248,7 +248,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 
-### 心理学（175 个）
+### 心理学（176 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -389,6 +389,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [团体迷思（Groupthink）](%E5%9B%A2%E4%BD%93%E8%BF%B7%E6%80%9D.md)
 - [妄见（Apophenia）](%E5%A6%84%E8%A7%81.md)
 - [污名化（Stigmatization）](%E6%B1%A1%E5%90%8D%E5%8C%96.md)
+- [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [习得性无助（Learned Helplessness）](%E4%B9%A0%E5%BE%97%E6%80%A7%E6%97%A0%E5%8A%A9.md)
 - [系统正当化理论（System Justification Theory）](%E7%B3%BB%E7%BB%9F%E6%AD%A3%E5%BD%93%E5%8C%96%E7%90%86%E8%AE%BA.md)
 - [相变（Phase Transition）](%E7%9B%B8%E5%8F%98.md)
@@ -426,7 +427,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（90 个）
+### 经济学（91 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -496,6 +497,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [网络外部性（Network Externality）](%E7%BD%91%E7%BB%9C%E5%A4%96%E9%83%A8%E6%80%A7.md)
 - [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
 - [委托代理问题（Principal-Agent Problem）](%E5%A7%94%E6%89%98%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98.md)
+- [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [稀缺性制造（Manufactured Scarcity）](%E7%A8%80%E7%BC%BA%E6%80%A7%E5%88%B6%E9%80%A0.md)
 - [心理账户（Mental Accounting）](%E5%BF%83%E7%90%86%E8%B4%A6%E6%88%B7.md)
 - [信号成本理论（Costly Signaling Theory）](%E4%BF%A1%E5%8F%B7%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA.md)
@@ -1718,7 +1720,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 自媒体（78 个）
+### 自媒体（79 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1777,6 +1779,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [体裁进化（Genre Evolution）](%E4%BD%93%E8%A3%81%E8%BF%9B%E5%8C%96.md)
 - [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
+- [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [稀缺性制造（Manufactured Scarcity）](%E7%A8%80%E7%BC%BA%E6%80%A7%E5%88%B6%E9%80%A0.md)
 - [象征性边界（Symbolic Boundaries）](%E8%B1%A1%E5%BE%81%E6%80%A7%E8%BE%B9%E7%95%8C.md)
 - [新闻回避（News avoidance）](%E6%96%B0%E9%97%BB%E5%9B%9E%E9%81%BF.md)
@@ -1799,7 +1802,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（95 个）
+### 商业（96 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1880,6 +1883,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [网络外部性（Network Externality）](%E7%BD%91%E7%BB%9C%E5%A4%96%E9%83%A8%E6%80%A7.md)
 - [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
 - [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
+- [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [稀缺性制造（Manufactured Scarcity）](%E7%A8%80%E7%BC%BA%E6%80%A7%E5%88%B6%E9%80%A0.md)
 - [效果推理（Effectuation）](%E6%95%88%E6%9E%9C%E6%8E%A8%E7%90%86.md)
 - [心理账户（Mental Accounting）](%E5%BF%83%E7%90%86%E8%B4%A6%E6%88%B7.md)
@@ -2059,7 +2063,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（211 个）
+### 决策（212 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2215,6 +2219,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [妄见（Apophenia）](%E5%A6%84%E8%A7%81.md)
 - [无知学（Agnotology）](%E6%97%A0%E7%9F%A5%E5%AD%A6.md)
 - [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
+- [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [献祭（Sacrifice）](%E7%8C%AE%E7%A5%AD.md)
 - [相变（Phase Transition）](%E7%9B%B8%E5%8F%98.md)
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
