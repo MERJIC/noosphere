@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（234 个）
+### 哲学（235 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -188,6 +188,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [文化资本（Cultural Capital）](%E6%96%87%E5%8C%96%E8%B5%84%E6%9C%AC.md)
 - [无为而治（Wu Wei / Effortless Governance）](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
 - [无知学（Agnotology）](%E6%97%A0%E7%9F%A5%E5%AD%A6.md)
+- [无知之幕（Veil of Ignorance）](%E6%97%A0%E7%9F%A5%E4%B9%8B%E5%B9%95.md)
 - [物化（Verdinglichung / Reification）](%E7%89%A9%E5%8C%96.md)
 - [先验统一性（Transcendental Unity）](%E5%85%88%E9%AA%8C%E7%BB%9F%E4%B8%80%E6%80%A7.md)
 - [现象学还原（Phenomenological Reduction）](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md)
@@ -786,7 +787,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [仪式化行为（Ritualized Behavior）](%E4%BB%AA%E5%BC%8F%E5%8C%96%E8%A1%8C%E4%B8%BA.md)
 - [阈限性（Liminality）](%E9%98%88%E9%99%90%E6%80%A7.md)
 
-### 政治学（37 个）
+### 政治学（38 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -818,6 +819,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [文化霸权（Cultural Hegemony）](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
 - [无为而治（Wu Wei / Effortless Governance）](%E6%97%A0%E4%B8%BA%E8%80%8C%E6%B2%BB.md)
+- [无知之幕（Veil of Ignorance）](%E6%97%A0%E7%9F%A5%E4%B9%8B%E5%B9%95.md)
 - [协商民主（Deliberative Democracy）](%E5%8D%8F%E5%95%86%E6%B0%91%E4%B8%BB.md)
 - [议程设置（Agenda Setting）](%E8%AE%AE%E7%A8%8B%E8%AE%BE%E7%BD%AE.md)
 - [真理政体（Regime of Truth）](%E7%9C%9F%E7%90%86%E6%94%BF%E4%BD%93.md)
@@ -1363,7 +1365,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（154 个）
+### 制度（155 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1479,6 +1481,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [文化资本（Cultural Capital）](%E6%96%87%E5%8C%96%E8%B5%84%E6%9C%AC.md)
 - [污名化（Stigmatization）](%E6%B1%A1%E5%90%8D%E5%8C%96.md)
 - [无知学（Agnotology）](%E6%97%A0%E7%9F%A5%E5%AD%A6.md)
+- [无知之幕（Veil of Ignorance）](%E6%97%A0%E7%9F%A5%E4%B9%8B%E5%B9%95.md)
 - [物化（Verdinglichung / Reification）](%E7%89%A9%E5%8C%96.md)
 - [系统正当化理论（System Justification Theory）](%E7%B3%BB%E7%BB%9F%E6%AD%A3%E5%BD%93%E5%8C%96%E7%90%86%E8%AE%BA.md)
 - [象征性暴力（Symbolic Violence）](%E8%B1%A1%E5%BE%81%E6%80%A7%E6%9A%B4%E5%8A%9B.md)
@@ -2076,7 +2079,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（212 个）
+### 决策（213 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2231,6 +2234,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [托宾q（Tobin's q）](%E6%89%98%E5%AE%BEq.md)
 - [妄见（Apophenia）](%E5%A6%84%E8%A7%81.md)
 - [无知学（Agnotology）](%E6%97%A0%E7%9F%A5%E5%AD%A6.md)
+- [无知之幕（Veil of Ignorance）](%E6%97%A0%E7%9F%A5%E4%B9%8B%E5%B9%95.md)
 - [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
 - [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [献祭（Sacrifice）](%E7%8C%AE%E7%A5%AD.md)
