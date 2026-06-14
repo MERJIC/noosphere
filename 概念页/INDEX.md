@@ -521,7 +521,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 
-### 社会学（67 个）
+### 社会学（69 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性合规（Performative Compliance）](%E8%A1%A8%E6%BC%94%E6%80%A7%E5%90%88%E8%A7%84.md)
@@ -531,6 +531,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德恐慌（Moral Panic）](%E9%81%93%E5%BE%B7%E6%81%90%E6%85%8C.md)
 - [地位特征理论（Status Characteristics Theory）](%E5%9C%B0%E4%BD%8D%E7%89%B9%E5%BE%81%E7%90%86%E8%AE%BA.md)
 - [房间里的大象（Elephant in the Room）](%E6%88%BF%E9%97%B4%E9%87%8C%E7%9A%84%E5%A4%A7%E8%B1%A1.md)
+- [符号价值（Sign Value）](%E7%AC%A6%E5%8F%B7%E4%BB%B7%E5%80%BC.md)
 - [附近的消失（Disappearance of the Nearby）](%E9%99%84%E8%BF%91%E7%9A%84%E6%B6%88%E5%A4%B1.md)
 - [概化他者（Generalized Other）](%E6%A6%82%E5%8C%96%E4%BB%96%E8%80%85.md)
 - [惯习（Habitus）](%E6%83%AF%E4%B9%A0.md)
@@ -569,6 +570,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [同人志叙事（Fanon Narrative）](%E5%90%8C%E4%BA%BA%E5%BF%97%E5%8F%99%E4%BA%8B.md)
 - [文化霸权（Cultural Hegemony）](%E6%96%87%E5%8C%96%E9%9C%B8%E6%9D%83.md)
 - [文化挪用（Cultural Appropriation）](%E6%96%87%E5%8C%96%E6%8C%AA%E7%94%A8.md)
+- [文化中介者（Cultural Intermediaries）](%E6%96%87%E5%8C%96%E4%B8%AD%E4%BB%8B%E8%80%85.md)
 - [文化资本（Cultural Capital）](%E6%96%87%E5%8C%96%E8%B5%84%E6%9C%AC.md)
 - [污名化（Stigmatization）](%E6%B1%A1%E5%90%8D%E5%8C%96.md)
 - [物化（Verdinglichung / Reification）](%E7%89%A9%E5%8C%96.md)
@@ -591,7 +593,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [组织沉默（Organizational Silence）](%E7%BB%84%E7%BB%87%E6%B2%89%E9%BB%98.md)
 
-### 传播学（47 个）
+### 传播学（48 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
@@ -615,6 +617,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [冷媒介（Cool Media）](%E5%86%B7%E5%AA%92%E4%BB%8B.md)
 - [迷因（Meme）](%E8%BF%B7%E5%9B%A0.md)
 - [内容策展（Content Curation）](%E5%86%85%E5%AE%B9%E7%AD%96%E5%B1%95.md)
+- [拟社会互动（Parasocial Interaction）](%E6%8B%9F%E7%A4%BE%E4%BC%9A%E4%BA%92%E5%8A%A8.md)
 - [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
 - [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
 - [培植理论（Cultivation Theory）](%E5%9F%B9%E6%A4%8D%E7%90%86%E8%AE%BA.md)
@@ -951,7 +954,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（275 个）
+### 自我（276 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1015,6 +1018,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [废墟美学（Ruins Aesthetic）](%E5%BA%9F%E5%A2%9F%E7%BE%8E%E5%AD%A6.md)
 - [氛围（Stimmung）](%E6%B0%9B%E5%9B%B4.md)
 - [否认（Denial）](%E5%90%A6%E8%AE%A4.md)
+- [符号价值（Sign Value）](%E7%AC%A6%E5%8F%B7%E4%BB%B7%E5%80%BC.md)
 - [负能力（Negative Capability）](%E8%B4%9F%E8%83%BD%E5%8A%9B.md)
 - [负熵（Negentropy）](%E8%B4%9F%E7%86%B5.md)
 - [负性幻觉（Negative Hallucination）](%E8%B4%9F%E6%80%A7%E5%B9%BB%E8%A7%89.md)
@@ -1229,7 +1233,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（126 个）
+### 关系（127 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1287,6 +1291,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [摩尔悖论（Moore's Paradox）](%E6%91%A9%E5%B0%94%E6%82%96%E8%AE%BA.md)
 - [默认可信（Default Entitlement to Testimony）](%E9%BB%98%E8%AE%A4%E5%8F%AF%E4%BF%A1.md)
 - [内化压迫（Internalized Oppression）](%E5%86%85%E5%8C%96%E5%8E%8B%E8%BF%AB.md)
+- [拟社会互动（Parasocial Interaction）](%E6%8B%9F%E7%A4%BE%E4%BC%9A%E4%BA%92%E5%8A%A8.md)
 - [拟态（Mimicry）](%E6%8B%9F%E6%80%81.md)
 - [逆火效应（Backfire Effect）](%E9%80%86%E7%81%AB%E6%95%88%E5%BA%94.md)
 - [凝视（The Gaze / Le Regard）](%E5%87%9D%E8%A7%86.md)
@@ -1721,7 +1726,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自组织临界（Self-Organized Criticality）](%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%B4%E7%95%8C.md)
 - [作者论（Auteur Theory）](%E4%BD%9C%E8%80%85%E8%AE%BA.md)
 
-### 自媒体（80 个）
+### 自媒体（82 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1760,6 +1765,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [迷因（Meme）](%E8%BF%B7%E5%9B%A0.md)
 - [免疫逃逸（Immune Escape）](%E5%85%8D%E7%96%AB%E9%80%83%E9%80%B8.md)
 - [内容策展（Content Curation）](%E5%86%85%E5%AE%B9%E7%AD%96%E5%B1%95.md)
+- [拟社会互动（Parasocial Interaction）](%E6%8B%9F%E7%A4%BE%E4%BC%9A%E4%BA%92%E5%8A%A8.md)
 - [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
 - [拟象（Simulacra / Simulation）](%E6%8B%9F%E8%B1%A1.md)
 - [培植理论（Cultivation Theory）](%E5%9F%B9%E6%A4%8D%E7%90%86%E8%AE%BA.md)
@@ -1780,6 +1786,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [体裁进化（Genre Evolution）](%E4%BD%93%E8%A3%81%E8%BF%9B%E5%8C%96.md)
 - [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
+- [文化中介者（Cultural Intermediaries）](%E6%96%87%E5%8C%96%E4%B8%AD%E4%BB%8B%E8%80%85.md)
 - [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [稀缺性制造（Manufactured Scarcity）](%E7%A8%80%E7%BC%BA%E6%80%A7%E5%88%B6%E9%80%A0.md)
 - [象征性边界（Symbolic Boundaries）](%E8%B1%A1%E5%BE%81%E6%80%A7%E8%BE%B9%E7%95%8C.md)
@@ -1804,7 +1811,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（97 个）
+### 商业（100 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1837,6 +1844,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [飞轮效应（Flywheel Effect）](%E9%A3%9E%E8%BD%AE%E6%95%88%E5%BA%94.md)
 - [废话生产（Bullshit Production）](%E5%BA%9F%E8%AF%9D%E7%94%9F%E4%BA%A7.md)
 - [峰终定律（Peak-End Rule）](%E5%B3%B0%E7%BB%88%E5%AE%9A%E5%BE%8B.md)
+- [符号价值（Sign Value）](%E7%AC%A6%E5%8F%B7%E4%BB%B7%E5%80%BC.md)
 - [格雷欣法则（Gresham's Law）](%E6%A0%BC%E9%9B%B7%E6%AC%A3%E6%B3%95%E5%88%99.md)
 - [规模化陷阱（Scaling Trap）](%E8%A7%84%E6%A8%A1%E5%8C%96%E9%99%B7%E9%98%B1.md)
 - [红皇后假说（Red Queen Hypothesis）](%E7%BA%A2%E7%9A%87%E5%90%8E%E5%81%87%E8%AF%B4.md)
@@ -1861,6 +1869,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [马太效应（Matthew Effect）](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
 - [明斯基时刻（Minsky Moment）](%E6%98%8E%E6%96%AF%E5%9F%BA%E6%97%B6%E5%88%BB.md)
 - [模糊厌恶（Ambiguity Aversion）](%E6%A8%A1%E7%B3%8A%E5%8E%8C%E6%81%B6.md)
+- [拟社会互动（Parasocial Interaction）](%E6%8B%9F%E7%A4%BE%E4%BC%9A%E4%BA%92%E5%8A%A8.md)
 - [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
 - [逆向选择（Adverse Selection）](%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9.md)
 - [柠檬市场（Market for Lemons）](%E6%9F%A0%E6%AA%AC%E5%B8%82%E5%9C%BA.md)
@@ -1884,6 +1893,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [外适应（Exaptation）](%E5%A4%96%E9%80%82%E5%BA%94.md)
 - [网络外部性（Network Externality）](%E7%BD%91%E7%BB%9C%E5%A4%96%E9%83%A8%E6%80%A7.md)
 - [网络效应（Network Effects）](%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
+- [文化中介者（Cultural Intermediaries）](%E6%96%87%E5%8C%96%E4%B8%AD%E4%BB%8B%E8%80%85.md)
 - [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
 - [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
 - [稀缺性制造（Manufactured Scarcity）](%E7%A8%80%E7%BC%BA%E6%80%A7%E5%88%B6%E9%80%A0.md)
