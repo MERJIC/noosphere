@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（235 个）
+### 哲学（236 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -248,6 +248,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
+- [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
 ### 心理学（177 个）
 
@@ -429,7 +430,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（92 个）
+### 经济学（93 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -523,6 +524,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
+- [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
 ### 社会学（69 个）
 
@@ -1367,7 +1369,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（155 个）
+### 制度（156 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1524,6 +1526,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
+- [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
 ### 创作（203 个）
 
@@ -2082,7 +2085,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（214 个）
+### 决策（215 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2298,6 +2301,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [子目标冲突（Subgoal Conflict）](%E5%AD%90%E7%9B%AE%E6%A0%87%E5%86%B2%E7%AA%81.md)
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
+- [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
 ### 领导（57 个）
 
