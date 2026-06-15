@@ -250,7 +250,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 心理学（177 个）
+### 心理学（180 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -302,6 +302,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [合理化（Rationalization）](%E5%90%88%E7%90%86%E5%8C%96.md)
 - [黑暗三角（Dark Triad）](%E9%BB%91%E6%9A%97%E4%B8%89%E8%A7%92.md)
 - [后记忆（Postmemory）](%E5%90%8E%E8%AE%B0%E5%BF%86.md)
+- [互惠规范（Norm of Reciprocity）](%E4%BA%92%E6%83%A0%E8%A7%84%E8%8C%83.md)
 - [唤醒的错误归因（Misattribution of Arousal）](%E5%94%A4%E9%86%92%E7%9A%84%E9%94%99%E8%AF%AF%E5%BD%92%E5%9B%A0.md)
 - [基本归因错误（Fundamental Attribution Error）](%E5%9F%BA%E6%9C%AC%E5%BD%92%E5%9B%A0%E9%94%99%E8%AF%AF.md)
 - [寄生（Parasitism）](%E5%AF%84%E7%94%9F.md)
@@ -396,6 +397,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [系统正当化理论（System Justification Theory）](%E7%B3%BB%E7%BB%9F%E6%AD%A3%E5%BD%93%E5%8C%96%E7%90%86%E8%AE%BA.md)
 - [相变（Phase Transition）](%E7%9B%B8%E5%8F%98.md)
 - [协方差归因失效（Violation of Covariation）](%E5%8D%8F%E6%96%B9%E5%B7%AE%E5%BD%92%E5%9B%A0%E5%A4%B1%E6%95%88.md)
+- [心理契约破裂（Psychological Contract Breach）](%E5%BF%83%E7%90%86%E5%A5%91%E7%BA%A6%E7%A0%B4%E8%A3%82.md)
 - [心理所有权（Psychological Ownership）](%E5%BF%83%E7%90%86%E6%89%80%E6%9C%89%E6%9D%83.md)
 - [心流（Flow）](%E5%BF%83%E6%B5%81.md)
 - [信号劫持（Signal Hijacking）](%E4%BF%A1%E5%8F%B7%E5%8A%AB%E6%8C%81.md)
@@ -427,6 +429,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我效能感（Self-Efficacy）](%E8%87%AA%E6%88%91%E6%95%88%E8%83%BD%E6%84%9F.md)
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
+- [组织犬儒主义（Organizational Cynicism）](%E7%BB%84%E7%BB%87%E7%8A%AC%E5%84%92%E4%B8%BB%E4%B9%89.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
@@ -526,7 +529,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 社会学（69 个）
+### 社会学（70 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性合规（Performative Compliance）](%E8%A1%A8%E6%BC%94%E6%80%A7%E5%90%88%E8%A7%84.md)
@@ -540,6 +543,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [附近的消失（Disappearance of the Nearby）](%E9%99%84%E8%BF%91%E7%9A%84%E6%B6%88%E5%A4%B1.md)
 - [概化他者（Generalized Other）](%E6%A6%82%E5%8C%96%E4%BB%96%E8%80%85.md)
 - [惯习（Habitus）](%E6%83%AF%E4%B9%A0.md)
+- [互惠规范（Norm of Reciprocity）](%E4%BA%92%E6%83%A0%E8%A7%84%E8%8C%83.md)
 - [回音室效应（Echo Chamber Effect）](%E5%9B%9E%E9%9F%B3%E5%AE%A4%E6%95%88%E5%BA%94.md)
 - [集体欢腾（Collective Effervescence）](%E9%9B%86%E4%BD%93%E6%AC%A2%E8%85%BE.md)
 - [寄生社交关系（Parasocial Relationship）](%E5%AF%84%E7%94%9F%E7%A4%BE%E4%BA%A4%E5%85%B3%E7%B3%BB.md)
@@ -649,7 +653,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 管理学（77 个）
+### 管理学（82 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -667,6 +671,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [服务型领导（Servant Leadership）](%E6%9C%8D%E5%8A%A1%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
 - [哥利亚效应（Goliath Effect）](%E5%93%A5%E5%88%A9%E4%BA%9A%E6%95%88%E5%BA%94.md)
 - [工作特征模型（Job Characteristics Model）](%E5%B7%A5%E4%BD%9C%E7%89%B9%E5%BE%81%E6%A8%A1%E5%9E%8B.md)
+- [功能性愚蠢（Functional Stupidity）](%E5%8A%9F%E8%83%BD%E6%80%A7%E6%84%9A%E8%A0%A2.md)
 - [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [规模化陷阱（Scaling Trap）](%E8%A7%84%E6%A8%A1%E5%8C%96%E9%99%B7%E9%98%B1.md)
 - [核心刚性（Core Rigidities）](%E6%A0%B8%E5%BF%83%E5%88%9A%E6%80%A7.md)
@@ -684,6 +689,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [角色认同（Role Identity）](%E8%A7%92%E8%89%B2%E8%AE%A4%E5%90%8C.md)
 - [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
 - [刻意练习（Deliberate Practice）](%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0.md)
+- [垃圾罐模型（Garbage Can Model）](%E5%9E%83%E5%9C%BE%E7%BD%90%E6%A8%A1%E5%9E%8B.md)
 - [领导者-成员交换理论（LMX，Leader-Member Exchange）](%E9%A2%86%E5%AF%BC%E8%80%85-%E6%88%90%E5%91%98%E4%BA%A4%E6%8D%A2%E7%90%86%E8%AE%BA.md)
 - [马太效应（Matthew Effect）](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
 - [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
@@ -707,6 +713,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
 - [效果推理（Effectuation）](%E6%95%88%E6%9E%9C%E6%8E%A8%E7%90%86.md)
 - [心理安全感（Psychological Safety）](%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F.md)
+- [心理契约破裂（Psychological Contract Breach）](%E5%BF%83%E7%90%86%E5%A5%91%E7%BA%A6%E7%A0%B4%E8%A3%82.md)
 - [心理所有权（Psychological Ownership）](%E5%BF%83%E7%90%86%E6%89%80%E6%9C%89%E6%9D%83.md)
 - [心理资本（Psychological Capital）](%E5%BF%83%E7%90%86%E8%B5%84%E6%9C%AC.md)
 - [心流（Flow）](%E5%BF%83%E6%B5%81.md)
@@ -727,7 +734,9 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织沉默（Organizational Silence）](%E7%BB%84%E7%BB%87%E6%B2%89%E9%BB%98.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
+- [组织犬儒主义（Organizational Cynicism）](%E7%BB%84%E7%BB%87%E7%8A%AC%E5%84%92%E4%B8%BB%E4%B9%89.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
+- [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 
 ### 生物学（33 个）
 
@@ -960,7 +969,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（276 个）
+### 自我（280 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1036,6 +1045,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [哥利亚效应（Goliath Effect）](%E5%93%A5%E5%88%A9%E4%BA%9A%E6%95%88%E5%BA%94.md)
 - [格式塔转换（Gestalt Shift）](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
 - [格物致知（Gewu Zhizhi / Investigation of Things）](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
+- [功能性愚蠢（Functional Stupidity）](%E5%8A%9F%E8%83%BD%E6%80%A7%E6%84%9A%E8%A0%A2.md)
 - [怪诞（The Grotesque）](%E6%80%AA%E8%AF%9E.md)
 - [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [惯习（Habitus）](%E6%83%AF%E4%B9%A0.md)
@@ -1176,6 +1186,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
 - [消逝感（Transientness / Ephemeral Aesthetics）](%E6%B6%88%E9%80%9D%E6%84%9F.md)
 - [心理距离（Psychical Distance）](%E5%BF%83%E7%90%86%E8%B7%9D%E7%A6%BB.md)
+- [心理契约破裂（Psychological Contract Breach）](%E5%BF%83%E7%90%86%E5%A5%91%E7%BA%A6%E7%A0%B4%E8%A3%82.md)
 - [心理所有权（Psychological Ownership）](%E5%BF%83%E7%90%86%E6%89%80%E6%9C%89%E6%9D%83.md)
 - [心理账户（Mental Accounting）](%E5%BF%83%E7%90%86%E8%B4%A6%E6%88%B7.md)
 - [心理资本（Psychological Capital）](%E5%BF%83%E7%90%86%E8%B5%84%E6%9C%AC.md)
@@ -1237,9 +1248,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
+- [组织犬儒主义（Organizational Cynicism）](%E7%BB%84%E7%BB%87%E7%8A%AC%E5%84%92%E4%B8%BB%E4%B9%89.md)
+- [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（127 个）
+### 关系（128 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1266,6 +1279,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [公地悲剧（Tragedy of the Commons）](%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7.md)
 - [过渡性客体（Transitional Object）](%E8%BF%87%E6%B8%A1%E6%80%A7%E5%AE%A2%E4%BD%93.md)
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
+- [互惠规范（Norm of Reciprocity）](%E4%BA%92%E6%83%A0%E8%A7%84%E8%8C%83.md)
 - [互惠利他（Reciprocal Altruism）](%E4%BA%92%E6%83%A0%E5%88%A9%E4%BB%96.md)
 - [互套（Bilateral Hold-up）](%E4%BA%92%E5%A5%97.md)
 - [互文性（Intertextuality）](%E4%BA%92%E6%96%87%E6%80%A7.md)
@@ -1923,7 +1937,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（159 个）
+### 组织（165 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -1958,6 +1972,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [负熵（Negentropy）](%E8%B4%9F%E7%86%B5.md)
 - [工作特征模型（Job Characteristics Model）](%E5%B7%A5%E4%BD%9C%E7%89%B9%E5%BE%81%E6%A8%A1%E5%9E%8B.md)
 - [公共品困境（Public Goods Dilemma）](%E5%85%AC%E5%85%B1%E5%93%81%E5%9B%B0%E5%A2%83.md)
+- [功能性愚蠢（Functional Stupidity）](%E5%8A%9F%E8%83%BD%E6%80%A7%E6%84%9A%E8%A0%A2.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
 - [共同信息效应（Shared Information Bias）](%E5%85%B1%E5%90%8C%E4%BF%A1%E6%81%AF%E6%95%88%E5%BA%94.md)
 - [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
@@ -1973,6 +1988,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [黑暗领导力（Dark Leadership）](%E9%BB%91%E6%9A%97%E9%A2%86%E5%AF%BC%E5%8A%9B.md)
 - [红皇后假说（Red Queen Hypothesis）](%E7%BA%A2%E7%9A%87%E5%90%8E%E5%81%87%E8%AF%B4.md)
 - [厚概念（Thick Concepts）](%E5%8E%9A%E6%A6%82%E5%BF%B5.md)
+- [互惠规范（Norm of Reciprocity）](%E4%BA%92%E6%83%A0%E8%A7%84%E8%8C%83.md)
 - [霍夫斯塔特法则（Hofstadter's Law）](%E9%9C%8D%E5%A4%AB%E6%96%AF%E5%A1%94%E7%89%B9%E6%B3%95%E5%88%99.md)
 - [绩效幂律（Performance Power Law）](%E7%BB%A9%E6%95%88%E5%B9%82%E5%BE%8B.md)
 - [即兴能力（Organizational Improvisation）](%E5%8D%B3%E5%85%B4%E8%83%BD%E5%8A%9B.md)
@@ -1995,6 +2011,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [坎贝尔定律（Campbell's Law）](%E5%9D%8E%E8%B4%9D%E5%B0%94%E5%AE%9A%E5%BE%8B.md)
 - [可寻性（Findability）](%E5%8F%AF%E5%AF%BB%E6%80%A7.md)
 - [刻意练习（Deliberate Practice）](%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0.md)
+- [垃圾罐模型（Garbage Can Model）](%E5%9E%83%E5%9C%BE%E7%BD%90%E6%A8%A1%E5%9E%8B.md)
 - [礼貌理论（Politeness Theory）](%E7%A4%BC%E8%B2%8C%E7%90%86%E8%AE%BA.md)
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
 - [马太效应（Matthew Effect）](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
@@ -2046,6 +2063,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [习得性无助（Learned Helplessness）](%E4%B9%A0%E5%BE%97%E6%80%A7%E6%97%A0%E5%8A%A9.md)
 - [象征性边界（Symbolic Boundaries）](%E8%B1%A1%E5%BE%81%E6%80%A7%E8%BE%B9%E7%95%8C.md)
 - [心理安全感（Psychological Safety）](%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F.md)
+- [心理契约破裂（Psychological Contract Breach）](%E5%BF%83%E7%90%86%E5%A5%91%E7%BA%A6%E7%A0%B4%E8%A3%82.md)
 - [心理所有权（Psychological Ownership）](%E5%BF%83%E7%90%86%E6%89%80%E6%9C%89%E6%9D%83.md)
 - [心理资本（Psychological Capital）](%E5%BF%83%E7%90%86%E8%B5%84%E6%9C%AC.md)
 - [心流（Flow）](%E5%BF%83%E6%B5%81.md)
@@ -2082,10 +2100,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
 - [组织沉默（Organizational Silence）](%E7%BB%84%E7%BB%87%E6%B2%89%E9%BB%98.md)
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
+- [组织犬儒主义（Organizational Cynicism）](%E7%BB%84%E7%BB%87%E7%8A%AC%E5%84%92%E4%B8%BB%E4%B9%89.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
+- [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（215 个）
+### 决策（216 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2182,6 +2202,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [框架漂移（Frame Drift）](%E6%A1%86%E6%9E%B6%E6%BC%82%E7%A7%BB.md)
 - [框架问题（Frame Problem）](%E6%A1%86%E6%9E%B6%E9%97%AE%E9%A2%98.md)
 - [框架效应（Framing Effect）](%E6%A1%86%E6%9E%B6%E6%95%88%E5%BA%94.md)
+- [垃圾罐模型（Garbage Can Model）](%E5%9E%83%E5%9C%BE%E7%BD%90%E6%A8%A1%E5%9E%8B.md)
 - [乐观偏差（Optimistic Bias）](%E4%B9%90%E8%A7%82%E5%81%8F%E5%B7%AE.md)
 - [累积优势（Cumulative Advantage）](%E7%B4%AF%E7%A7%AF%E4%BC%98%E5%8A%BF.md)
 - [李嘉图等价（Ricardian Equivalence）](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md)
