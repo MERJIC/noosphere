@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（236 个）
+### 哲学（237 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -140,6 +140,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [庖丁解牛（Cook Ding Cutting Up an Ox）](%E5%BA%96%E4%B8%81%E8%A7%A3%E7%89%9B.md)
 - [偏斜（Clinamen）](%E5%81%8F%E6%96%9C.md)
 - [平庸之恶（Banality of Evil）](%E5%B9%B3%E5%BA%B8%E4%B9%8B%E6%81%B6.md)
+- [前定和谐（pre-established harmony）](%E5%89%8D%E5%AE%9A%E5%92%8C%E8%B0%90.md)
 - [全景监狱（Panopticon）](%E5%85%A8%E6%99%AF%E7%9B%91%E7%8B%B1.md)
 - [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
@@ -969,7 +970,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（280 个）
+### 自我（281 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1119,6 +1120,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [抛入性（Geworfenheit）](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
 - [庖丁解牛（Cook Ding Cutting Up an Ox）](%E5%BA%96%E4%B8%81%E8%A7%A3%E7%89%9B.md)
 - [偏斜（Clinamen）](%E5%81%8F%E6%96%9C.md)
+- [前定和谐（pre-established harmony）](%E5%89%8D%E5%AE%9A%E5%92%8C%E8%B0%90.md)
 - [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
 - [侵入性再现（Intrusive Re-experiencing）](%E4%BE%B5%E5%85%A5%E6%80%A7%E5%86%8D%E7%8E%B0.md)
 - [情感预测失误（Affective Forecasting）](%E6%83%85%E6%84%9F%E9%A2%84%E6%B5%8B%E5%A4%B1%E8%AF%AF.md)
@@ -2105,7 +2107,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（216 个）
+### 决策（217 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2230,6 +2232,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [偏斜（Clinamen）](%E5%81%8F%E6%96%9C.md)
 - [歧义容忍（Tolerance for Ambiguity）](%E6%AD%A7%E4%B9%89%E5%AE%B9%E5%BF%8D.md)
 - [启动效应（Priming Effect）](%E5%90%AF%E5%8A%A8%E6%95%88%E5%BA%94.md)
+- [前定和谐（pre-established harmony）](%E5%89%8D%E5%AE%9A%E5%92%8C%E8%B0%90.md)
 - [前景理论（Prospect Theory）](%E5%89%8D%E6%99%AF%E7%90%86%E8%AE%BA.md)
 - [情感预测失误（Affective Forecasting）](%E6%83%85%E6%84%9F%E9%A2%84%E6%B5%8B%E5%A4%B1%E8%AF%AF.md)
 - [确认偏误（Confirmation Bias）](%E7%A1%AE%E8%AE%A4%E5%81%8F%E8%AF%AF.md)
