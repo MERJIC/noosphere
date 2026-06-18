@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（242 个）
+### 哲学（243 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -113,6 +113,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [举直错诸枉（Ju Zhi Cuo Zhu Wang / Promote the Upright, Place Them Above the Crooked）](%E4%B8%BE%E7%9B%B4%E9%94%99%E8%AF%B8%E6%9E%89.md)
 - [具身认知（Embodied Cognition）](%E5%85%B7%E8%BA%AB%E8%AE%A4%E7%9F%A5.md)
 - [倦怠社会（Müdigkeitsgesellschaft / Burn-out Society）](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
+- [绝对命令（Categorical Imperative）](%E7%BB%9D%E5%AF%B9%E5%91%BD%E4%BB%A4.md)
 - [开放作品（Open Work / Opera Aperta）](%E5%BC%80%E6%94%BE%E4%BD%9C%E5%93%81.md)
 - [看见与看做（Seeing and Seeing-as / Aspect Perception）](%E7%9C%8B%E8%A7%81%E4%B8%8E%E7%9C%8B%E5%81%9A.md)
 - [空能指（Empty Signifier）](%E7%A9%BA%E8%83%BD%E6%8C%87.md)
@@ -975,7 +976,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（285 个）
+### 自我（286 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1098,6 +1099,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [聚光灯效应（Spotlight Effect）](%E8%81%9A%E5%85%89%E7%81%AF%E6%95%88%E5%BA%94.md)
 - [倦怠社会（Müdigkeitsgesellschaft / Burn-out Society）](%E5%80%A6%E6%80%A0%E7%A4%BE%E4%BC%9A.md)
 - [决策疲劳（Decision Fatigue）](%E5%86%B3%E7%AD%96%E7%96%B2%E5%8A%B3.md)
+- [绝对命令（Categorical Imperative）](%E7%BB%9D%E5%AF%B9%E5%91%BD%E4%BB%A4.md)
 - [可逆性错觉（Illusion of Reversibility）](%E5%8F%AF%E9%80%86%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [刻板印象威胁（Stereotype Threat）](%E5%88%BB%E6%9D%BF%E5%8D%B0%E8%B1%A1%E5%A8%81%E8%83%81.md)
 - [刻意练习（Deliberate Practice）](%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0.md)
@@ -2118,7 +2120,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（221 个）
+### 决策（222 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2209,6 +2211,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [经权（Jing Quan / Principle and Expediency）](%E7%BB%8F%E6%9D%83.md)
 - [经验曲线效应（Experience Curve Effect）](%E7%BB%8F%E9%AA%8C%E6%9B%B2%E7%BA%BF%E6%95%88%E5%BA%94.md)
 - [决策疲劳（Decision Fatigue）](%E5%86%B3%E7%AD%96%E7%96%B2%E5%8A%B3.md)
+- [绝对命令（Categorical Imperative）](%E7%BB%9D%E5%AF%B9%E5%91%BD%E4%BB%A4.md)
 - [均势理论（Balance of Power）](%E5%9D%87%E5%8A%BF%E7%90%86%E8%AE%BA.md)
 - [坎蒂隆效应（Cantillon Effect）](%E5%9D%8E%E8%92%82%E9%9A%86%E6%95%88%E5%BA%94.md)
 - [可得性启发式（Availability Heuristic）](%E5%8F%AF%E5%BE%97%E6%80%A7%E5%90%AF%E5%8F%91%E5%BC%8F.md)
