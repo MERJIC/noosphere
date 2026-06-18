@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（239 个）
+### 哲学（242 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -77,8 +77,10 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
 - [感而遂通（Gan Er Sui Tong / Resonance Leads to Penetration）](%E6%84%9F%E8%80%8C%E9%81%82%E9%80%9A.md)
 - [感受质（Qualia）](%E6%84%9F%E5%8F%97%E8%B4%A8.md)
+- [格律（Maxim）](%E6%A0%BC%E5%BE%8B.md)
 - [格式塔转换（Gestalt Shift）](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
 - [格物致知（Gewu Zhizhi / Investigation of Things）](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
+- [根本恶（Radical Evil）](%E6%A0%B9%E6%9C%AC%E6%81%B6.md)
 - [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [观物取象（Guan Wu Qu Xiang / Observing Things to Take Images）](%E8%A7%82%E7%89%A9%E5%8F%96%E8%B1%A1.md)
 - [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
@@ -182,6 +184,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
 - [索里特斯悖论（Sorites Paradox）](%E7%B4%A2%E9%87%8C%E7%89%B9%E6%96%AF%E6%82%96%E8%AE%BA.md)
+- [他律（Heteronomy）](%E4%BB%96%E5%BE%8B.md)
 - [他者性（Alterität）](%E4%BB%96%E8%80%85%E6%80%A7.md)
 - [忒修斯之船（Ship of Theseus）](%E5%BF%92%E4%BF%AE%E6%96%AF%E4%B9%8B%E8%88%B9.md)
 - [体验机（Experience Machine）](%E4%BD%93%E9%AA%8C%E6%9C%BA.md)
@@ -972,7 +975,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（283 个）
+### 自我（285 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1047,8 +1050,10 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [概化他者（Generalized Other）](%E6%A6%82%E5%8C%96%E4%BB%96%E8%80%85.md)
 - [感受质（Qualia）](%E6%84%9F%E5%8F%97%E8%B4%A8.md)
 - [哥利亚效应（Goliath Effect）](%E5%93%A5%E5%88%A9%E4%BA%9A%E6%95%88%E5%BA%94.md)
+- [格律（Maxim）](%E6%A0%BC%E5%BE%8B.md)
 - [格式塔转换（Gestalt Shift）](%E6%A0%BC%E5%BC%8F%E5%A1%94%E8%BD%AC%E6%8D%A2.md)
 - [格物致知（Gewu Zhizhi / Investigation of Things）](%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5.md)
+- [根本恶（Radical Evil）](%E6%A0%B9%E6%9C%AC%E6%81%B6.md)
 - [功能性愚蠢（Functional Stupidity）](%E5%8A%9F%E8%83%BD%E6%80%A7%E6%84%9A%E8%A0%A2.md)
 - [怪诞（The Grotesque）](%E6%80%AA%E8%AF%9E.md)
 - [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
@@ -1389,7 +1394,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（156 个）
+### 制度（157 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1496,6 +1501,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [算法治理术（Algorithmic Governmentality）](%E7%AE%97%E6%B3%95%E6%B2%BB%E7%90%86%E6%9C%AF.md)
 - [隧道挖掘（Tunneling）](%E9%9A%A7%E9%81%93%E6%8C%96%E6%8E%98.md)
 - [索里特斯悖论（Sorites Paradox）](%E7%B4%A2%E9%87%8C%E7%89%B9%E6%96%AF%E6%82%96%E8%AE%BA.md)
+- [他律（Heteronomy）](%E4%BB%96%E5%BE%8B.md)
 - [套牢问题（Hold-up Problem）](%E5%A5%97%E7%89%A2%E9%97%AE%E9%A2%98.md)
 - [替罪羊机制（Scapegoating）](%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%9C%BA%E5%88%B6.md)
 - [听觉文化（Auditory Culture）](%E5%90%AC%E8%A7%89%E6%96%87%E5%8C%96.md)
@@ -1943,7 +1949,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（165 个）
+### 组织（166 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2057,6 +2063,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
 - [随机共振（Stochastic Resonance）](%E9%9A%8F%E6%9C%BA%E5%85%B1%E6%8C%AF.md)
 - [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
+- [他律（Heteronomy）](%E4%BB%96%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
 - [体制化审美（Institutionalized Taste）](%E4%BD%93%E5%88%B6%E5%8C%96%E5%AE%A1%E7%BE%8E.md)
 - [替罪羊机制（Scapegoating）](%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%9C%BA%E5%88%B6.md)
@@ -2111,7 +2118,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（219 个）
+### 决策（221 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2167,6 +2174,8 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [菲奇可知性悖论（Fitch's Paradox of Knowability）](%E8%8F%B2%E5%A5%87%E5%8F%AF%E7%9F%A5%E6%80%A7%E6%82%96%E8%AE%BA.md)
 - [附属意志（Willkür）](%E9%99%84%E5%B1%9E%E6%84%8F%E5%BF%97.md)
 - [盖梯尔问题（Gettier Problem）](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
+- [格律（Maxim）](%E6%A0%BC%E5%BE%8B.md)
+- [根本恶（Radical Evil）](%E6%A0%B9%E6%9C%AC%E6%81%B6.md)
 - [功能固着（Functional Fixedness）](%E5%8A%9F%E8%83%BD%E5%9B%BA%E7%9D%80.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
 - [共同信息效应（Shared Information Bias）](%E5%85%B1%E5%90%8C%E4%BF%A1%E6%81%AF%E6%95%88%E5%BA%94.md)
