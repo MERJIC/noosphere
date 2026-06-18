@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（243 个）
+### 哲学（244 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -252,6 +252,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [智识谦逊（Intellectual Humility）](%E6%99%BA%E8%AF%86%E8%B0%A6%E9%80%8A.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [重复强迫（Repetition Compulsion）](%E9%87%8D%E5%A4%8D%E5%BC%BA%E8%BF%AB.md)
+- [自律（Autonomy）](%E8%87%AA%E5%BE%8B.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
@@ -976,7 +977,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（286 个）
+### 自我（287 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1253,6 +1254,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [重新框定（Reframing）](%E9%87%8D%E6%96%B0%E6%A1%86%E5%AE%9A.md)
 - [注意力残留（Attention Residue）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%AE%8B%E7%95%99.md)
 - [自创生（Autopoiesis）](%E8%87%AA%E5%88%9B%E7%94%9F.md)
+- [自律（Autonomy）](%E8%87%AA%E5%BE%8B.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自我妨碍（Self-Handicapping）](%E8%87%AA%E6%88%91%E5%A6%A8%E7%A2%8D.md)
 - [自我服务偏差（Self-Serving Bias）](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
@@ -2120,7 +2122,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（222 个）
+### 决策（223 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2335,6 +2337,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [直言（Parrhesia）](%E7%9B%B4%E8%A8%80.md)
 - [智识谦逊（Intellectual Humility）](%E6%99%BA%E8%AF%86%E8%B0%A6%E9%80%8A.md)
 - [资源诅咒（Resource Curse）](%E8%B5%84%E6%BA%90%E8%AF%85%E5%92%92.md)
+- [自律（Autonomy）](%E8%87%AA%E5%BE%8B.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自我妨碍（Self-Handicapping）](%E8%87%AA%E6%88%91%E5%A6%A8%E7%A2%8D.md)
 - [自我服务偏差（Self-Serving Bias）](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
