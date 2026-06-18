@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（237 个）
+### 哲学（238 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -192,6 +192,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [无知之幕（Veil of Ignorance）](%E6%97%A0%E7%9F%A5%E4%B9%8B%E5%B9%95.md)
 - [物化（Verdinglichung / Reification）](%E7%89%A9%E5%8C%96.md)
 - [先验统一性（Transcendental Unity）](%E5%85%88%E9%AA%8C%E7%BB%9F%E4%B8%80%E6%80%A7.md)
+- [先验自由（Transcendental Freedom）](%E5%85%88%E9%AA%8C%E8%87%AA%E7%94%B1.md)
 - [现象学还原（Phenomenological Reduction）](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md)
 - [献祭（Sacrifice）](%E7%8C%AE%E7%A5%AD.md)
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
@@ -970,7 +971,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（281 个）
+### 自我（282 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1184,6 +1185,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [习得性无助（Learned Helplessness）](%E4%B9%A0%E5%BE%97%E6%80%A7%E6%97%A0%E5%8A%A9.md)
 - [系统正当化理论（System Justification Theory）](%E7%B3%BB%E7%BB%9F%E6%AD%A3%E5%BD%93%E5%8C%96%E7%90%86%E8%AE%BA.md)
 - [先验统一性（Transcendental Unity）](%E5%85%88%E9%AA%8C%E7%BB%9F%E4%B8%80%E6%80%A7.md)
+- [先验自由（Transcendental Freedom）](%E5%85%88%E9%AA%8C%E8%87%AA%E7%94%B1.md)
 - [现象学还原（Phenomenological Reduction）](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md)
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
 - [消逝感（Transientness / Ephemeral Aesthetics）](%E6%B6%88%E9%80%9D%E6%84%9F.md)
@@ -2107,7 +2109,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（217 个）
+### 决策（218 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2267,6 +2269,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [无知之幕（Veil of Ignorance）](%E6%97%A0%E7%9F%A5%E4%B9%8B%E5%B9%95.md)
 - [吸收能力（Absorptive Capacity）](%E5%90%B8%E6%94%B6%E8%83%BD%E5%8A%9B.md)
 - [稀缺效应（Scarcity Effect）](%E7%A8%80%E7%BC%BA%E6%95%88%E5%BA%94.md)
+- [先验自由（Transcendental Freedom）](%E5%85%88%E9%AA%8C%E8%87%AA%E7%94%B1.md)
 - [献祭（Sacrifice）](%E7%8C%AE%E7%A5%AD.md)
 - [相变（Phase Transition）](%E7%9B%B8%E5%8F%98.md)
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
