@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（238 个）
+### 哲学（239 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -71,6 +71,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [否定辩证法（Negative Dialectics）](%E5%90%A6%E5%AE%9A%E8%BE%A9%E8%AF%81%E6%B3%95.md)
 - [否认（Denial）](%E5%90%A6%E8%AE%A4.md)
 - [附饰（Parergon）](%E9%99%84%E9%A5%B0.md)
+- [附属意志（Willkür）](%E9%99%84%E5%B1%9E%E6%84%8F%E5%BF%97.md)
 - [副现象论（Epiphenomenalism）](%E5%89%AF%E7%8E%B0%E8%B1%A1%E8%AE%BA.md)
 - [盖梯尔问题（Gettier Problem）](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
 - [概念隐喻（Conceptual Metaphor）](%E6%A6%82%E5%BF%B5%E9%9A%90%E5%96%BB.md)
@@ -971,7 +972,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（282 个）
+### 自我（283 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1041,6 +1042,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [负性幻觉（Negative Hallucination）](%E8%B4%9F%E6%80%A7%E5%B9%BB%E8%A7%89.md)
 - [附身（Possession）](%E9%99%84%E8%BA%AB.md)
 - [附饰（Parergon）](%E9%99%84%E9%A5%B0.md)
+- [附属意志（Willkür）](%E9%99%84%E5%B1%9E%E6%84%8F%E5%BF%97.md)
 - [副现象论（Epiphenomenalism）](%E5%89%AF%E7%8E%B0%E8%B1%A1%E8%AE%BA.md)
 - [概化他者（Generalized Other）](%E6%A6%82%E5%8C%96%E4%BB%96%E8%80%85.md)
 - [感受质（Qualia）](%E6%84%9F%E5%8F%97%E8%B4%A8.md)
@@ -2109,7 +2111,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（218 个）
+### 决策（219 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2163,6 +2165,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [范围不敏感（Scope Insensitivity）](%E8%8C%83%E5%9B%B4%E4%B8%8D%E6%95%8F%E6%84%9F.md)
 - [防御性悲观（Defensive Pessimism）](%E9%98%B2%E5%BE%A1%E6%80%A7%E6%82%B2%E8%A7%82.md)
 - [菲奇可知性悖论（Fitch's Paradox of Knowability）](%E8%8F%B2%E5%A5%87%E5%8F%AF%E7%9F%A5%E6%80%A7%E6%82%96%E8%AE%BA.md)
+- [附属意志（Willkür）](%E9%99%84%E5%B1%9E%E6%84%8F%E5%BF%97.md)
 - [盖梯尔问题（Gettier Problem）](%E7%9B%96%E6%A2%AF%E5%B0%94%E9%97%AE%E9%A2%98.md)
 - [功能固着（Functional Fixedness）](%E5%8A%9F%E8%83%BD%E5%9B%BA%E7%9D%80.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
