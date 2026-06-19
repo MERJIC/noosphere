@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（244 个）
+### 哲学（246 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -124,6 +124,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
+- [灵魂塑造论（Soul-Making Theodicy）](%E7%81%B5%E9%AD%82%E5%A1%91%E9%80%A0%E8%AE%BA.md)
 - [鲁棒性检验（Robustness Check）](%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
 - [绿蓝悖论（Grue Paradox）](%E7%BB%BF%E8%93%9D%E6%82%96%E8%AE%BA.md)
@@ -164,6 +165,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [身教（Shen Jiao / Teaching by Example）](%E8%BA%AB%E6%95%99.md)
 - [身体图式（Body Schema / Body Image）](%E8%BA%AB%E4%BD%93%E5%9B%BE%E5%BC%8F.md)
 - [身体政治（Body Politics）](%E8%BA%AB%E4%BD%93%E6%94%BF%E6%B2%BB.md)
+- [神义论（Theodicy）](%E7%A5%9E%E4%B9%89%E8%AE%BA.md)
 - [慎独（Shen Du / Watchfulness in Solitude）](%E6%85%8E%E7%8B%AC.md)
 - [慎战（Shen Zhan / Cautious Engagement）](%E6%85%8E%E6%88%98.md)
 - [生活形式（Form of Life / Lebensform）](%E7%94%9F%E6%B4%BB%E5%BD%A2%E5%BC%8F.md)
@@ -258,7 +260,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 心理学（180 个）
+### 心理学（181 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -354,6 +356,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [内在动机（Intrinsic Motivation）](%E5%86%85%E5%9C%A8%E5%8A%A8%E6%9C%BA.md)
 - [逆反心理（Psychological Reactance）](%E9%80%86%E5%8F%8D%E5%BF%83%E7%90%86.md)
 - [逆火效应（Backfire Effect）](%E9%80%86%E7%81%AB%E6%95%88%E5%BA%94.md)
+- [逆境商数（Adversity Quotient）](%E9%80%86%E5%A2%83%E5%95%86%E6%95%B0.md)
 - [女王蜂综合征（Queen Bee Syndrome）](%E5%A5%B3%E7%8E%8B%E8%9C%82%E7%BB%BC%E5%90%88%E5%BE%81.md)
 - [旁观者效应（Bystander Effect）](%E6%97%81%E8%A7%82%E8%80%85%E6%95%88%E5%BA%94.md)
 - [皮格马利翁效应（Pygmalion Effect）](%E7%9A%AE%E6%A0%BC%E9%A9%AC%E5%88%A9%E7%BF%81%E6%95%88%E5%BA%94.md)
@@ -977,7 +980,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（287 个）
+### 自我（290 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1111,6 +1114,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [礼貌理论（Politeness Theory）](%E7%A4%BC%E8%B2%8C%E7%90%86%E8%AE%BA.md)
 - [理性成瘾理论（Rational Addiction Theory）](%E7%90%86%E6%80%A7%E6%88%90%E7%98%BE%E7%90%86%E8%AE%BA.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
+- [灵魂塑造论（Soul-Making Theodicy）](%E7%81%B5%E9%AD%82%E5%A1%91%E9%80%A0%E8%AE%BA.md)
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [马太效应（Matthew Effect）](%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94.md)
 - [冒名顶替综合征（Impostor Syndrome）](%E5%86%92%E5%90%8D%E9%A1%B6%E6%9B%BF%E7%BB%BC%E5%90%88%E5%BE%81.md)
@@ -1126,6 +1130,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [拟态环境（Pseudo-Environment）](%E6%8B%9F%E6%80%81%E7%8E%AF%E5%A2%83.md)
 - [逆反心理（Psychological Reactance）](%E9%80%86%E5%8F%8D%E5%BF%83%E7%90%86.md)
 - [逆火效应（Backfire Effect）](%E9%80%86%E7%81%AB%E6%95%88%E5%BA%94.md)
+- [逆境商数（Adversity Quotient）](%E9%80%86%E5%A2%83%E5%95%86%E6%95%B0.md)
 - [凝视（The Gaze / Le Regard）](%E5%87%9D%E8%A7%86.md)
 - [努力（Conatus）](%E5%8A%AA%E5%8A%9B.md)
 - [抛入性（Geworfenheit）](%E6%8A%9B%E5%85%A5%E6%80%A7.md)
@@ -1157,6 +1162,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [身份消费（Identity Consumption）](%E8%BA%AB%E4%BB%BD%E6%B6%88%E8%B4%B9.md)
 - [身体图式（Body Schema / Body Image）](%E8%BA%AB%E4%BD%93%E5%9B%BE%E5%BC%8F.md)
 - [深度表演（Deep Acting）](%E6%B7%B1%E5%BA%A6%E8%A1%A8%E6%BC%94.md)
+- [神义论（Theodicy）](%E7%A5%9E%E4%B9%89%E8%AE%BA.md)
 - [审美静滞（Aesthetic Arrest）](%E5%AE%A1%E7%BE%8E%E9%9D%99%E6%BB%9E.md)
 - [审美无利害（Aesthetic Disinterestedness）](%E5%AE%A1%E7%BE%8E%E6%97%A0%E5%88%A9%E5%AE%B3.md)
 - [慎独（Shen Du / Watchfulness in Solitude）](%E6%85%8E%E7%8B%AC.md)
@@ -1953,7 +1959,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（166 个）
+### 组织（167 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -2037,6 +2043,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [目标设定理论（Goal-Setting Theory）](%E7%9B%AE%E6%A0%87%E8%AE%BE%E5%AE%9A%E7%90%86%E8%AE%BA.md)
 - [内在动机（Intrinsic Motivation）](%E5%86%85%E5%9C%A8%E5%8A%A8%E6%9C%BA.md)
 - [能力陷阱（Competency Trap）](%E8%83%BD%E5%8A%9B%E9%99%B7%E9%98%B1.md)
+- [逆境商数（Adversity Quotient）](%E9%80%86%E5%A2%83%E5%95%86%E6%95%B0.md)
 - [努力（Conatus）](%E5%8A%AA%E5%8A%9B.md)
 - [女王蜂综合征（Queen Bee Syndrome）](%E5%A5%B3%E7%8E%8B%E8%9C%82%E7%BB%BC%E5%90%88%E5%BE%81.md)
 - [耦合振荡（Coupled Oscillation）](%E8%80%A6%E5%90%88%E6%8C%AF%E8%8D%A1.md)
@@ -2122,7 +2129,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（223 个）
+### 决策（224 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2262,6 +2269,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
 - [认知失调（Cognitive Dissonance）](%E8%AE%A4%E7%9F%A5%E5%A4%B1%E8%B0%83.md)
 - [认知需求（Need for Cognition）](%E8%AE%A4%E7%9F%A5%E9%9C%80%E6%B1%82.md)
+- [神义论（Theodicy）](%E7%A5%9E%E4%B9%89%E8%AE%BA.md)
 - [慎战（Shen Zhan / Cautious Engagement）](%E6%85%8E%E6%88%98.md)
 - [胜者诅咒（Winner's Curse）](%E8%83%9C%E8%80%85%E8%AF%85%E5%92%92.md)
 - [时机（Kairos）](%E6%97%B6%E6%9C%BA.md)
