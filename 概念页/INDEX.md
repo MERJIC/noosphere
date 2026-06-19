@@ -260,7 +260,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 心理学（181 个）
+### 心理学（183 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -275,6 +275,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [测试效应（Testing Effect）](%E6%B5%8B%E8%AF%95%E6%95%88%E5%BA%94.md)
 - [沉没成本谬误（Sunk Cost Fallacy）](%E6%B2%89%E6%B2%A1%E6%88%90%E6%9C%AC%E8%B0%AC%E8%AF%AF.md)
 - [承诺升级（Escalation of Commitment）](%E6%89%BF%E8%AF%BA%E5%8D%87%E7%BA%A7.md)
+- [创伤后成长（Post-Traumatic Growth）](%E5%88%9B%E4%BC%A4%E5%90%8E%E6%88%90%E9%95%BF.md)
 - [催眠状态（Hypnotic State / Suggestibility）](%E5%82%AC%E7%9C%A0%E7%8A%B6%E6%80%81.md)
 - [错失恐惧（Fear of Missing Out / FOMO）](%E9%94%99%E5%A4%B1%E6%81%90%E6%83%A7.md)
 - [达克效应（Dunning-Kruger Effect）](%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94.md)
@@ -420,6 +421,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [压抑回归（Return of the Repressed）](%E5%8E%8B%E6%8A%91%E5%9B%9E%E5%BD%92.md)
 - [仪式性支持行为（Ritual Support Behavior）](%E4%BB%AA%E5%BC%8F%E6%80%A7%E6%94%AF%E6%8C%81%E8%A1%8C%E4%B8%BA.md)
 - [遗憾理论（Regret Theory）](%E9%81%97%E6%86%BE%E7%90%86%E8%AE%BA.md)
+- [意义疗法（Logotherapy）](%E6%84%8F%E4%B9%89%E7%96%97%E6%B3%95.md)
 - [阴影原型（Shadow Archetype）](%E9%98%B4%E5%BD%B1%E5%8E%9F%E5%9E%8B.md)
 - [有毒的积极性（Toxic Positivity）](%E6%9C%89%E6%AF%92%E7%9A%84%E7%A7%AF%E6%9E%81%E6%80%A7.md)
 - [诱饵效应（Decoy Effect）](%E8%AF%B1%E9%A5%B5%E6%95%88%E5%BA%94.md)
@@ -980,7 +982,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（290 个）
+### 自我（292 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1008,6 +1010,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [崇高（The Sublime）](%E5%B4%87%E9%AB%98.md)
 - [丑史（Grotesque）](%E4%B8%91%E5%8F%B2.md)
 - [传记悖论（Biographical Paradox）](%E4%BC%A0%E8%AE%B0%E6%82%96%E8%AE%BA.md)
+- [创伤后成长（Post-Traumatic Growth）](%E5%88%9B%E4%BC%A4%E5%90%8E%E6%88%90%E9%95%BF.md)
 - [催眠状态（Hypnotic State / Suggestibility）](%E5%82%AC%E7%9C%A0%E7%8A%B6%E6%80%81.md)
 - [存在先于本质（L'existence précède l'essence）](%E5%AD%98%E5%9C%A8%E5%85%88%E4%BA%8E%E6%9C%AC%E8%B4%A8.md)
 - [错失恐惧（Fear of Missing Out / FOMO）](%E9%94%99%E5%A4%B1%E6%81%90%E6%83%A7.md)
@@ -1231,6 +1234,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [以指喻指之非指（Yi Zhi Yu Zhi Fei Zhi / Pointing to Show Non-Pointing）](%E4%BB%A5%E6%8C%87%E5%96%BB%E6%8C%87%E4%B9%8B%E9%9D%9E%E6%8C%87.md)
 - [意识的硬问题（Hard Problem of Consciousness）](%E6%84%8F%E8%AF%86%E7%9A%84%E7%A1%AC%E9%97%AE%E9%A2%98.md)
 - [意象（Imagery）](%E6%84%8F%E8%B1%A1.md)
+- [意义疗法（Logotherapy）](%E6%84%8F%E4%B9%89%E7%96%97%E6%B3%95.md)
 - [意义整体论（Semantic Holism）](%E6%84%8F%E4%B9%89%E6%95%B4%E4%BD%93%E8%AE%BA.md)
 - [因果关系（Causality）](%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB.md)
 - [阴森感（Uncanny / Unheimlich）](%E9%98%B4%E6%A3%AE%E6%84%9F.md)
