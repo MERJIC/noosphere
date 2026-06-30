@@ -260,7 +260,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 心理学（184 个）
+### 心理学（188 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -286,7 +286,9 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德分离（Moral Disengagement）](%E9%81%93%E5%BE%B7%E5%88%86%E7%A6%BB.md)
 - [道德许可效应（Moral Licensing Effect）](%E9%81%93%E5%BE%B7%E8%AE%B8%E5%8F%AF%E6%95%88%E5%BA%94.md)
 - [道德直觉（Moral Intuition）](%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89.md)
+- [登门槛效应（Foot-in-the-Door Technique）](%E7%99%BB%E9%97%A8%E6%A7%9B%E6%95%88%E5%BA%94.md)
 - [邓巴数（Dunbar's Number）](%E9%82%93%E5%B7%B4%E6%95%B0.md)
+- [低球技术（Low-Ball Technique）](%E4%BD%8E%E7%90%83%E6%8A%80%E6%9C%AF.md)
 - [动机性推理（Motivated Reasoning）](%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86.md)
 - [赌徒谬误（Gambler's Fallacy）](%E8%B5%8C%E5%BE%92%E8%B0%AC%E8%AF%AF.md)
 - [对立转化（Enantiodromia）](%E5%AF%B9%E7%AB%8B%E8%BD%AC%E5%8C%96.md)
@@ -349,6 +351,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [粒度轴（Granularity Axis）](%E7%B2%92%E5%BA%A6%E8%BD%B4.md)
 - [临界质量（Critical Mass / Tipping Point）](%E4%B8%B4%E7%95%8C%E8%B4%A8%E9%87%8F.md)
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
+- [留面子效应（Door-in-the-Face Technique）](%E7%95%99%E9%9D%A2%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
 - [满意化（Satisficing）](%E6%BB%A1%E6%84%8F%E5%8C%96.md)
 - [冒名顶替综合征（Impostor Syndrome）](%E5%86%92%E5%90%8D%E9%A1%B6%E6%9B%BF%E7%BB%BC%E5%90%88%E5%BE%81.md)
@@ -416,6 +419,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信念固着（Belief Perseverance）](%E4%BF%A1%E5%BF%B5%E5%9B%BA%E7%9D%80.md)
 - [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
 - [信息觅食理论（Information Foraging Theory）](%E4%BF%A1%E6%81%AF%E8%A7%85%E9%A3%9F%E7%90%86%E8%AE%BA.md)
+- [行为预制（Behavioral Precommitment）](%E8%A1%8C%E4%B8%BA%E9%A2%84%E5%88%B6.md)
 - [幸存者偏差（Survivorship Bias）](%E5%B9%B8%E5%AD%98%E8%80%85%E5%81%8F%E5%B7%AE.md)
 - [虚假记忆（False Memory）](%E8%99%9A%E5%81%87%E8%AE%B0%E5%BF%86.md)
 - [压抑回归（Return of the Repressed）](%E5%8E%8B%E6%8A%91%E5%9B%9E%E5%BD%92.md)
@@ -447,7 +451,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 经济学（93 个）
+### 经济学（94 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -523,6 +527,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信号成本理论（Costly Signaling Theory）](%E4%BF%A1%E5%8F%B7%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA.md)
 - [信息级联（Information Cascade）](%E4%BF%A1%E6%81%AF%E7%BA%A7%E8%81%94.md)
 - [信息级联反转（Information Cascade Reversal）](%E4%BF%A1%E6%81%AF%E7%BA%A7%E8%81%94%E5%8F%8D%E8%BD%AC.md)
+- [行为预制（Behavioral Precommitment）](%E8%A1%8C%E4%B8%BA%E9%A2%84%E5%88%B6.md)
 - [选择架构（Choice Architecture）](%E9%80%89%E6%8B%A9%E6%9E%B6%E6%9E%84.md)
 - [眼镜蛇效应（Cobra Effect）](%E7%9C%BC%E9%95%9C%E8%9B%87%E6%95%88%E5%BA%94.md)
 - [宜家效应（IKEA Effect）](%E5%AE%9C%E5%AE%B6%E6%95%88%E5%BA%94.md)
@@ -983,7 +988,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（292 个）
+### 自我（293 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1219,6 +1224,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [信号劫持（Signal Hijacking）](%E4%BF%A1%E5%8F%B7%E5%8A%AB%E6%8C%81.md)
 - [信念固着（Belief Perseverance）](%E4%BF%A1%E5%BF%B5%E5%9B%BA%E7%9D%80.md)
 - [信息节食（Information Diet）](%E4%BF%A1%E6%81%AF%E8%8A%82%E9%A3%9F.md)
+- [行为预制（Behavioral Precommitment）](%E8%A1%8C%E4%B8%BA%E9%A2%84%E5%88%B6.md)
 - [性本善（Innate Goodness of Human Nature）](%E6%80%A7%E6%9C%AC%E5%96%84.md)
 - [虚假记忆（False Memory）](%E8%99%9A%E5%81%87%E8%AE%B0%E5%BF%86.md)
 - [叙事同一性（Narrative Identity）](%E5%8F%99%E4%BA%8B%E5%90%8C%E4%B8%80%E6%80%A7.md)
@@ -1278,7 +1284,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（129 个）
+### 关系（131 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1291,6 +1297,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [道德残余（Moral Remainder）](%E9%81%93%E5%BE%B7%E6%AE%8B%E4%BD%99.md)
 - [道德恐慌（Moral Panic）](%E9%81%93%E5%BE%B7%E6%81%90%E6%85%8C.md)
 - [地位特征理论（Status Characteristics Theory）](%E5%9C%B0%E4%BD%8D%E7%89%B9%E5%BE%81%E7%90%86%E8%AE%BA.md)
+- [登门槛效应（Foot-in-the-Door Technique）](%E7%99%BB%E9%97%A8%E6%A7%9B%E6%95%88%E5%BA%94.md)
 - [敌对媒体效应（Hostile media effect）](%E6%95%8C%E5%AF%B9%E5%AA%92%E4%BD%93%E6%95%88%E5%BA%94.md)
 - [第四面墙（Fourth Wall）](%E7%AC%AC%E5%9B%9B%E9%9D%A2%E5%A2%99.md)
 - [多元无知（Pluralistic Ignorance）](%E5%A4%9A%E5%85%83%E6%97%A0%E7%9F%A5.md)
@@ -1328,6 +1335,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [狂欢化（Carnivalesque）](%E7%8B%82%E6%AC%A2%E5%8C%96.md)
 - [礼貌理论（Politeness Theory）](%E7%A4%BC%E8%B2%8C%E7%90%86%E8%AE%BA.md)
 - [临界质量（Critical Mass / Tipping Point）](%E4%B8%B4%E7%95%8C%E8%B4%A8%E9%87%8F.md)
+- [留面子效应（Door-in-the-Face Technique）](%E7%95%99%E9%9D%A2%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [绿胡子效应（Green-beard Effect）](%E7%BB%BF%E8%83%A1%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [伦理作为第一哲学（Ethics as First Philosophy）](%E4%BC%A6%E7%90%86%E4%BD%9C%E4%B8%BA%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%A6.md)
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
@@ -1410,7 +1418,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（157 个）
+### 制度（158 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1534,6 +1542,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [协商民主（Deliberative Democracy）](%E5%8D%8F%E5%95%86%E6%B0%91%E4%B8%BB.md)
 - [心理安全感（Psychological Safety）](%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F.md)
 - [信息级联（Information Cascade）](%E4%BF%A1%E6%81%AF%E7%BA%A7%E8%81%94.md)
+- [行为预制（Behavioral Precommitment）](%E8%A1%8C%E4%B8%BA%E9%A2%84%E5%88%B6.md)
 - [叙事劫持（Narrative Hijacking）](%E5%8F%99%E4%BA%8B%E5%8A%AB%E6%8C%81.md)
 - [选择架构（Choice Architecture）](%E9%80%89%E6%8B%A9%E6%9E%B6%E6%9E%84.md)
 - [眼镜蛇效应（Cobra Effect）](%E7%9C%BC%E9%95%9C%E8%9B%87%E6%95%88%E5%BA%94.md)
@@ -1861,7 +1870,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（101 个）
+### 商业（102 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1880,6 +1889,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [错置具体性（Misplaced Concreteness）](%E9%94%99%E7%BD%AE%E5%85%B7%E4%BD%93%E6%80%A7.md)
 - [代理问题（Agency Problem）](%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98.md)
 - [道德风险（Moral Hazard）](%E9%81%93%E5%BE%B7%E9%A3%8E%E9%99%A9.md)
+- [低球技术（Low-Ball Technique）](%E4%BD%8E%E7%90%83%E6%8A%80%E6%9C%AF.md)
 - [第二曲线（Second Curve）](%E7%AC%AC%E4%BA%8C%E6%9B%B2%E7%BA%BF.md)
 - [第一性原理（First Principles Thinking）](%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86.md)
 - [动态能力（Dynamic Capabilities）](%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B.md)
@@ -2363,7 +2373,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 领导（57 个）
+### 领导（60 个）
 
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [边界跨越者（Boundary Spanner）](%E8%BE%B9%E7%95%8C%E8%B7%A8%E8%B6%8A%E8%80%85.md)
@@ -2371,6 +2381,8 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [创始人综合征（Founder's Syndrome）](%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%BB%BC%E5%90%88%E5%BE%81.md)
 - [道德许可效应（Moral Licensing Effect）](%E9%81%93%E5%BE%B7%E8%AE%B8%E5%8F%AF%E6%95%88%E5%BA%94.md)
 - [地位特征理论（Status Characteristics Theory）](%E5%9C%B0%E4%BD%8D%E7%89%B9%E5%BE%81%E7%90%86%E8%AE%BA.md)
+- [登门槛效应（Foot-in-the-Door Technique）](%E7%99%BB%E9%97%A8%E6%A7%9B%E6%95%88%E5%BA%94.md)
+- [低球技术（Low-Ball Technique）](%E4%BD%8E%E7%90%83%E6%8A%80%E6%9C%AF.md)
 - [董事会捕获（Board Capture）](%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%8D%95%E8%8E%B7.md)
 - [服务型领导（Servant Leadership）](%E6%9C%8D%E5%8A%A1%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
 - [哥利亚效应（Goliath Effect）](%E5%93%A5%E5%88%A9%E4%BA%9A%E6%95%88%E5%BA%94.md)
@@ -2392,6 +2404,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [举直错诸枉（Ju Zhi Cuo Zhu Wang / Promote the Upright, Place Them Above the Crooked）](%E4%B8%BE%E7%9B%B4%E9%94%99%E8%AF%B8%E6%9E%89.md)
 - [决策疲劳（Decision Fatigue）](%E5%86%B3%E7%AD%96%E7%96%B2%E5%8A%B3.md)
 - [领导者-成员交换理论（LMX，Leader-Member Exchange）](%E9%A2%86%E5%AF%BC%E8%80%85-%E6%88%90%E5%91%98%E4%BA%A4%E6%8D%A2%E7%90%86%E8%AE%BA.md)
+- [留面子效应（Door-in-the-Face Technique）](%E7%95%99%E9%9D%A2%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [马基雅维利主义（Machiavellianism）](%E9%A9%AC%E5%9F%BA%E9%9B%85%E7%BB%B4%E5%88%A9%E4%B8%BB%E4%B9%89.md)
 - [目标设定理论（Goal-Setting Theory）](%E7%9B%AE%E6%A0%87%E8%AE%BE%E5%AE%9A%E7%90%86%E8%AE%BA.md)
 - [内在动机（Intrinsic Motivation）](%E5%86%85%E5%9C%A8%E5%8A%A8%E6%9C%BA.md)
@@ -2479,11 +2492,3 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
-
----
-
-## ⚠️ 待整理（1 个）
-
-> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
-
-- [登门槛效应（Foot-in-the-Door Technique）](%E7%99%BB%E9%97%A8%E6%A7%9B%E6%95%88%E5%BA%94.md) — apply/说服 不在词汇表
