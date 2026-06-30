@@ -260,7 +260,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 心理学（183 个）
+### 心理学（184 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
@@ -424,6 +424,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [意义疗法（Logotherapy）](%E6%84%8F%E4%B9%89%E7%96%97%E6%B3%95.md)
 - [阴影原型（Shadow Archetype）](%E9%98%B4%E5%BD%B1%E5%8E%9F%E5%9E%8B.md)
 - [有毒的积极性（Toxic Positivity）](%E6%9C%89%E6%AF%92%E7%9A%84%E7%A7%AF%E6%9E%81%E6%80%A7.md)
+- [诱导行为（Entrapment）](%E8%AF%B1%E5%AF%BC%E8%A1%8C%E4%B8%BA.md)
 - [诱饵效应（Decoy Effect）](%E8%AF%B1%E9%A5%B5%E6%95%88%E5%BA%94.md)
 - [语义饱和（Semantic Satiation）](%E8%AF%AD%E4%B9%89%E9%A5%B1%E5%92%8C.md)
 - [预测编码（Predictive Coding）](%E9%A2%84%E6%B5%8B%E7%BC%96%E7%A0%81.md)
@@ -1277,7 +1278,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 关系（128 个）
+### 关系（129 个）
 
 - [标签理论（Labeling Theory）](%E6%A0%87%E7%AD%BE%E7%90%86%E8%AE%BA.md)
 - [表演性（Performativity）](%E8%A1%A8%E6%BC%94%E6%80%A7.md)
@@ -1393,6 +1394,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [印象管理（Impression Management）](%E5%8D%B0%E8%B1%A1%E7%AE%A1%E7%90%86.md)
 - [涌现（Emergence）](%E6%B6%8C%E7%8E%B0.md)
 - [有毒的积极性（Toxic Positivity）](%E6%9C%89%E6%AF%92%E7%9A%84%E7%A7%AF%E6%9E%81%E6%80%A7.md)
+- [诱导行为（Entrapment）](%E8%AF%B1%E5%AF%BC%E8%A1%8C%E4%B8%BA.md)
 - [语言游戏（Language Game）](%E8%AF%AD%E8%A8%80%E6%B8%B8%E6%88%8F.md)
 - [语义外在主义（Semantic Externalism）](%E8%AF%AD%E4%B9%89%E5%A4%96%E5%9C%A8%E4%B8%BB%E4%B9%89.md)
 - [元叙事（Metanarrative）](%E5%85%83%E5%8F%99%E4%BA%8B.md)
@@ -2133,7 +2135,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（224 个）
+### 决策（225 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2330,6 +2332,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [因果关系（Causality）](%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB.md)
 - [赢家折扣（Winner's Discount）](%E8%B5%A2%E5%AE%B6%E6%8A%98%E6%89%A3.md)
 - [有限理性（Bounded Rationality）](%E6%9C%89%E9%99%90%E7%90%86%E6%80%A7.md)
+- [诱导行为（Entrapment）](%E8%AF%B1%E5%AF%BC%E8%A1%8C%E4%B8%BA.md)
 - [诱饵效应（Decoy Effect）](%E8%AF%B1%E9%A5%B5%E6%95%88%E5%BA%94.md)
 - [预防悖论（Prevention Paradox）](%E9%A2%84%E9%98%B2%E6%82%96%E8%AE%BA.md)
 - [预先承诺（Precommitment）](%E9%A2%84%E5%85%88%E6%89%BF%E8%AF%BA.md)
@@ -2483,4 +2486,4 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 > 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
 
-- [华策资治通鉴-四相推演](%E5%8D%8E%E7%AD%96%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4-%E5%9B%9B%E7%9B%B8%E6%8E%A8%E6%BC%94.md) — 无 frontmatter
+- [登门槛效应（Foot-in-the-Door Technique）](%E7%99%BB%E9%97%A8%E6%A7%9B%E6%95%88%E5%BA%94.md) — apply/说服 不在词汇表
