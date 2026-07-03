@@ -2492,3 +2492,11 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [知识诅咒（Curse of Knowledge）](%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92.md)
 - [中文屋论证（Chinese Room Argument）](%E4%B8%AD%E6%96%87%E5%B1%8B%E8%AE%BA%E8%AF%81.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
+
+---
+
+## ⚠️ 待整理（1 个）
+
+> 以下概念页 frontmatter 未通过校验。修正后保存即自动归类。
+
+- [霍桑效应（Hawthorne Effect）](%E9%9C%8D%E6%A1%91%E6%95%88%E5%BA%94.md) — 缺 date；domain 应为数组
