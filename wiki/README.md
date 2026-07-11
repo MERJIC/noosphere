@@ -4,6 +4,10 @@
 
 ## 本地预览
 
+在 Finder 中双击项目根目录的 `打开概念Wiki.command` 即可启动并打开网站。
+
+也可以在终端中运行：
+
 ```bash
 rtk python3 wiki/build.py
 rtk python3 -m http.server 4173 --directory wiki/dist
