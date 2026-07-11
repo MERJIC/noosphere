@@ -135,13 +135,14 @@ function renderDomains() {
     </div>`;
 }
 
-function sideLinks(title, items, emptyText) {
+function sideLinks(title, description, items, emptyText) {
   return `
     <section class="link-panel">
-      <div class="side-label">${escapeHtml(title)}</div>
+      <div class="side-label-row"><div class="side-label">${escapeHtml(title)}</div><span class="side-count">${items.length}</span></div>
+      <p class="side-description">${escapeHtml(description)}</p>
       <div class="side-links">
         ${items.length ? items.slice(0, 9).map((item) => `
-          <a href="${conceptUrl(item.name)}"><strong>${escapeHtml(item.name)}</strong><span>${item.context ? escapeHtml(item.context.slice(0, 42)) + "…" : "打开概念"}</span></a>
+          <a href="${conceptUrl(item.name)}"><strong>${escapeHtml(item.name)}</strong><i aria-hidden="true">→</i></a>
         `).join("") : `<span class="count-label">${escapeHtml(emptyText)}</span>`}
       </div>
     </section>`;
@@ -176,7 +177,7 @@ function renderConcept(concept) {
       </nav>
       <div class="article-layout">
         <aside class="article-sidebar">
-          <div class="side-label">On this page</div>
+          <div class="side-label">本文目录</div>
           <nav class="toc" aria-label="本文目录">
             ${concept.headings.filter((heading) => Number(heading.level) <= 3).map((heading) => `<a class="level-${heading.level}" href="#${heading.id}">${escapeHtml(heading.title)}</a>`).join("")}
           </nav>
@@ -197,8 +198,8 @@ function renderConcept(concept) {
             <div class="meta-row"><span>收录日期 DATE</span><strong>${escapeHtml(concept.date || "未标注")}</strong></div>
             <div class="meta-row"><span>阅读规模 LENGTH</span><strong>${formatNumber(concept.wordCount)} 字</strong></div>
           </div>
-          ${sideLinks("通向这里 · BACKLINKS", backlinks, "暂时没有概念通向这里")}
-          ${sideLinks("继续前往 · LINKS", outgoing, "暂时没有出发路径")}
+          ${sideLinks("被这些概念提到", "其他概念的正文引用了当前词条", backlinks, "暂时没有其他概念提到它")}
+          ${sideLinks("本文提到的概念", "当前词条正文链接到这些概念", outgoing, "本文暂时没有链接其他概念")}
         </aside>
       </div>
     </div>
@@ -333,6 +334,17 @@ function updateReadingProgress() {
   progressBar.style.width = `${progress}%`;
 }
 
+function applyTheme(theme, persist = false) {
+  document.documentElement.dataset.theme = theme;
+  const dark = theme === "dark";
+  const toggle = document.querySelector("#theme-toggle");
+  toggle.setAttribute("aria-pressed", String(dark));
+  toggle.setAttribute("aria-label", dark ? "切换到日间模式" : "切换到夜间模式");
+  toggle.querySelector("[data-theme-label]").textContent = dark ? "日间" : "夜间";
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", dark ? "#151713" : "#f3f0e8");
+  if (persist) localStorage.setItem("merjic-wiki-theme", theme);
+}
+
 async function init() {
   try {
     const response = await fetch("./concepts.json");
@@ -356,6 +368,10 @@ window.addEventListener("scroll", updateReadingProgress, { passive: true });
 document.querySelector("#search-trigger").addEventListener("click", () => openSearch());
 document.querySelector("#search-close").addEventListener("click", closeSearch);
 document.querySelector("#random-link").addEventListener("click", goRandom);
+document.querySelector("#theme-toggle").addEventListener("click", () => {
+  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  applyTheme(next, true);
+});
 searchInput.addEventListener("input", updateSearch);
 searchDialog.addEventListener("click", (event) => { if (event.target === searchDialog) closeSearch(); });
 document.addEventListener("keydown", (event) => {
@@ -366,4 +382,5 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeSearch();
 });
 
+applyTheme(document.documentElement.dataset.theme || "light");
 init();

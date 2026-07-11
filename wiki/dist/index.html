@@ -7,6 +7,13 @@
     <meta name="theme-color" content="#f3f0e8" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><circle cx=%2232%22 cy=%2232%22 r=%2230%22 fill=%22%231d211d%22/><text x=%2232%22 y=%2241%22 text-anchor=%22middle%22 font-size=%2230%22 fill=%22%23f3f0e8%22>M</text></svg>" />
     <title>MERJIC 概念库</title>
+    <script>
+      (() => {
+        const saved = localStorage.getItem("merjic-wiki-theme");
+        const theme = saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -21,9 +28,14 @@
         <a href="#/domains">领域</a>
         <button class="nav-link" id="random-link" type="button">随机漫游</button>
       </nav>
-      <button class="search-trigger" id="search-trigger" type="button" aria-haspopup="dialog">
-        <span aria-hidden="true">⌕</span><span>搜索</span><kbd>⌘ K</kbd>
-      </button>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">
+          <span class="theme-dot" aria-hidden="true"></span><span data-theme-label>夜间</span>
+        </button>
+        <button class="search-trigger" id="search-trigger" type="button" aria-haspopup="dialog">
+          <span aria-hidden="true">⌕</span><span>搜索</span><kbd>⌘ K</kbd>
+        </button>
+      </div>
     </header>
 
     <main id="app" tabindex="-1">
