@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MERJIC 概念库——跨领域思想的个人 Wiki 与漫游地图。" />
+    <meta name="theme-color" content="#f3f0e8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><circle cx=%2232%22 cy=%2232%22 r=%2230%22 fill=%22%231d211d%22/><text x=%2232%22 y=%2241%22 text-anchor=%22middle%22 font-size=%2230%22 fill=%22%23f3f0e8%22>M</text></svg>" />
+    <title>MERJIC 概念库</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true"><span></span></div>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="概念库首页">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-copy"><strong>概念库</strong><small>MERJIC NOOSPHERE</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#/concepts">全部概念</a>
+        <a href="#/domains">领域</a>
+        <button class="nav-link" id="random-link" type="button">随机漫游</button>
+      </nav>
+      <button class="search-trigger" id="search-trigger" type="button" aria-haspopup="dialog">
+        <span aria-hidden="true">⌕</span><span>搜索</span><kbd>⌘ K</kbd>
+      </button>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <div class="loading-state">
+        <span class="loading-glyph">知</span>
+        <p>正在整理思想的经纬……</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>一座持续生长的个人思想 Wiki</p>
+      <p id="build-time"></p>
+    </footer>
+
+    <dialog class="search-dialog" id="search-dialog">
+      <div class="search-panel">
+        <div class="search-bar">
+          <span aria-hidden="true">⌕</span>
+          <label class="sr-only" for="global-search">搜索概念</label>
+          <input id="global-search" type="search" autocomplete="off" placeholder="搜索概念、领域或一句话……" />
+          <button id="search-close" type="button" aria-label="关闭搜索">ESC</button>
+        </div>
+        <div class="search-hint" id="search-hint">输入关键词，从整个概念库中寻找连接</div>
+        <div class="search-results" id="search-results" aria-live="polite"></div>
+      </div>
+    </dialog>
+
+    <noscript>这个 Wiki 需要启用 JavaScript 才能使用搜索与概念漫游。</noscript>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

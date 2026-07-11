@@ -210,6 +210,9 @@ def build() -> None:
     connection.row_factory = sqlite3.Row
     concept_rows = connection.execute("SELECT * FROM concepts ORDER BY name COLLATE NOCASE").fetchall()
     link_rows = connection.execute("SELECT * FROM links ORDER BY id").fetchall()
+    aliases_by_name: dict[str, list[str]] = {}
+    for alias in connection.execute("SELECT canonical, variant FROM name_aliases ORDER BY id"):
+        aliases_by_name.setdefault(alias["canonical"], []).append(alias["variant"])
 
     outgoing: dict[int, list[dict[str, object]]] = {}
     backlinks: dict[int, list[dict[str, object]]] = {}
@@ -249,6 +252,7 @@ def build() -> None:
                 "id": row["id"],
                 "name": row["name"],
                 "nameEn": row["name_en"] or "",
+                "aliases": aliases_by_name.get(row["name"], []),
                 "domains": domains,
                 "date": row["date"],
                 "source": row["source"],

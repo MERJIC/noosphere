@@ -1,0 +1,161 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e3]:
+    - link "概念库首页" [ref=f1e4] [cursor=pointer]:
+      - /url: "#/"
+      - generic [ref=f1e5]: M
+      - generic [ref=f1e6]:
+        - strong [ref=f1e7]: 概念库
+        - generic [ref=f1e8]: MERJIC NOOSPHERE
+    - navigation "主导航" [ref=f1e9]:
+      - link "全部概念" [ref=f1e10] [cursor=pointer]:
+        - /url: "#/concepts"
+      - link "领域" [ref=f1e11] [cursor=pointer]:
+        - /url: "#/domains"
+      - button "随机漫游" [ref=f1e12] [cursor=pointer]
+    - button "搜索 ⌘ K" [ref=f1e13] [cursor=pointer]:
+      - generic [ref=f1e14]: ⌕
+      - generic [ref=f1e15]: 搜索
+      - generic [ref=f1e16]: ⌘ K
+  - main [active] [ref=f1e17]:
+    - generic [ref=f1e152]:
+      - navigation "面包屑" [ref=f1e153]:
+        - link "首页" [ref=f1e154] [cursor=pointer]:
+          - /url: "#/"
+        - generic [ref=f1e155]: /
+        - link "心理学" [ref=f1e156] [cursor=pointer]:
+          - /url: "#/domain/%E5%BF%83%E7%90%86%E5%AD%A6"
+        - generic [ref=f1e157]: /
+        - generic [ref=f1e158]: 认知失调
+      - generic [ref=f1e159]:
+        - complementary [ref=f1e160]:
+          - generic [ref=f1e161]: On this page
+          - navigation "本文目录" [ref=f1e162]:
+            - link "核心机制" [ref=f1e163] [cursor=pointer]:
+              - /url: "#section-1"
+            - link "入口场景" [ref=f1e164] [cursor=pointer]:
+              - /url: "#section-2"
+            - link "现实锚点" [ref=f1e165] [cursor=pointer]:
+              - /url: "#section-3"
+            - link "适用边界" [ref=f1e166] [cursor=pointer]:
+              - /url: "#section-4"
+        - article [ref=f1e167]:
+          - generic [ref=f1e168]:
+            - generic [ref=f1e169]: 心理学
+            - heading "认知失调" [level=1] [ref=f1e170]
+            - generic [ref=f1e171]: Cognitive Dissonance
+          - generic [ref=f1e172]:
+            - heading "核心机制" [level=2] [ref=f1e173]
+            - paragraph [ref=f1e174]: Festinger 1957年提出：当一个人同时持有两个互相矛盾的认知（信念、态度、行为），会产生心理不适——这种不适就是认知失调。人会主动减少失调，方法有两种：改变行为，或改变认知。大多数人选后者，因为改想法比改行为容易。
+            - paragraph [ref=f1e175]: Festinger 和 Carlsmith 1959年的经典实验：被试做了一小时极其无聊的任务，然后被要求告诉下一位被试「这个任务很有趣」。说谎后被付1美元的被试，比被付20美元的被试，更倾向在后续问卷中说任务确实有趣。逻辑是：20美元给了充分的外部理由（「我是为了钱才这么说的」），没有失调；1美元不够构成充分理由，「我说了任务有趣但我其实觉得无聊」产生失调，消除失调的方式就是让自己相信任务确实有趣。
+            - paragraph [ref=f1e176]:
+              - text: 认知失调的三个核心情境：
+              - strong [ref=f1e177]: 信念-行为失调
+              - text: ——做了违背信念的事（说了谎、买了不该买的东西），改变信念来为行为辩护；
+              - strong [ref=f1e178]: 努力正当化
+              - text: ——付出了高昂代价加入的群体，比轻松加入的群体被评价更高（「这么难进，一定值得」）；
+              - strong [ref=f1e179]: 选择后失调
+              - text: ——做出选择后，被选中的选项被高估，被放弃的选项被贬低，以减少「选错了」的不适。
+            - paragraph [ref=f1e180]:
+              - text: 与
+              - link "道德直觉" [ref=f1e181] [cursor=pointer]:
+                - /url: "#/concept/%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89"
+              - text: 的关系：道德直觉是判断先于论证，认知失调是行为先于信念调整——两者都指向同一个结论：人不是先想清楚再行动的，是先行动再调整想法来匹配行动。与
+              - link "承诺升级" [ref=f1e182] [cursor=pointer]:
+                - /url: "#/concept/%E6%89%BF%E8%AF%BA%E5%8D%87%E7%BA%A7"
+              - text: 的关系：承诺升级是认知失调在组织决策中的表现——投入越多，越需要相信投入是对的，失调越大，辩护越强，投入越多。与
+              - link "动机性推理" [ref=f1e183] [cursor=pointer]:
+                - /url: "#/concept/%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86"
+              - text: 的关系：动机性推理是认知失调的主动形式——你不是被动地感到不适然后调整，你主动寻找支持现有信念的证据来预防失调。
+            - heading "入口场景" [level=2] [ref=f1e184]
+            - paragraph [ref=f1e185]: 小邱在专柜犹豫三周，翻遍差评，仍刷卡买下那只贵包。回家当晚，她又打开差评页，皱眉说：「这人不懂皮料」「品味差远了」「怕是假货。」室友问：「你买前也这么说的？」小邱答：「买前是参考，买后是确认。」
+            - paragraph [ref=f1e186]: 一周后闺蜜来家里，小邱把包捧出来，讲工艺、讲限量，差评一字不提。闺蜜说：「真好，你眼光稳。」小邱笑，心里那团「也许买亏了」轻了些。
+            - paragraph [ref=f1e187]: 闺蜜走后，她对着镜子背了一次，越看越顺眼。她给专柜发消息问保养，没问能不能退。夜里刷到同款二手价更低，她划走，嘀咕：「二手水太深。」
+            - paragraph [ref=f1e188]: 手机熄屏，包搁在椅背。她没算自己改了多少次说法，只觉得——既然已经背给人看过，它就得是好包；好包的人，不会买错。至于差评，她决定明天不再点开，像关掉一扇还没吵完的门。
+            - paragraph [ref=f1e189]: 室友半夜起来喝水，瞥见她对着椅背发呆。室友问：「后悔了？」小邱摇头：「没有，就是……得把它想成对的。」她伸手摸了摸皮面，像确认一件已经发生的事。窗外有车灯扫过，包上的金属扣闪了一下，她没移开视线。
+            - heading "现实锚点" [level=2] [ref=f1e190]
+            - list [ref=f1e191]:
+              - listitem [ref=f1e192]:
+                - strong [ref=f1e193]: 邪教成员的末日预言失败
+                - text: ：Festinger 最初的研究灵感来自一个真实事件：一个邪教预言某日世界末日，信徒放弃财产等待。末日没来。按理说信徒应该醒悟——预言错了。但事实相反：信徒更加虔诚，他们解释为「我们的虔诚感动了上帝，推迟了末日」。预言失败产生的失调，被重新解释消除了。这比承认错误容易得多。
+            - list [ref=f1e194]:
+              - listitem [ref=f1e195]:
+                - strong [ref=f1e196]: 戒烟者的认知调整
+                - text: ：研究发现，戒烟失败的人比从未尝试戒烟的人更倾向低估吸烟的危害——「没那么严重」「我爷爷抽到九十」「反正空气也不好」。戒烟失败+吸烟有害=严重失调，降低「吸烟危害」的信念是消除失调最廉价的策略。
+            - heading "适用边界" [level=2] [ref=f1e197]
+            - paragraph [ref=f1e198]: 认知失调的发生需要两个条件：行为是自愿的，且后果是可预见的。被迫做的事不产生失调（「我没得选」），不可预见的后果也不产生失调（「我怎么知道会这样」）。当人能找到外部归因，失调就被外部理由替代了。
+            - paragraph [ref=f1e199]: 另一个边界：认知失调的强度因自我卷入度而异。跟你核心价值观无关的事，失调很轻，你不会费劲调整。但涉及身份、道德、重大选择的事，失调极强，调整也极剧烈。这也是为什么意识形态争论比事实争论更难调和——事实错误只威胁判断，意识形态错误威胁身份。
+        - complementary [ref=f1e200]:
+          - generic [ref=f1e201]:
+            - generic [ref=f1e202]:
+              - generic [ref=f1e203]: 来源 SOURCE
+              - strong [ref=f1e204]: 概念跳跃
+            - generic [ref=f1e205]:
+              - generic [ref=f1e206]: 收录日期 DATE
+              - strong [ref=f1e207]: 2026-05-22
+            - generic [ref=f1e208]:
+              - generic [ref=f1e209]: 阅读规模 LENGTH
+              - strong [ref=f1e210]: 1,275 字
+          - generic [ref=f1e211]:
+            - generic [ref=f1e212]: 通向这里 · BACKLINKS
+            - generic [ref=f1e213]:
+              - link "信念固着 核心机制…" [ref=f1e214] [cursor=pointer]:
+                - /url: "#/concept/%E4%BF%A1%E5%BF%B5%E5%9B%BA%E7%9D%80"
+                - strong [ref=f1e215]: 信念固着
+                - generic [ref=f1e216]: 核心机制…
+              - link "合理化 核心机制…" [ref=f1e217] [cursor=pointer]:
+                - /url: "#/concept/%E5%90%88%E7%90%86%E5%8C%96"
+                - strong [ref=f1e218]: 合理化
+                - generic [ref=f1e219]: 核心机制…
+          - generic [ref=f1e220]:
+            - generic [ref=f1e221]: 继续前往 · LINKS
+            - generic [ref=f1e222]:
+              - link "道德直觉 核心机制…" [ref=f1e223] [cursor=pointer]:
+                - /url: "#/concept/%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89"
+                - strong [ref=f1e224]: 道德直觉
+                - generic [ref=f1e225]: 核心机制…
+              - link "承诺升级 核心机制…" [ref=f1e226] [cursor=pointer]:
+                - /url: "#/concept/%E6%89%BF%E8%AF%BA%E5%8D%87%E7%BA%A7"
+                - strong [ref=f1e227]: 承诺升级
+                - generic [ref=f1e228]: 核心机制…
+              - link "动机性推理 核心机制…" [ref=f1e229] [cursor=pointer]:
+                - /url: "#/concept/%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86"
+                - strong [ref=f1e230]: 动机性推理
+                - generic [ref=f1e231]: 核心机制…
+    - generic [ref=f1e232]:
+      - generic [ref=f1e234]:
+        - generic [ref=f1e235]: Keep Exploring
+        - heading "沿着连接，继续漫游" [level=2] [ref=f1e236]
+      - generic [ref=f1e237]:
+        - link "NO. 001 心理学 道德直觉 Moral Intuition Haidt 在2001年提出了「社会直觉模型」：道德判断主要是直觉驱动的，推理是事后的——你先有了判断，再去找理由。他管这叫「直觉在先、推理在后」，用一个比喻：直觉是大象，推理是骑象者。骑象者以为自己掌控方向，但大多数时候是大象自己走了，骑象者负责解释为什么这条路是对的。 Haidt 的道德基础理论…" [ref=f1e238] [cursor=pointer]:
+          - /url: "#/concept/%E9%81%93%E5%BE%B7%E7%9B%B4%E8%A7%89"
+          - generic [ref=f1e239]:
+            - generic [ref=f1e240]: NO. 001
+            - generic [ref=f1e241]: 心理学
+          - heading "道德直觉 Moral Intuition" [level=3] [ref=f1e242]:
+            - text: 道德直觉
+            - generic [ref=f1e243]: Moral Intuition
+          - paragraph [ref=f1e244]: Haidt 在2001年提出了「社会直觉模型」：道德判断主要是直觉驱动的，推理是事后的——你先有了判断，再去找理由。他管这叫「直觉在先、推理在后」，用一个比喻：直觉是大象，推理是骑象者。骑象者以为自己掌控方向，但大多数时候是大象自己走了，骑象者负责解释为什么这条路是对的。 Haidt 的道德基础理论…
+          - generic [ref=f1e245]: ↗
+        - link "NO. 002 管理学 承诺升级 Escalation of Commitment 当一个行动方案已经开始产生负面结果，理性的做法是止损退出。但决策者往往做出相反的选择：加大投入，继续坚持。这就是承诺升级——越亏越投，越投越亏。 Staw 1976年的经典实验：被试扮演银行高管，决定是否向一个已经亏损的项目追加投资。结果：最初由自己决策投资的人，比由前任决策的人，更倾向追加投入。自…" [ref=f1e246] [cursor=pointer]:
+          - /url: "#/concept/%E6%89%BF%E8%AF%BA%E5%8D%87%E7%BA%A7"
+          - generic [ref=f1e247]:
+            - generic [ref=f1e248]: NO. 002
+            - generic [ref=f1e249]: 管理学
+          - heading "承诺升级 Escalation of Commitment" [level=3] [ref=f1e250]:
+            - text: 承诺升级
+            - generic [ref=f1e251]: Escalation of Commitment
+          - paragraph [ref=f1e252]: 当一个行动方案已经开始产生负面结果，理性的做法是止损退出。但决策者往往做出相反的选择：加大投入，继续坚持。这就是承诺升级——越亏越投，越投越亏。 Staw 1976年的经典实验：被试扮演银行高管，决定是否向一个已经亏损的项目追加投资。结果：最初由自己决策投资的人，比由前任决策的人，更倾向追加投入。自…
+          - generic [ref=f1e253]: ↗
+        - link "NO. 003 心理学 动机性推理 Motivated Reasoning 齐瓦·昆达（Ziva Kunda）1990 年在《心理学公报》上发表「动机性推理的案例」，统一了此前分裂的两个阵营：「热认知」（人会被欲望扭曲）和「冷认知」（人会追求准确）。她的核心论断是： 动机性推理的问题不在于不讲理——问题在于讲理的时候方向已经悄悄偏了 。 机制是三步：第一，你有一个希望成立的…" [ref=f1e254] [cursor=pointer]:
+          - /url: "#/concept/%E5%8A%A8%E6%9C%BA%E6%80%A7%E6%8E%A8%E7%90%86"
+          - generic [ref=f1e255]:
+            - generic [ref=f1e256]: NO. 003
+            - generic [ref=f1e257]: 心理学
+          - heading "动机性推理 Motivated Reasoning" [level=3] [ref=f1e258]:
+            - text: 动机性推理
+            - generic [ref=f1e259]: Motivated Reasoning
+          - paragraph [ref=f1e260]: 齐瓦·昆达（Ziva Kunda）1990 年在《心理学公报》上发表「动机性推理的案例」，统一了此前分裂的两个阵营：「热认知」（人会被欲望扭曲）和「冷认知」（人会追求准确）。她的核心论断是： 动机性推理的问题不在于不讲理——问题在于讲理的时候方向已经悄悄偏了 。 机制是三步：第一，你有一个希望成立的…
+          - generic [ref=f1e261]: ↗
+  - contentinfo [ref=f1e110]:
+    - paragraph [ref=f1e111]: 一座持续生长的个人思想 Wiki
+    - paragraph [ref=f1e112]: 最近构建 2026-07-11 09:31:18 UTC
