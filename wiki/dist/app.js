@@ -348,10 +348,14 @@ function applyTheme(theme, persist = false) {
 
 function startLiveReload() {
   let currentVersion = null;
+  let timerId = null;
   const checkVersion = async () => {
     try {
       const response = await fetch("./__wiki_version", { cache: "no-store" });
-      if (!response.ok) return;
+      if (!response.ok) {
+        if (timerId) window.clearInterval(timerId);
+        return;
+      }
       const status = await response.json();
       if (currentVersion === null) {
         currentVersion = status.version;
@@ -360,10 +364,11 @@ function startLiveReload() {
       }
     } catch {
       // A deployed static site has no live-preview endpoint; nothing to do.
+      if (timerId) window.clearInterval(timerId);
     }
   };
   checkVersion();
-  window.setInterval(checkVersion, 1500);
+  timerId = window.setInterval(checkVersion, 1500);
 }
 
 async function init() {
