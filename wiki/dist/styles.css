@@ -200,7 +200,6 @@ main { min-height: 70vh; }
 .side-label-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 5px; }
 .side-label-row .side-label { margin-bottom: 0; color: var(--ink-soft); font-size: 11px; letter-spacing: .08em; text-transform: none; }
 .side-count { color: var(--ink-faint); font: 10px/1 var(--mono); }
-.side-description { margin: 0 0 18px; color: var(--ink-faint); font-size: 10px; line-height: 1.55; }
 .article-meta { display: grid; gap: 16px; margin-bottom: 40px; }
 .meta-row span { display: block; color: var(--ink-faint); font-size: 10px; letter-spacing: .1em; }
 .meta-row strong { display: block; margin-top: 3px; font-size: 13px; font-weight: 500; }

@@ -135,11 +135,10 @@ function renderDomains() {
     </div>`;
 }
 
-function sideLinks(title, description, items, emptyText) {
+function sideLinks(title, items, emptyText) {
   return `
     <section class="link-panel">
       <div class="side-label-row"><div class="side-label">${escapeHtml(title)}</div><span class="side-count">${items.length}</span></div>
-      <p class="side-description">${escapeHtml(description)}</p>
       <div class="side-links">
         ${items.length ? items.slice(0, 9).map((item) => `
           <a href="${conceptUrl(item.name)}"><strong>${escapeHtml(item.name)}</strong><i aria-hidden="true">→</i></a>
@@ -198,8 +197,8 @@ function renderConcept(concept) {
             <div class="meta-row"><span>收录日期 DATE</span><strong>${escapeHtml(concept.date || "未标注")}</strong></div>
             <div class="meta-row"><span>阅读规模 LENGTH</span><strong>${formatNumber(concept.wordCount)} 字</strong></div>
           </div>
-          ${sideLinks("被这些概念提到", "其他概念的正文引用了当前词条", backlinks, "暂时没有其他概念提到它")}
-          ${sideLinks("本文提到的概念", "当前词条正文链接到这些概念", outgoing, "本文暂时没有链接其他概念")}
+          ${sideLinks("被这些概念提到", backlinks, "暂时没有其他概念提到它")}
+          ${sideLinks("本文提到的概念", outgoing, "本文暂时没有链接其他概念")}
         </aside>
       </div>
     </div>
