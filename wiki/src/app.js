@@ -71,7 +71,7 @@ function renderHome() {
             <a class="domain-card" href="${domainUrl(domain.name)}">
               <span class="domain-index">0${index + 1}</span>
               <h3>${escapeHtml(domain.name)}</h3>
-              <p>${formatNumber(domain.count)} 个概念等待探索</p>
+              <p>${formatNumber(domain.count)} 个概念</p>
             </a>`).join("")}
         </div>
       </section>
@@ -196,6 +196,8 @@ function renderConcept(concept) {
             <div class="meta-row"><span>来源 SOURCE</span><strong>${escapeHtml(concept.source || "未标注")}</strong></div>
             <div class="meta-row"><span>收录日期 DATE</span><strong>${escapeHtml(concept.date || "未标注")}</strong></div>
             <div class="meta-row"><span>阅读规模 LENGTH</span><strong>${formatNumber(concept.wordCount)} 字</strong></div>
+            ${concept.disciplines.length ? `<div class="meta-row taxonomy-row"><span>细分学科 DISCIPLINE</span><strong>${escapeHtml(concept.disciplines.join(" · "))}</strong></div>` : ""}
+            ${concept.applies.length ? `<div class="meta-row taxonomy-row"><span>应用场景 APPLY</span><strong>${escapeHtml(concept.applies.join(" · "))}</strong></div>` : ""}
           </div>
           ${sideLinks("被这些概念提到", backlinks, "暂时没有其他概念提到它")}
           ${sideLinks("本文提到的概念", outgoing, "本文暂时没有链接其他概念")}

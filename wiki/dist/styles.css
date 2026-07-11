@@ -162,7 +162,7 @@ main { min-height: 70vh; }
 .domain-index { color: var(--accent); font-size: 11px; letter-spacing: .12em; }
 .domain-card h3 { margin: 36px 0 8px; font: 500 26px/1.2 var(--serif); }
 .domain-card p { margin: 0; color: var(--ink-faint); font-size: 13px; }
-.domain-card:hover p { color: rgba(243, 240, 232, .66); }
+.domain-card:hover p { color: var(--paper); opacity: .68; }
 
 .concept-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .concept-card { position: relative; display: flex; flex-direction: column; min-height: 278px; padding: 26px; overflow: hidden; border: 1px solid var(--line); background: rgba(250, 248, 242, .48); text-decoration: none; transition: transform 180ms ease, border-color 180ms ease, background 180ms ease; }
@@ -203,6 +203,7 @@ main { min-height: 70vh; }
 .article-meta { display: grid; gap: 16px; margin-bottom: 40px; }
 .meta-row span { display: block; color: var(--ink-faint); font-size: 10px; letter-spacing: .1em; }
 .meta-row strong { display: block; margin-top: 3px; font-size: 13px; font-weight: 500; }
+.taxonomy-row strong { color: var(--ink-soft); line-height: 1.55; }
 .toc { display: grid; gap: 8px; }
 .toc a { color: var(--ink-faint); font-size: 12px; line-height: 1.4; text-decoration: none; }
 .toc a:hover { color: var(--accent); }

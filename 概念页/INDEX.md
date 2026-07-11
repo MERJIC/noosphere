@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（246 个）
+### 哲学（247 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -124,6 +124,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [理论不充分决定（Underdetermination of Theories）](%E7%90%86%E8%AE%BA%E4%B8%8D%E5%85%85%E5%88%86%E5%86%B3%E5%AE%9A.md)
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
+- [量词变异（Quantifier Variance）](%E9%87%8F%E8%AF%8D%E5%8F%98%E5%BC%82.md)
 - [灵魂塑造论（Soul-Making Theodicy）](%E7%81%B5%E9%AD%82%E5%A1%91%E9%80%A0%E8%AE%BA.md)
 - [鲁棒性检验（Robustness Check）](%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
@@ -1418,7 +1419,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（158 个）
+### 制度（159 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1484,6 +1485,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [累积优势（Cumulative Advantage）](%E7%B4%AF%E7%A7%AF%E4%BC%98%E5%8A%BF.md)
 - [李嘉图等价（Ricardian Equivalence）](%E6%9D%8E%E5%98%89%E5%9B%BE%E7%AD%89%E4%BB%B7.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
+- [量词变异（Quantifier Variance）](%E9%87%8F%E8%AF%8D%E5%8F%98%E5%BC%82.md)
 - [路径依赖（Path Dependence）](%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96.md)
 - [绿胡子效应（Green-beard Effect）](%E7%BB%BF%E8%83%A1%E5%AD%90%E6%95%88%E5%BA%94.md)
 - [伦理作为第一哲学（Ethics as First Philosophy）](%E4%BC%A6%E7%90%86%E4%BD%9C%E4%B8%BA%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%A6.md)
@@ -2145,7 +2147,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（225 个）
+### 决策（226 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2255,6 +2257,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [理性自由（Freedom as Understanding）](%E7%90%86%E6%80%A7%E8%87%AA%E7%94%B1.md)
 - [例外状态（State of Exception）](%E4%BE%8B%E5%A4%96%E7%8A%B6%E6%80%81.md)
 - [粒度轴（Granularity Axis）](%E7%B2%92%E5%BA%A6%E8%BD%B4.md)
+- [量词变异（Quantifier Variance）](%E9%87%8F%E8%AF%8D%E5%8F%98%E5%BC%82.md)
 - [流畅性错觉（Fluency Illusion）](%E6%B5%81%E7%95%85%E6%80%A7%E9%94%99%E8%A7%89.md)
 - [鲁棒性检验（Robustness Check）](%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C.md)
 - [路德效应（Ludic Fallacy）](%E8%B7%AF%E5%BE%B7%E6%95%88%E5%BA%94.md)
