@@ -9,15 +9,16 @@
 也可以在终端中运行：
 
 ```bash
-rtk python3 wiki/build.py
-rtk python3 -m http.server 4173 --directory wiki/dist
+rtk python3 wiki/dev_server.py
 ```
 
 然后访问 `http://127.0.0.1:4173`。
 
+持续预览服务会监听 `概念页/*.md`：新增、修改或删除概念后，会自动同步 SQLite 和 JSON 索引、重建网页，并通知浏览器刷新。`wiki/src/` 的界面代码发生变化时也会自动重建。
+
 ## 更新内容
 
-概念页新增或修改后，先按项目约定同步数据库，再重新构建网页：
+正式生成一次静态网页时，也可以手动运行：
 
 ```bash
 rtk python3 scripts/sync_db.py --incremental

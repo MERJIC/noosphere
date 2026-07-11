@@ -346,6 +346,26 @@ function applyTheme(theme, persist = false) {
   if (persist) localStorage.setItem("merjic-wiki-theme", theme);
 }
 
+function startLiveReload() {
+  let currentVersion = null;
+  const checkVersion = async () => {
+    try {
+      const response = await fetch("./__wiki_version", { cache: "no-store" });
+      if (!response.ok) return;
+      const status = await response.json();
+      if (currentVersion === null) {
+        currentVersion = status.version;
+      } else if (status.version !== currentVersion) {
+        window.location.reload();
+      }
+    } catch {
+      // A deployed static site has no live-preview endpoint; nothing to do.
+    }
+  };
+  checkVersion();
+  window.setInterval(checkVersion, 1500);
+}
+
 async function init() {
   try {
     const response = await fetch("./concepts.json");
@@ -384,4 +404,5 @@ document.addEventListener("keydown", (event) => {
 });
 
 applyTheme(document.documentElement.dataset.theme || "light");
+startLiveReload();
 init();
