@@ -283,6 +283,7 @@ function searchConcepts(query) {
     else if (name.startsWith(normalized)) score += 60;
     else if (name.includes(normalized)) score += 40;
     if (concept.nameEn.toLocaleLowerCase().includes(normalized)) score += 25;
+    if (concept.aliases.some((alias) => alias.toLocaleLowerCase().includes(normalized))) score += 24;
     if (concept.domains.some((domain) => domain.toLocaleLowerCase().includes(normalized))) score += 18;
     if (concept.tags.some((tag) => tag.toLocaleLowerCase().includes(normalized))) score += 12;
     if (concept.searchText.includes(normalized)) score += 5;
@@ -339,7 +340,7 @@ async function init() {
     data = await response.json();
     concepts = data.concepts.map((concept) => ({
       ...concept,
-      searchText: `${concept.name} ${concept.nameEn} ${concept.domains.join(" ")} ${concept.tags.join(" ")} ${concept.excerpt} ${concept.html.replace(/<[^>]+>/g, " ")}`.toLocaleLowerCase("zh-CN"),
+      searchText: `${concept.name} ${concept.nameEn} ${concept.aliases.join(" ")} ${concept.domains.join(" ")} ${concept.tags.join(" ")} ${concept.excerpt} ${concept.html.replace(/<[^>]+>/g, " ")}`.toLocaleLowerCase("zh-CN"),
     }));
     conceptByName = new Map(concepts.map((concept) => [concept.name, concept]));
     document.querySelector("#build-time").textContent = `最近构建 ${data.generatedAt.replace("T", " ")} UTC`;
