@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（247 个）
+### 哲学（249 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -205,6 +205,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [献祭（Sacrifice）](%E7%8C%AE%E7%A5%AD.md)
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
 - [协商民主（Deliberative Democracy）](%E5%8D%8F%E5%95%86%E6%B0%91%E4%B8%BB.md)
+- [邪恶问题（Problem of Evil）](%E9%82%AA%E6%81%B6%E9%97%AE%E9%A2%98.md)
 - [亵渎（Sacrilege）](%E4%BA%B5%E6%B8%8E.md)
 - [信任悖论（Trust Paradox）](%E4%BF%A1%E4%BB%BB%E6%82%96%E8%AE%BA.md)
 - [性本善（Innate Goodness of Human Nature）](%E6%80%A7%E6%9C%AC%E5%96%84.md)
@@ -259,6 +260,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
 - [自身免疫（Autoimmunity）](%E8%87%AA%E8%BA%AB%E5%85%8D%E7%96%AB.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
+- [自由意志辩护（Free Will Defense）](%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E8%BE%A9%E6%8A%A4.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
 ### 心理学（188 个）
@@ -673,12 +675,13 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 管理学（83 个）
+### 管理学（84 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [边界跨越者（Boundary Spanner）](%E8%BE%B9%E7%95%8C%E8%B7%A8%E8%B6%8A%E8%80%85.md)
+- [布鲁克斯法则（Brooks's Law）](%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99.md)
 - [超稳定性（Ultrastability）](%E8%B6%85%E7%A8%B3%E5%AE%9A%E6%80%A7.md)
 - [成功陷阱（Success Trap）](%E6%88%90%E5%8A%9F%E9%99%B7%E9%98%B1.md)
 - [承诺升级（Escalation of Commitment）](%E6%89%BF%E8%AF%BA%E5%8D%87%E7%BA%A7.md)
@@ -990,7 +993,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（293 个）
+### 自我（295 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1216,6 +1219,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [现象学还原（Phenomenological Reduction）](%E7%8E%B0%E8%B1%A1%E5%AD%A6%E8%BF%98%E5%8E%9F.md)
 - [向死而生（Sein zum Tode）](%E5%90%91%E6%AD%BB%E8%80%8C%E7%94%9F.md)
 - [消逝感（Transientness / Ephemeral Aesthetics）](%E6%B6%88%E9%80%9D%E6%84%9F.md)
+- [邪恶问题（Problem of Evil）](%E9%82%AA%E6%81%B6%E9%97%AE%E9%A2%98.md)
 - [心理距离（Psychical Distance）](%E5%BF%83%E7%90%86%E8%B7%9D%E7%A6%BB.md)
 - [心理契约破裂（Psychological Contract Breach）](%E5%BF%83%E7%90%86%E5%A5%91%E7%BA%A6%E7%A0%B4%E8%A3%82.md)
 - [心理所有权（Psychological Ownership）](%E5%BF%83%E7%90%86%E6%89%80%E6%9C%89%E6%9D%83.md)
@@ -1281,6 +1285,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我效能感（Self-Efficacy）](%E8%87%AA%E6%88%91%E6%95%88%E8%83%BD%E6%84%9F.md)
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
+- [自由意志辩护（Free Will Defense）](%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E8%BE%A9%E6%8A%A4.md)
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [组织犬儒主义（Organizational Cynicism）](%E7%BB%84%E7%BB%87%E7%8A%AC%E5%84%92%E4%B8%BB%E4%B9%89.md)
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
@@ -1420,7 +1425,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自我知觉理论（Self-Perception Theory）](%E8%87%AA%E6%88%91%E7%9F%A5%E8%A7%89%E7%90%86%E8%AE%BA.md)
 - [自由间接引语（Free Indirect Discourse）](%E8%87%AA%E7%94%B1%E9%97%B4%E6%8E%A5%E5%BC%95%E8%AF%AD.md)
 
-### 制度（159 个）
+### 制度（160 个）
 
 - [安全化（Securitization）](%E5%AE%89%E5%85%A8%E5%8C%96.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -1577,6 +1582,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [自发秩序（Spontaneous Order）](%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F.md)
 - [自我审查的认知内化（Internalized Self-Censorship）](%E8%87%AA%E6%88%91%E5%AE%A1%E6%9F%A5%E7%9A%84%E8%AE%A4%E7%9F%A5%E5%86%85%E5%8C%96.md)
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
+- [自由意志辩护（Free Will Defense）](%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E8%BE%A9%E6%8A%A4.md)
 - [自证预言（Self-Fulfilling Prophecy）](%E8%87%AA%E8%AF%81%E9%A2%84%E8%A8%80.md)
 - [自主治理（Self-Governance）](%E8%87%AA%E4%B8%BB%E6%B2%BB%E7%90%86.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
@@ -1978,7 +1984,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
 
-### 组织（168 个）
+### 组织（169 个）
 
 - [把关人（Gatekeeper）](%E6%8A%8A%E5%85%B3%E4%BA%BA.md)
 - [比较优势（Comparative Advantage）](%E6%AF%94%E8%BE%83%E4%BC%98%E5%8A%BF.md)
@@ -1986,6 +1992,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [边界跨越者（Boundary Spanner）](%E8%BE%B9%E7%95%8C%E8%B7%A8%E8%B6%8A%E8%80%85.md)
 - [表演性合规（Performative Compliance）](%E8%A1%A8%E6%BC%94%E6%80%A7%E5%90%88%E8%A7%84.md)
+- [布鲁克斯法则（Brooks's Law）](%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99.md)
 - [超稳定性（Ultrastability）](%E8%B6%85%E7%A8%B3%E5%AE%9A%E6%80%A7.md)
 - [成功陷阱（Success Trap）](%E6%88%90%E5%8A%9F%E9%99%B7%E9%98%B1.md)
 - [承诺升级（Escalation of Commitment）](%E6%89%BF%E8%AF%BA%E5%8D%87%E7%BA%A7.md)
@@ -2378,11 +2385,12 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织惯性（Organizational Inertia）](%E7%BB%84%E7%BB%87%E6%83%AF%E6%80%A7.md)
 - [最大最小原则（Maximin Principle）](%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%8E%9F%E5%88%99.md)
 
-### 领导（61 个）
+### 领导（62 个）
 
 - [必要多样性（Requisite Variety）](%E5%BF%85%E8%A6%81%E5%A4%9A%E6%A0%B7%E6%80%A7.md)
 - [边界跨越者（Boundary Spanner）](%E8%BE%B9%E7%95%8C%E8%B7%A8%E8%B6%8A%E8%80%85.md)
 - [不言之教（Bu Yan Zhi Jiao / Teaching Without Words）](%E4%B8%8D%E8%A8%80%E4%B9%8B%E6%95%99.md)
+- [布鲁克斯法则（Brooks's Law）](%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99.md)
 - [创始人综合征（Founder's Syndrome）](%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%BB%BC%E5%90%88%E5%BE%81.md)
 - [道德许可效应（Moral Licensing Effect）](%E9%81%93%E5%BE%B7%E8%AE%B8%E5%8F%AF%E6%95%88%E5%BA%94.md)
 - [地位特征理论（Status Characteristics Theory）](%E5%9C%B0%E4%BD%8D%E7%89%B9%E5%BE%81%E7%90%86%E8%AE%BA.md)
