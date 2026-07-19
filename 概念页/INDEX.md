@@ -11,7 +11,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按学科
 
-### 哲学（249 个）
+### 哲学（250 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -151,6 +151,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
 - [认识论不正义（Epistemic Injustice）](%E8%AE%A4%E8%AF%86%E8%AE%BA%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
+- [认识上的意志薄弱（Epistemic Akrasia）](%E8%AE%A4%E8%AF%86%E4%B8%8A%E7%9A%84%E6%84%8F%E5%BF%97%E8%96%84%E5%BC%B1.md)
 - [认知帝国（Cognitive Imperialism）](%E8%AE%A4%E7%9F%A5%E5%B8%9D%E5%9B%BD.md)
 - [认知封闭性（Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E5%B0%81%E9%97%AD%E6%80%A7.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
@@ -675,7 +676,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 管理学（84 个）
+### 管理学（87 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [彼得原理（Peter Principle）](%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86.md)
@@ -695,6 +696,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [哥利亚效应（Goliath Effect）](%E5%93%A5%E5%88%A9%E4%BA%9A%E6%95%88%E5%BA%94.md)
 - [工作特征模型（Job Characteristics Model）](%E5%B7%A5%E4%BD%9C%E7%89%B9%E5%BE%81%E6%A8%A1%E5%9E%8B.md)
 - [功能性愚蠢（Functional Stupidity）](%E5%8A%9F%E8%83%BD%E6%80%A7%E6%84%9A%E8%A0%A2.md)
+- [购买重复法则（Duplication of Purchase Law）](%E8%B4%AD%E4%B9%B0%E9%87%8D%E5%A4%8D%E6%B3%95%E5%88%99.md)
 - [古德哈特定律（Goodhart's Law）](%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B.md)
 - [规模化陷阱（Scaling Trap）](%E8%A7%84%E6%A8%A1%E5%8C%96%E9%99%B7%E9%98%B1.md)
 - [核心刚性（Core Rigidities）](%E6%A0%B8%E5%BF%83%E5%88%9A%E6%80%A7.md)
@@ -728,6 +730,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [实践社区（Communities of Practice）](%E5%AE%9E%E8%B7%B5%E7%A4%BE%E5%8C%BA.md)
 - [事前验尸（Pre-mortem）](%E4%BA%8B%E5%89%8D%E9%AA%8C%E5%B0%B8.md)
 - [双回路学习（Double-Loop Learning）](%E5%8F%8C%E5%9B%9E%E8%B7%AF%E5%AD%A6%E4%B9%A0.md)
+- [双重不利定律（Double Jeopardy Law）](%E5%8F%8C%E9%87%8D%E4%B8%8D%E5%88%A9%E5%AE%9A%E5%BE%8B.md)
 - [松紧耦合（Tight-Loose Coupling）](%E6%9D%BE%E7%B4%A7%E8%80%A6%E5%90%88.md)
 - [琐碎定律（Law of Triviality）](%E7%90%90%E7%A2%8E%E5%AE%9A%E5%BE%8B.md)
 - [探索-利用困境（Exploration-Exploitation Tradeoff）](%E6%8E%A2%E7%B4%A2-%E5%88%A9%E7%94%A8%E5%9B%B0%E5%A2%83.md)
@@ -753,6 +756,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [制度逻辑（Institutional Logics）](%E5%88%B6%E5%BA%A6%E9%80%BB%E8%BE%91.md)
 - [制度同形（Institutional Isomorphism）](%E5%88%B6%E5%BA%A6%E5%90%8C%E5%BD%A2.md)
 - [注意力残留（Attention Residue）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%AE%8B%E7%95%99.md)
+- [自然垄断效应（Natural Monopoly Effect）](%E8%87%AA%E7%84%B6%E5%9E%84%E6%96%AD%E6%95%88%E5%BA%94.md)
 - [自我效能感（Self-Efficacy）](%E8%87%AA%E6%88%91%E6%95%88%E8%83%BD%E6%84%9F.md)
 - [子目标冲突（Subgoal Conflict）](%E5%AD%90%E7%9B%AE%E6%A0%87%E5%86%B2%E7%AA%81.md)
 - [组织常规（Organizational Routines）](%E7%BB%84%E7%BB%87%E5%B8%B8%E8%A7%84.md)
@@ -993,7 +997,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 
 ## 按应用场景
 
-### 自我（295 个）
+### 自我（296 个）
 
 - [哀悼与抑郁（Mourning and Melancholia）](%E5%93%80%E6%82%BC%E4%B8%8E%E6%8A%91%E9%83%81.md)
 - [巴纳姆效应（Barnum Effect）](%E5%B7%B4%E7%BA%B3%E5%A7%86%E6%95%88%E5%BA%94.md)
@@ -1160,6 +1164,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [诠释不正义（Hermeneutical Injustice）](%E8%AF%A0%E9%87%8A%E4%B8%8D%E6%AD%A3%E4%B9%89.md)
 - [诠释学循环（Hermeneutic Circle）](%E8%AF%A0%E9%87%8A%E5%AD%A6%E5%BE%AA%E7%8E%AF.md)
 - [确认偏误（Confirmation Bias）](%E7%A1%AE%E8%AE%A4%E5%81%8F%E8%AF%AF.md)
+- [认识上的意志薄弱（Epistemic Akrasia）](%E8%AE%A4%E8%AF%86%E4%B8%8A%E7%9A%84%E6%84%8F%E5%BF%97%E8%96%84%E5%BC%B1.md)
 - [认知封闭性（Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E5%B0%81%E9%97%AD%E6%80%A7.md)
 - [认知负荷（Cognitive Load Theory）](%E8%AE%A4%E7%9F%A5%E8%B4%9F%E8%8D%B7.md)
 - [认知怯懦（Epistemic Cowardice）](%E8%AE%A4%E7%9F%A5%E6%80%AF%E6%87%A6.md)
@@ -1879,7 +1884,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [ELIZA效应（ELIZA Effect）](ELIZA%E6%95%88%E5%BA%94.md)
 
-### 商业（102 个）
+### 商业（105 个）
 
 - [傲慢假说（Hubris Hypothesis）](%E5%82%B2%E6%85%A2%E5%81%87%E8%AF%B4.md)
 - [霸权稳定论（Hegemonic Stability Theory）](%E9%9C%B8%E6%9D%83%E7%A8%B3%E5%AE%9A%E8%AE%BA.md)
@@ -1915,6 +1920,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [峰终定律（Peak-End Rule）](%E5%B3%B0%E7%BB%88%E5%AE%9A%E5%BE%8B.md)
 - [符号价值（Sign Value）](%E7%AC%A6%E5%8F%B7%E4%BB%B7%E5%80%BC.md)
 - [格雷欣法则（Gresham's Law）](%E6%A0%BC%E9%9B%B7%E6%AC%A3%E6%B3%95%E5%88%99.md)
+- [购买重复法则（Duplication of Purchase Law）](%E8%B4%AD%E4%B9%B0%E9%87%8D%E5%A4%8D%E6%B3%95%E5%88%99.md)
 - [规模化陷阱（Scaling Trap）](%E8%A7%84%E6%A8%A1%E5%8C%96%E9%99%B7%E9%98%B1.md)
 - [红皇后假说（Red Queen Hypothesis）](%E7%BA%A2%E7%9A%87%E5%90%8E%E5%81%87%E8%AF%B4.md)
 - [互补资产（Complementary Assets）](%E4%BA%92%E8%A1%A5%E8%B5%84%E4%BA%A7.md)
@@ -1955,6 +1961,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [数据网络效应（Data Network Effects）](%E6%95%B0%E6%8D%AE%E7%BD%91%E7%BB%9C%E6%95%88%E5%BA%94.md)
 - [双边市场（Two-Sided Markets）](%E5%8F%8C%E8%BE%B9%E5%B8%82%E5%9C%BA.md)
 - [双曲折现（Hyperbolic Discounting）](%E5%8F%8C%E6%9B%B2%E6%8A%98%E7%8E%B0.md)
+- [双重不利定律（Double Jeopardy Law）](%E5%8F%8C%E9%87%8D%E4%B8%8D%E5%88%A9%E5%AE%9A%E5%BE%8B.md)
 - [隧道挖掘（Tunneling）](%E9%9A%A7%E9%81%93%E6%8C%96%E6%8E%98.md)
 - [损失厌恶（Loss Aversion）](%E6%8D%9F%E5%A4%B1%E5%8E%8C%E6%81%B6.md)
 - [凸显性偏差（Salience Bias）](%E5%87%B8%E6%98%BE%E6%80%A7%E5%81%8F%E5%B7%AE.md)
@@ -1980,6 +1987,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [重复博弈（Repeated Game）](%E9%87%8D%E5%A4%8D%E5%8D%9A%E5%BC%88.md)
 - [注意力经济（Attention Economy）](%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BB%8F%E6%B5%8E.md)
 - [资产专用性（Asset Specificity）](%E8%B5%84%E4%BA%A7%E4%B8%93%E7%94%A8%E6%80%A7.md)
+- [自然垄断效应（Natural Monopoly Effect）](%E8%87%AA%E7%84%B6%E5%9E%84%E6%96%AD%E6%95%88%E5%BA%94.md)
 - [自由市场（Free Market）](%E8%87%AA%E7%94%B1%E5%B8%82%E5%9C%BA.md)
 - [租值耗散（Rent dissipation）](%E7%A7%9F%E5%80%BC%E8%80%97%E6%95%A3.md)
 - [组织韧性（Organizational Resilience）](%E7%BB%84%E7%BB%87%E9%9F%A7%E6%80%A7.md)
@@ -2156,7 +2164,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [组织愚昧（Organizational Stupidity）](%E7%BB%84%E7%BB%87%E6%84%9A%E6%98%A7.md)
 - [最近发展区（Zone of Proximal Development）](%E6%9C%80%E8%BF%91%E5%8F%91%E5%B1%95%E5%8C%BA.md)
 
-### 决策（226 个）
+### 决策（230 个）
 
 - [阿比林悖论（Abilene Paradox）](%E9%98%BF%E6%AF%94%E6%9E%97%E6%82%96%E8%AE%BA.md)
 - [安全困境（Security Dilemma）](%E5%AE%89%E5%85%A8%E5%9B%B0%E5%A2%83.md)
@@ -2217,6 +2225,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [功能固着（Functional Fixedness）](%E5%8A%9F%E8%83%BD%E5%9B%BA%E7%9D%80.md)
 - [共识主动性（Stigmergy）](%E5%85%B1%E8%AF%86%E4%B8%BB%E5%8A%A8%E6%80%A7.md)
 - [共同信息效应（Shared Information Bias）](%E5%85%B1%E5%90%8C%E4%BF%A1%E6%81%AF%E6%95%88%E5%BA%94.md)
+- [购买重复法则（Duplication of Purchase Law）](%E8%B4%AD%E4%B9%B0%E9%87%8D%E5%A4%8D%E6%B3%95%E5%88%99.md)
 - [关心自己（Care of the Self）](%E5%85%B3%E5%BF%83%E8%87%AA%E5%B7%B1.md)
 - [归纳问题（Problem of Induction）](%E5%BD%92%E7%BA%B3%E9%97%AE%E9%A2%98.md)
 - [规范性解离（Normative Dissociation）](%E8%A7%84%E8%8C%83%E6%80%A7%E8%A7%A3%E7%A6%BB.md)
@@ -2292,6 +2301,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [确认偏误（Confirmation Bias）](%E7%A1%AE%E8%AE%A4%E5%81%8F%E8%AF%AF.md)
 - [群体极化（Group Polarization）](%E7%BE%A4%E4%BD%93%E6%9E%81%E5%8C%96.md)
 - [群体智能（Swarm Intelligence）](%E7%BE%A4%E4%BD%93%E6%99%BA%E8%83%BD.md)
+- [认识上的意志薄弱（Epistemic Akrasia）](%E8%AE%A4%E8%AF%86%E4%B8%8A%E7%9A%84%E6%84%8F%E5%BF%97%E8%96%84%E5%BC%B1.md)
 - [认知闭合需要（Need for Cognitive Closure）](%E8%AE%A4%E7%9F%A5%E9%97%AD%E5%90%88%E9%9C%80%E8%A6%81.md)
 - [认知吝啬鬼（Cognitive Miser）](%E8%AE%A4%E7%9F%A5%E5%90%9D%E5%95%AC%E9%AC%BC.md)
 - [认知渗透（Cognitive Penetration）](%E8%AE%A4%E7%9F%A5%E6%B8%97%E9%80%8F.md)
@@ -2306,6 +2316,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [实然与应然（Is-Ought Problem）](%E5%AE%9E%E7%84%B6%E4%B8%8E%E5%BA%94%E7%84%B6.md)
 - [实物期权（Real Options）](%E5%AE%9E%E7%89%A9%E6%9C%9F%E6%9D%83.md)
 - [事前验尸（Pre-mortem）](%E4%BA%8B%E5%89%8D%E9%AA%8C%E5%B0%B8.md)
+- [双重不利定律（Double Jeopardy Law）](%E5%8F%8C%E9%87%8D%E4%B8%8D%E5%88%A9%E5%AE%9A%E5%BE%8B.md)
 - [双重束缚（Double Bind）](%E5%8F%8C%E9%87%8D%E6%9D%9F%E7%BC%9A.md)
 - [双重效果原则（Doctrine of Double Effect）](%E5%8F%8C%E9%87%8D%E6%95%88%E6%9E%9C%E5%8E%9F%E5%88%99.md)
 - [睡眠者效应（Sleeper Effect）](%E7%9D%A1%E7%9C%A0%E8%80%85%E6%95%88%E5%BA%94.md)
@@ -2376,6 +2387,7 @@ description: 通过寓言故事沉淀的学科概念，每概念独立页面，�
 - [资源诅咒（Resource Curse）](%E8%B5%84%E6%BA%90%E8%AF%85%E5%92%92.md)
 - [自律（Autonomy）](%E8%87%AA%E5%BE%8B.md)
 - [自欺（Bad Faith / Mauvaise Foi）](%E8%87%AA%E6%AC%BA.md)
+- [自然垄断效应（Natural Monopoly Effect）](%E8%87%AA%E7%84%B6%E5%9E%84%E6%96%AD%E6%95%88%E5%BA%94.md)
 - [自我妨碍（Self-Handicapping）](%E8%87%AA%E6%88%91%E5%A6%A8%E7%A2%8D.md)
 - [自我服务偏差（Self-Serving Bias）](%E8%87%AA%E6%88%91%E6%9C%8D%E5%8A%A1%E5%81%8F%E5%B7%AE.md)
 - [自我指涉（Self-reference）](%E8%87%AA%E6%88%91%E6%8C%87%E6%B6%89.md)
