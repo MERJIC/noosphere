@@ -39,7 +39,6 @@ function renderHome() {
     <div class="page-shell">
       <section class="hero">
         <div class="hero-copy">
-          <div class="eyebrow">MERJIC · NOOSPHERE</div>
           <h1>从一个概念<br><em>开始。</em></h1>
         </div>
         <div class="hero-tools">

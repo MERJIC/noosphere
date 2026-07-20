@@ -20,13 +20,13 @@ const conceptUrl = (name) => `#/concept/${encodeURIComponent(name)}`;
 const domainUrl = (name) => `#/domain/${encodeURIComponent(name)}`;
 const formatNumber = (number) => new Intl.NumberFormat("zh-CN").format(number || 0);
 
-function conceptCard(concept, index = 0) {
+function conceptCard(concept, index = 0, compact = false) {
   const domain = concept.domains[0] || "跨领域";
   return `
-    <a class="concept-card" href="${conceptUrl(concept.name)}">
+    <a class="concept-card${compact === true ? " concept-card--compact" : ""}" href="${conceptUrl(concept.name)}">
       <div class="card-meta"><span>NO. ${String(index + 1).padStart(3, "0")}</span><span>${escapeHtml(domain)}</span></div>
       <h3>${escapeHtml(concept.name)}${concept.nameEn ? `<small>${escapeHtml(concept.nameEn)}</small>` : ""}</h3>
-      <p>${escapeHtml(concept.excerpt)}</p>
+      ${compact === true ? "" : `<p>${escapeHtml(concept.excerpt)}</p>`}
       <span class="card-arrow" aria-hidden="true">↗</span>
     </a>`;
 }
@@ -34,37 +34,35 @@ function conceptCard(concept, index = 0) {
 function renderHome() {
   const daySeed = Math.floor(Date.now() / 86400000);
   const picks = [0, 97, 251].map((offset) => concepts[(daySeed + offset) % concepts.length]);
-  const topDomains = data.domains.slice(0, 9);
+  const topDomains = data.domains.slice(0, 6);
   return `
     <div class="page-shell">
       <section class="hero">
         <div class="hero-copy">
-          <div class="eyebrow">Personal Noosphere · 个人思想圈</div>
-          <h1>把思想，连成一张<br><em>可以漫游</em>的地图。</h1>
-          <p class="hero-intro">从哲学到心理学，从艺术到经济学。这里收藏的不是孤立答案，而是概念之间不断生长的连接。</p>
+          <h1>从一个概念<br><em>开始。</em></h1>
+        </div>
+        <div class="hero-tools">
+          <div class="hero-meta" aria-label="概念库统计">
+            <span><strong>${formatNumber(data.stats.concepts)}</strong> 概念</span>
+            <span><strong>${formatNumber(data.stats.links)}</strong> 连接</span>
+            <span><strong>${formatNumber(data.stats.domains)}</strong> 领域</span>
+          </div>
           <form class="hero-search" id="hero-search">
             <label class="sr-only" for="hero-query">搜索概念</label>
-            <input id="hero-query" placeholder="从一个念头出发……" autocomplete="off" />
-            <button type="submit" aria-label="开始搜索">→</button>
+            <input id="hero-query" placeholder="搜索概念" autocomplete="off" />
+            <button type="submit">搜索</button>
           </form>
+          <div class="hero-actions">
+            <button class="primary-action" data-random type="button">随机打开</button>
+            <a class="secondary-action" href="#/concepts">浏览全部</a>
+          </div>
         </div>
-        <aside class="hero-aside">
-          <div class="aside-number">${formatNumber(data.stats.concepts)}</div>
-          <p>个概念正在彼此连接。<br>每一次阅读，都是下一次跳跃的起点。</p>
-        </aside>
       </section>
 
-      <section class="stats-band" aria-label="概念库统计">
-        <div class="stat"><strong>${formatNumber(data.stats.concepts)}</strong><span>概念 CONCEPTS</span></div>
-        <div class="stat"><strong>${formatNumber(data.stats.links)}</strong><span>连接 LINKS</span></div>
-        <div class="stat"><strong>${formatNumber(data.stats.domains)}</strong><span>领域 DOMAINS</span></div>
-        <div class="stat"><strong>${formatNumber(data.stats.sources)}</strong><span>来源 SOURCES</span></div>
-      </section>
-
-      <section class="section">
+      <section class="section home-section">
         <div class="section-head">
-          <div><div class="eyebrow">Entries</div><h2>思想的入口</h2></div>
-          <a class="text-link" href="#/domains">查看全部领域 →</a>
+          <h2>领域</h2>
+          <a class="text-link" href="#/domains">全部领域</a>
         </div>
         <div class="domain-grid">
           ${topDomains.map((domain, index) => `
@@ -76,12 +74,12 @@ function renderHome() {
         </div>
       </section>
 
-      <section class="section">
+      <section class="section home-section">
         <div class="section-head">
-          <div><div class="eyebrow">Daily Drift</div><h2>今日漫游</h2></div>
-          <button class="nav-link" data-random type="button">换一条路径 ↻</button>
+          <h2>今日概念</h2>
+          <button class="nav-link" data-random type="button">换一组</button>
         </div>
-        <div class="concept-grid">${picks.map(conceptCard).join("")}</div>
+        <div class="concept-grid home-concept-grid">${picks.map((concept, index) => conceptCard(concept, index, true)).join("")}</div>
       </section>
     </div>`;
 }
