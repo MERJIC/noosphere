@@ -386,9 +386,7 @@ function startLiveReload() {
 
 async function init() {
   try {
-    const response = await fetch("./concepts.json");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    data = await response.json();
+    data = await loadConceptData();
     concepts = data.concepts.map((concept) => ({
       ...concept,
       searchText: `${concept.name} ${concept.nameEn} ${concept.aliases.join(" ")} ${concept.domains.join(" ")} ${concept.tags.join(" ")} ${concept.excerpt} ${concept.html.replace(/<[^>]+>/g, " ")}`.toLocaleLowerCase("zh-CN"),
@@ -400,6 +398,26 @@ async function init() {
     console.error(error);
     app.innerHTML = `<div class="page-shell"><header class="page-header"><div class="eyebrow">无法载入</div><h1>概念数据没有成功打开。</h1><p>请先运行构建脚本，并通过本地网页服务访问。</p></header></div>`;
   }
+}
+
+async function loadConceptData() {
+  const sources = [
+    "https://raw.githubusercontent.com/MERJIC/noosphere/main/wiki/dist/concepts.json",
+    "./concepts.json",
+  ];
+  let lastError;
+
+  for (const source of sources) {
+    try {
+      const response = await fetch(source, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${source}: HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error("概念数据不可用");
 }
 
 window.addEventListener("hashchange", renderRoute);
