@@ -320,7 +320,22 @@ function goRandom() {
   const current = parseRoute()[0] === "concept" ? parseRoute().slice(1).join("/") : "";
   let concept = concepts[Math.floor(Math.random() * concepts.length)];
   if (concept.name === current) concept = concepts[(concepts.indexOf(concept) + 1) % concepts.length];
-  location.hash = conceptUrl(concept.name).slice(1);
+  const navigate = () => {
+    history.pushState(null, "", conceptUrl(concept.name));
+    renderRoute();
+  };
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduceMotion && typeof document.startViewTransition === "function") {
+    document.startViewTransition(navigate);
+    return;
+  }
+  navigate();
+  if (!reduceMotion) {
+    app.classList.remove("roam-enter");
+    void app.offsetWidth;
+    app.classList.add("roam-enter");
+    window.setTimeout(() => app.classList.remove("roam-enter"), 360);
+  }
 }
 
 function updateReadingProgress() {
