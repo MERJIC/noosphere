@@ -384,6 +384,21 @@ function startLiveReload() {
   timerId = window.setInterval(checkVersion, 1500);
 }
 
+function enableOfflineReading() {
+  if (!("serviceWorker" in navigator)) return;
+
+  window.addEventListener("load", async () => {
+    try {
+      const registration = await navigator.serviceWorker.register("./sw.js");
+      const ready = await navigator.serviceWorker.ready;
+      ready.active?.postMessage({ type: "WARM_OFFLINE_CACHE" });
+      registration.update();
+    } catch (error) {
+      console.warn("离线阅读缓存没有启用", error);
+    }
+  });
+}
+
 async function init() {
   try {
     data = await loadConceptData();
@@ -441,4 +456,5 @@ document.addEventListener("keydown", (event) => {
 
 applyTheme(document.documentElement.dataset.theme || "light");
 startLiveReload();
+enableOfflineReading();
 init();
