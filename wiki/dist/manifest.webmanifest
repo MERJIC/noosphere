@@ -1,0 +1,17 @@
+{
+  "name": "麦橘思域 · 概念库",
+  "short_name": "麦橘思域",
+  "description": "跨领域思想的个人 Wiki 与漫游地图。",
+  "start_url": "/#/",
+  "display": "standalone",
+  "background_color": "#f3f0e8",
+  "theme_color": "#f3f0e8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -258,6 +258,10 @@ main { min-height: 70vh; view-transition-name: wiki-content; }
 .loading-state p { margin-top: 100px; font-size: 12px; }
 .loading-glyph { display: grid; place-items: center; width: 74px; height: 74px; border: 1px solid var(--line-strong); border-radius: 50%; color: var(--accent); font: 28px/1 var(--serif); animation: pulse 1.5s ease-in-out infinite; }
 .site-footer { display: flex; justify-content: space-between; padding: 28px clamp(20px, 4vw, 64px); border-top: 1px solid var(--line); color: var(--ink-faint); font-size: 10px; letter-spacing: .08em; }
+.footer-actions { display: flex; align-items: center; gap: 16px; }
+.offline-cache { appearance: none; border: 0; padding: 0; background: transparent; color: inherit; font: inherit; letter-spacing: inherit; cursor: pointer; }
+.offline-cache:hover { color: var(--accent); }
+.offline-cache:disabled { cursor: default; opacity: .68; }
 
 @keyframes pulse { 50% { transform: scale(1.05); opacity: .58; } }
 @keyframes fade-in { from { opacity: 0; } }
@@ -311,6 +315,7 @@ main { min-height: 70vh; view-transition-name: wiki-content; }
   .article-body { font-size: 16.5px; line-height: 1.88; }
   .article-body h2 { font-size: 27px; }
   .site-footer { display: grid; gap: 6px; }
+  .footer-actions { justify-content: space-between; }
 }
 
 @media (max-width: 440px) {

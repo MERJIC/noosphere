@@ -4,10 +4,12 @@ const searchInput = document.querySelector("#global-search");
 const searchResults = document.querySelector("#search-results");
 const searchHint = document.querySelector("#search-hint");
 const progressBar = document.querySelector(".reading-progress span");
+const offlineButton = document.querySelector("#offline-cache");
 
 let data;
 let concepts = [];
 let conceptByName = new Map();
+const detailCache = new Map();
 
 const escapeHtml = (value = "") => String(value)
   .replaceAll("&", "&amp;")
@@ -219,9 +221,25 @@ function parseRoute() {
   return parts;
 }
 
-function renderRoute() {
+async function renderRoute() {
   const parts = parseRoute();
   progressBar.style.width = "0";
+  if (parts[0] === "concept" && parts[1]) {
+    const name = parts.slice(1).join("/");
+    const summary = conceptByName.get(name);
+    if (summary && !detailCache.has(summary.id)) {
+      app.innerHTML = `<div class="loading-state"><span class="loading-glyph">知</span><p>打开概念中</p></div>`;
+      document.title = `${summary.name} · MERJIC 概念库`;
+      try {
+        detailCache.set(summary.id, await loadConceptDetail(summary.id));
+      } catch (error) {
+        console.error(error);
+        app.innerHTML = `<div class="page-shell"><header class="page-header"><div class="eyebrow">无法载入</div><h1>这篇概念暂时无法打开。</h1><p>请检查网络后重试。</p></header></div>`;
+        return;
+      }
+      if (parseRoute().slice(1).join("/") !== name) return;
+    }
+  }
   let html;
   let title = "MERJIC 概念库";
   if (!parts.length) {
@@ -237,7 +255,8 @@ function renderRoute() {
     html = renderConceptDirectory(items, parts[1], `从 ${formatNumber(items.length)} 个概念进入这一领域，再沿着双向链接跨越学科边界。`);
     title = `${parts[1]} · MERJIC 概念库`;
   } else if (parts[0] === "concept" && parts[1]) {
-    const concept = conceptByName.get(parts.slice(1).join("/"));
+    const summary = conceptByName.get(parts.slice(1).join("/"));
+    const concept = summary ? (detailCache.get(summary.id) || summary) : null;
     html = renderConcept(concept);
     title = concept ? `${concept.name} · MERJIC 概念库` : title;
   } else {
@@ -322,7 +341,7 @@ function goRandom() {
   if (concept.name === current) concept = concepts[(concepts.indexOf(concept) + 1) % concepts.length];
   const navigate = () => {
     history.pushState(null, "", conceptUrl(concept.name));
-    renderRoute();
+    void renderRoute();
   };
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (!reduceMotion && typeof document.startViewTransition === "function") {
@@ -386,24 +405,24 @@ function startLiveReload() {
 
 async function init() {
   try {
-    data = await loadConceptData();
+    data = await loadConceptIndex();
     concepts = data.concepts.map((concept) => ({
       ...concept,
-      searchText: `${concept.name} ${concept.nameEn} ${concept.aliases.join(" ")} ${concept.domains.join(" ")} ${concept.tags.join(" ")} ${concept.excerpt} ${concept.html.replace(/<[^>]+>/g, " ")}`.toLocaleLowerCase("zh-CN"),
+      searchText: `${concept.name} ${concept.nameEn} ${concept.aliases.join(" ")} ${concept.domains.join(" ")} ${concept.tags.join(" ")} ${concept.excerpt}`.toLocaleLowerCase("zh-CN"),
     }));
     conceptByName = new Map(concepts.map((concept) => [concept.name, concept]));
     document.querySelector("#build-time").textContent = `最近构建 ${data.generatedAt.replace("T", " ")} UTC`;
-    renderRoute();
+    void renderRoute();
   } catch (error) {
     console.error(error);
     app.innerHTML = `<div class="page-shell"><header class="page-header"><div class="eyebrow">无法载入</div><h1>概念数据没有成功打开。</h1><p>请先运行构建脚本，并通过本地网页服务访问。</p></header></div>`;
   }
 }
 
-async function loadConceptData() {
+async function loadConceptIndex() {
   const sources = [
-    "https://raw.githubusercontent.com/MERJIC/noosphere/main/wiki/dist/concepts.json",
-    "./concepts.json",
+    "https://raw.githubusercontent.com/MERJIC/noosphere/main/wiki/dist/concept-index.json",
+    "./concept-index.json",
   ];
   let lastError;
 
@@ -418,6 +437,69 @@ async function loadConceptData() {
   }
 
   throw lastError || new Error("概念数据不可用");
+}
+
+async function loadConceptDetail(id) {
+  const sources = [
+    `https://raw.githubusercontent.com/MERJIC/noosphere/main/wiki/dist/concepts/${id}.json`,
+    `./concepts/${id}.json`,
+  ];
+  let lastError;
+  for (const source of sources) {
+    try {
+      const response = await fetch(source, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${source}: HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("概念正文不可用");
+}
+
+function setOfflineLabel(label, disabled = false) {
+  if (!offlineButton) return;
+  offlineButton.textContent = label;
+  offlineButton.disabled = disabled;
+}
+
+function setupOfflineReading() {
+  if (!offlineButton) return;
+  if (!("serviceWorker" in navigator)) {
+    offlineButton.hidden = true;
+    return;
+  }
+
+  navigator.serviceWorker.addEventListener("message", (event) => {
+    const message = event.data || {};
+    if (message.type === "LIBRARY_PROGRESS") {
+      const percent = message.total ? Math.round((message.completed / message.total) * 100) : 0;
+      setOfflineLabel(`离线库下载中 ${percent}%`, true);
+    }
+    if (message.type === "LIBRARY_DONE") {
+      const suffix = message.failed ? `（${message.failed} 篇待补）` : "";
+      setOfflineLabel(`离线库已就绪${suffix}`);
+    }
+    if (message.type === "LIBRARY_FAILED") {
+      setOfflineLabel("重试下载离线库");
+    }
+  });
+
+  offlineButton.addEventListener("click", async () => {
+    try {
+      setOfflineLabel("正在准备离线库…", true);
+      const registration = await navigator.serviceWorker.ready;
+      const worker = registration.active || navigator.serviceWorker.controller;
+      if (!worker) throw new Error("离线服务尚未启动");
+      worker.postMessage({ type: "CACHE_LIBRARY" });
+    } catch {
+      setOfflineLabel("重试下载离线库");
+    }
+  });
+
+  navigator.serviceWorker.register("/sw.js").catch(() => {
+    offlineButton.hidden = true;
+  });
 }
 
 window.addEventListener("hashchange", renderRoute);
@@ -441,4 +523,5 @@ document.addEventListener("keydown", (event) => {
 
 applyTheme(document.documentElement.dataset.theme || "light");
 startLiveReload();
+setupOfflineReading();
 init();
