@@ -285,7 +285,7 @@ def build() -> None:
     (DIST_DIR / "concepts.json").write_text(
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
     )
-    for filename in ("index.html", "styles.css", "app.js", "sw.js", "manifest.webmanifest"):
+    for filename in ("index.html", "styles.css", "app.js"):
         shutil.copy2(SOURCE_DIR / filename, DIST_DIR / filename)
     print(
         f"Built {len(concepts)} concepts, {payload['stats']['links']} resolved links "
