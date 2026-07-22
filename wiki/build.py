@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "memory" / "concepts.db"
 SOURCE_DIR = Path(__file__).resolve().parent / "src"
 DIST_DIR = Path(__file__).resolve().parent / "dist"
+CONCEPT_DATA_DIR = DIST_DIR / "concepts"
 
 
 def json_list(value: str | None) -> list[str]:
@@ -282,9 +283,37 @@ def build() -> None:
         "concepts": concepts,
     }
 
+    index_concepts = [
+        {
+            key: concept[key]
+            for key in (
+                "id", "name", "nameEn", "aliases", "domains", "date", "source",
+                "tags", "disciplines", "applies", "persons", "wordCount", "excerpt",
+            )
+        }
+        for concept in concepts
+    ]
+    index_payload = {
+        "generatedAt": payload["generatedAt"],
+        "stats": payload["stats"],
+        "domains": payload["domains"],
+        "sources": payload["sources"],
+        "concepts": index_concepts,
+    }
+
     (DIST_DIR / "concepts.json").write_text(
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
     )
+    (DIST_DIR / "concept-index.json").write_text(
+        json.dumps(index_payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
+    if CONCEPT_DATA_DIR.exists():
+        shutil.rmtree(CONCEPT_DATA_DIR)
+    CONCEPT_DATA_DIR.mkdir(parents=True)
+    for concept in concepts:
+        (CONCEPT_DATA_DIR / f"{concept['id']}.json").write_text(
+            json.dumps(concept, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
     for filename in ("index.html", "styles.css", "app.js"):
         shutil.copy2(SOURCE_DIR / filename, DIST_DIR / filename)
     print(
